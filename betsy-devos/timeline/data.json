@@ -1,0 +1,55 @@
+{
+  "META": {
+    "graphic_title": "What we know about Betsy DeVos: A timeline",
+    "prose": "Trump's controversial pick for Secretary of Education was confirmed by the senate today. Here's a look back at her experience and qualifications to this point. ",
+    "source": "ACLU, Editorial Projects in Education"
+  },
+  "DEVOS": [
+    {
+      "title": "Born",
+      "date": 1958,
+      "photo": "http://ww4.hdnux.com/photos/57/02/21/12330067/7/600x300.jpg",
+      "body": "DeVos was born into one of Michigan's wealthiest families."
+    },
+    {
+      "title": "Education",
+      "date": "Early-mid 70s",
+      "body": "DeVos graduated from the private Holland Christian High School in Holland, MI and earned a BA in Political Science from Calvin College in Grand Rapids."
+    },
+    {
+      "title": "Career origins",
+      "date": "Early 1980s",
+      "body": "DeVos married the heir to Amway, Dick DeVos, and says that, during a visit as a new parent to the private Potter House Chrisitian School in Grand Rapids, was awakened to the power of school choice and charter schools",
+      "link": "http://pottershouseschool.org/"
+    },
+    {
+      "title": "Charter schools",
+      "date": "Early 1990s",
+      "body": "In 1993, DeVos and her husband fought for the successful passage of Michigan's first charter school bill and supported multiple organizations advocating for school choice."
+    },
+    {
+      "title": "Voucher amendment defeated",
+      "date": 2000,
+      "body": "The DeVoses pushed to amend Michigan's constitution, seeking to require the state to pay for tuition vouchers to students in districts where fewer than two-thirds of kids graduate from high school. Ultimately, the amendment was defeated despite $12.9 million provided in support by the DeVoses.",
+      "link": "https://www.mackinac.org/3230"
+    },
+    {
+      "title": "Gubernatorial effort",
+      "date": 2006,
+      "body": "In 2006, Dick DeVos ran for governor of Michigan as a Republican. His platform included greater school choice options for the state.",
+      "link": "https://en.wikipedia.org/wiki/Dick_DeVos#2006_gubernatorial_candidacy"
+    },
+    {
+      "title": "Charter school expansion",
+      "date": 2011,
+      "body": "In early 2011, Michigan lifted the cap on charter schools and created a pilot program for online charter schools. The associated bill was backed by the Great Lakes Education project, an inititative founded by the DeVoses.",
+      "link": "https://www.washingtonpost.com/news/answer-sheet/wp/2016/07/15/how-charter-schools-in-michigan-have-hurt-traditional-public-schools-new-research-finds/?utm_term=.14b19f8b6b11"
+    },
+    {
+      "title": "Charter school backlash",
+      "date": 2016,
+      "body": "In 2016, the New York Times reported on the negative impacts of uncontrolled charter school growth on Detroit public schools. This placed DeVos under scrutiny after her selection as Education Secretary by Trump.",
+      "link": "https://www.nytimes.com/2016/06/29/us/for-detroits-children-more-school-choice-but-not-better-schools.html?_r=0&mtrref=undefined&gwh=2DE9F43BDB6EA71080654112C9ABF470&gwt=pay"
+    }
+  ]
+}

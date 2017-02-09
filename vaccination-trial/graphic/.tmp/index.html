@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Conscientious exemptions in Texas | The Texas Tribune</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base target='_parent'>
+  <!-- build:css styles/main.min.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+</head>
+<body>
+
+<div class="graphic">
+  <h1>Conscientious exemptions in Texas</h1>
+  <p class="subtext">Texas has seen an
+astounding increase in the
+number of kids attending 
+schools without vaccinations. This map shows counties with the highest and lowest percentage of conscientious exemptions. Rollover each county for more information.</p>
+
+  <div id="graphic-container">
+
+    <div class="legend">
+      <div class="legend-title">Percent of conscientious exemption students by county</div>
+      <div class="legend-scale">
+        <ul class="legend-labels">
+          <li><span class="high"></span>Highest</li>
+          <li><span class="low"></span>Lowest</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="map">
+      <div class="loader"><img src="assets/images/loader.svg" /></div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <ul>
+      <li>Source: Texas Department of State Health Services</li>
+      <li>Credit: Luke Whyte</li>
+    </ul>
+  </div>
+</div>
+
+<!-- build:js scripts/main.min.js -->
+<script src="/node_modules/pym.js/dist/pym.v1.min.js"></script>
+<script src="/node_modules/d3/build/d3.min.js"></script>
+<script src="/node_modules/topojson/dist/topojson.min.js"></script>
+<script src="scripts/get-data.js"></script>
+<script src="scripts/map-factory.js"></script>
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-9827490-1', 'auto');
+  ga('set', 'location', window.location.protocol + '//' + window.location.hostname + window.location.pathname);
+  ga('set', 'page', window.location.pathname);
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

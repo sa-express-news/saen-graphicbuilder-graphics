@@ -1,0 +1,93 @@
+@import 'node_modules/newsapps-styles/init-helpers';
+@import 'node_modules/newsapps-styles/theme/graphic';
+
+@import 'base';
+
+#graphic {
+  font: 12px Arial;
+}
+
+#map {
+	.loader { 
+		display: none;
+		width: 100%;
+		max-width: 780px;
+		text-align: center;
+		padding: 50px 0;
+
+		img {
+			width: 20%;
+			height: auto;
+		}
+	}
+
+	.county {
+		fill: #EAE3D9;
+		stroke: #98999C;
+		stroke-width: 1px;
+	}
+
+	.overlay {
+		cursor: pointer;
+
+		&:hover { stroke: #000; }
+	}
+}
+
+.legend {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    margin: 5px 0;
+    display: block;
+
+    .legend-title {
+      text-align: left;
+      margin-bottom: 8px;
+      font-weight: bold;
+      font-size: 90%;
+
+      span {
+      	font-weight: 300;
+      }
+    }
+
+    .legend-scale {
+      @include clearfix;
+
+      ul.legend-labels {
+        margin: 0;
+        padding: 0;
+        float: left;
+        list-style: none;
+
+        li {
+          display: block;
+          float: left;
+          width: 100px;
+          margin-bottom: 6px;
+          text-align: center;
+          font-size: 75%;
+          list-style: none;
+
+          @include media($default-mobile) {
+            width: 50px;
+          }
+
+          span {
+            display: block;
+            float: left;
+            height: 15px;
+            width: 100px;
+            margin: 0 0 3px 0;
+
+            @include media($default-mobile) {
+              width: 50px;
+            }
+
+            &.high { background: #DC7860; }
+            &.low { background: #97D6DA; }
+          }
+        }
+      }
+    }
+  }

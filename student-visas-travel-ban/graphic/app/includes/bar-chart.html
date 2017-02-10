@@ -1,0 +1,15 @@
+{% macro build(data, min, max) %}
+<div class="bar-chart mult-bar-chart" id="bar-chart">
+  {% for key, value in data %}
+  	{% if key != 'country' and key != 'total' %}
+	    <div class="column">
+	      <div class="column-color" style="height: {{ (+value - min) / (max - min) * 100  }}%">
+	        <span class="column-value{%if (+value - min) < 200 %} outside{% endif %}">{{ value|comma }}</span>
+	      </div>
+	      <div class="column-label">{{ key }}</div>
+	    </div>
+	  {% endif %}
+  {% endfor %}
+</div>
+<div class="legend">Year</div>
+{% endmacro %}

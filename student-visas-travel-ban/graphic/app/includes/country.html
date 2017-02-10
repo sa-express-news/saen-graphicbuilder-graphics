@@ -1,0 +1,27 @@
+{% import 'includes/bar-chart.html' as bar_chart %}
+{% macro build(sheet, country, min, max) %}
+<div class="card {% if country == 'Iran' %}first{% endif %}">
+  <div class="card-head">
+    <div class="open-close">
+      <i class="fa fa-chevron-down"></i>
+    </div>
+    <h3 class="card-header">{{ country }}</h3>
+    {% for row in sheet %}
+      {% if row.country == country %}
+        <div class="total-ref">
+          <h3 class="card-header">{{ row.total|comma }}</h3>
+          <div class="label">student<br>visas</div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="bar-chart-wrap">
+    {% for row in sheet %}
+      {% if row.country == country %}
+        {{ bar_chart.build(row, min, max) }}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% endmacro %}

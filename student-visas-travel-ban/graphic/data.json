@@ -1,0 +1,187 @@
+{
+  "META": {
+    "graphic_title": "Student and exchange program visas for countries affected by travel ban, 2010 - 2015",
+    "prose": "These charts show the total number of student (F) visas and exchange (J) visas granted by the State Department for the seven countries affected by President Trump's Executive Order restricting travel. F-class visas include all F-1s, which are issued to foreign students, and F-2s, which are issued to their spouses. J-class visas include all J-1s, which are issued to individuals approved to participate in work-and study-based exchange visitor programs and J-2s, a non-immigrant visa for spouses and dependents of J-1 exchange visitors who accompany or later join the J-1 holder in the US. Click the arrows on the left to view the breakdown for each country.",
+    "source": "U.S. Department of State",
+    "credit": "Luke Whyte"
+  },
+  "RAW_VISAS": [
+    {
+      "Countries": "Iran",
+      "2010 - F": 2017,
+      "2010 - J": 597,
+      "2011 - F": 2878,
+      "2011 - J": 743,
+      "2012 - F": 3512,
+      "2012 - J": 1021,
+      "2013 - F": 3566,
+      "2013 - J": 965,
+      "2014 - F": 3838,
+      "2014 - J": 1043,
+      "2015 - F": 3796,
+      "2015 - J": 1139
+    },
+    {
+      "Countries": "Iraq",
+      "2010 - F": 292,
+      "2010 - J": 993,
+      "2011 - F": 352,
+      "2011 - J": 1135,
+      "2012 - F": 463,
+      "2012 - J": 1495,
+      "2013 - F": 632,
+      "2013 - J": 1938,
+      "2014 - F": 478,
+      "2014 - J": 1680,
+      "2015 - F": 485,
+      "2015 - J": 1229
+    },
+    {
+      "Countries": "Libya",
+      "2010 - F": 2481,
+      "2010 - J": 308,
+      "2011 - F": 1008,
+      "2011 - J": 38,
+      "2012 - F": 1478,
+      "2012 - J": 191,
+      "2013 - F": 1855,
+      "2013 - J": 271,
+      "2014 - F": 1965,
+      "2014 - J": 223,
+      "2015 - F": 1354,
+      "2015 - J": 38
+    },
+    {
+      "Countries": "Somalia",
+      "2010 - F": 9,
+      "2010 - J": 10,
+      "2011 - F": 15,
+      "2011 - J": 11,
+      "2012 - F": 28,
+      "2012 - J": 9,
+      "2013 - F": 25,
+      "2013 - J": 14,
+      "2014 - F": 843,
+      "2014 - J": 1957,
+      "2015 - F": 40,
+      "2015 - J": 10
+    },
+    {
+      "Countries": "Sudan",
+      "2010 - F": 135,
+      "2010 - J": 76,
+      "2011 - F": 140,
+      "2011 - J": 106,
+      "2012 - F": 150,
+      "2012 - J": 94,
+      "2013 - F": 174,
+      "2013 - J": 82,
+      "2014 - F": 208,
+      "2014 - J": 119,
+      "2015 - F": 272,
+      "2015 - J": 142
+    },
+    {
+      "Countries": "Syria",
+      "2010 - F": 246,
+      "2010 - J": 301,
+      "2011 - F": 262,
+      "2011 - J": 241,
+      "2012 - F": 341,
+      "2012 - J": 210,
+      "2013 - F": 712,
+      "2013 - J": 215,
+      "2014 - F": 658,
+      "2014 - J": 180,
+      "2015 - F": 377,
+      "2015 - J": 165
+    },
+    {
+      "Countries": "Yemen",
+      "2010 - F": 279,
+      "2010 - J": 134,
+      "2011 - F": 333,
+      "2011 - J": 148,
+      "2012 - F": 611,
+      "2012 - J": 170,
+      "2013 - F": 694,
+      "2013 - J": 171,
+      "2014 - F": 1009,
+      "2014 - J": 189,
+      "2015 - F": 935,
+      "2015 - J": 73
+    }
+  ],
+  "COMBINED_VISAS": [
+    {
+      "2010": 2614,
+      "2011": 3621,
+      "2012": 4533,
+      "2013": 4531,
+      "2014": 4881,
+      "2015": 4935,
+      "country": "Iran",
+      "total": 25115
+    },
+    {
+      "2010": 1285,
+      "2011": 1487,
+      "2012": 1958,
+      "2013": 2570,
+      "2014": 2158,
+      "2015": 1714,
+      "country": "Iraq",
+      "total": 11172
+    },
+    {
+      "2010": 2789,
+      "2011": 1046,
+      "2012": 1669,
+      "2013": 2126,
+      "2014": 2188,
+      "2015": 1392,
+      "country": "Libya",
+      "total": 11210
+    },
+    {
+      "2010": 19,
+      "2011": 26,
+      "2012": 37,
+      "2013": 39,
+      "2014": 2800,
+      "2015": 50,
+      "country": "Somalia",
+      "total": 2971
+    },
+    {
+      "2010": 211,
+      "2011": 246,
+      "2012": 244,
+      "2013": 256,
+      "2014": 327,
+      "2015": 414,
+      "country": "Sudan",
+      "total": 1698
+    },
+    {
+      "2010": 547,
+      "2011": 503,
+      "2012": 551,
+      "2013": 927,
+      "2014": 838,
+      "2015": 542,
+      "country": "Syria",
+      "total": 3908
+    },
+    {
+      "2010": 413,
+      "2011": 481,
+      "2012": 781,
+      "2013": 865,
+      "2014": 1198,
+      "2015": 1008,
+      "country": "Yemen",
+      "total": 4746
+    }
+  ]
+}

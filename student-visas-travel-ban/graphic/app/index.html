@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{ META.graphic_title }} | San Antonio Express News</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base target='_parent'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- build:css styles/main.min.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+</head>
+<body>
+
+<div class="graphic">
+  <h1>{{ META.graphic_title }}</h1>
+  <p class="subtext">{{ META.prose }}</p>
+
+  <div id="graphic-container">
+
+    {% import "includes/country.html" as country_card %}
+
+    {{ country_card.build(COMBINED_VISAS, 'Iran', 2500, 4935) }}
+    {{ country_card.build(COMBINED_VISAS, 'Iraq', 1000, 2570) }}
+    {{ country_card.build(COMBINED_VISAS, 'Libya', 1000, 2789) }}
+    {{ country_card.build(COMBINED_VISAS, 'Somalia', 15, 2800) }}
+    {{ country_card.build(COMBINED_VISAS, 'Sudan', 200, 414) }}
+    {{ country_card.build(COMBINED_VISAS, 'Syria', 500, 927) }}
+    {{ country_card.build(COMBINED_VISAS, 'Yemen', 400, 1198) }}
+
+  </div>
+
+  <div class="footer">
+    <ul>
+      {% if META.source %}<li>Source: {% if META.source_url %}<a href="{{ META. source_url }}">{{ META.source }}</a>{% else %}{{ META.source }}{% endif %}</li>{% endif %}
+      {% if META.credit %}<li>Credit: {{ META.credit }}</li>{% endif %}
+    </ul>
+  </div>
+</div>
+
+<!-- build:js scripts/main.min.js -->
+<script src="/node_modules/pym.js/dist/pym.v1.min.js"></script>
+<script src="/node_modules/jquery/dist/jquery.min.js"></script>
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
+</body>
+</html>

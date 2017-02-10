@@ -1,0 +1,49 @@
+{
+  "META": {
+    "graphic_title": "Eight times in two decades chain restaurants have made Americans sick",
+    "prose": "E. coli is the most common culprit, but a hepatitis A outbreak was the most widespread"
+  },
+  "POISONING": [
+    {
+      "title": "Chipotle",
+      "date": 2015,
+      "photo": "http://ww1.hdnux.com/photos/56/73/36/12302216/3/300x150.jpg",
+      "body": "In 2015, Chipotle was responsible for a norovirus outbreak in Simi Valley, CA that sickened 243 people, 54 cases of salmonella in Minnesota and Wisconsin, 143 victims of a norovirus outbreak in Boston and 60 cases of E. coli across 11 states.",
+      "link": "https://www.bloomberg.com/features/2015-chipotle-food-safety-crisis/"
+    },
+    {
+      "title": "Jimmy John's",
+      "date": 2013,
+      "photo": "http://ww4.hdnux.com/photos/56/31/75/12164987/19/300x150.jpg",
+      "body": "9 people stricken with E. coli from cucumbers in Denver."
+    },
+    {
+      "title": "Taco Bell",
+      "date": 2006,
+      "photo": "http://ww4.hdnux.com/photos/56/71/45/12294495/3/300x150.jpg",
+      "body": "71 customers in 5 states fell victim to E. Coli from California-grown lettuce."
+    },
+    {
+      "title": "Chi-Chi's",
+      "date": 2003,
+      "body": "640 people are sticken by hepatitis A after consuming Mexican spring onions in Monaca, PA. Four people died from the outbreak"
+    },
+    {
+      "title": "Sizzler",
+      "date": 2000,
+      "body": "Watermelon cross-contaminated by raw meat spreads E. coli to 64 people in Wisconsin."
+    },
+    {
+      "title": "Kentucky Fried Chicken",
+      "date": 1999,
+      "photo": "http://ww3.hdnux.com/photos/52/27/70/11107854/3/300x150.jpg",
+      "body": "18 people got E. coli at four Cincinatti locations from coleslaw"
+    },
+    {
+      "title": "Burger King",
+      "date": 1997,
+      "photo": "http://ww1.hdnux.com/photos/44/62/45/9644408/23/300x150.jpg",
+      "body": "16 people in Colorado are sickened by E. Coli leading to a recall of 25 million pounds of beef"
+    }
+  ]
+}

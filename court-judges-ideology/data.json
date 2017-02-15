@@ -1,0 +1,60 @@
+{
+  "JUSTICES": [
+    {
+      "name": "Clarence Thomas",
+      "percent": 0,
+      "className": "red"
+    },
+    {
+      "name": "Neil M. Gorsuch",
+      "percent": 17,
+      "className": "gorsuch"
+    },
+    {
+      "name": "Antonin Scalia",
+      "percent": 26,
+      "className": "scalia"
+    },
+    {
+      "name": "Samuel A. Alito Jr.",
+      "percent": 31,
+      "className": "red"
+    },
+    {
+      "name": "John G. Roberts Jr.",
+      "percent": 49,
+      "className": "red"
+    },
+    {
+      "name": "Anthony M. Kennedy",
+      "percent": 61,
+      "className": "red"
+    },
+    {
+      "name": "Stephen G. Breyer",
+      "percent": 77,
+      "className": "blue"
+    },
+    {
+      "name": "Elena Kagan",
+      "percent": 80,
+      "className": "blue"
+    },
+    {
+      "name": "Ruth Bader Ginsburg",
+      "percent": 97,
+      "className": "blue"
+    },
+    {
+      "name": "Sonia Sotomayor",
+      "percent": 100,
+      "className": "blue"
+    }
+  ],
+  "META": {
+    "graphic_title": "Ideology of Supreme Court justices with Gorsuch",
+    "prose": "This graph shows the ideology for all current Supreme Court justices plus Trump's nominee, Neil M. Gorsuch, and deceased Justice Scalia. The ideological rankings are based on the Martin Quinn scores developed by Berkeley's School of Law. Red justices were nominated by a Republican, blue by a Democrat.",
+    "source": "President-Elect Trump and his Possible Justices",
+    "source_url": "http://pdfserver.amlaw.com/nlj/PresNominees2.pdf"
+  }
+}

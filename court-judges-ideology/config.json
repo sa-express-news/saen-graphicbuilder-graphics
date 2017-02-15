@@ -1,0 +1,7 @@
+{
+  "google_spreadsheet_key": "187bH1odQprL9jQolMRGbJpKTG3oiH6-uZyXdUfYur7w",
+  "google_spreadsheet_type": "objectlist",
+  "sheet_overrides": {
+  	"META": "keyvalue"
+  }
+}

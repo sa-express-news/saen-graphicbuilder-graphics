@@ -1,0 +1,107 @@
+@import 'node_modules/newsapps-styles/init-helpers';
+@import 'node_modules/newsapps-styles/theme/graphic';
+
+@import 'base';
+
+$blue: rgb(23, 117, 174);
+$red: rgb(214, 73, 70);
+
+#graphic-container { margin-bottom: 20px; }
+
+.wrapper {
+	width: 100%;
+	max-width: 720px;
+	margin: 0 auto;
+	height: 600px;
+	text-align: right;
+
+	.legend {
+		display: inline-block;
+		position: relative;
+		font-size: 14px;
+		font-weight: bold;
+		text-align: center;
+		top: -70%;
+		left: -10%;
+
+		.arrow-up {
+		  width: 0; 
+		  height: 0; 
+		  border-left: 8px solid transparent;
+		  border-right: 8px solid transparent;	  
+		  border-bottom: 8px solid black;
+		  position: relative;
+		  left: 45%;
+		}
+
+		.arrow-down {
+		  width: 0; 
+		  height: 0; 
+		  border-left: 8px solid transparent;
+		  border-right: 8px solid transparent;	  
+		  border-top: 8px solid black;
+		  position: relative;
+		  left: 45%;
+		}
+
+		.conservative { margin-bottom: 15px; }
+	}
+
+	.line {
+		display: inline-block;
+		border-left: 2px solid #555;
+		width: 50%;
+		height: 98%;
+		position: relative;
+	}
+
+	.circle {
+		position: absolute;
+		left: -9px;
+	  border-radius: 9px;
+	  height: 16px;
+	  width: 16px;
+
+	  &.blue {
+	  	background-color: $blue;
+			border: 1px solid $blue;
+	  }
+
+	  &.red {
+	  	background-color: $red;
+			border: 1px solid $red;
+	  }
+
+	  &.gorsuch {
+	  	background-color: $red;
+			border: 1px solid $red;
+	  }
+
+	  &.scalia {
+	  	background-color: $red;
+			border: 1px solid $red;
+	  }
+	}
+
+	.name {
+		position: absolute;
+		left: 3%;
+		font-size: 14px;
+		line-height: 1;
+
+		&.gorsuch { 
+			font-weight: 800;
+
+			span { border-bottom: 1px #000 dashed; }
+		}
+
+	  &.scalia { 
+	  	color: #666;
+			font-weight: 300;
+
+			span { border-bottom: 1px #666 dashed; }
+	  }
+	}
+}
+
+.footer li a { color: $blue; }

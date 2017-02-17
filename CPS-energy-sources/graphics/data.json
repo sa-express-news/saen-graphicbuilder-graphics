@@ -1,0 +1,271 @@
+{
+  "SOURCES": [
+    {
+      "Year": 2002,
+      "Nuclear": 700,
+      "Coal": 1370,
+      "Gas": 2926,
+      "Wind": 161,
+      "Solar": 0,
+      "Landfill Gas": 0,
+      "Totals": 5157
+    },
+    {
+      "Year": 2003,
+      "Nuclear": 700,
+      "Coal": 1370,
+      "Gas": 2926,
+      "Wind": 161,
+      "Solar": 0,
+      "Landfill Gas": 0,
+      "Totals": 5157
+    },
+    {
+      "Year": 2004,
+      "Nuclear": 700,
+      "Coal": 1370,
+      "Gas": 3010,
+      "Wind": 161,
+      "Solar": 0,
+      "Landfill Gas": 0,
+      "Totals": 5241
+    },
+    {
+      "Year": 2005,
+      "Nuclear": 1000,
+      "Coal": 1370,
+      "Gas": 3010,
+      "Wind": 261,
+      "Solar": 0,
+      "Landfill Gas": 10,
+      "Totals": 5651
+    },
+    {
+      "Year": 2006,
+      "Nuclear": 1025,
+      "Coal": 1370,
+      "Gas": 3010,
+      "Wind": 261,
+      "Solar": 0,
+      "Landfill Gas": 10,
+      "Totals": 5676
+    },
+    {
+      "Year": 2007,
+      "Nuclear": 1080,
+      "Coal": 1385,
+      "Gas": 2910,
+      "Wind": 502,
+      "Solar": 0,
+      "Landfill Gas": 10,
+      "Totals": 5886
+    },
+    {
+      "Year": 2008,
+      "Nuclear": 1080,
+      "Coal": 1400,
+      "Gas": 2910,
+      "Wind": 502,
+      "Solar": 0,
+      "Landfill Gas": 10,
+      "Totals": 5901
+    },
+    {
+      "Year": 2009,
+      "Nuclear": 1080,
+      "Coal": 1400,
+      "Gas": 2910,
+      "Wind": 709,
+      "Solar": 0,
+      "Landfill Gas": 10,
+      "Totals": 6109
+    },
+    {
+      "Year": 2010,
+      "Nuclear": 1080,
+      "Coal": 2180,
+      "Gas": 3102,
+      "Wind": 859,
+      "Solar": 14,
+      "Landfill Gas": 10,
+      "Totals": 7245
+    },
+    {
+      "Year": 2011,
+      "Nuclear": 1080,
+      "Coal": 2180,
+      "Gas": 2777,
+      "Wind": 859,
+      "Solar": 14,
+      "Landfill Gas": 10,
+      "Totals": 6920
+    },
+    {
+      "Year": 2012,
+      "Nuclear": 1080,
+      "Coal": 2180,
+      "Gas": 2786,
+      "Wind": 1059,
+      "Solar": 44,
+      "Landfill Gas": 10,
+      "Totals": 7159
+    },
+    {
+      "Year": 2013,
+      "Nuclear": 1080,
+      "Coal": 2180,
+      "Gas": 2631,
+      "Wind": 1059,
+      "Solar": 85,
+      "Landfill Gas": 10,
+      "Totals": 7045
+    },
+    {
+      "Year": 2014,
+      "Nuclear": 1064,
+      "Coal": 2180,
+      "Gas": 3131,
+      "Wind": 1059,
+      "Solar": 129,
+      "Landfill Gas": 14,
+      "Totals": 7577
+    },
+    {
+      "Year": 2015,
+      "Nuclear": 1064,
+      "Coal": 2002,
+      "Gas": 3046,
+      "Wind": 1059,
+      "Solar": 135,
+      "Landfill Gas": 14,
+      "Totals": 7319
+    },
+    {
+      "Year": 2016,
+      "Nuclear": 1064,
+      "Coal": 2185,
+      "Gas": 3316,
+      "Wind": 1059,
+      "Solar": 336,
+      "Landfill Gas": 14,
+      "Totals": 7974
+    }
+  ],
+  "RENEWABLES": [
+    {
+      "Source": "Nuclear",
+      "Total": 1064
+    },
+    {
+      "Source": "Wind",
+      "Total": 1059
+    },
+    {
+      "Source": "Solar",
+      "Total": 336
+    },
+    {
+      "Source": "Landfill Gas",
+      "Total": 14
+    }
+  ],
+  "OLD_VS_NEW": [
+    {
+      "Year": 2004,
+      "Gas": 3010,
+      "Coal": 1370,
+      "Nuclear": 700,
+      "Renewables": 161
+    },
+    {
+      "Year": 2005,
+      "Gas": 3010,
+      "Coal": 1370,
+      "Nuclear": 1000,
+      "Renewables": 271
+    },
+    {
+      "Year": 2006,
+      "Gas": 3010,
+      "Coal": 1370,
+      "Nuclear": 1025,
+      "Renewables": 271
+    },
+    {
+      "Year": 2007,
+      "Gas": 2910,
+      "Coal": 1385,
+      "Nuclear": 1080,
+      "Renewables": 512
+    },
+    {
+      "Year": 2008,
+      "Gas": 2910,
+      "Coal": 1400,
+      "Nuclear": 1080,
+      "Renewables": 512
+    },
+    {
+      "Year": 2009,
+      "Gas": 2910,
+      "Coal": 1400,
+      "Nuclear": 1080,
+      "Renewables": 719
+    },
+    {
+      "Year": 2010,
+      "Gas": 3102,
+      "Coal": 2180,
+      "Nuclear": 1080,
+      "Renewables": 883
+    },
+    {
+      "Year": 2011,
+      "Gas": 2777,
+      "Coal": 2180,
+      "Nuclear": 1080,
+      "Renewables": 883
+    },
+    {
+      "Year": 2012,
+      "Gas": 2786,
+      "Coal": 2180,
+      "Nuclear": 1080,
+      "Renewables": 1113
+    },
+    {
+      "Year": 2013,
+      "Gas": 2631,
+      "Coal": 2180,
+      "Nuclear": 1080,
+      "Renewables": 1154
+    },
+    {
+      "Year": 2014,
+      "Gas": 3131,
+      "Coal": 2180,
+      "Nuclear": 1064,
+      "Renewables": 1202
+    },
+    {
+      "Year": 2015,
+      "Gas": 3046,
+      "Coal": 2002,
+      "Nuclear": 1064,
+      "Renewables": 1208
+    },
+    {
+      "Year": 2016,
+      "Gas": 3316,
+      "Coal": 2185,
+      "Nuclear": 1064,
+      "Renewables": 1409
+    }
+  ],
+  "META": {
+    "graphic_title": "CPS energy sources across Texas",
+    "prose": "This maps shows all CPS gas, coal, nuclear, solar, wind and landfill gas energy sources across the state. Click on any source for more information.",
+    "source": "CPS Energy",
+    "credit": "Rye Druzin & Luke Whyte, San Antonio Express News"
+  }
+}

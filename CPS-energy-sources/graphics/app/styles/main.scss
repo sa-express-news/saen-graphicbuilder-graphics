@@ -1,0 +1,14 @@
+@import 'node_modules/newsapps-styles/init-helpers';
+@import 'node_modules/newsapps-styles/theme/graphic';
+
+@import 'base';
+
+.graphic {
+	max-width: 720px;
+}
+
+#map {
+  .leaflet-popup-content span {
+    font-weight: bold;
+  }
+}

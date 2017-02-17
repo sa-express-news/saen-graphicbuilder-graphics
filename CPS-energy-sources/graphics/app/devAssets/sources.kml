@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>CPS Energy sources</name>
+    <description>Power plants and renewable energy sources from which CPS Energy buys electricity.</description>
+    <Style id="icon-1660-AFB42B-normal">
+      <IconStyle>
+        <color>ff2bb4af</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1660-AFB42B-highlight">
+      <IconStyle>
+        <color>ff2bb4af</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1660-AFB42B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1660-AFB42B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1660-AFB42B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1660-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1660-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1660-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1660-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1660-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1898-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1898-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1898-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1898-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1898-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Nuclear</name>
+      <Placemark>
+        <name>South Texas Project (STP 1 and 2)</name>
+        <description>CPS Energy gets 531 megawatts of power from STP reactor 1, and 533 megawatts of energy from STP reactor 2.</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -96.0525229,28.7961902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Coal</name>
+      <Placemark>
+        <name>J.K. Spruce coal power plant, units 1 and 2</name>
+        <description>J.K. Spruce coal plant, unit 1: 562 megawatts; unit 2: 600 megawatts</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -98.320266,29.3076196,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>J.T. Deely coal power plant, units 1 and 2</name>
+        <description>J.T. Deely coal plant, unit 1: 420 megawatts; unit 2: 420 megawatts</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -98.3228624,29.3074138,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Natural gas</name>
+      <Placemark>
+        <name>O.W. Sommers natural gas power plant, units 1 and 2</name>
+        <description>O.W. Sommers natural gas plant, unit 1: 420 megawatts; unit 2: 420 megawatts</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -98.3244932,29.308078,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arthur Von Rosenburg combined-cycle natural gas power plant</name>
+        <description>Arthur Von Rosenburg natural gas combined cycle power plant: 480 megawatts</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -98.3841347,29.2569558,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>V.H. Braunig natural gas power plant, units 1, 2, and 3</name>
+        <description>V.H. Braunig natural gas power plant, unit 1: 420 megawatts; unit 2: 230 megawatts; unit 3: 410 megawatts</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -98.3825469,29.2570588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>V.H. Braunig power plant Combustion Turbine (CT), units 1, 2, 3, and 4</name>
+        <description>V.H. Braunig power plant Combustion Turbine, unit 1: 48 megawatts; unit 2: 48 megawatts; unit 3: 48 megawatts; unit 4: 48 megawatts</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -98.3831048,29.2565814,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leon Creek power plant Combustion Turbine (CT) units 1, 2, 3, and 4</name>
+        <description>Leon Creek power plant Combustion Turbine, unit 1: 46 megawatts; unit 2: 46 megawatts; unit 3: 46 megawatts; unit 4: 46 megawatts</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -98.5749739,29.3521939,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rio Nogales combined-cycle natural gas power plant</name>
+        <description>Rio Nogales combined-cycle natural gas power plant: 750 megawatts</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -97.9738426,29.5930039,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Solar farm</name>
+      <Placemark>
+        <name>Blue Wing Solar Farm</name>
+        <description>The 113-acre facility produces 14 megawatts of electricity for CPS Energy.</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -98.4056997,29.3076383,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>William R. Sinkin Centennial Solar Farms 1 and 2</name>
+        <description><![CDATA[The two solar fields lie on land owned by the San Antonio Water System (SAWS) and are leased to California-based SunEdison. All of the facility's 20-megawatts of electricity are bought by CPS Energy.]]></description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -98.4235954,29.2384209,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Somerset Solar Farm</name>
+        <description>The Somerset solar farm produces 11-megawatts of electricity, all which is bought by CPS Energy.</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -98.6730194,29.2259688,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alamo 1 Solar Farm</name>
+        <description>The 41-megawatt solar facility was built by OCI Solar Power and provides its electricity to CPS Energy.</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -98.4479713,29.2718001,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alamo 2 Solar Farm</name>
+        <description>The 4-megawatt solar facility provides its electricity to CPS Energy.</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -98.3337736,29.4695857,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alamo 3 Solar Farm</name>
+        <description>The 6-megawatt solar facility provides its electricity to CPS Energy.</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -98.2993662,29.4797478,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alamo 4 Solar Farm</name>
+        <description>The 40-megawatt solar facility provides its electricity to CPS Energy.</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -100.3855133,29.3208288,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alamo 5 Solar Farm</name>
+        <description>The 990-acre, 95-megawatt solar facility provides all of its electricity to CPS Energy.</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -99.7035241,29.2203695,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alamo 6 Solar Farm</name>
+        <description>The 110-megawatt solar facility is being built by OCI Solar Power and is scheduled to be completed by early 2017. CPS Energy is buying the power generated by the facility.</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -102.2677374,30.9974759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alamo 7 Solar Farm</name>
+        <description><![CDATA[The 106-megawatt facility was commissioned in September 2016 and was bought by ConEdison for $227 million. CPS Energy buys all of the facility's electricity.]]></description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -99.6075439,33.0105349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Wind farm</name>
+      <Placemark>
+        <name>Desert Sky Wind Farm</name>
+        <description>Desert Sky Wind Farm has 107 wind turbines rated at 1.5-megawatts of capacity each and a total of 161 megawatts of electricity: CPS buys all 161 megawatts of power from the project.</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -102.0761204,30.9088158,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sweetwater 3 Wind Farm</name>
+        <description>Sweetwater 3 Wind Farm has 90 units with 135 megawatts of capacity; CPS Energy buys 101 megawatts from the project.</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -100.2289581,32.4235871,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sweetwater 4 Wind Farm</name>
+        <description>Sweetwater 4 Wind Farm has 135 1-megawatt wind turbines, and 46 2.3-megawatt wind turbines for a total of 241 megawatts of electricity; CPS Energy purchases all 241 megawatts of power from this project.</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -100.4947758,32.2604993,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Penascal Wind Farm</name>
+        <description>Penascal Wind Farm has 84 2.4-megawatt wind turbines producing 202 megawatts of electricity; CPS Energy purchases 77 megawatts of power from this project.</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5737,27.0939749,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Papalote Creek Wind Farm</name>
+        <description>Papalote Creek Wind Farm has 109 1.65-megawatt turbines and 87 2.3-megawatt wind turbines for a combined total of 380 megawatts of generation; CPS Energy purchases 130 megawatts of power from this project.</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -97.400322,27.9455829,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cedro Hill Wind Farm</name>
+        <description>Cedro Hill Wind Farm has 100 1.5-megawatt turbines for a total of 150 megawatts of generation; CPS Energy purchases all 150 megawatts of power from this project.</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -98.8853645,27.5851328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Los Vientos I Wind Farm</name>
+        <description>Los Vientos I Wind Farm has 87 turbines for a total of 200 megawatts of generation; CPS Energy purchases all 200 megawatts of power from this project.</description>
+        <styleUrl>#icon-1660-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -97.5802231,26.3293453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Landfill gas</name>
+      <Placemark>
+        <name>Covel Gardens Landfill Gas</name>
+        <description>Gas produced in the landfill is used to power generators that produce 10 megawatts of electricity.</description>
+        <styleUrl>#icon-1660-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            -98.6536807,29.3465267,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nelson Gardens Landfill Gas</name>
+        <description>Gas produced in the landfill is used to power generators that produce 4 megawatts of electricity.</description>
+        <styleUrl>#icon-1660-AFB42B</styleUrl>
+        <Point>
+          <coordinates>
+            -98.6626768,29.3348968,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Retired CPS Energy power plants</name>
+      <Placemark>
+        <name>Mission Road Power Plant</name>
+        <description><![CDATA[The Mission Road Power Plant's first natural gas turbine was turned on in 1945, growing to three turbines that produced 174 megawatts of electricity. The plant's last turbine was turned off in 2004, and the site is being converted into a museum and research center.]]></description>
+        <styleUrl>#icon-1898-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -98.4892076,29.3980387,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leon Creek Plant, units 1, 2, 3 and 4</name>
+        <description><![CDATA[The Leon Creek Plant's first natural gas turbine was turned on in 1949, growing to four turbines that produced 317 megawatts of electricity. The plant was officially mothballed in 2013.]]></description>
+        <styleUrl>#icon-1898-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -98.5757357,29.3511138,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>W.B. Tuttle natural gas plant</name>
+        <description><![CDATA[The W.B. Tuttle's first natural gas turbine was turned on in 1954, growing to four turbines that produced 425 megawatts of electricity. The plant was officially shut down in 2011, and demolition will be complete by early 2017.]]></description>
+        <styleUrl>#icon-1898-7CB342</styleUrl>
+        <Point>
+          <coordinates>
+            -98.4188211,29.5303381,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

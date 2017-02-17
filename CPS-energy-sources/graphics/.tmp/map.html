@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>CPS energy sources across Texas | San Antonio Express News</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base target='_parent'>
+  <link rel="stylesheet" href="styles/mapbox.3.0.1.css">
+  <!-- build:css styles/main.min.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+</head>
+<body>
+
+<div class="graphic">
+  <h1>CPS energy sources across Texas</h1>
+  <p class="subtext">This maps shows all CPS gas, coal, nuclear, solar, wind and landfill gas energy sources across the state. Click on any source for more information.</p>
+
+  <div id="graphic-container">
+
+    <div id="map"></div>
+
+  </div>
+
+  <div class="footer">
+    <ul>
+      <li>Source: CPS Energy</li>
+      <li>Credit: Rye Druzin &amp; Luke Whyte, San Antonio Express News</li>
+    </ul>
+  </div>
+</div>
+
+<!-- build:js scripts/main.min.js -->
+<script src="/node_modules/pym.js/dist/pym.v1.min.js"></script>
+<script src="/node_modules/d3/build/d3.min.js"></script>
+<script src="scripts/mapbox.3.0.1.min.js"></script>
+<script src="scripts/map.js"></script>
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-9827490-1', 'auto');
+  ga('set', 'location', window.location.protocol + '//' + window.location.hostname + window.location.pathname);
+  ga('set', 'page', window.location.pathname);
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

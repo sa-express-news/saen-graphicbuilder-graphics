@@ -1,0 +1,7 @@
+{
+  "google_spreadsheet_key": "1fEbZ3dYXKCd4-8qfMZS7bbZQdJPFZ6ARGlA-XcXDo0E",
+  "google_spreadsheet_type": "keyvalue",
+  "sheet_overrides": {
+    "DISTRICTS": "objectlist"
+  }
+}

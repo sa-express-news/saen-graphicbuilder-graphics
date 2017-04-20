@@ -1,9 +1,8 @@
 {
   "META": {
     "graphic_title": "Explore Brexar County STAAR results",
-    "prose": "Here's some general information about the results all quanitfy. Enter the name of a school district to compare the percentage of 5th and 8th graders that passed from 2015-2017",
-    "source": "Enter a source",
-    "note": "Note about incomplete school district",
+    "prose": "In general, the percentage of Bexar County fifth and eigth-graders who passed the reading portion of Texas’ standardized STAAR test dropped from 2016 to 2017. Math scores, however, improved for both grades. Enter the name of a school district to compare the percentage of fifth and eigth-graders that passed from 2015-2017.",
+    "source": "Bexar County school districts",
     "credit": "Alia Malik & Luke Whyte"
   },
   "DISTRICTS": [

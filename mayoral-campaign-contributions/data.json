@@ -1,1 +1,9 @@
-{}
+{
+  "META": {
+    "graphic_title": "Construction, real estate contributions",
+    "prose": "Candidates for mayor and City Council in Saturday’s election received almost $495,000 from donors with strong ties to the construction and real estate industries between July and March. Here are the 8 candidates that received the most from those sectors. Only the top 5 contributing industries to each candidate from the sector are displayed.",
+    "source": "City of San Antonio",
+    "credit": "Richard Webner & Luke Whyte"
+  },
+  "CANDIDATES": [{"Development": 84000, "Retail": 10000, "candidate": "OneSA", "Engineering": 181270, "Construction": 99500, "Architecture": 33500, "total": 427870}, {"Development": 72675, "Industry attorneys": 12133, "candidate": "Ivy Taylor", "Engineering": 34200, "Construction": 42675, "Real estate": 43212, "total": 223620}, {"Development": 13850, "candidate": "Ronald Nirenberg", "Real estate": 15655, "Engineering": 10755, "Construction": 15310, "Healthcare": 6150, "total": 84540}, {"Development": 6150, "Industry attorneys": 1600, "candidate": "Rebecca Viagran", "Engineering": 13675, "Construction": 4750, "Real estate": 2400, "total": 31075}, {"Development": 6200, "candidate": "Roberto Trevino", "Engineering": 3600, "Construction": 6950, "Architecture": 2400, "Real estate": 3800, "total": 24950}, {"Development": 8600, "Industry attorneys": 3100, "candidate": "Cris Medina", "Engineering": 2250, "Construction": 4250, "Real estate": 3500, "total": 24200}, {"Development": 6249, "Industry attorneys": 1350, "candidate": "Joseph Cortez", "Engineering": 3850, "Construction": 5250, "Real estate": 2850, "total": 21399}, {"Development": 6850, "retail": 1000, "candidate": "Marco Barros", "Engineering": 3500, "Construction": 2000, "Real estate": 2025, "total": 17575}]
+}

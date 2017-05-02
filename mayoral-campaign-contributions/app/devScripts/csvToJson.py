@@ -1,5 +1,6 @@
 from sys import argv
 from os.path import exists
+from collections import Counter
 import simplejson as json
 import csv
  
@@ -19,7 +20,16 @@ def addNewIndustry(candidate, industry, amount):
     candidates[candidate][industry] = amount
 
 def addToTotal(candidate, amount):
-    candidates[candidate]['total'] += amount
+    newTotal = round(candidates[candidate]['total'] + amount, 2)
+    candidates[candidate]['total'] = newTotal
+
+def sortToTopFour(obj):
+    counted = Counter(obj)
+    result = {}
+    for key, val in counted.most_common(6):
+        result[key] = val
+    return result
+
 
 with open(in_file, 'rU') as raw:
     raw.next()
@@ -38,20 +48,20 @@ with open(in_file, 'rU') as raw:
             else:
                 addNewIndustry(candidate, industry, amount)
 
-        addToTotal(candidate, amount)
+            addToTotal(candidate, amount)
 
 
 candidateList = []
 for key, obj in candidates.iteritems():
+    for val in obj:
+        obj[val] = int(obj[val])
+    obj = sortToTopFour(obj)
     obj['candidate'] = key
     candidateList.append(obj)
 
 sortedCandidateList = sorted(candidateList, key=lambda k: k['total'], reverse=True)
-print sortedCandidateList[0: 10]
-
-
 
 output = open(out_file, 'w')
-json.dump(candidates, output)
+json.dump(sortedCandidateList[0: 8], output)
  
-print len(candidates)
+print sortedCandidateList[0: 8]

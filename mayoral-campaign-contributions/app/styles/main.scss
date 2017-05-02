@@ -1,6 +1,154 @@
 @import 'node_modules/newsapps-styles/init-helpers';
 @import 'node_modules/newsapps-styles/theme/graphic';
+@import 'node_modules/newsapps-styles/helpers/tables';
 
 @import 'base';
 
-// Add your SCSS here!
+$blue: #365899;
+$maroon: rgb(180, 70, 75);
+
+
+.graphic {
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card {
+  border-top: 1px solid $blue;
+  margin-bottom: 2px;
+  padding: .75em 0;
+  position: relative;
+
+  &:first-child {
+    border-top: 0;
+  }
+}
+
+.card-head {
+  @include clearfix;
+  cursor: pointer;
+
+  .card-header {
+    color: $blue;
+    float: left;
+    margin-bottom: 0;
+    padding-left: 12px;
+
+    @include media($default-mobile) {
+      font-size: 0.9em;
+    }
+  }
+}
+
+.total-ref {
+  float: right;
+  padding-right: 12px;
+
+  .label {
+    display: inline-block;
+    font-size: .65em;
+    font-weight: 300;
+    line-height: 1em;
+    margin-top: .35em;
+    text-transform: uppercase;
+  }
+
+  .card-header {
+    padding-right: .25em;
+  }
+}
+
+.open-close {
+  .fa {
+    color: $border-gray;
+    float: left;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    margin-left: .5em;
+
+    &:before {
+      .open & {
+        content: '\f077';
+      }
+    }
+  }
+}
+
+.flag {
+  margin-right: .5em;
+  vertical-align: text-bottom;
+  width: 1.5em;
+}
+
+.bar-chart-wrap {
+  @include responsive-table(1, true, block, 30%);
+  margin-top: .5em;
+  margin-bottom: 0;
+  display: none;
+
+  @include media($default-mobile) {
+    th {
+      font-size: .8em;
+    }
+  }
+}
+
+.bar-chart {
+  @include clearfix;
+  font-size: .8em;
+  height: 220px;
+  margin: 0 0 1.666666667em; // 20px
+
+  @include media($default-mobile) {
+    height: 190px;
+    font-size: .6em;
+  }
+}
+
+.column {
+  float: left;
+  height: 100%;
+  margin: 0 0.5%;
+  position: relative;
+  width: 19%;
+}
+
+.column-color {
+  background-color: $maroon;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.column-label {
+  bottom: -1.5em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.column-value {
+  color: $white;
+  font-size: 1.1em;
+  margin: .25em 0;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0 0 .1em $tribune-black;
+  width: 100%;
+
+  @include media($default-mobile) {
+    font-size: 1em;
+  }
+
+  &.outside {
+    color: $maroon;
+    margin: -1.5em 0;
+    text-shadow: none;
+  }
+}
+
+.legend {
+    text-align: center;
+}
+

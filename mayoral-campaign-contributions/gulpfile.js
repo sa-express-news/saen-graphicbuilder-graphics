@@ -36,6 +36,7 @@ gulp.task('styles', function() {
 
 gulp.task('templates', function() {
   var nunjucks = require('nunjucks');
+  var commaFilter = require('nunjucks-comma-filter');
   var map = require('vinyl-map');
 
   var data = JSON.parse(fs.readFileSync('data.json', 'utf8'));
@@ -45,7 +46,8 @@ gulp.task('templates', function() {
   data.INTERNAL = packageData.config;
 
   // disable watching or it'll hang forever
-  nunjucks.configure('app', {watch: false});
+  var env = nunjucks.configure('app', {watch: false});
+  env.addFilter('comma', commaFilter);
 
   var nunjuckified = map(function(code, filename) {
     return nunjucks.renderString(code.toString(), data);
@@ -77,7 +79,7 @@ gulp.task('html', ['templates'], function() {
   // need to update useref version and the pipe
   var assets = $.useref.assets({searchPath: ['.tmp', 'app', '.']});
 
-  return gulp.src('.tmp/index.html')
+  return gulp.src('.tmp/*.html')
     .pipe(assets)
     .pipe($.if('*.js', $.uglify()))
     .pipe($.if('*.css', $.csso()))

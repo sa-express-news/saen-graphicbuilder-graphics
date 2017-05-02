@@ -1,0 +1,27 @@
+{% import 'includes/bar-chart.html' as bar_chart %}
+{% macro build(sheet, candidate, min, max) %}
+<div class="card {% if candidate == 'OneSA' %}first{% endif %}">
+  <div class="card-head">
+    <div class="open-close">
+      <i class="fa fa-chevron-down"></i>
+    </div>
+    <h3 class="card-header">{{ candidate }}</h3>
+    {% for row in sheet %}
+      {% if row.candidate == candidate %}
+        <div class="total-ref">
+          <h3 class="card-header">${{ row.total|comma }}</h3>
+          <div class="label">in total sector<br>contributions</div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="bar-chart-wrap">
+    {% for row in sheet %}
+      {% if row.candidate == candidate %}
+        {{ bar_chart.build(row, min, max) }}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% endmacro %}

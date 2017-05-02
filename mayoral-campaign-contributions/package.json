@@ -2,7 +2,7 @@
   "private": true,
   "config": {
     "s3_bucket": "graphics.expressnews.com",
-    "slug": ""
+    "slug": "mayoral-campaign-contributions"
   },
   "devDependencies": {
     "browser-sync": "^2.18.7",
@@ -31,6 +31,7 @@
     "marked": "^0.3.6",
     "nconf": "^0.8.4",
     "nunjucks": "^3.0.0",
+    "nunjucks-comma-filter": "^1.0.0",
     "open": "0.0.5",
     "run-sequence": "^1.2.2",
     "untildify": "^3.0.2",
@@ -38,6 +39,7 @@
     "xlsx": "^0.8.1"
   },
   "dependencies": {
+    "jquery": "^3.2.1",
     "newsapps-styles": "^1.1.0",
     "pym.js": "^1.1.1"
   },

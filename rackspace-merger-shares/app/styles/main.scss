@@ -1,0 +1,80 @@
+@import 'node_modules/newsapps-styles/init-helpers';
+@import 'node_modules/newsapps-styles/theme/graphic';
+
+@import 'base';
+
+$label-width: 28%;
+
+$blue: #1775ae;
+
+.graphic {
+  max-width: 720px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bar-chart {
+  @include clearfix;
+  font-size: .75em;
+  margin: 0 0 1.666666667em; // 20px
+}
+
+.chart-row {
+  @include clearfix;
+
+  &.chairman {
+    border-bottom: 1px dashed $line-gray;
+    margin-bottom: 1em;
+  }
+}
+
+.row-label {
+  float: left;
+  font-weight: 700;
+  padding: .5em 1em .5em 0;
+  text-align: right;
+  width: $label-width;
+  @include media($default-mobile) {
+  	font-size: 0.75em;
+  }
+}
+
+.row-bar {
+  float: left;
+  padding: 0 0 .75em;
+  width: 100% - $label-width;
+}
+
+.last-row {
+  margin: 0;
+}
+
+.bar-color {
+  background-color: $blue;
+  display: block;
+  height: 100%;
+  padding: .5em .5em .5em 0;
+  text-align: right;
+}
+
+.bar-value {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 .125em rgba(0, 0, 0, .4);
+
+  &.outside {
+  	color: $blue;
+  	font-weight: 600;
+  	position: relative;
+  	left: calc(100% + 10px);
+  	text-shadow: none;
+  }
+}
+
+.note {
+  color: $text-gray;
+  font-size: .825em;
+}
+
+.footer {
+  padding: 0 0 1em 0;
+}

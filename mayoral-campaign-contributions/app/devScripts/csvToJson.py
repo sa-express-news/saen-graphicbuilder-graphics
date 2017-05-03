@@ -62,6 +62,6 @@ for key, obj in candidates.iteritems():
 sortedCandidateList = sorted(candidateList, key=lambda k: k['total'], reverse=True)
 
 output = open(out_file, 'w')
-json.dump(sortedCandidateList[0: 8], output)
+json.dump(sortedCandidateList[1: 9], output)
  
-print sortedCandidateList[0: 8]
+print sortedCandidateList[1: 9]

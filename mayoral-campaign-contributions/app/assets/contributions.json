@@ -1,14 +1,5 @@
 [
    {
-      "Development":84000,
-      "Retail":10000,
-      "candidate":"OneSA",
-      "Engineering":181270,
-      "Construction":99500,
-      "Architecture":33500,
-      "total":427870
-   },
-   {
       "Development":72675,
       "Industry attorneys":12133,
       "candidate":"Ivy Taylor",
@@ -70,5 +61,14 @@
       "Construction":2000,
       "Real estate":2025,
       "total":17575
+   },
+   {
+      "Development":5075,
+      "Industry attorneys":1650,
+      "candidate":"Rey Saldana",
+      "Engineering":3750,
+      "Construction":1600,
+      "Real estate":2950,
+      "total":16275
    }
 ]

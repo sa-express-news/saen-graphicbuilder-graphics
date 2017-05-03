@@ -1,0 +1,46 @@
+{
+  "MERGER_SHARE_VALUE_RAW": {
+    "name": "title",
+    "Graham Weston": "Chairman",
+    "Taylor Rhodes": "CEO",
+    "Lewis Moorman": "Director",
+    "Karl Pichler": "CFO",
+    "Mark Roenigk": "COO",
+    "Scott Crenshaw": "SVP",
+    "Joseph Saporito": "CAO",
+    "Alex Pinchev": "EVP",
+    "Tiffany Lathe": "GC",
+    "Fred Reichheld": "Director",
+    "Kevin Costello": "Director",
+    "John Harper": "Director",
+    "Ossa Fisher": "Director",
+    "Lila Tretikov": "Director"
+  },
+  "META": {
+    "graphic_title": "Rackspace execs cash out",
+    "prose": "Rackspace provided estimates in a Sept. 30 securities filing of the equity payouts for executive officers and directors when its $4.3 billion sale to Apollo Global Management closed Nov. 3.",
+    "source": "Securities and Exchange Commission"
+  },
+  "MERGER_SHARE_VALUE": [
+    {
+      "name": "Graham Weston",
+      "title": "Chairman",
+      "value": 605975584
+    },
+    {
+      "name": "Taylor Rhodes",
+      "title": "CEO",
+      "value": 22748753
+    },
+    {
+      "name": "Lewis Moorman",
+      "title": "Director",
+      "value": 17884934
+    },
+    {
+      "name": "11 remaining execs combined",
+      "title": "none",
+      "value": 7117530
+    }
+  ]
+}

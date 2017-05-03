@@ -6,7 +6,6 @@
   <title>{{ META.graphic_title }} | San Antonio Express News</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <base target='_parent'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <!-- build:css styles/main.min.css -->
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
@@ -15,22 +14,16 @@
 
 <div class="graphic">
   <h1>{{ META.graphic_title }}</h1>
-  <p class="subtext">{{ META.prose }}</p>
 
   <div id="graphic-container">
 
-    {% import "includes/candidate.html" as country_card %}
+    {% import "includes/executive-shares.html" as executiveShares %}
 
-    {{ country_card.build(CANDIDATES, 'Ivy Taylor', 0, 72675) }}
-    {{ country_card.build(CANDIDATES, 'Ronald Nirenberg', 0, 15655) }}
-    {{ country_card.build(CANDIDATES, 'Rebecca Viagran', 0, 13675) }}
-    {{ country_card.build(CANDIDATES, 'Roberto Trevino', 0, 6950) }}
-    {{ country_card.build(CANDIDATES, 'Cris Medina', 0, 8600) }}
-    {{ country_card.build(CANDIDATES, 'Joseph Cortez', 0, 6249) }}
-    {{ country_card.build(CANDIDATES, 'Marco Barros', 0, 6850) }}
-    {{ country_card.build(CANDIDATES, 'Rey Saldana', 0, 5075) }}
+    {{ executiveShares.build(MERGER_SHARE_VALUE, 605975584) }}
 
   </div>
+
+  <div class="note">{{ META.prose }}</div>
 
   <div class="footer">
     <ul>
@@ -42,7 +35,6 @@
 
 <!-- build:js scripts/main.min.js -->
 <script src="/node_modules/pym.js/dist/pym.v1.min.js"></script>
-<script src="/node_modules/jquery/dist/jquery.min.js"></script>
 <script src="scripts/main.js"></script>
 <!-- endbuild -->
 </body>

@@ -43,7 +43,7 @@
         li {
           display: block;
           float: left;
-          width: 100px;
+          width: 70px;
           margin-bottom: 6px;
           text-align: center;
           font-size: 75%;
@@ -57,15 +57,19 @@
             display: block;
             float: left;
             height: 15px;
-            width: 100px;
+            width: 70px;
             margin: 0 0 3px 0;
 
             @include media($default-mobile) {
               width: 50px;
             }
 
-            &.high { background: #DC7860; }
-            &.low { background: #97D6DA; }
+            &.lucke { background: #7fc97f; }
+            &.medina { background: #fdc086; }
+            &.nirenberg { background: #2b83ba; }
+            &.roles { background: #beaed4; }
+            &.taylor { background: #d7191c; }
+            &.tie { background: #ffff99; }
           }
         }
       }

@@ -15,13 +15,15 @@
       }
     }
 
-    ElectionMap.getData(function (shapes) {
-      if (ElectionMap.buildMap) {
-        ElectionMap.buildMap('map', shapes);
-      }
+    if (!ElectionMap.isBuilt) {
+      ElectionMap.getData(function (shapes) {
+        if (ElectionMap.buildMap) {
+          ElectionMap.buildMap('map', shapes);
+        }
 
-      sendHeight();
-    });
+        sendHeight();
+      });
+    }
   }
 
   function load() {

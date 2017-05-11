@@ -757,7 +757,7 @@ a {
     .legend .legend-scale ul.legend-labels li {
       display: block;
       float: left;
-      width: 100px;
+      width: 70px;
       margin-bottom: 6px;
       text-align: center;
       font-size: 75%;
@@ -769,12 +769,20 @@ a {
         display: block;
         float: left;
         height: 15px;
-        width: 100px;
+        width: 70px;
         margin: 0 0 3px 0; }
         @media screen and (max-width: 480px) {
           .legend .legend-scale ul.legend-labels li span {
             width: 50px; } }
-        .legend .legend-scale ul.legend-labels li span.high {
-          background: #DC7860; }
-        .legend .legend-scale ul.legend-labels li span.low {
-          background: #97D6DA; }
+        .legend .legend-scale ul.legend-labels li span.lucke {
+          background: #7fc97f; }
+        .legend .legend-scale ul.legend-labels li span.medina {
+          background: #fdc086; }
+        .legend .legend-scale ul.legend-labels li span.nirenberg {
+          background: #2b83ba; }
+        .legend .legend-scale ul.legend-labels li span.roles {
+          background: #beaed4; }
+        .legend .legend-scale ul.legend-labels li span.taylor {
+          background: #d7191c; }
+        .legend .legend-scale ul.legend-labels li span.tie {
+          background: #ffff99; }

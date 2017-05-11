@@ -131,7 +131,7 @@ gulp.task('serve:build', ['default'], function() {
 });
 
 gulp.task('default', ['clean'], function(cb) {
-  runSequence('styles', ['html', 'images', 'assets', 'pym'], cb);
+  runSequence('styles', ['jshint', 'html', 'images', 'assets', 'pym'], cb);
 });
 
 gulp.task('build', ['default']);

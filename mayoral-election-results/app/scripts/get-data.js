@@ -10,9 +10,9 @@ var ElectionMap = (function (map) {
   map.getData = function (cb) {
     var that = this,
         loader = d3.select('.loader');
-    loader.style('display', 'inline-block')
+    loader.style('display', 'inline-block');
     d3.json('assets/precinct-results-topo.json', function (error, data) {
-      loader.style('display', 'none')
+      loader.style('display', 'none');
       if (error) {
         return console.error(error);
       } else {

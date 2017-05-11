@@ -11,10 +11,28 @@ var ElectionMap = (function (map) {
     this.map = this.generateMapInstance(id);
     this.tileLayer = this.getStyleLayer();
     this.sourcesLayer = this.setSources(data);
+    this.handleEvents();
   }
 
   MapFactory.prototype = {
     bbox: [ -97.98706054687501, 29.744109309616512, -98.97583007812501, 29.090976994322702 ],
+
+    candidates: [
+      'Madrid',
+      'Roles',
+      'Flores',
+      'Idrogo',
+      'Nirenberg',
+      'McLeod',
+      'Velasquez',
+      'Medina',
+      'Mama Bexar',
+      'Lucke',
+      'Smith',
+      'Taylor',
+      'Ponce',
+      'Diaz'
+    ],
 
     getWidth: function () {
       return Math.round(window.innerWidth > 720 ? 720 : window.innerWidth);
@@ -49,7 +67,7 @@ var ElectionMap = (function (map) {
         zoom: 10,
         minZoom: 10,
         maxZoom: 17,
-        scrollWheelZoom: true,
+        scrollWheelZoom: false,
         attributionControl: false,
       };
     },
@@ -60,11 +78,17 @@ var ElectionMap = (function (map) {
     },
 
     setFillOpacity: function (props) {
-      if (props['Winner'] === 'Tie') {
+      if (props.Winner === 'Tie') {
         return 0.2;
       } else {
-        var share = props['Votes for ' + props['Winner']] / props['Total votes']
-        return share < 0.16 ? 0.1 : (Math.round(share * 100) / 100) - 0.05;
+        var share = props[props.Winner] / props['Total votes'];
+        if (share < 0.16) {
+          return 0.1;
+        } else if (share === 1) {
+          return 0.9;
+        } else {
+          return (Math.round(share * 100) / 100) - 0.05;
+        }
       }
     },
 
@@ -83,38 +107,75 @@ var ElectionMap = (function (map) {
       }).setContent(this.setPopup.bind(this))).addTo(this.map);
     },
 
-    isWinner: function (props, name) {
-      return name === props['Winner'];
+    getPercent: function (votes, total) {
+      return Math.round((votes / total) * 100);
     },
 
-    getPercent: function (props, name) {
-      return Math.round((props['Votes for ' + name] / props['Total votes']) * 100) + '%';
+    writeLine: function (candidate, props) {
+      var percent = this.getPercent(candidate.votes, props['Total votes']);
+      return percent ? candidate.name + ': ' + percent + '%<br />' : '';
     },
 
-    writeLine: function (props, name) {
-      if (!this.isWinner(props, name)) {
-        return name + ': ' + this.getPercent(props, name) + '<br />';
-      } else {
-        return '';
-      }
+    writeWinner: function (candidate, props) {
+      return '<span>' + candidate.name + ': ' + this.getPercent(candidate.votes, props['Total votes']) + '%</span><br />';
+    },
+
+    findTopCandidates: function (props) {
+      var candidates = this.candidates.slice();
+      candidates.sort(function(a, b) {
+        return parseFloat(props[b]) - parseFloat(props[a]) ;
+      });
+
+      return candidates.slice(0, 3).map(function (name) {
+        return {
+          name: name,
+          votes: props[name],
+        };
+      });
     },
 
     setPopup: function (layer) {
-      var props = layer.feature.properties;
-      var result = '<span>' + props['Winner'] + ': ' + this.getPercent(props, props['Winner']) + '</span><br />';
-      result += this.writeLine(props, 'Taylor');
-      result += this.writeLine(props, 'Villarreal');
-      result += this.writeLine(props, 'Adkisson');
-      result += this.writeLine(props, 'Van de Putte');
+      var props = layer.feature.properties,
+          candidates = this.findTopCandidates(props),
+          isTie = props.Winner === 'Tie',
+          result = '';
+
+      if (isTie) {
+        result += '<span>Tie</span><br />';
+      }
+
+      candidates.forEach(function (candidate, index) {
+        if (index === 0 && !isTie) {
+          result += this.writeWinner(candidate, props);
+        } else {
+          result += this.writeLine(candidate, props);
+        }
+      }, this);
+
+      result += 'Total # of votes: ' + props['Total votes'] + '<br />';
+      result += 'Precinct #: ' + props.precinct;
       return result;
+    },
+
+    toggleScrollWheelZoom: function () {
+      if (!this.map.scrollWheelZoom.enabled()) {
+        this.map.scrollWheelZoom.enable();
+      }
+    },
+
+    handleEvents: function () {
+      this.map.on('click', this.toggleScrollWheelZoom, this);
     },
   };
 
   map.buildMap = function (el, data) {
     if (L) {
+      map.isBuilt = true;
       return new MapFactory(el, data);
     }
   };
+
+  map.isBuilt = false;
 
   return map;
 

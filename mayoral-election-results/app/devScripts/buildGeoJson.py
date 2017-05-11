@@ -1,6 +1,6 @@
 from sys import argv
 from os.path import exists
-import simplejson as json
+import json
 import csv
  
 script, in_csv, in_json, out_file = argv
@@ -17,12 +17,22 @@ countResult = 0
 def buildProperties(result):
     props = {}
     props['precinct'] = result[0]
-    props['Votes for Taylor'] = int(result[5])
-    props['Votes for Villarreal'] = int(result[6])
-    props['Votes for Adkisson'] = int(result[7])
-    props['Votes for Van de Putte'] = int(result[8])
-    props['Total votes'] = int(result[17])
-    props['Winner'] = result[22]
+    props['Madrid'] = int(result[1])
+    props['Roles'] = int(result[2])
+    props['Flores'] = int(result[3])
+    props['Idrogo'] = int(result[4])
+    props['Nirenberg'] = int(result[5])
+    props['McLeod'] = int(result[6])
+    props['Velasquez'] = int(result[7])
+    props['Medina'] = int(result[8])
+    props['Mama Bexar'] = int(result[9])
+    props['Lucke'] = int(result[10])
+    props['Smith'] = int(result[11])
+    props['Taylor'] = int(result[12])
+    props['Ponce'] = int(result[13])
+    props['Diaz'] = int(result[14])                     
+    props['Total votes'] = int(result[15])
+    props['Winner'] = result[18]
     props['Color'] = result[23]
     return props
 
@@ -42,7 +52,7 @@ with open(in_csv, 'rU') as raw:
             for precinct in precinct_data['features']:
                 precinctProps = precinct['properties']
 
-                if precinctProps['Shape_Area'] == float(result[32]) and precinctProps['TOTAL'] == float(result[27]):
+                if precinctProps['Shape_Area'] == float(result[44]) and precinctProps['TOTAL'] == float(result[39]):
                     countResult += 1
                     feature["geometry"] = precinct['geometry']
                     feature['properties'] = buildProperties(result)

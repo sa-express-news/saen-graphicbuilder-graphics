@@ -1,0 +1,8 @@
+{
+  "META": {
+    "graphic_title": "Mayoral runoff results by precinct",
+    "prose": "This map shows which mayoral candidate won each voting precinct. The darker the color, the larger the victory. Click on a precinct for more information. In precincts where candidate vote totals are very close, percentages might round to equal amounts.",
+    "source": "Bexar County Elections Department",
+    "credit": "Luke Whyte"
+  }
+}

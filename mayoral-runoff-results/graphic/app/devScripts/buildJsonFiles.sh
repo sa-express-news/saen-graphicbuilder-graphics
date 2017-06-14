@@ -1,0 +1,2 @@
+python buildGeoJson.py ../devAssets/results.csv ../devAssets/VoterPrecincts2013.geojson ../assets/precinct-results.geojson
+geo2topo -o ../assets/precinct-results-topo.json ../assets/precinct-results.geojson

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Mayoral runoff results by precinct | San Antonio Express News</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base target='_parent'>
+  <!-- build:css styles/main.min.css -->
+  <link rel="stylesheet" href="styles/mapbox.3.0.1.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+</head>
+<body>
+
+<div class="graphic">
+  <h1>Mayoral runoff results by precinct</h1>
+  <p class="subtext">This map shows which mayoral candidate won each voting precinct. The darker the color, the larger the victory. Click on a precinct for more information. In precincts where candidate vote totals are very close, percentages might round to equal amounts.</p>
+
+  <div id="graphic-container">
+
+    <div class="legend">
+      <div class="legend-title">Precinct winners are color-coded as follows:</div>
+      <div class="legend-scale">
+        <ul class="legend-labels">
+          <li><span class="nirenberg"></span>Nirenberg</li>
+          <li><span class="taylor"></span>Taylor</li>
+          <li><span class="tie"></span>Tie</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="map">
+      <div class="loader"><img src="assets/images/loader.svg" /></div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <ul>
+      <li>Source: Bexar County Elections Department</li>
+      <li>Credit: Luke Whyte</li>
+    </ul>
+  </div>
+</div>
+
+<!-- build:js scripts/main.min.js -->
+<script src="/node_modules/pym.js/dist/pym.v1.min.js"></script>
+<script src="/node_modules/d3/build/d3.min.js"></script>
+<script src="/node_modules/topojson/dist/topojson.min.js"></script>
+<script src="scripts/mapbox.3.0.1.min.js"></script>
+<script src="scripts/get-data.js"></script>
+<script src="scripts/map-factory.js"></script>
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
+</body>
+</html>

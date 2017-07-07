@@ -1,0 +1,55 @@
+{
+  "META": {
+    "graphic_title": "How many people are bumped from overbooked flights each year?",
+    "prose": "This chart shows the total number of passengers voluntarily or involuntarily removed from commercial flights in the U.S., 2000-2015",
+    "source": "U.S. Department of Transportation",
+    "credit": "Express-News Data Team",
+    "source_url": "https://www.transportation.gov/airconsumer/flights-and-rights"
+  },
+  "EXPLAINER": [
+    {
+      "title": "They need to ask for volunteers first",
+      "body": "If an airline overbooks a flight, they are legally required to ask passengers to voluntarily give up their seats in exchange for compensation. The type of compensation offered, however, is up to the airline."
+    },
+    {
+      "title": "If there are no volunteers",
+      "body": "If an airline can't find volunteers willing to give up their seats on an overbooked flight, they reserve the right to involuntarily bump passengers. This right only extends to overbooked flights."
+    },
+    {
+      "title": "Who gets bumped first and why?",
+      "body": "It is up to the airline to set the criteria for who gets bumped from a flight and why. Common criteria include passenger check-in time, fare paid for ticket or passenger frequent-flyer status."
+    },
+    {
+      "title": "Passenger discrimination is illegal",
+      "body": "Regardless of how overbooked a flight may be, the airline's criteria for passenger removal \"cannot subject a passenger to any unjust or unreasonable prejudice or disadvantage\". Thus, you can't be thrown off for your race, ethnicity or due to a disability."
+    },
+    {
+      "title": "A written notice of rights",
+      "body": "If you are involuntarily bumped from a flight, the airline is required to give you a written statement outlining your rights and the criteria upon which your were removed."
+    },
+    {
+      "title": "There will be compensation",
+      "body": "If an airline involuntarily bumps your from a flight, they are required to refund your ticket fare and additionally compensate you based on how long you've been delayed. If you are delayed less than an hour, there is no additional compensation. If delayed 1-2 hours you are entitled to 200% of the cost of the one-way fare (but no more than $675) for compensation. If you are delayed more than 2 hours, you are entitled to 400% of the cost of the one-way fare (but no more than $1,350) as compensation."
+    }
+  ],
+  "CHART": [
+    {
+      "2015": 552,
+      "2014": 467,
+      "2013": 494,
+      "2012": 598,
+      "2011": 626,
+      "2010": 746,
+      "2009": 719,
+      "2008": 684,
+      "2007": 685,
+      "2006": 674,
+      "2005": 597,
+      "2004": 747,
+      "2003": 769,
+      "2002": 837,
+      "2001": 900,
+      "2000": 1120
+    }
+  ]
+}

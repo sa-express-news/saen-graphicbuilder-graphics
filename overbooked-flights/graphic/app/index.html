@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{ META.graphic_title }} | San Antonio Express News</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base target='_parent'>
+  <!-- build:css styles/main.min.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+</head>
+<body>
+
+<div class="graphic">
+
+  <div id="graphic-container">
+
+    <div class="wrapper explainer">
+
+      {% for x in EXPLAINER %}
+
+        <div class="post">
+          <div class="post-inner">
+            <div class="head">
+
+              {% if x.date %}
+                <div class="date">
+                  {{ x.date }}
+                </div>
+              {% endif %}
+
+              <div class="title">{{ x.title }}</div>
+
+              {% if x.photo %}
+                <div class="img">
+                  <img src="{{ x.photo }}" />
+                </div>
+              {% endif %}
+
+            </div>
+
+            <div class="post-body">
+              {{ x.body }}
+            </div>
+            
+            {% if x.link %}
+              <div class="read-more"><a href="{{ x.link }}" target="_blank">Read more...</a></div>
+            {% endif %}
+          </div>
+        </div>
+
+      {% endfor %}
+
+    </div>
+
+  </div>
+
+  <div class="graphic-container">
+    <h1>{{ META.graphic_title }}</h1>
+    <p class="subtext">{{ META.prose }}</p>
+
+    <div class="wrapper chart">
+      <div class="bar-chart">
+        {% for key in range(-2015, -1999) -%}
+        <div class="chart-row">
+          <div class="row-label">{{ key * -1 }}</div>
+          <div class="row-bar{% if loop.last %} last-row{% endif %}">
+            <span class="bar-color" style="width: {{ (+CHART[0][key * -1] / 1140) * 100 }}%">
+              <span class="bar-value">{{ CHART[0][key * -1]|comma }}</span>
+            </span>
+          </div>
+        </div>
+        {%- endfor %}
+      </div>
+    </div>
+
+  </div>
+
+  <!--Timeline css by Captain Anonymous at http://codepen.io/anon/pen/reeZQY, modified by SAEN -->
+
+  <div class="footer">
+    <ul>
+      {% if META.source %}<li>Source: {% if META.source_url %}<a href="{{ META. source_url }}">{{ META.source }}</a>{% else %}{{ META.source }}{% endif %}</li>{% endif %}
+      {% if META.credit %}<li>Credit: {{ META.credit }}</li>{% endif %}
+    </ul>
+  </div>
+</div>
+
+<!-- build:js scripts/main.min.js -->
+<script src="/node_modules/pym.js/dist/pym.v1.min.js"></script>
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
+</body>
+</html>
+

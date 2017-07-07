@@ -1,0 +1,247 @@
+@import 'node_modules/newsapps-styles/init-helpers';
+@import 'node_modules/newsapps-styles/theme/graphic';
+
+@import 'base';
+
+$blue: #365899;
+$label-width: 28%;
+
+.graphic {
+	max-width: 720px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.graphic-container {
+	@include media($default-mobile) {
+		//display: none;
+	}
+}
+
+.wrapper {
+  padding: 0 20px;
+
+  &.explainer {
+  		padding: 0 20px 40px;
+
+		.head {
+		  margin-bottom: .2em;
+
+		  a {
+		    //font-size: .9em;
+		    font-family: georgia, sans-serif;
+		  }
+		}
+
+		.title {
+		  display: inline;
+		  color: darken($blue, 10%);
+		  //margin-left: 1em;
+
+		  @include media($default-mobile) {
+		    display: block;
+		  }
+		}
+
+		.img {
+			margin-top: .3em;
+			margin-bottom: .4em;
+			max-width: 500px;
+			min-width: 199px;
+
+			img {
+				border: 0;
+		    	max-width: 100%;
+			}
+		}
+
+
+		.date {
+		  display: inline-block;
+		  padding-right: 15px;
+		  font-size: .8em;
+		  font-weight: bold;
+		}
+
+		.post-body {
+		  //border-top: 1px solid #135EC3;
+		  font-size: .8em;
+		  color: #666;
+		  //padding-top: .4em;
+		}
+
+		.read-more {
+		  //text-align: right;
+		  color: #666;
+		  padding-top: .3em;
+		  font-size: .8em;
+		  font-weight: 600;
+		  a { color: $blue; }
+		  //display: inline-block;
+		}
+
+		//Code below by Captain Anonymous at http://codepen.io/anon/pen/reeZQY, modified by SAEN
+
+		.post {
+		  border-left: 1px solid $blue;   //10px
+		  padding-top: 20px;
+		  padding-bottom: 20px;
+		  padding-left: 25px; //20
+		  position: relative;
+		}
+
+		.post:before {
+		  content: "";
+		  position: absolute;
+		  top: 55px;  //34
+		  left: -6px;
+		  background-color: $blue;
+		  border: 3px solid $blue;
+		  border-radius: 10px;
+		  height: 10px;
+		  width: 10px;
+		}
+
+		.post:after {
+		  content: "";
+		  height: 0;
+		  width: 0;
+		  position: absolute;
+		  border-top: 8px solid transparent; //12
+		  border-bottom: 8px solid transparent; //12
+		  border-right: 8px solid #F5F5F5; //12
+		  top: 52px;  //27
+		  left: 17px;
+		}
+
+		.post-inner {
+		  padding: 10px;
+		  padding-left: 15px;
+		  background-color: #F5F5F5;
+		}
+
+		.head-post {
+		  border-left: 1px solid $blue;   //10px
+		  padding-top: 20px;
+		  padding-bottom: 20px;
+		  padding-left: 25px;
+		  position: relative;
+		}
+
+		.head-post:before {
+		  content: "";
+		  position: absolute;
+		  top: 53px;  //34
+		  left: -11px;
+		  background-color: $blue;
+		  border: 11px solid $blue;
+		  border-radius: 11px;
+		  height: 10px;
+		  width: 10px;
+		}
+
+		.head-post:after {
+		  content: "";
+		  height: 0;
+		  width: 0;
+		  position: absolute;
+		  border-top: 8px solid transparent;
+		  border-bottom: 8px solid transparent;
+		  border-right: 8px solid #F5F5F5;
+		  top: 56px;  //27
+		  left: 17px;   //12
+		}
+
+		.other-post {
+		  //max-width: 70%;
+		  border-left: 1px solid $blue;   //10px
+		  padding-top: 20px;
+		  padding-bottom: 20px;
+		  padding-left: 25px;
+		  position: relative;
+		}
+
+		.other-post:before {
+		  content: "";
+		  position: absolute;
+		  top: 55px;  //34
+		  left: -6px;
+		  background-color: $blue;
+		  border: 3px solid $blue;
+		  border-radius: 10px;
+		  height: 10px;
+		  width: 10px;
+		}
+
+		.other-post:after {
+		  content: "";
+		  height: 0;
+		  width: 0;
+		  position: absolute;
+		  border-top: 8px solid transparent; //12
+		  border-bottom: 8px solid transparent; //12
+		  border-right: 8px solid #F5F5F5; //12
+		  top: 52px;  //27
+		  left: 17px;
+		}
+	}
+
+	&.chart {
+		.bar-chart {
+		  @include clearfix;
+		  font-size: .75em;
+		  margin: 0 0 1.666666667em; // 20px
+		}
+
+		.chart-row {
+		  @include clearfix;
+
+		  &.chairman {
+		    border-bottom: 1px dashed $line-gray;
+		    margin-bottom: 1em;
+		  }
+		}
+
+		.row-label {
+		  float: left;
+		  font-weight: 700;
+		  padding: .5em 1em .5em 0;
+		  text-align: right;
+		  width: $label-width;
+		  @include media($default-mobile) {
+		  	font-size: 0.75em;
+		  }
+		}
+
+		.row-bar {
+		  float: left;
+		  padding: 0 0 .75em;
+		  width: 100% - $label-width;
+		}
+
+		.last-row {
+		  margin: 0;
+		}
+
+		.bar-color {
+		  background-color: $blue;
+		  display: block;
+		  height: 100%;
+		  padding: .5em .5em .5em 0;
+		  text-align: right;
+		}
+
+		.bar-value {
+		  color: rgb(255, 255, 255);
+		  text-shadow: 0 0 .125em rgba(0, 0, 0, .4);
+
+		  &.outside {
+		  	color: $blue;
+		  	font-weight: 600;
+		  	position: relative;
+		  	left: calc(100% + 10px);
+		  	text-shadow: none;
+		  }
+		}
+	}
+}

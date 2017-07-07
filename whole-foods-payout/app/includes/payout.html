@@ -1,0 +1,15 @@
+{% macro build(data, max) %}
+<div class="bar-chart">
+  {% for row in data %}
+  <div class="chart-row">
+    <div class="row-label">{{ row.Product }}</div>
+    <div class="row-bar{% if loop.last %} last-row{% endif %}">
+      <span class="bar-color" style="width: {{ (+row.Pounds / max) * 100 }}%">
+        <span class="bar-value {% if row.Pounds < 18000000 %}outside{% endif %}">{{ row.Pounds|round|comma }} lbs</span>
+      </span>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endmacro %}
+

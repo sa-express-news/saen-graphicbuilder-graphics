@@ -1,0 +1,79 @@
+{
+  "RAW": [
+    {
+      "Product": "GT's Enlightened Organic Raw Kombucha Gingerade",
+      "Price": 3.49,
+      "Amount": 48731144,
+      "Ounces": 16
+    },
+    {
+      "Product": "Whole Foods Market Organic Baby Kale Mix",
+      "Price": 3.99,
+      "Amount": 42624484,
+      "Ounces": 5
+    },
+    {
+      "Product": "365 Organic White Quinoa",
+      "Price": 5.99,
+      "Amount": 28392603,
+      "Ounces": 16
+    },
+    {
+      "Product": "Whole Foods Market Original Hummus",
+      "Price": 4.99,
+      "Amount": 34082503,
+      "Ounces": 16
+    }
+  ],
+  "BY_POUND": [
+    {
+      "Product": "Whole Foods Market Organic Baby Kale Mix",
+      "Pounds": 17760201.67
+    },
+    {
+      "Product": "365 Organic White Quinoa",
+      "Pounds": 37856804
+    },
+    {
+      "Product": "Whole Foods Market Original Hummus",
+      "Pounds": 45443337.33
+    },
+    {
+      "Product": "GT's Enlightened Organic Raw Kombucha Gingerade",
+      "Pounds": 64974858.67
+    }
+  ],
+  "META": {
+    "graphic_title": "Whole Payout",
+    "prose": "Insiders at Whole Foods —which includes current and former executives and board members — stand to take home at least $171 million in equity when the organic grocer merges with Amazon. Here’s how much in Whole Foods products that payout could buy.",
+    "credit": "Joshua Fechter & Express-News Data Team",
+    "source": "U.S. Securities and Exchange Comission & Whole Foods Market"
+  },
+  "BY_AMOUNT": [
+    {
+      "product": "Organic Hass Avocado",
+      "price": 2.99,
+      "amount": 56880165
+    },
+    {
+      "product": "GT's Enlightened Organic Raw Kombucha Gingerade, 16 fl oz",
+      "price": 3.49,
+      "amount": 48731144
+    },
+    {
+      "product": "Whole Foods Market Organic Baby Kale Mix, 5 oz",
+      "price": 3.99,
+      "amount": 42624484
+    },
+    {
+      "product": "Whole Foods Market Original Hummus, 16 oz",
+      "price": 4.99,
+      "amount": 34082503
+    },
+    {
+      "product": "365 Organic White Quinoa, 16 oz",
+      "price": 5.99,
+      "amount": 28392603
+    }
+  ]
+}

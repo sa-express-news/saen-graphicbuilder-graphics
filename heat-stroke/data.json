@@ -1,0 +1,25 @@
+{
+  "META": {
+    "graphic_title": "Symptoms of heat-related illness",
+    "prose": "The three main types of heat-related illness are heat cramps, heat exhaustion and heat stroke.",
+    "source": "Johns Hopkins University"
+  },
+  "TIMELINE": [
+    {
+      "title": "Heat Cramps",
+      "date": 1,
+      "body": "Symptoms include painful muscle cramps and spasms, particularly in the legs, as well as moist skin."
+    },
+    {
+      "title": "Heat Exhaustion",
+      "date": 2,
+      "body": "Usually begins when the body's tempurature reaches 100.4 degrees Fahrenheit. Symptoms include heat cramps as well as nausea, vomiting, diarreah, headache, fatigue, weakness and anxiety"
+    },
+    {
+      "title": "Heat Stroke",
+      "date": 3,
+      "body": "Usually begins when the body's temperature reaches 104 degrees Fahrenheit. Symptoms include those of heat cramps and heat exhaustion, as well as warm skin, rapid heart rate, loss of appetite, confusion, agitation, lethargy, stupor, seizures, coma and possibly death",
+      "link": "http://www.hopkinsmedicine.org/healthlibrary/conditions/pediatrics/heat-related_illnesses_heat_cramps_heat_exhaustion_heat_stroke_90,P01611/"
+    }
+  ]
+}

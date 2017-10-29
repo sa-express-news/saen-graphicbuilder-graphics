@@ -34,9 +34,9 @@
 </div>
 
 <pre>
-  &lt;script src="//s3.amazonaws.com/graphics.expressnews.com/graphics/whole-foods-payout/scripts/pym/pym.min.js">&lt;/script>
+  &lt;script src="//s3.amazonaws.com/{{ INTERNAL.s3_bucket }}/graphics/{{ INTERNAL.slug }}/scripts/pym/pym.min.js">&lt;/script>
   &lt;script>
-    var url = '//s3.amazonaws.com/graphics.expressnews.com/graphics/whole-foods-payout/index.html';
+    var url = '//s3.amazonaws.com/{{ INTERNAL.s3_bucket }}/graphics/{{ INTERNAL.slug }}/index.html';
     var pymParent = new pym.Parent('pym-graphic', url, {});
   &lt;/script>
 </pre>

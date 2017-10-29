@@ -2,7 +2,7 @@
   "private": true,
   "config": {
     "s3_bucket": "graphics.expressnews.com",
-    "slug": "whole-foods-payout"
+    "slug": "serious-crimes-part-one"
   },
   "devDependencies": {
     "browser-sync": "^2.18.7",

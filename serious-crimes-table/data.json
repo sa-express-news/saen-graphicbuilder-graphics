@@ -1,0 +1,64 @@
+{
+  "META": {
+    "graphic_title": "Murder, aggravated assault fuel crime increase",
+    "prose": "Between 2015 and 2016, \"part one offenses\" increased 8 percent in San Antonio, fueled mostly by increases in murder and rape. This table shows the total number of incidents in each category for 2015 and 2016.",
+    "source": "FBI Uniform Crime Reporting",
+    "credit": "Emilie Eaton & Luke Whyte"
+  },
+  "FULL_YEAR": [
+    {
+      "type": "Murder and non-negligent manslaughter",
+      "year_2015": 94,
+      "year_2016": 149,
+      "change": 59
+    },
+    {
+      "type": "Rape",
+      "year_2015": 1049,
+      "year_2016": 1190,
+      "change": 13
+    },
+    {
+      "type": "Robbery",
+      "year_2015": 1986,
+      "year_2016": 2232,
+      "change": 12
+    },
+    {
+      "type": "Aggravated assault",
+      "year_2015": 5465,
+      "year_2016": 7183,
+      "change": 31
+    },
+    {
+      "type": "Burglary",
+      "year_2015": 11632,
+      "year_2016": 12235,
+      "change": 5
+    },
+    {
+      "type": "Larceny, theft",
+      "year_2015": 55803,
+      "year_2016": 58318,
+      "change": 5
+    },
+    {
+      "type": "Motor vehicle theft",
+      "year_2015": 6176,
+      "year_2016": 7233,
+      "change": 17
+    },
+    {
+      "type": "Arson",
+      "year_2015": 261,
+      "year_2016": 254,
+      "change": -3
+    },
+    {
+      "type": "Total",
+      "year_2015": 82466,
+      "year_2016": 88794,
+      "change": 8
+    }
+  ]
+}

@@ -11,6 +11,15 @@ var TreeMap = (function () {
   }
 
   TreeBuilder.prototype = {
+    setRootSetter: function () {
+      return d3.stratify()
+          .id(function(d) { return d.name; })
+          .parentId(function(d) { 
+            console.log(d)
+            return d.state; 
+          })
+    },
+
     setHeight: function () {
       return Math.round(this.width * 0.75);
     },
@@ -26,8 +35,9 @@ var TreeMap = (function () {
     init: function (id, data) {
       this.width      = this.setWidth();
       this.height     = this.setHeight();
+      this.rootSetter = this.setRootSetter();
       
-      console.log(data);
+      console.log(this.rootSetter(data));
     },
 
     /*

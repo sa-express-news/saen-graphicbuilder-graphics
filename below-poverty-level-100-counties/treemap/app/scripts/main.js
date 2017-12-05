@@ -1,4 +1,4 @@
-/* global pym, RadialBarChart */
+/* global pym, TreeMap */
 
 (function() {
   'use strict';
@@ -13,7 +13,7 @@
 
   function render() {
 
-    var radial = new RadialBarChart('#radial', 'assets/fips-and-percent.csv');
+    var treemap = new TreeMap('#treemap', 'assets/treemap-data.csv');
 
     sendHeight();
   }

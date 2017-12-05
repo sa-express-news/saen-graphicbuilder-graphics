@@ -1,35 +1,248 @@
 /* global, d3 */
 
-var RadialBarChart = (function (chart) {
+var RadialBarChart = (function () {
   'use strict';
 
-  var colorArr = [
-    '#8dd3c7',
-    '#ffffb3',
-    '#bebada',
-    '#fb8072',
-    '#80b1d3',
-    '#fdb462',
-    '#b3de69',
-    '#fccde5',
-    '#d9d9d9',
-    '#bc80bd',
-    '#ccebc5',
-    '#ffed6f'
-  ];
+  var colorArr = ['#8dd3c7','#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69','#fccde5','#d9d9d9','#bc80bd','#ccebc5'];
 
-  function BuildChart (id, data) {
-    this.data = this.sortData(data);
-    this.color = this.setColors();
+  function BuildChart (id, url) {
+    this.init = this.init.bind(this, id);
+    this.getData(url, this.init);
   }
 
   BuildChart.prototype = {
-    sortData: function (data) {
-      return data.sort(function(a, b) { return b.value - a.value; });
+    /*
+     * buildChart functions
+     */
+
+    buildLabels: function () {
+      var that = this;
+      var labels = this.svg.append('g')
+        .classed('labels', true);
+
+      labels.append('def')
+            .append('path')
+            .attr('id', 'label-path')
+            .attr('d', 'm0 ' + -this.utils.labelRadius + ' a' + this.utils.labelRadius + ' ' + this.utils.labelRadius + ' 0 1,1 -0.01 0');
+
+      labels.selectAll('text')
+            .data(this.utils.keys)
+          .enter().append('text')
+            .style('text-anchor', 'middle')
+            .style('font-weight','bold')
+            .style('fill', function(d, i) {return '#3e3e3e';})
+            .append('textPath')
+            .attr('xlink:href', '#label-path')
+            .attr('startOffset', function(d, i) {return i * 100 / that.utils.numBars + 50 / that.utils.numBars + '%';})
+            .text(function(d) {return d.toUpperCase(); });
+
+      return labels;
     },
 
-    setColors: function () {
+    buildXAxis: function () {
+      return this.svg.append('g')
+        .attr('class', 'x axis')
+        .call(this.utils.xAxisCB);
+    },
+
+    buildLines: function () {
+      var that = this;
+      return this.svg.selectAll('line')
+          .data(this.utils.keys)
+        .enter().append('line')
+          .attr('y2', -this.barHeight - 20)
+          .style('stroke', 'black')
+          .style('stroke-width','.5px')
+          .attr('transform', function(d, i) { return 'rotate(' + (i * 360 / that.utils.numBars) + ')'; });
+    },
+
+    buildOuterStroke: function () {
+      return this.svg.append('circle')
+          .attr('r', this.barHeight)
+          .classed('outer', true)
+          .style('fill', 'none')
+          .style('stroke', 'black')
+          .style('stroke-width','1.5px');
+    },
+
+    buildSegments: function () {
+      var that = this;
+      var segments = this.svg.selectAll('path')
+          .data(this.data)
+        .enter().append('path')
+          .each(function(d) { d.outerRadius = 0; })
+          .style('fill', function (d) { return that.utils.color(that.utils.mapStates(d.state)); })
+          .attr('d', this.utils.arc);
+
+      // set segment animations
+      segments.transition().ease(d3.easeElastic).duration(1000).delay(function(d,i) {return (25-i) * 100;})
+          .attrTween("d", function(d,index) {
+            var i = d3.interpolate(d.outerRadius, that.utils.barScale(+d.percent));
+            return function(t) { d.outerRadius = i(t); return that.utils.arc(d,index); };
+          });
+
+      return segments;
+    },
+
+    buildCircles: function () {
+      var that = this;
+      return this.svg.selectAll('circle')
+          .data(this.utils.x.ticks(3))
+        .enter().append('circle')
+          .attr('r', function(d) {return that.utils.barScale(d);})
+          .style('fill', 'none')
+          .style('stroke', 'black')
+          .style('stroke-dasharray', '2,2')
+          .style('stroke-width','.5px');
+    },
+
+    buildSVG: function (id) {
+      return d3.select(id).append('svg')
+          .attr('width', this.width)
+          .attr('height', this.height)
+        .append('g')
+          .attr('transform', 'translate(' + this.width / 2 + ',' + this.height / 2 + ')');
+    },
+
+    /* 
+     * buildChartUtils functions
+     */
+
+    setLabelRadius: function () {
+      return this.barHeight * 1.025
+    },
+
+    setArc: function (numBars) {
+      return d3.arc()
+          .startAngle(function(d,i) { return (i * 2 * Math.PI) / numBars; })
+          .endAngle(function(d,i) { return ((i + 1) * 2 * Math.PI) / numBars; })
+          .innerRadius(0);
+    },
+
+    setXAxisCB: function (x) {
+      return d3.axisLeft()
+          .scale(x)
+          .ticks(3)
+          .tickFormat(function (d) { return d + '%'; });
+    },
+
+    setBarScale: function (extent) {
+      return d3.scaleLinear()
+          .domain(extent)
+          .range([0, this.barHeight]);
+    },
+
+    setMapStates: function () {
+      var stateMap = {
+        '1': 'AL',
+        '4': 'AZ',
+        '13': 'GA',
+        '21': 'KY',
+        '22': 'LA',
+        '28': 'MS',
+        '35': 'NM',
+        '38': 'ND',
+        '46': 'SD',
+        '48': 'TX',
+        '72': 'PR',
+      };
+      return function (fips) {
+        return stateMap[fips] ? stateMap[fips] : fips;
+      }
+    },
+
+    setColor: function () {
       return d3.scaleOrdinal().range(colorArr);
     },
+
+    setKeys: function (mapStates) {
+      return this.data.map(function(d,i) { return mapStates(d.state); });
+    },
+
+    setX: function (extent) {
+      return d3.scaleLinear()
+          .domain(extent)
+          .range([0, -this.barHeight]);
+    },
+
+    setExtent: function () { 
+      return d3.extent(this.data, function(d) { return d.percent; });
+    },
+
+    /*
+     * initialization functions
+     */
+
+    buildChart: function (id) {
+      this.svg          = this.buildSVG(id);
+      this.circles      = this.buildCircles();
+      this.segments     = this.buildSegments();
+      //this.outerStroke  = this.buildOuterStroke();
+      this.lines        = this.buildLines();
+      this.xAxis        = this.buildXAxis();
+      //this.labels       = this.buildLabels();
+    },
+
+    buildChartUtils: function () {
+      var extent      = this.setExtent();
+      var x           = this.setX(extent);
+      var mapStates   = this.setMapStates();
+      var keys        = this.setKeys(mapStates);
+      return {
+        extent     : extent,
+        x          : x,
+        keys       : keys,
+        numBars    : keys.length,
+        color      : this.setColor(),
+        mapStates  : mapStates,
+        barScale   : this.setBarScale(extent),
+        xAxisCB    : this.setXAxisCB(x),
+        arc        : this.setArc(keys.length),
+        labelRadius: this.setLabelRadius(),
+      };
+    },
+
+    setData: function (data) {
+      return data.sort(function(a, b) { return b.percent - a.percent; });
+    },
+
+    setBarHeight: function () {
+      return this.height / 2 - 20;
+    },
+
+    setHeight: function () {
+      return Math.round(this.width * 0.75);
+    },
+
+    setWidth: function () {
+      return Math.round(window.innerWidth > 720 ? 720 : window.innerWidth);
+    },
+
+    /* 
+     * initalize chart in callback
+     */
+
+    init: function (id, data) {
+      this.width      = this.setWidth();
+      this.height     = this.setHeight();
+      this.barHeight  = this.setBarHeight();
+      this.data       = this.setData(data);
+      this.utils      = this.buildChartUtils();
+      
+      this.buildChart(id);
+    },
+
+    /*
+     * get data from csv
+     */
+
+    getData: function (url, callback) {
+      d3.csv(url, function(error, data) {
+        if (error) return console.error(error);
+        callback(data);
+      });
+    },
   };
-}(RadialBarChart || {}));
+
+  return BuildChart;
+}());

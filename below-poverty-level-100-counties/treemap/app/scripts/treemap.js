@@ -11,10 +11,73 @@ var TreeMap = (function () {
   }
 
   TreeBuilder.prototype = {
-    buildRoot: function (data) {
+    /*
+     * DOM builder functions
+     */
+
+    buildSVG: function (id) {
+      return d3.select(id).append('svg')
+          .attr('width', this.width)
+          .attr('height', this.height)
+        .selectAll("g")
+          .data(this.treeRoot.leaves())
+        .enter().append("g")
+          .attr("transform", function(d) { return "translate(" + d.x0 + "," + d.y0 + ")"; });
+    },
+
+    buildBlocks: function () {
+      var that = this;
+      return this.svg.append("rect")
+          .attr("id", function(d) { return d.data.id; })
+          .attr("width", function(d) { return d.x1 - d.x0; })
+          .attr("height", function(d) { return d.y1 - d.y0; })
+          .attr("fill", function(d) { return that.color(d.parent.data.id); });
+    },
+
+    /*
+     * util functions
+     */
+
+    buildTreemap: function () {
+      return this.treemapGenerator(this.treeRoot);
+    },
+
+    buildRoot: function () {
+      return d3.hierarchy(this.data)
+          .eachBefore(function(d) { d.data.id = (d.parent ? d.parent.data.id + "." : "") + d.data.key; })
+          .sum(function (d) { return d.value; })
+          .sort(function(a, b) { return b.height - a.height || b.value - a.value; });
+    },
+
+    setTreemapGenerator: function () {
+      return d3.treemap()
+        .tile(d3.treemapResquarify)
+        .size([this.width, this.height])
+        .round(true)
+        .paddingInner(1);
+    },
+
+    mapToHierarchy: function (data) {
+      var output = { name: 'counties', children: [] };
+      console.log(data)
+      data.forEach(function (county) {
+        var curr = {
+          name: county.key,
+          children: county.values,
+        };
+        output.children.push(curr);
+      });
+      return output;
+    },
+
+    nestData: function (data) {
       return d3.nest()
           .key(function(d) { return d.state; })
           .entries(data);
+    },
+
+    setColor: function () {
+      return d3.scaleOrdinal().range(colorArr);
     },
 
     setHeight: function () {
@@ -25,16 +88,29 @@ var TreeMap = (function () {
       return Math.round(window.innerWidth > 720 ? 720 : window.innerWidth);
     },
 
+    /*
+     * generate the DOM elements
+     */
+
+    buildChart: function (id) {
+      this.svg    = this.buildSVG(id);
+      this.blocks = this.buildBlocks();
+    },
+
     /* 
      * initalize chart in callback
      */
 
     init: function (id, data) {
-      this.width  = this.setWidth();
-      this.height = this.setHeight();
-      this.root   = this.buildRoot(data);
-      
-      console.log(this.root);
+      this.width              = this.setWidth();
+      this.height             = this.setHeight();
+      this.color              = this.setColor();
+      this.data               = this.mapToHierarchy(this.nestData(data));
+      this.treemapGenerator   = this.setTreemapGenerator();
+      this.treeRoot           = this.buildRoot();
+      this.treemap            = this.buildTreemap();
+
+      this.buildChart(id);
     },
 
     /*

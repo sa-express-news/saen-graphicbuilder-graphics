@@ -28,10 +28,25 @@ var TreeMap = (function () {
     buildBlocks: function () {
       var that = this;
       return this.svg.append("rect")
-          .attr("id", function(d) { return d.data.id; })
+          .attr("id", function(d) { return d.data.state; })
           .attr("width", function(d) { return d.x1 - d.x0; })
           .attr("height", function(d) { return d.y1 - d.y0; })
-          .attr("fill", function(d) { return that.color(d.parent.data.id); });
+          .attr("fill", function(d) { return that.color(d.parent.data.name); });
+    },
+
+    addText: function () {
+      return this.svg.append("clipPath")
+          .attr("id", function(d) { return "clip-" + d.data.state; })
+        .append("use")
+          .attr("xlink:href", function(d) { return "#" + d.data.state; })
+        .append("text")
+          .attr("clip-path", function(d) { return "url(#clip-" + d.data.state + ")"; })
+        .selectAll("tspan")
+          .data(function(d) { return d.data.name.split(/(?=[A-Z][^A-Z])/g); })
+        .enter().append("tspan")
+          .attr("x", 4)
+          .attr("y", function(d, i) { return 13 + i * 10; })
+          .text(function(d) { return d; });
     },
 
     /*
@@ -44,14 +59,12 @@ var TreeMap = (function () {
 
     buildRoot: function () {
       return d3.hierarchy(this.data)
-          .eachBefore(function(d) { d.data.id = (d.parent ? d.parent.data.id + "." : "") + d.data.key; })
           .sum(function (d) { return d.value; })
           .sort(function(a, b) { return b.height - a.height || b.value - a.value; });
     },
 
     setTreemapGenerator: function () {
       return d3.treemap()
-        .tile(d3.treemapResquarify)
         .size([this.width, this.height])
         .round(true)
         .paddingInner(1);
@@ -59,7 +72,6 @@ var TreeMap = (function () {
 
     mapToHierarchy: function (data) {
       var output = { name: 'counties', children: [] };
-      console.log(data)
       data.forEach(function (county) {
         var curr = {
           name: county.key,
@@ -94,7 +106,7 @@ var TreeMap = (function () {
 
     buildChart: function (id) {
       this.svg    = this.buildSVG(id);
-      this.blocks = this.buildBlocks();
+      this.blocks = this.addText(this.buildBlocks());
     },
 
     /* 

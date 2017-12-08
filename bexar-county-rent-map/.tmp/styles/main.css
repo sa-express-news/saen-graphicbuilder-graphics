@@ -761,7 +761,6 @@ a {
         border-bottom: 1px solid #282828;
         display: block;
         margin: 0;
-        padding: .43em .83em;
         cursor: pointer;
         z-index: 1000; }
         .interactive-well-map .form-group .awesomplete ul li mark {
@@ -810,20 +809,20 @@ a {
           .interactive-well-map .legend .legend-scale ul.legend-labels li span {
             width: 45px; } }
         .interactive-well-map .legend .legend-scale ul.legend-labels li span.one {
-          background: #FCE4CF; }
+          background: rgba(246, 210, 169, 0.6); }
         .interactive-well-map .legend .legend-scale ul.legend-labels li span.five {
-          background: #D17B5C; }
+          background: rgba(243, 170, 132, 0.6); }
         .interactive-well-map .legend .legend-scale ul.legend-labels li span.ten {
-          background: #FB6A4A; }
+          background: rgba(234, 129, 113, 0.6); }
         .interactive-well-map .legend .legend-scale ul.legend-labels li span.thirty {
-          background: #DE2D26; }
+          background: rgba(213, 93, 106, 0.6); }
         .interactive-well-map .legend .legend-scale ul.legend-labels li span.thirty-one-plus {
-          background: #A50F15; }
+          background: rgba(177, 63, 100, 0.6); }
 
 .interactive-well-map #interactive-well-map .leaflet-popup-content-wrapper {
   background: #434675;
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px; }
 
 .interactive-well-map #interactive-well-map .leaflet-popup-content-wrapper a {
@@ -841,8 +840,5 @@ a {
 .interactive-well-map #interactive-well-map .leaflet-top {
   z-index: 800; }
 
-.interactive-well-map #interactive-well-map path.well {
-  stroke-width: 2;
-  stroke: none; }
-  .interactive-well-map #interactive-well-map path.well:hover {
-    stroke: #434675; }
+.interactive-well-map #interactive-well-map path.rent:hover {
+  stroke: #434675; }

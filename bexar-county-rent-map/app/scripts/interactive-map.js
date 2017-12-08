@@ -3,22 +3,24 @@
 var RentMap = (function (maps) {
   'use strict';
 
+  var colorArr = ['#f6d2a9', '#f3aa84', '#ea8171', '#d55d6a', '#b13f64'];
+
   function InteractiveMap (el, data) {
     this.container = d3.select('#' + el);
     if (this.container.empty()) { return; }
-    this.width = this.getContainerWidth();
-    this.height = this.getHeight();
-    this.map = this.generateMapInstance(el);
+    this.width      = this.getContainerWidth();
+    this.height     = this.getHeight();
+    this.getColor   = this.setColorScale(data);
+    this.map        = this.generateMapInstance(el);
     this.stylelayer = this.getStyleLayer();
-    this.dataLayer = this.setDataLayer(data);
-    this.bindEvents();
+    this.dataLayer  = this.setDataLayer(data);
   }
 
   InteractiveMap.prototype = {
-    bbox: [ -104.0458814, 26.0696823, -93.7347459, 36.4813628 ],
+    bbox: [-98.89480591, 29.06937385, -98.04336548, 29.81800834 ],
 
     getWindowWidth: function () {
-      return window.innerWidth > 620 ? 620 : window.innerWidth;
+      return window.innerWidth > 720 ? 720 : window.innerWidth;
     },
 
     getContainerWidth: function () {
@@ -45,6 +47,13 @@ var RentMap = (function (maps) {
       return this.bbox[3] - this.bbox[1];
     },
 
+    setColorScale: function (data) {
+      var rentArr = data.features.map(function (feature) {
+        return feature.properties.rent;
+      });
+      return d3.scaleQuantile().domain(rentArr).range(colorArr);
+    },
+
     generateMapInstance: function (el) {
       var settings = this.getSettings();
       L.mapbox.accessToken = 'pk.eyJ1Ijoic2Flbi1lZGl0b3JzIiwiYSI6ImNpeXVreTZ6YjAwenYycW15d3hoNmp1aTEifQ.OjH869qC5JzcGVVy-rg4JQ';
@@ -53,89 +62,42 @@ var RentMap = (function (maps) {
     },
 
     getSettings: function () {
-      var zoom = this.width < 720 ? 10 : 11;
+      var zoom = this.width < 720 ? 9 : 10;
       return {
-        center: [29.40, -98.470],
+        center: [29.4384, -98.4801],
         zoom: zoom,
         minZoom: 9,
-        maxZoom: 18,
+        maxZoom: 19,
         scrollWheelZoom: false,
         attributionControl: false,
       };
     },
 
     getStyleLayer: function () {
-      var url = 'mapbox://styles/saen-editors/cj8lz9cbp6d0i2ro29ef2422q';
+      var url = 'mapbox://styles/saen-editors/cjaxkh3iv3cps2rpds7c4ja2y';
       return L.mapbox.styleLayer(url).addTo(this.map);
     },
 
     setDataLayer: function (data) {
+      var that = this;
       return L.geoJSON(data, {
         style: function (feature) {
-        return {color: feature.properties.rent}; // set colors with d3 or custom function then bind to map
-        // http://leafletjs.com/reference-1.2.0.html#geojson
-      }); //.bindPopup(this.setPopup.bind(this));
+          return {
+            weight: 0.5,
+            color: '#444',
+            opacity: 0.5,
+            fillColor: that.getColor(feature.properties.rent),
+            fillOpacity: 0.6,
+            lineCap: 'square',
+            className: 'rent',
+          };
+        }
+      }).bindPopup(this.setPopup).addTo(this.map);
     },
 
     setPopup: function (layer) {
-      var props = layer.feature.properties,
-          operator = this.firstLetterToUppercase(props.operator),
-          priority = this.addPriorityToPopup(props.priority),
-          result = '';
-
-      result += 'This orphan well is operated by ' + operator;
-      result += ' and has been inactive for ' + props.months_inactive + ' months'; // jshint ignore:line
-      result += priority;
-      return result;
-    },
-
-    firstLetterToUppercase: function (str) {
-      return str.toLowerCase().replace(/\b[a-z]/g, function (f) { return f.toUpperCase(); });
-    },
-
-    addPriorityToPopup: function (priority) {
-      if (priority) {
-        return ' with a priority level of ' + priority + '.';
-      } else {
-        return '.';
-      }
-    },
-
-    bindEvents: function () {
-      this.map.on('zoomend', this.addRemoveWells, this);
-    },
-
-    addRemoveWells: function (e) {
-      var zoom = e.target.getZoom(),
-          hasWells = this.map.hasLayer(this.dataLayer);
-      if (zoom >= 8) {
-        if (!hasWells) {
-          this.map.addLayer(this.dataLayer);
-        }
-        this.getWellRadius(zoom);
-      } else if (hasWells) {
-        this.map.removeLayer(this.dataLayer);
-      }
-    },
-
-    getWellRadius: function (zoom) {
-      var sm = 100,
-          med = 400,
-          lg = 1000;
-      if (zoom <= 9) {
-        this.setWellRadius(lg);
-      } else if (zoom <= 11) {
-        this.setWellRadius(med);
-      } else {
-        this.setWellRadius(sm);
-      }
-    },
-
-    setWellRadius: function (newRadius) {
-      var currRadius = this.dataLayer.getLayers()[0].getRadius();
-      if (currRadius !== newRadius) {
-        this.dataLayer.invoke('setRadius', newRadius);
-      }
+      var props = layer.feature.properties;
+      return 'This is ' + props.name + '. The median rent here is $' + props.rent + '.';
     },
   };
 
@@ -248,7 +210,7 @@ var RentMap = (function (maps) {
     },
 
     panToLocation: function (latlng) {
-      this.map.setView(latlng, 9);
+      this.map.setView(latlng, 14);
       this.clearAutocompleteResults();
     },
 
@@ -257,9 +219,9 @@ var RentMap = (function (maps) {
     },
   };
 
-  maps.buildInteractiveMap = function (el, wells) {
+  maps.buildInteractiveMap = function (el, data) {
     if (L) {
-      var interactiveMap = new InteractiveMap(el, wells);
+      var interactiveMap = new InteractiveMap(el, data);
       if (interactiveMap.map) {
         new Geocoder(interactiveMap.map, interactiveMap.bbox);
       }

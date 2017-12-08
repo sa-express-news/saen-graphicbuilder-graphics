@@ -13,7 +13,7 @@ var RentMap = (function (maps) {
       if (error) {
         return console.error(error);
       } else {
-        cb(data)
+        cb(data);
       }
     });
   };

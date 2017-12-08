@@ -54,7 +54,6 @@
           border-bottom: 1px solid #282828;
           display: block;
           margin: 0;
-          padding: .43em .83em;
           cursor: pointer;
           z-index: 1000;
 
@@ -110,11 +109,11 @@
               width: 45px;
             }
 
-            &.one { background: #FCE4CF; }
-            &.five { background: #D17B5C; }
-            &.ten { background: #FB6A4A; }
-            &.thirty { background: #DE2D26; }
-            &.thirty-one-plus { background: #A50F15; }
+            &.one { background: rgba(246,210,169, 0.6); }
+            &.five { background: rgba(243,170,132, 0.6); }
+            &.ten { background: rgba(234,129,113, 0.6); }
+            &.thirty { background: rgba(213,93,106,0.6); }
+            &.thirty-one-plus { background: rgba(177,63,100,0.6); }
           }
         }
       }
@@ -125,7 +124,7 @@
     .leaflet-popup-content-wrapper {
       background: #434675;
       color: #fff;
-      font-size: 16px;
+      font-size: 14px;
       line-height: 24px;
     }
     
@@ -146,10 +145,7 @@
 
     .leaflet-top { z-index: 800; }
 
-    path.well {
-      stroke-width: 2;
-      stroke: none;
-
+    path.rent {
       &:hover {
         stroke: #434675;
       }

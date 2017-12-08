@@ -724,6 +724,9 @@ a {
     margin: 0;
     padding: 0; }
 
+.graphic {
+  max-width: 720px; }
+
 .interactive-well-map .form-group {
   margin: 0 0 .625em; }
   .interactive-well-map .form-group label {

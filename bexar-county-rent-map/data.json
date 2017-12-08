@@ -1,1 +1,6 @@
-{}
+{
+  "META": {
+    "title_interactive_map": "See the median rent in your neighborhood",
+    "prose_interactive_map": "Enter an address below to see the 2016 median gross rent for the Census tract in that area."
+  }
+}

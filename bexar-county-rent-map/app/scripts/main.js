@@ -3,7 +3,7 @@
 (function() {
   'use strict';
 
-  var pymChild;
+  var pymChild, rentMap = null;
 
   function render() {
 
@@ -16,8 +16,8 @@
     d3.selectAll('svg').remove();
 
     RentMap.getData(function (data) {
-      if (RentMap.buildInteractiveMap) {
-        RentMap.buildInteractiveMap('interactive-well-map', data);
+      if (RentMap.buildInteractiveMap && !rentMap) {
+        rentMap = RentMap.buildInteractiveMap('interactive-well-map', data);
       }
 
       sendHeight();

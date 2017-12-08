@@ -1,0 +1,158 @@
+@import 'node_modules/newsapps-styles/init-helpers';
+@import 'node_modules/newsapps-styles/theme/graphic';
+
+@import 'base';
+
+.interactive-well-map {
+  .form-group {
+    margin: 0 0 .625em;
+
+    label {
+      display: inline-block;
+      font-size: .875em;
+      font-weight: 700;
+      margin: 0 0 .357142857em;
+    }
+
+    .awesomplete [hidden] {
+      display: none;
+    }
+
+    .awesomplete .visually-hidden {
+      position: absolute;
+      clip: rect(0, 0, 0, 0);
+    }
+
+    input, .awesomplete input {
+      display: block;
+      line-height: 1.4;
+      padding: .3125em .625em;
+      width: 100%;
+    }
+
+    .awesomplete {
+      display: inline-block;
+      width: 100%;
+      position: relative;
+
+      ul {
+        position: absolute;
+        left: 0;
+        z-index: 1000;
+        min-width: 100%;
+        box-sizing: border-box;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        background: #fff;
+
+        &:empty {
+          display: none;
+        }
+
+        li {
+          border-bottom: 1px solid #282828;
+          display: block;
+          margin: 0;
+          padding: .43em .83em;
+          cursor: pointer;
+          z-index: 1000;
+
+          mark { background: #FFFBCC; }
+        }
+      }
+    }
+  }
+
+  .legend {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    margin: 5px 0;
+    display: block;
+
+    .legend-title {
+      text-align: left;
+      margin-bottom: 8px;
+      font-weight: bold;
+      font-size: 90%;
+    }
+
+    .legend-scale {
+      @include clearfix;
+
+      ul.legend-labels {
+        margin: 0;
+        padding: 0;
+        float: left;
+        list-style: none;
+
+        li {
+          display: block;
+          float: left;
+          width: 62px;
+          margin-bottom: 6px;
+          text-align: center;
+          font-size: 75%;
+          list-style: none;
+
+          @include media($default-mobile) {
+            width: 45px;
+          }
+
+          span {
+            display: block;
+            float: left;
+            height: 15px;
+            width: 62px;
+            margin: 0 0 3px 0;
+
+            @include media($default-mobile) {
+              width: 45px;
+            }
+
+            &.one { background: #FCE4CF; }
+            &.five { background: #D17B5C; }
+            &.ten { background: #FB6A4A; }
+            &.thirty { background: #DE2D26; }
+            &.thirty-one-plus { background: #A50F15; }
+          }
+        }
+      }
+    }
+  }
+
+  #interactive-well-map {
+    .leaflet-popup-content-wrapper {
+      background: #434675;
+      color: #fff;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    
+    .leaflet-popup-content-wrapper a {
+      color: rgba(255,255,255,0.5);
+    }
+    
+    .leaflet-popup-tip-container {
+      width: 30px;
+      height: 15px;
+    }
+
+    .leaflet-popup-tip {
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-top: 15px solid #434675;
+    }
+
+    .leaflet-top { z-index: 800; }
+
+    path.well {
+      stroke-width: 2;
+      stroke: none;
+
+      &:hover {
+        stroke: #434675;
+      }
+    }
+  }
+}

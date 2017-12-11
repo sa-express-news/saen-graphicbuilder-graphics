@@ -18,8 +18,11 @@ var TreeMap = (function () {
     buildSVG: function (id) {
       return d3.select(id).append('svg')
           .attr('width', this.width)
-          .attr('height', this.height)
-        .selectAll("g")
+          .attr('height', this.height);
+    },
+
+    buildCell: function () {
+      return this.svg.selectAll("g")
           .data(this.treeRoot.leaves())
         .enter().append("g")
           .attr("transform", function(d) { return "translate(" + d.x0 + "," + d.y0 + ")"; });
@@ -27,19 +30,22 @@ var TreeMap = (function () {
 
     buildBlocks: function () {
       var that = this;
-      return this.svg.append("rect")
+      return this.cell.append("rect")
           .attr("id", function(d) { return d.data.state; })
           .attr("width", function(d) { return d.x1 - d.x0; })
           .attr("height", function(d) { return d.y1 - d.y0; })
           .attr("fill", function(d) { return that.color(d.parent.data.name); });
     },
 
-    addText: function () {
-      return this.svg.append("clipPath")
+    addClipPath: function () {
+      return this.cell.append("clipPath")
           .attr("id", function(d) { return "clip-" + d.data.state; })
         .append("use")
-          .attr("xlink:href", function(d) { return "#" + d.data.state; })
-        .append("text")
+          .attr("xlink:href", function(d) { return "#" + d.data.state; });
+    },
+
+    addText: function () {
+      return this.cell.append("text")
           .attr("clip-path", function(d) { return "url(#clip-" + d.data.state + ")"; })
         .selectAll("tspan")
           .data(function(d) { return d.data.name.split(/(?=[A-Z][^A-Z])/g); })
@@ -105,8 +111,11 @@ var TreeMap = (function () {
      */
 
     buildChart: function (id) {
-      this.svg    = this.buildSVG(id);
-      this.blocks = this.addText(this.buildBlocks());
+      this.svg      = this.buildSVG(id);
+      this.cell     = this.buildCell();
+      this.blocks   = this.buildBlocks();
+      this.clipPath = this.addClipPath();
+      this.text     = this.addText();
     },
 
     /* 

@@ -17,3 +17,16 @@
 .x.axis path {
   display: none;
 }
+
+.legend {
+	fill: none;
+	stroke: none;
+	font-size: 2.4em;
+	font-family: georgia, sans-serif;
+	font-weight: normal;
+
+	.desc {
+		font-size: 0.6em;
+		fill: rgb(51, 51, 51);
+	}
+}

@@ -48,7 +48,10 @@ var TreeMap = (function () {
       return this.cell.append("text")
           .attr("clip-path", function(d) { return "url(#clip-" + d.data.state + ")"; })
         .selectAll("tspan")
-          .data(function(d) { return d.data.name.split(/(?=[A-Z][^A-Z])/g); })
+          .data(function(d) {
+            var name = d.data.name;
+            return name.slice(0, name.indexOf(',')).split(/(?=[A-Z][^A-Z])/g); 
+          })
         .enter().append("tspan")
           .attr("x", 4)
           .attr("y", function(d, i) { return 13 + i * 10; })
@@ -114,8 +117,10 @@ var TreeMap = (function () {
       this.svg      = this.buildSVG(id);
       this.cell     = this.buildCell();
       this.blocks   = this.buildBlocks();
-      this.clipPath = this.addClipPath();
-      this.text     = this.addText();
+      if (this.width > 600) {
+        this.clipPath = this.addClipPath();
+        this.text     = this.addText();
+      }
     },
 
     /* 

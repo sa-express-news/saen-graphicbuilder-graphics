@@ -15,28 +15,32 @@ var RadialBarChart = (function () {
      * buildChart functions
      */
 
-    buildLabels: function () {
+    buildLegend: function () {
       var that = this;
-      var labels = this.svg.append('g')
-        .classed('labels', true);
+      var states = ['1','4','13','21','22','28','35','38','46','48','72'];
+      var legend = this.svg.append('g')
+        .attr('class', 'legend')
+        .attr('transform', 'translate(' + (this.width * -0.4) + ',' + (this.height * -0.4) + ')');
 
-      labels.append('def')
-            .append('path')
-            .attr('id', 'label-path')
-            .attr('d', 'm0 ' + -this.utils.labelRadius + ' a' + this.utils.labelRadius + ' ' + this.utils.labelRadius + ' 0 1,1 -0.01 0');
+      legend.selectAll('circle')
+          .data(states)
+        .enter().append('circle')
+          .attr('cy', function (d,i) { return (i + 1) * 30 + 20;})
+          .attr('r', 6)
+          .attr('cx', 6)
+          .attr('class', 'legendMarker')
+          .style('fill', function (d) {
+              return that.utils.color(that.utils.mapStates(d));
+          });
 
-      labels.selectAll('text')
-            .data(this.utils.keys)
-          .enter().append('text')
-            .style('text-anchor', 'middle')
-            .style('font-weight','bold')
-            .style('fill', function(d, i) {return '#3e3e3e';})
-            .append('textPath')
-            .attr('xlink:href', '#label-path')
-            .attr('startOffset', function(d, i) {return i * 100 / that.utils.numBars + 50 / that.utils.numBars + '%';})
-            .text(function(d) {return d.toUpperCase(); });
-
-      return labels;
+      legend.selectAll('.desc')
+          .data(states)
+        .enter().append('text')
+          .attr('y', function (d,i) { return (i + 1) * 30 + 24; })
+          .attr('x', 20)
+          .attr('class', 'desc')
+          .text(function (d) { return that.utils.mapStates(d); });
+      return legend;
     },
 
     buildXAxis: function () {
@@ -52,17 +56,9 @@ var RadialBarChart = (function () {
         .enter().append('line')
           .attr('y2', -this.barHeight - 20)
           .style('stroke', 'black')
+          .style('opacity', 0.5)
           .style('stroke-width','.5px')
           .attr('transform', function(d, i) { return 'rotate(' + (i * 360 / that.utils.numBars) + ')'; });
-    },
-
-    buildOuterStroke: function () {
-      return this.svg.append('circle')
-          .attr('r', this.barHeight)
-          .classed('outer', true)
-          .style('fill', 'none')
-          .style('stroke', 'black')
-          .style('stroke-width','1.5px');
     },
 
     buildSegments: function () {
@@ -177,10 +173,9 @@ var RadialBarChart = (function () {
       this.svg          = this.buildSVG(id);
       this.circles      = this.buildCircles();
       this.segments     = this.buildSegments();
-      //this.outerStroke  = this.buildOuterStroke();
       this.lines        = this.buildLines();
       this.xAxis        = this.buildXAxis();
-      //this.labels       = this.buildLabels();
+      this.legend       = this.buildLegend();
     },
 
     buildChartUtils: function () {

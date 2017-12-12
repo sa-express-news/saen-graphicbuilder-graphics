@@ -3,7 +3,7 @@
 var RadialBarChart = (function () {
   'use strict';
 
-  var colorArr = ['#8dd3c7','#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69','#fccde5','#d9d9d9','#bc80bd','#ccebc5'];
+  var colorArr = ['#8dd3c7','#ffffb3'];
 
   function BuildChart (id, url) {
     this.init = this.init.bind(this, id);
@@ -28,6 +28,7 @@ var RadialBarChart = (function () {
           .attr('cy', function (d,i) { return (i + 1) * 30 + 20;})
           .attr('r', 6)
           .attr('cx', 6)
+          .style('stroke', 'black')
           .attr('class', 'legendMarker')
           .style('fill', function (d) {
               return that.utils.color(that.utils.mapStates(d));

@@ -18,9 +18,10 @@ var RadialBarChart = (function () {
     buildLegend: function () {
       var that = this;
       var states = ['1','4','13','21','22','28','35','38','46','48','72'];
+      var yOffset = this.width < 720 ? -0.6 : -0.4;
       var legend = this.svg.append('g')
         .attr('class', 'legend')
-        .attr('transform', 'translate(' + (this.width * -0.4) + ',' + (this.height * -0.4) + ')');
+        .attr('transform', 'translate(' + (this.width * -0.4) + ',' + (this.height * yOffset) + ')');
 
       legend.selectAll('circle')
           .data(states)

@@ -1,0 +1,85 @@
+@import 'node_modules/newsapps-styles/init-helpers';
+@import 'node_modules/newsapps-styles/theme/graphic';
+
+@import 'base';
+
+// div#lit-wrapper {
+// 	max-width: 720px;
+
+// 	h2 {
+// 		font-family: Pierpont-bold, serif;
+// 		font-size: 24px;
+// 		font-weight: normal;
+// 		line-height: 30px;
+// 		margin: 1% auto;
+
+// 		@include media($default-mobile) {
+// 			font-size: 22px;
+// 		}
+// 	}
+
+// 	div#story-wrapper {
+// 		width: 100%;
+// 		text-align: center;
+// 		background-color: black;
+
+// 		div.story {
+// 			height: 100%;
+// 			width: 25%;
+// 			display: inline-block;
+
+// 			img {
+// 				width: 100%;
+// 				height: auto;
+// 			}
+
+// 			h3 {
+// 				color: white;
+// 				font-family: Pierpont-bold, serif;
+// 				font-size: 18px;
+// 				font-weight: normal;
+// 				margin: .5em 0 0;
+// 			}
+// 		}
+// 	}
+// }
+
+div#lit-wrapper {
+	max-width: 720px;
+
+	div.story {
+		height: 100%;
+		width: 25%;
+		display: inline-block;
+		margin-right: .5em;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+
+		h3 {
+			color: #333;
+			font-family: Pierpont-bold, serif;
+			font-size: 18px;
+			font-weight: normal;
+			margin: .5em 0 0;
+			text-align: center;
+		}
+	}
+
+	p {
+		font-family: Pierpont-bold, serif;
+		font-size: 26px;
+		font-weight: normal;
+		line-height: 30px;
+		margin: 1% auto;
+		display: inline-block;
+		width: 70%;
+		vertical-align: top;
+
+		@include media($default-mobile) {
+			font-size: 22px;
+		}
+	}
+}

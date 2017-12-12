@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title> | San Antonio Express News</title>
+  <title>{{ ONE.graphic_title }} | San Antonio Express News</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <base target='_parent'>
   <!-- build:css styles/main.min.css -->
@@ -13,8 +13,8 @@
 <body>
 
 <div class="graphic">
-  <h1></h1>
-  <p class="subtext"></p>
+  <h1>{{ ONE.graphic_title }}</h1>
+  <p class="subtext">{{ ONE.prose }}</p>
 
   <div id="graphic-container">
 
@@ -24,8 +24,8 @@
 
   <div class="footer">
     <ul>
-      
-      
+      {% if ONE.source %}<li>Source: {% if ONE.source_url %}<a href="{{ ONE. source_url }}">{{ ONE.source }}</a>{% else %}{{ ONE.source }}{% endif %}</li>{% endif %}
+      {% if ONE.credit %}<li>Credit: {{ ONE.credit }}</li>{% endif %}
     </ul>
   </div>
 </div>

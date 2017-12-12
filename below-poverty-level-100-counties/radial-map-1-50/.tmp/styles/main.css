@@ -724,6 +724,9 @@ a {
     margin: 0;
     padding: 0; }
 
+.graphic {
+  max-width: 720px; }
+
 #radial {
   font: 10px sans-serif; }
 

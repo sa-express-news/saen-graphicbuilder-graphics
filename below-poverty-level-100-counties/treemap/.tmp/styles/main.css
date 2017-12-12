@@ -723,3 +723,9 @@ a {
     list-style-type: none;
     margin: 0;
     padding: 0; }
+
+form {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+svg {
+  font: 10px sans-serif; }

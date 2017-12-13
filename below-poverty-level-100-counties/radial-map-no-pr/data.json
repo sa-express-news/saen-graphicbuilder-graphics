@@ -10,8 +10,8 @@
     "source": "U.S. Census Bureau 2016 American Community Survey 5-year estimates"
   },
   "THREE": {
-    "graphic_title": "100 poorest counties in U.S. minus Puerto Rico",
-    "prose": "This radial bar chart shows the 100 counties in the U.S., not including Puerto Rico, with the highest percentage of residents living below the poverty line in 2016.",
+    "graphic_title": "50 poorest counties in U.S. minus Puerto Rico",
+    "prose": "This radial bar chart shows the 50 counties in the U.S., not including Puerto Rico, with the highest percentage of residents living below the poverty line in 2016.",
     "source": "U.S. Census Bureau 2016 American Community Survey 5-year estimates"
   }
 }

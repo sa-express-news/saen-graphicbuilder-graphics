@@ -26,9 +26,12 @@ var RadialBarChart = (function () {
       legend.selectAll('circle')
           .data(states)
         .enter().append('circle')
-          .attr('cy', function (d,i) { return (i + 1) * 30 + 20;})
+          .attr('cy', function (d,i) { 
+            return that.width < 720 ? (i + 1) * 24 + 20 : (i + 1) * 30 + 20;
+          })
           .attr('r', 6)
           .attr('cx', 6)
+          .style('stroke', 'black')
           .attr('class', 'legendMarker')
           .style('fill', function (d) {
               return that.utils.color(that.utils.mapStates(d));
@@ -37,7 +40,9 @@ var RadialBarChart = (function () {
       legend.selectAll('.desc')
           .data(states)
         .enter().append('text')
-          .attr('y', function (d,i) { return (i + 1) * 30 + 24; })
+          .attr('y', function (d,i) { 
+            return that.width < 720 ? (i + 1) * 24 + 24 : (i + 1) * 30 + 24; 
+          })
           .attr('x', 20)
           .attr('class', 'desc')
           .text(function (d) { return that.utils.mapStates(d); });

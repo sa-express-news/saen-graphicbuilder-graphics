@@ -724,32 +724,82 @@ a {
     margin: 0;
     padding: 0; }
 
-div#lit-wrapper {
+form {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+svg {
+  font: 10px sans-serif; }
+
+.graphic {
   max-width: 720px; }
-  div#lit-wrapper div.story {
-    height: 100%;
-    width: 25%;
-    display: inline-block;
-    margin-right: .5em; }
-    div#lit-wrapper div.story img {
-      width: 100%;
-      height: auto; }
-    div#lit-wrapper div.story h3 {
-      color: #333;
-      font-family: Pierpont-bold, serif;
-      font-size: 18px;
-      font-weight: normal;
-      margin: .5em 0 0;
-      text-align: center; }
-  div#lit-wrapper p {
-    font-family: Pierpont-bold, serif;
-    font-size: 26px;
-    font-weight: normal;
-    line-height: 30px;
-    margin: 1% auto;
-    display: inline-block;
-    width: 42%;
-    vertical-align: top; }
-    @media screen and (max-width: 480px) {
-      div#lit-wrapper p {
-        font-size: 22px; } }
+
+.legend {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  margin: 5px 0;
+  display: block; }
+  .legend .legend-title {
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 90%; }
+  .legend .legend-scale:after {
+    clear: both;
+    content: ' ';
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden; }
+  .legend .legend-scale ul.legend-labels {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none; }
+    .legend .legend-scale ul.legend-labels li {
+      display: block;
+      float: left;
+      width: 62px;
+      margin-bottom: 6px;
+      text-align: center;
+      font-size: 75%;
+      list-style: none; }
+      @media screen and (max-width: 480px) {
+        .legend .legend-scale ul.legend-labels li {
+          width: 45px; } }
+      .legend .legend-scale ul.legend-labels li span {
+        display: block;
+        float: left;
+        height: 15px;
+        width: 62px;
+        margin: 0 0 3px 0; }
+        @media screen and (max-width: 480px) {
+          .legend .legend-scale ul.legend-labels li span {
+            width: 45px; } }
+        .legend .legend-scale ul.legend-labels li span.AL {
+          background: #80b1d3; }
+        .legend .legend-scale ul.legend-labels li span.AK {
+          background: #ccebc5; }
+        .legend .legend-scale ul.legend-labels li span.AZ {
+          background: #ffed6f; }
+        .legend .legend-scale ul.legend-labels li span.AR {
+          background: #b15928; }
+        .legend .legend-scale ul.legend-labels li span.GA {
+          background: #fdb462; }
+        .legend .legend-scale ul.legend-labels li span.KY {
+          background: #fb8072; }
+        .legend .legend-scale ul.legend-labels li span.LA {
+          background: #fccde5; }
+        .legend .legend-scale ul.legend-labels li span.MS {
+          background: #ffffb3; }
+        .legend .legend-scale ul.legend-labels li span.MT {
+          background: #8dd3c7; }
+        .legend .legend-scale ul.legend-labels li span.NM {
+          background: #bc80bd; }
+        .legend .legend-scale ul.legend-labels li span.ND {
+          background: #d9d9d9; }
+        .legend .legend-scale ul.legend-labels li span.SD {
+          background: #bebada; }
+        .legend .legend-scale ul.legend-labels li span.TX {
+          background: #b3de69; }
+        .legend .legend-scale ul.legend-labels li span.WV {
+          background: #1f78b4; }

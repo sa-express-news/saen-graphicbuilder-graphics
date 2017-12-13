@@ -3,7 +3,7 @@
 var RadialBarChart = (function () {
   'use strict';
 
-  var colorArr = ['#8dd3c7','#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69','#fccde5','#d9d9d9','#bc80bd','#ccebc5'];
+  var colorArr = ['#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69','#fccde5','#d9d9d9','#bc80bd','#ccebc5','#ffed6f', '#1f78b4','#b15928','#8dd3c7'];
 
   function BuildChart (id, url) {
     this.init = this.init.bind(this, id);
@@ -17,17 +17,21 @@ var RadialBarChart = (function () {
 
     buildLegend: function () {
       var that = this;
-      var states = ['1','4','13','21','22','28','35','38','46','48','72'];
+      var states = ['1', '2', '4', '5', '13', '21', '22', '28', '30', '35', '38', '46', '48', '54'];
+      var yOffset = this.width < 720 ? -0.6 : -0.45;
       var legend = this.svg.append('g')
         .attr('class', 'legend')
-        .attr('transform', 'translate(' + (this.width * -0.4) + ',' + (this.height * -0.4) + ')');
+        .attr('transform', 'translate(' + (this.width * -0.4) + ',' + (this.height * yOffset) + ')');
 
       legend.selectAll('circle')
           .data(states)
         .enter().append('circle')
-          .attr('cy', function (d,i) { return (i + 1) * 30 + 20;})
+          .attr('cy', function (d,i) {
+            return that.width < 720 ? (i + 1) * 20 + 20 : (i + 1) * 30 + 20;
+          })
           .attr('r', 6)
           .attr('cx', 6)
+          .style('stroke', 'black')
           .attr('class', 'legendMarker')
           .style('fill', function (d) {
               return that.utils.color(that.utils.mapStates(d));
@@ -36,7 +40,9 @@ var RadialBarChart = (function () {
       legend.selectAll('.desc')
           .data(states)
         .enter().append('text')
-          .attr('y', function (d,i) { return (i + 1) * 30 + 24; })
+          .attr('y', function (d,i) { 
+            return that.width < 720 ? (i + 1) * 20 + 24 : (i + 1) * 30 + 24;
+          })
           .attr('x', 20)
           .attr('class', 'desc')
           .text(function (d) { return that.utils.mapStates(d); });
@@ -131,16 +137,19 @@ var RadialBarChart = (function () {
     setMapStates: function () {
       var stateMap = {
         '1': 'AL',
+        '2': 'AK',
         '4': 'AZ',
+        '5': 'AR',
         '13': 'GA',
         '21': 'KY',
         '22': 'LA',
         '28': 'MS',
+        '30': 'MT',
         '35': 'NM',
         '38': 'ND',
         '46': 'SD',
         '48': 'TX',
-        '72': 'PR',
+        '54': 'WV',
       };
       return function (fips) {
         return stateMap[fips] ? stateMap[fips] : fips;

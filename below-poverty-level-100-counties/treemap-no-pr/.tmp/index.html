@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{{ FOUR.graphic_title }} | San Antonio Express News</title>
+  <title>50 poorest counties in U.S. states | San Antonio Express News</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <base target='_parent'>
   <!-- build:css styles/main.min.css -->
@@ -13,26 +13,29 @@
 <body>
 
 <div class="graphic">
-  <h1>{{ FOUR.graphic_title }}</h1>
-  <p class="subtext">{{ FOUR.prose }}</p>
+  <h1>50 poorest counties in U.S. states</h1>
+  <p class="subtext">This treemap shows the 50 U.S. counties, including Puerto Rico, with the highest percentage of people living below the poverty line in 2016, color-coded by state.</p>
 
   <div id="graphic-container">
 
     <div class="legend">
-        <div class="legend-title">States and Puerto Rico</div>
+        <div class="legend-title">U.S. states</div>
         <div class="legend-scale">
           <ul class="legend-labels">
             <li><span class="AL"></span>AL</li>
+            <li><span class="AK"></span>AK</li>
             <li><span class="AZ"></span>AZ</li>
+            <li><span class="AR"></span>AR</li>
             <li><span class="GA"></span>GA</li>
             <li><span class="KY"></span>KY</li>
             <li><span class="LA"></span>LA</li>
             <li><span class="MS"></span>MS</li>
+            <li><span class="MT"></span>MT</li>
             <li><span class="NM"></span>NM</li>
             <li><span class="ND"></span>ND</li>
             <li><span class="SD"></span>SD</li>
             <li><span class="TX"></span>TX</li>
-            <li><span class="PR"></span>PR</li>
+            <li><span class="WV"></span>WV</li>
           </ul>
         </div>
       </div>
@@ -43,8 +46,8 @@
 
   <div class="footer">
     <ul>
-      {% if FOUR.source %}<li>Source: {% if FOUR.source_url %}<a href="{{ FOUR. source_url }}">{{ FOUR.source }}</a>{% else %}{{ FOUR.source }}{% endif %}</li>{% endif %}
-      {% if FOUR.credit %}<li>Credit: {{ FOUR.credit }}</li>{% endif %}
+      <li>Source: U.S. Census Bureau 2016 American Community Survey 5-year estimates</li>
+      
     </ul>
   </div>
 </div>

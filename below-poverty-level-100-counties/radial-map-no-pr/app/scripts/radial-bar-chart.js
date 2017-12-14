@@ -19,7 +19,7 @@ var RadialBarChart = (function () {
     buildLegend: function () {
       var that = this;
       var states = ['1', '2', '4', '5', '13', '21', '22', '28', '30', '35', '38', '46', '48', '54'];
-      var yOffset = this.width < 500 ? -0.75 : -0.45;
+      var yOffset = this.width < 500 ? -0.55 : -0.45;
       var legend = this.svg.append('g')
         .attr('class', 'legend')
         .attr('transform', 'translate(' + (this.width * -0.4) + ',' + (this.height * yOffset) + ')');
@@ -28,7 +28,7 @@ var RadialBarChart = (function () {
           .data(states)
         .enter().append('circle')
           .attr('cy', function (d,i) {
-            return that.width < 500 ? (i + 1) * 20 + 20 : (i + 1) * 30 + 20;
+            return that.width < 500 ? (i + 1) * 15 + 20 : (i + 1) * 30 + 20;
           })
           .attr('r', 6)
           .attr('cx', 6)
@@ -42,7 +42,7 @@ var RadialBarChart = (function () {
           .data(states)
         .enter().append('text')
           .attr('y', function (d,i) { 
-            return that.width < 500 ? (i + 1) * 20 + 24 : (i + 1) * 30 + 24;
+            return that.width < 500 ? (i + 1) * 15 + 24 : (i + 1) * 30 + 24;
           })
           .attr('x', 20)
           .attr('class', 'desc')

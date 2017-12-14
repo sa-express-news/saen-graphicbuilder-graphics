@@ -2,7 +2,7 @@
   "private": true,
   "config": {
     "s3_bucket": "graphics.expressnews.com",
-    "slug": ""
+    "slug": "treemap-hundred-poorest-counties-no-pr"
   },
   "devDependencies": {
     "browser-sync": "^2.18.7",

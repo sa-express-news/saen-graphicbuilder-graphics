@@ -5,8 +5,9 @@ var RadialBarChart = (function () {
 
   var colorArr = ['#8dd3c7','#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69','#fccde5','#d9d9d9','#bc80bd','#ccebc5'];
 
-  function BuildChart (id, url) {
+  function BuildChart (id, url, sendHeight) {
     this.init = this.init.bind(this, id);
+    this.sendHeight = sendHeight;
     this.getData(url, this.init);
   }
 
@@ -18,7 +19,7 @@ var RadialBarChart = (function () {
     buildLegend: function () {
       var that = this;
       var states = ['1','4','13','21','22','28','35','38','46','48','72'];
-      var yOffset = this.width < 720 ? -0.6 : -0.4;
+      var yOffset = this.width < 500 ? -0.65 : -0.4;
       var legend = this.svg.append('g')
         .attr('class', 'legend')
         .attr('transform', 'translate(' + (this.width * -0.4) + ',' + (this.height * yOffset) + ')');
@@ -27,7 +28,7 @@ var RadialBarChart = (function () {
           .data(states)
         .enter().append('circle')
           .attr('cy', function (d,i) { 
-            return that.width < 720 ? (i + 1) * 24 + 20 : (i + 1) * 30 + 20;
+            return that.width < 500 ? (i + 1) * 24 + 20 : (i + 1) * 30 + 20;
           })
           .attr('r', 6)
           .attr('cx', 6)
@@ -41,7 +42,7 @@ var RadialBarChart = (function () {
           .data(states)
         .enter().append('text')
           .attr('y', function (d,i) { 
-            return that.width < 720 ? (i + 1) * 24 + 24 : (i + 1) * 30 + 24; 
+            return that.width < 500 ? (i + 1) * 24 + 24 : (i + 1) * 30 + 24; 
           })
           .attr('x', 20)
           .attr('class', 'desc')
@@ -111,7 +112,7 @@ var RadialBarChart = (function () {
      */
 
     setLabelRadius: function () {
-      return this.barHeight * 1.025
+      return this.barHeight * 1.025;
     },
 
     setArc: function (numBars) {
@@ -150,7 +151,7 @@ var RadialBarChart = (function () {
       };
       return function (fips) {
         return stateMap[fips] ? stateMap[fips] : fips;
-      }
+      };
     },
 
     setColor: function () {
@@ -231,6 +232,7 @@ var RadialBarChart = (function () {
       this.utils      = this.buildChartUtils();
       
       this.buildChart(id);
+      this.sendHeight(); // we now know how big the SVG is
     },
 
     /*

@@ -5,8 +5,9 @@ var TreeMap = (function () {
 
   var colorArr = ['#8dd3c7','#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69','#fccde5','#d9d9d9','#bc80bd','#ccebc5'];
 
-  function TreeBuilder (id, url) {
+  function TreeBuilder (id, url, sendHeight) {
     this.init = this.init.bind(this, id);
+    this.sendHeight = sendHeight;
     this.getData(url, this.init);
   }
 
@@ -50,7 +51,7 @@ var TreeMap = (function () {
         .selectAll("tspan")
           .data(function(d) {
             var name = d.data.name;
-            return name.slice(0, name.indexOf(',')).split(/(?=[A-Z][^A-Z])/g); 
+            return name.split(/(?=[A-Z][^A-Z])/g); 
           })
         .enter().append("tspan")
           .attr("x", 4)
@@ -137,6 +138,7 @@ var TreeMap = (function () {
       this.treemap            = this.buildTreemap();
 
       this.buildChart(id);
+      this.sendHeight();
     },
 
     /*

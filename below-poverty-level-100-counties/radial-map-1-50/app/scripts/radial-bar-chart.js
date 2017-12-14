@@ -5,8 +5,9 @@ var RadialBarChart = (function () {
 
   var colorArr = ['#8dd3c7','#ffffb3'];
 
-  function BuildChart (id, url) {
+  function BuildChart (id, url, sendHeight) {
     this.init = this.init.bind(this, id);
+    this.sendHeight = sendHeight;
     this.getData(url, this.init);
   }
 
@@ -22,10 +23,17 @@ var RadialBarChart = (function () {
         .attr('class', 'legend')
         .attr('transform', 'translate(' + (this.width * -0.4) + ',' + (this.height * -0.4) + ')');
 
+      legend.append('text')
+        .attr('class', 'header')
+        .attr('y', that.width < 500 ? 15 : 20)
+        .text('State/Territory');
+
       legend.selectAll('circle')
           .data(states)
         .enter().append('circle')
-          .attr('cy', function (d,i) { return (i + 1) * 30 + 20;})
+          .attr('cy', function (d,i) { 
+            return that.width < 500 ?  (i + 1) * 20 + 20 : (i + 1) * 30 + 20;
+          })
           .attr('r', 6)
           .attr('cx', 6)
           .style('stroke', 'black')
@@ -37,7 +45,9 @@ var RadialBarChart = (function () {
       legend.selectAll('.desc')
           .data(states)
         .enter().append('text')
-          .attr('y', function (d,i) { return (i + 1) * 30 + 24; })
+          .attr('y', function (d,i) { 
+            return that.width < 500 ? (i + 1) * 20 + 24 : (i + 1) * 30 + 24;
+          })
           .attr('x', 20)
           .attr('class', 'desc')
           .text(function (d) { return that.utils.mapStates(d); });
@@ -106,7 +116,7 @@ var RadialBarChart = (function () {
      */
 
     setLabelRadius: function () {
-      return this.barHeight * 1.025
+      return this.barHeight * 1.025;
     },
 
     setArc: function (numBars) {
@@ -145,7 +155,7 @@ var RadialBarChart = (function () {
       };
       return function (fips) {
         return stateMap[fips] ? stateMap[fips] : fips;
-      }
+      };
     },
 
     setColor: function () {
@@ -226,6 +236,7 @@ var RadialBarChart = (function () {
       this.utils      = this.buildChartUtils();
       
       this.buildChart(id);
+      this.sendHeight();
     },
 
     /*

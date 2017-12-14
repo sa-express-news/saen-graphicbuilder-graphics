@@ -5,8 +5,9 @@ var TreeMap = (function () {
 
   var colorArr = ['#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69','#fccde5','#d9d9d9','#bc80bd','#ccebc5','#ffed6f', '#1f78b4','#b15928','#8dd3c7'];
 
-  function TreeBuilder (id, url) {
+  function TreeBuilder (id, url, sendHeight) {
     this.init = this.init.bind(this, id);
+    this.sendHeight = sendHeight;
     this.getData(url, this.init);
   }
 
@@ -137,6 +138,7 @@ var TreeMap = (function () {
       this.treemap            = this.buildTreemap();
 
       this.buildChart(id);
+      this.sendHeight();
     },
 
     /*

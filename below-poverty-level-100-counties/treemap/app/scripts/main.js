@@ -13,9 +13,10 @@
 
   function render() {
 
-    var treemap = new TreeMap('#treemap', 'assets/treemap-data.csv');
+    d3.selectAll('svg').remove();
 
-    sendHeight();
+    var treemap = new TreeMap('#treemap', 'assets/treemap-data.csv', sendHeight);
+
   }
 
   function load() {

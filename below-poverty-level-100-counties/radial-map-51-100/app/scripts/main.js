@@ -13,9 +13,10 @@
 
   function render() {
 
-    var radial = new RadialBarChart('#radial', 'assets/fips-and-percent.csv');
+    d3.selectAll('svg').remove();
 
-    sendHeight();
+    var radial = new RadialBarChart('#radial', 'assets/fips-and-percent.csv', sendHeight);
+
   }
 
   function load() {

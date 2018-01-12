@@ -16,11 +16,11 @@
   },
   "FOUR": {
     "graphic_title": "100 poorest U.S. counties",
-    "prose": "This treemap shows the 100 U.S. counties, including Puerto Rico, with the highest percentage of people living below the poverty line in 2016, color-coded by state1",
+    "prose": "This treemap shows the 100 U.S. counties, including Puerto Rico, with the highest percentage of people living below the poverty line in 2016, color-coded by state.",
     "source": "U.S. Census Bureau 2016 American Community Survey 5-year estimates"
   },
   "FIVE": {
-    "graphic_title": "50 poorest U.S. counties",
+    "graphic_title": "50 poorest counties in U.S. minus Puerto Rico",
     "prose": "This treemap shows the 50 U.S. counties, including Puerto Rico, with the highest percentage of people living below the poverty line in 2016, color-coded by state.",
     "source": "U.S. Census Bureau 2016 American Community Survey 5-year estimates"
   }

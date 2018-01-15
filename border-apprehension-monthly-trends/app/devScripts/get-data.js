@@ -137,8 +137,8 @@ const runSync = async () => {
 	const stableYrsAvg = setStableYrsAvg(sheet);
 	sheet.push(stableYrsAvg);
 	const data = parseToSchema(sheet);
-	const groupedData = splitDataToGroups(data);
-	return writeToJSON(JSON.stringify(groupedData));
+	//const groupedData = splitDataToGroups(data);
+	return writeToJSON(JSON.stringify(data));
 };
 
 runSync().catch(err => console.error(err)); 

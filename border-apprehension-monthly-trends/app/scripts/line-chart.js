@@ -7,9 +7,13 @@ var buildLineChart = function (el, dataPath, sendHeight) {
 		this.data 	= data;
 		this.width 	= this.setWidth();
 		this.height = this.setHeight();
-		this.svg 	= this.buildSVG(el);
 		this.lines	= this.setLines();
 		this.scales	= this.setScales();
+
+		// build chart
+		this.svg 	= this.buildSVG(el);
+		this.g 		= this.addMainGroup();
+		this.xAxis	= this.addXAxis();
 	}
 
 	LineChart.prototype = {
@@ -21,14 +25,6 @@ var buildLineChart = function (el, dataPath, sendHeight) {
 
 		setHeight: function () {
 			return Math.round(this.width * 0.75);
-		},
-
-		buildSVG: function (el) {
-			return d3.select(el).append('svg')
-						.attr('width', this.width)
-						.attr('height', this.height)
-					.append('g')
-						.attr('transform', 'translate(' + this.margin.left + "," + this.margin.top + ')');
 		},
 
 		setLines: function () {
@@ -70,14 +66,26 @@ var buildLineChart = function (el, dataPath, sendHeight) {
 		},
 
 		setScales: function () {
-			// more compicated than this. I need to calculate for all the three options.
 			return {
-				x: d3.scaleOrdinal().domain(this.data.map(function(d) { return d.month; })).rangeRoundBands([0, this.width]),
+				x: d3.scaleOrdinal().domain(this.data.map(function(d) { return d.month; })).range([0, this.width]),
 				y: d3.scaleLinear().domain([
 						d3.min(this.data, function(y) { return d3.min(y.values, function(d) { return d.rate; }); }),
     					d3.max(this.data, function(y) { return d3.max(y.values, function(d) { return d.rate; }); })
 					]).range([this.height, 0]),
 			};
+		},
+
+		// build chart
+
+		buildSVG: function (el) {
+			return d3.select(el).append('svg')
+						.attr('width', this.width)
+						.attr('height', this.height);
+		},
+
+		addMainGroup: function () {
+			return this.svg.append('g')
+						.attr('transform', 'translate(' + this.margin.left + "," + this.margin.top + ')')
 		},
 	};
 

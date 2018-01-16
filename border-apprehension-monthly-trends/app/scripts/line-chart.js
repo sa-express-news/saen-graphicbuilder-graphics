@@ -32,9 +32,18 @@ var buildLineChart = function (el, dataPath, sendHeight) {
 			return Math.round(this.width * 0.75) - this.margin.top - this.margin.bottom;
 		},
 
+		setOrdinalRange: function () {
+			var incr 	= this.width / 12,
+				res 	= new Array(12);
+			for (var i = 0; i < res.length; i++) {
+				res[i] = i * incr;
+			}
+			return res;
+		},
+
 		setScales: function () {
 			return {
-				x: d3.scaleOrdinal().domain(this.data.map(function(d) { return d.month; })).range([0, this.width]),
+				x: d3.scaleOrdinal(this.setOrdinalRange()).domain(this.data[0].values.map(function(d) { return d.month; })),
 				y: d3.scaleLinear().domain([
 						d3.min(this.data, function(y) { return d3.min(y.values, function(d) { return d.rate; }); }),
     					d3.max(this.data, function(y) { return d3.max(y.values, function(d) { return d.rate; }); })
@@ -54,7 +63,7 @@ var buildLineChart = function (el, dataPath, sendHeight) {
 					name: 'stable',
 					type: 'curveLinear',
 					color: 'blue',
-					opacity: 0.5, 
+					opacity: 0.2, 
 				},
 				{
 					name: 'unstable',
@@ -155,7 +164,7 @@ var buildLineChart = function (el, dataPath, sendHeight) {
 					.attr("d", function (d) { 
 						return that.lines[name].line(d.values); 
 					})
-					.style("stroke", this.lines[name].styles.colors)
+					.style("stroke", this.lines[name].styles.color)
 					.style("stroke-opacity", this.lines[name].styles.opacity);
 		},
 

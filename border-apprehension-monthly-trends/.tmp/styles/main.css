@@ -723,3 +723,11 @@ a {
     list-style-type: none;
     margin: 0;
     padding: 0; }
+
+div#line-chart svg .axis--x path {
+  display: none; }
+
+div#line-chart svg .line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px; }

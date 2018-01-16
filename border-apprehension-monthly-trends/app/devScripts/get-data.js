@@ -59,7 +59,7 @@ const averageMonths = month => {
 };
 
 const setStableYrsAvg = sheet => {
-	const result = { year: 'average' };
+	const result = { year: '2000-2013' };
 	const toAvg = sheet.reduce(arrangeByMonth, emptyYear);
 	for (var key in toAvg) {
 		if (toAvg.hasOwnProperty(key)) {
@@ -82,6 +82,24 @@ const setStableYrsAvg = sheet => {
  * ]
  */
 
+const mapToMonthKeys = month => {
+	const map = {
+		october: 'Oct',
+		november: 'Nov',
+		december: 'Dec',
+		january: 'Jan',
+		february: 'Feb',
+		march: 'Mar',
+		april: 'Apr',
+		may: 'May',
+		june: 'Jun',
+		july: 'Jul',
+		august: 'Aug',
+		september: 'Sep',
+	};
+	return map[month];
+};
+
 const mapObject = (obj, cb) => {
 	var res = [];
 	for (var key in obj) {
@@ -95,7 +113,7 @@ const mapObject = (obj, cb) => {
 const parseToSchema = sheet => sheet.map((curr) => ({
 	year: curr.year,
 	values: mapObject(curr, (val, key) => ({
-		month: key,
+		month: mapToMonthKeys(key),
 		rate: val,
 	})),
 }));
@@ -111,7 +129,7 @@ const splitDataToGroups = data => {
 		unstable: [],
 	};
 	return data.reduce((res, curr) => {
-		if (curr.year === 'average') {
+		if (curr.year === '2000-2013') {
 			res.stableAverage.push(curr);
 		} else if (curr.year === '2014' || curr.year === '2015' || curr.year === '2016' || curr.year === '2017') {
 			res.unstable.push(curr);

@@ -19,6 +19,8 @@ var buildLineChart = function (el, dataPath, sendHeight) {
 		// add data to chart
 		this.years	= this.addYears(this.filterYears());
 		this.displayYears();
+		
+		this.legend = this.addLegend();
 	}
 
 	LineChart.prototype = {
@@ -48,30 +50,35 @@ var buildLineChart = function (el, dataPath, sendHeight) {
 						d3.min(this.data, function(y) { return d3.min(y.values, function(d) { return d.rate; }); }),
     					d3.max(this.data, function(y) { return d3.max(y.values, function(d) { return d.rate; }); })
 					]).range([this.height, 0]),
+				z: d3.scaleOrdinal(['#a6cee3','#1f78b4','#b2df8a','#33a02c']).domain(['2014', '2015', '2016', '2017']),
 			};
 		},
 
 		setLines: function () {
+			var that = this;
 			var lineTypes = [
 				{
 					name: 'stableAverage',
-					type: 'curveBasis',
-					color: 'blue',
+					type: 'curveLinear',
+					color: function () { return '#fb9a99' },
+					width: 2,
 					opacity: 1,
 				},
 				{
 					name: 'stable',
 					type: 'curveLinear',
-					color: 'blue',
-					opacity: 0.2, 
+					color: function () { return '#fb9a99' },
+					width: 0.6,
+					opacity: 0.6, 
 				},
 				{
 					name: 'unstable',
 					type: 'curveLinear',
-					color: 'green', 
+					width: 2,
+					opacity: 1, 
+					color: function (year) { return that.scales.z(year) }, 
 				},
-			],
-			that = this;
+			];
 
 			return lineTypes.reduce(function (res, config) {
 				var lineHash 	= {};
@@ -83,6 +90,7 @@ var buildLineChart = function (el, dataPath, sendHeight) {
 				lineHash.styles = {
 					color: config.color,
 					opacity: config.opacity,
+					width: config.width,
 				};
 
 				res[config.name] = lineHash;
@@ -100,7 +108,7 @@ var buildLineChart = function (el, dataPath, sendHeight) {
 
 		addMainGroup: function () {
 			return this.svg.append('g')
-						.attr('transform', 'translate(' + this.margin.left + "," + this.margin.top + ')');
+						.attr('transform', 'translate(' + this.margin.left + ',' + this.margin.top + ')');
 		},
 
 		addXAxis: function () {
@@ -129,7 +137,7 @@ var buildLineChart = function (el, dataPath, sendHeight) {
 				unstable: [],
 			};
 			return this.data.reduce(function (grouped, curr) {
-				if (curr.year === 'average') {
+				if (curr.year === '2000-2013') {
 					grouped.stableAverage.push(curr);
 				} else if (curr.year === '2014' || curr.year === '2015' || curr.year === '2016' || curr.year === '2017') {
 					grouped.unstable.push(curr);
@@ -159,19 +167,30 @@ var buildLineChart = function (el, dataPath, sendHeight) {
 
 		displayGroup: function (group, name) {
 			var that = this;
-			group.append("path")
-					.attr("class", "line")
-					.attr("d", function (d) { 
-						return that.lines[name].line(d.values); 
-					})
-					.style("stroke", this.lines[name].styles.color)
-					.style("stroke-opacity", this.lines[name].styles.opacity);
+			group.append('path')
+					.attr('class', 'line')
+					.attr('d', function (d) { return that.lines[name].line(d.values); })
+					.style('stroke', function (d) { return that.lines[name].styles.color(d.year); })
+					.style('stroke-opacity', this.lines[name].styles.opacity)
+					.style('stroke-width', this.lines[name].styles.width);
+
+			if (name !== 'stable') {
+				group.attr('data-legend',function(d) { return d.year});
+			}
 		},
 
 		displayYears: function () {
 			this.displayGroup(this.years.stable, 'stable');
 			this.displayGroup(this.years.stableAverage, 'stableAverage');
 			this.displayGroup(this.years.unstable, 'unstable');
+		},
+
+		addLegend: function () {
+			this.svg.append('g')
+					.attr('class','legend')
+					.attr('transform','translate(50,30)')
+					.style('font-size','12px')
+					.call(d3.legend);
 		},
 	};
 

@@ -19,12 +19,11 @@ var buildLineChart = function (el, dataPath, sendHeight) {
 		// add data to chart
 		this.years	= this.addYears(this.filterYears());
 		this.displayYears();
-		
-		this.legend = this.addLegend();
+		this.displayLegend();
 	}
 
 	LineChart.prototype = {
-		margin: {top: 20, right: 80, bottom: 30, left: 50},
+		margin: {top: 20, right: 5, bottom: 30, left: 50},
 
 		setWidth: function () {
 			return Math.round(window.innerWidth > 720 ? 720 : window.innerWidth) - this.margin.left - this.margin.right;
@@ -50,7 +49,8 @@ var buildLineChart = function (el, dataPath, sendHeight) {
 						d3.min(this.data, function(y) { return d3.min(y.values, function(d) { return d.rate; }); }),
     					d3.max(this.data, function(y) { return d3.max(y.values, function(d) { return d.rate; }); })
 					]).range([this.height, 0]),
-				z: d3.scaleOrdinal(['#a6cee3','#1f78b4','#b2df8a','#33a02c']).domain(['2014', '2015', '2016', '2017']),
+				z: d3.scaleOrdinal(['#fb9a99','#a6cee3','#1f78b4','#b2df8a','#33a02c'])
+						.domain(['2000-2013', '2014', '2015', '2016', '2017']),
 			};
 		},
 
@@ -60,7 +60,7 @@ var buildLineChart = function (el, dataPath, sendHeight) {
 				{
 					name: 'stableAverage',
 					type: 'curveLinear',
-					color: function () { return '#fb9a99' },
+					color: function (year) { return that.scales.z(year) },
 					width: 2,
 					opacity: 1,
 				},
@@ -175,7 +175,10 @@ var buildLineChart = function (el, dataPath, sendHeight) {
 					.style('stroke-width', this.lines[name].styles.width);
 
 			if (name !== 'stable') {
-				group.attr('data-legend',function(d) { return d.year});
+				this.legendItems = this.legendItems || [];
+				group.each(function (d) {
+					that.legendItems.push(d.year);
+				});
 			}
 		},
 
@@ -185,12 +188,44 @@ var buildLineChart = function (el, dataPath, sendHeight) {
 			this.displayGroup(this.years.unstable, 'unstable');
 		},
 
-		addLegend: function () {
-			this.svg.append('g')
-					.attr('class','legend')
-					.attr('transform','translate(50,30)')
-					.style('font-size','12px')
-					.call(d3.legend);
+		displayLegend: function () {
+			var that = this;
+			var lastPos = this.margin.left;
+			var legend = this.svg.append('g')
+					.attr('class', 'legend')
+					.attr('transform', 'translate(' + 0 + ',' + 0 + ')');
+
+			legend.selectAll('circle')
+				.data(this.legendItems)
+				.enter().append('circle')
+					.attr('cy', 10)
+					.attr('r', 6)
+					.attr('cx', function (d) {
+						var newPos 	= lastPos + (d.length * 10);
+						var currPos = lastPos;
+						lastPos = newPos;
+						return currPos;
+					})
+					.style('stroke', 'black')
+					.attr('class', 'legendMarker')
+					.style('fill', function (d) {
+						return that.scales.z(d);
+					});
+
+			lastPos = this.margin.left;
+
+			legend.selectAll('.desc')
+				.data(this.legendItems)
+				.enter().append('text')
+					.attr('y', 20)
+					.attr('x', function (d) {
+						var currPos = lastPos + (d.length * 10) + 10;
+						lastPos = currPos;
+						return currPos;
+					})
+					.attr('class', 'desc')
+					.text(function (d) { return d; });
+			return legend;
 		},
 	};
 

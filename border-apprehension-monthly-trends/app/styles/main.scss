@@ -14,5 +14,20 @@ div#line-chart {
 			stroke: steelblue;
 			stroke-width: 1.5px;
 		}
+
+		.legend {
+			fill: none;
+			stroke: none;
+
+			.header {
+				fill: #000;
+				font-size: 0.9em;
+			}
+
+			.desc {
+				font-size: 0.7em;
+				fill: rgb(51, 51, 51);
+			}
+		}
 	}
 }

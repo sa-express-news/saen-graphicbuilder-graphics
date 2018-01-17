@@ -731,3 +731,13 @@ div#line-chart svg .line {
   fill: none;
   stroke: steelblue;
   stroke-width: 1.5px; }
+
+div#line-chart svg .legend {
+  fill: none;
+  stroke: none; }
+  div#line-chart svg .legend .header {
+    fill: #000;
+    font-size: 0.9em; }
+  div#line-chart svg .legend .desc {
+    font-size: 0.7em;
+    fill: #333333; }

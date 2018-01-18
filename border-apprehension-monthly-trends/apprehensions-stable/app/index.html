@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{ ONE.graphic_title }} | San Antonio Express News</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base target='_parent'>
+  <!-- build:css styles/main.min.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+</head>
+<body>
+
+<div class="graphic">
+  <h1>{{ ONE.graphic_title }}</h1>
+  <p class="subtext">{{ ONE.prose }}</p>
+
+  <div id="graphic-container">
+
+    <div id="line-chart"></div>
+
+  </div>
+
+  <div class="footer">
+    <ul>
+      {% if ONE.source %}<li>Source: {% if ONE.source_url %}<a href="{{ ONE. source_url }}">{{ ONE.source }}</a>{% else %}{{ ONE.source }}{% endif %}</li>{% endif %}
+      {% if ONE.credit %}<li>Credit: {{ ONE.credit }}</li>{% endif %}
+    </ul>
+  </div>
+</div>
+
+<!-- build:js scripts/main.min.js -->
+<script src="/node_modules/pym.js/dist/pym.v1.min.js"></script>
+<script src="/node_modules/d3/build/d3.min.js"></script>
+<script src="scripts/line-chart.js"></script>
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
+</body>
+</html>

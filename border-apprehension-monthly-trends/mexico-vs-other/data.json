@@ -1,0 +1,26 @@
+{
+  "ONE": {
+    "graphic_title": "Border Patrol month over month apprehension rate 2000-2013",
+    "prose": "This chart shows the rate of increase or decrease in border patrol apprehensions from month to month for each year from 2000 to 2013. Each line represents one year of data. The bold line is the average of all 13.",
+    "source": "Dept. of Homeland Security",
+    "source_url": "https://data.world/lukewhyte/total-illegal-alien-apprehensions-by-fiscal-year-1960-2017"
+  },
+  "TWO": {
+    "graphic_title": "Border Patrol month over month apprehension rate 2014-2017",
+    "prose": "This chart shows the rate of increase or decrease in border patrol apprehensions from month to month for 2014-2017.",
+    "source": "Dept. of Homeland Security",
+    "source_url": "https://data.world/lukewhyte/total-illegal-alien-apprehensions-by-fiscal-year-1960-2017"
+  },
+  "THREE": {
+    "graphic_title": "Border Patrol month over month apprehension rate 2000-2017",
+    "prose": "This chart shows the rate of increase or decrease in border patrol apprehensions from month to month for 2000-2017.",
+    "source": "Dept. of Homeland Security",
+    "source_url": "https://data.world/lukewhyte/total-illegal-alien-apprehensions-by-fiscal-year-1960-2017"
+  },
+  "FOUR": {
+    "graphic_title": "Border Patrol apprehensions of Mexicans vs non-Mexicans",
+    "prose": "This chart contrasts the number of Mexicans apprehended at the U.S. southern border with the number of people from every other country of origin each year from 2000 to 2017 ",
+    "source": "Dept. of Homeland Security",
+    "source_url": "https://data.world/lukewhyte/total-illegal-alien-apprehensions-by-fiscal-year-1960-2017"
+  }
+}

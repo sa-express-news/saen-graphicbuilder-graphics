@@ -20,7 +20,7 @@ var buildLineChart = function (el, dataPath, sendHeight) {
 		this.regions = this.addRegions();
 		this.displayRegions();
 		this.displayLegend();
-		
+
 		sendHeight();
 	}
 
@@ -77,26 +77,42 @@ var buildLineChart = function (el, dataPath, sendHeight) {
 						.attr('transform', 'translate(' + this.margin.left + ',' + this.margin.top + ')');
 		},
 
+		generateXAxis: function () {
+			if (this.width > 500) {
+				return d3.axisBottom(this.scales.x);
+			} else {
+				return d3.axisBottom(this.scales.x)
+							.tickValues(this.scales.x.domain().filter(function(d, i) { 
+								return !(i % 2); // jshint ignore:line
+							}));
+			}
+		},
+
 		addXAxis: function () {
 			return this.g.append('g')
 							.attr('class', 'axis axis--x')
 							.attr('transform', 'translate(0,' + this.height + ')')
-							.call(d3.axisBottom(this.scales.x));
+							.call(this.generateXAxis());
 		},
 
 		addYAxis: function () {
-			return this.g.append('g')
+			var axis = this.g.append('g')
 							.attr('class', 'axis axis--y')
 							.call(d3.axisLeft(this.scales.y).tickFormat(function (d) { 
 								return parseInt(d, 10).toLocaleString(); 
-							}).tickSizeOuter(0))
-						.append('text')
-							.attr('transform', 'rotate(-90)')
-							.attr('y', 6)
-							.attr('x', -100)
-							.attr('dy', '0.71em')
-							.attr('fill', '#000')
-							.text('Rate of change (%)');
+							}).tickSizeOuter(0));
+
+			if (this.width > 500) {
+				axis.append('text')
+					.attr('transform', 'rotate(-90)')
+					.attr('y', 6)
+					.attr('x', -100)
+					.attr('dy', '0.71em')
+					.attr('fill', '#000')
+					.text('# of apprehensions');
+			}
+
+			return axis;
 		},
 
 		addGroup: function (group, name) {

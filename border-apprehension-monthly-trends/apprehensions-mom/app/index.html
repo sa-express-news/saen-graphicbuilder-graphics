@@ -24,6 +24,7 @@
 
   <div class="footer">
     <ul>
+      {% if THREE.note %}<li><em>Note: {{ THREE.note }}</em></li>{% endif %}
       {% if THREE.source %}<li>Source: {% if THREE.source_url %}<a href="{{ THREE. source_url }}">{{ THREE.source }}</a>{% else %}{{ THREE.source }}{% endif %}</li>{% endif %}
       {% if THREE.credit %}<li>Credit: {{ THREE.credit }}</li>{% endif %}
     </ul>

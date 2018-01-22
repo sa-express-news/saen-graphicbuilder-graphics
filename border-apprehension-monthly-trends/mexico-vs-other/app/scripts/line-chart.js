@@ -20,6 +20,8 @@ var buildLineChart = function (el, dataPath, sendHeight) {
 		this.regions = this.addRegions();
 		this.displayRegions();
 		this.displayLegend();
+		
+		sendHeight();
 	}
 
 	LineChart.prototype = {

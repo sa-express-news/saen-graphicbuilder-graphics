@@ -4,11 +4,12 @@ var buildLineChart = function (el, dataPath, writeFunc, sendHeight) {
 	'use strict';
 
 	function LineChart (el, data, sendHeight) {
-		this.data 	= data;
-		this.width 	= this.setWidth();
-		this.height = this.setHeight();
-		this.scales	= this.setScales();
-		this.lines	= this.setLines();
+		this.data 		= data;
+		this.sendHeight = sendHeight;
+		this.width 		= this.setWidth();
+		this.height 	= this.setHeight();
+		this.scales		= this.setScales();
+		this.lines		= this.setLines();
 
 		// build chart
 		this.svg 	= this.buildSVG(el);
@@ -184,11 +185,13 @@ var buildLineChart = function (el, dataPath, writeFunc, sendHeight) {
 			this.displayGroup(this.years.stable, 'stable');
 			this.displayGroup(this.years.stableAverage, 'stableAverage');
 			this.displayLegend();
+			this.sendHeight();
 		},
 
 		displayUnstable: function () {
 			this.displayGroup(this.years.unstable, 'unstable');
 			this.displayLegend();
+			this.sendHeight();
 		},
 
 		displayAll: function () {
@@ -196,6 +199,7 @@ var buildLineChart = function (el, dataPath, writeFunc, sendHeight) {
 			this.displayGroup(this.years.stableAverage, 'stableAverage');
 			this.displayGroup(this.years.unstable, 'unstable');
 			this.displayLegend();
+			this.sendHeight();
 		},
 
 		getLegendConfig: function () {

@@ -24,13 +24,14 @@
 
   <div class="footer">
     <ul>
+      {% if TWO.note %}<li><em>Note: {{ TWO.note }}</em></li>{% endif %}
       {% if TWO.source %}<li>Source: {% if TWO.source_url %}<a href="{{ TWO. source_url }}">{{ TWO.source }}</a>{% else %}{{ TWO.source }}{% endif %}</li>{% endif %}
       {% if TWO.credit %}<li>Credit: {{ TWO.credit }}</li>{% endif %}
     </ul>
   </div>
 </div>
 
-<!-- build:js scripts/main.min.js -->
+<!-- build:js scripts/unstable.min.js -->
 <script src="/node_modules/pym.js/dist/pym.v1.min.js"></script>
 <script src="/node_modules/d3/build/d3.min.js"></script>
 <script src="scripts/line-chart.js"></script>

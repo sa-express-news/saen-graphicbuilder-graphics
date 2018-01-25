@@ -120,7 +120,7 @@ var buildLineChart = function (el, dataPath, writeFunc, sendHeight) {
 		addYAxis: function () {
 			return this.g.append('g')
 							.attr('class', 'axis axis--y')
-							.call(d3.axisLeft(this.scales.y).tickFormat(function (d) { return d * 100 + '%'; }).tickSizeOuter(0))
+							.call(d3.axisLeft(this.scales.y).tickFormat(function (d) { return Math.round(d * 100) + '%'; }).tickSizeOuter(0))
 						.append('text')
 							.attr('transform', 'rotate(-90)')
 							.attr('y', 6)

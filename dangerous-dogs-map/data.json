@@ -1,0 +1,329 @@
+{
+  "DOGS": [
+    {
+      "Address": "1123 Chalmers, San Antonio, TX",
+      "Dangerous Dogs": 0,
+      "Severe Bodily Injury": 1
+    },
+    {
+      "Address": "207 Waring, San Antonio, TX",
+      "Dangerous Dogs": 3,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "139 Sweetbriar, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "1310 Crystal, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "104 Sutton, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "211 Sims Ave, San Antonio, TX",
+      "Dangerous Dogs": 0,
+      "Severe Bodily Injury": 1
+    },
+    {
+      "Address": "20005 Shady Lane, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "329 Lavaca, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "539 Cottonwood, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "7638 Branston, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "327 Lavaca, San Antonio, TX",
+      "Dangerous Dogs": 0,
+      "Severe Bodily Injury": 1
+    },
+    {
+      "Address": "1214 Florida, San Antonio, TX",
+      "Dangerous Dogs": 0,
+      "Severe Bodily Injury": 1
+    },
+    {
+      "Address": "445 Merida, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "6450 Monterey, San Antonio, TX",
+      "Dangerous Dogs": 0,
+      "Severe Bodily Injury": 2
+    },
+    {
+      "Address": "427 Carroll, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "3015 S. Flores, San Antonio, TX",
+      "Dangerous Dogs": 0,
+      "Severe Bodily Injury": 1
+    },
+    {
+      "Address": "2826 Lombrano, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "4003 St Charles Bay, San Antonio, TX",
+      "Dangerous Dogs": 0,
+      "Severe Bodily Injury": 1
+    },
+    {
+      "Address": "14058 Greenjay, San Antonio, TX",
+      "Dangerous Dogs": 2,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "2342 Burnet, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "3203 Warpath, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "9614 Moraga, San Antonio, TX",
+      "Dangerous Dogs": 0,
+      "Severe Bodily Injury": 1
+    },
+    {
+      "Address": "832 Zachry, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "3602 Windgap, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "2703 Lakeplains, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "127 nw 34th Apt 2, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "6723 Washita Way, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "12531 MINUTEMAN, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "1422 W. Hollywood, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "870 Price, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "818 Blue Astor, San Antonio, TX",
+      "Dangerous Dogs": 0,
+      "Severe Bodily Injury": 1
+    },
+    {
+      "Address": "569 N. San Ignacio, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "1322 Santa Rita, San Antonio, TX",
+      "Dangerous Dogs": 3,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "5127 Village Glen, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "1020 W. Pyron, San Antonio, TX",
+      "Dangerous Dogs": 3,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "211 Eross, San Antonio, TX",
+      "Dangerous Dogs": 0,
+      "Severe Bodily Injury": 1
+    },
+    {
+      "Address": "21118 BALMORAL PLACE, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "511 Saltillo, San Antonio, TX",
+      "Dangerous Dogs": 0,
+      "Severe Bodily Injury": 1
+    },
+    {
+      "Address": "511 Saltillo, San Antonio, TX",
+      "Dangerous Dogs": 0,
+      "Severe Bodily Injury": 1
+    },
+    {
+      "Address": "359 Barrett Pl, San Antonio, TX",
+      "Dangerous Dogs": 0,
+      "Severe Bodily Injury": 1
+    },
+    {
+      "Address": "6730 Old Theater Rd, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "427 Chipinque, San Antonio, TX",
+      "Dangerous Dogs": 0,
+      "Severe Bodily Injury": 1
+    },
+    {
+      "Address": "654 Sutton, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "11503 Heap Circle, San Antonio, TX",
+      "Dangerous Dogs": 2,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "311 W. Ligustrum, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "207 Waring, San Antonio, TX",
+      "Dangerous Dogs": 3,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "4426 Briardale, San Antonio, TX",
+      "Dangerous Dogs": 0,
+      "Severe Bodily Injury": 4
+    },
+    {
+      "Address": "208 Queen Anne Ct, San Antonio, TX",
+      "Dangerous Dogs": 0,
+      "Severe Bodily Injury": 1
+    },
+    {
+      "Address": "208 Queen Anne Ct, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "9525 Lorene, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "119 Hawthorne, San Antonio, TX",
+      "Dangerous Dogs": 4,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "2422 Observation, San Antonio, TX",
+      "Dangerous Dogs": 0,
+      "Severe Bodily Injury": 1
+    },
+    {
+      "Address": "5215 Tomas Circle, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "165 W Rampart, San Antonio, TX",
+      "Dangerous Dogs": 0,
+      "Severe Bodily Injury": 1
+    },
+    {
+      "Address": "870 McCauley, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "5803 Joiner, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "206 Delta, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "221 Pickford, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "172 King Ave, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "2610 Manor Ridge Ct., San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "118 Henry St., San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "306 Avondale, San Antonio, TX",
+      "Dangerous Dogs": 0,
+      "Severe Bodily Injury": 2
+    },
+    {
+      "Address": "1507 Chinook, San Antonio, TX",
+      "Dangerous Dogs": 2,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "1507 Chinook, San Antonio, TX",
+      "Dangerous Dogs": 2,
+      "Severe Bodily Injury": 0
+    },
+    {
+      "Address": "4707 Castle Rose, San Antonio, TX",
+      "Dangerous Dogs": 1,
+      "Severe Bodily Injury": 0
+    }
+  ]
+}

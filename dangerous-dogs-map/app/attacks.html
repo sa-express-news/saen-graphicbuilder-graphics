@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Dangerous dogs in San Antonio | San Antonio Express News</title>
+  <title>{{ A_META.graphic_title }} | San Antonio Express News</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <base target='_parent'>
   <!-- build:css styles/main.min.css -->
@@ -14,36 +14,36 @@
 <body>
 
 <div class="graphic">
-  <h1>Dangerous dogs in San Antonio</h1>
-  <p class="subtext">Each circle on this map indicates the address of one or more dogs listed as &quot;dangerous&quot; by the city of San Antonio from October, 2016 to now. The larger the circle, the more dangerous dogs listed as living at that location.</p>
+  <h1>{{ A_META.graphic_title }}</h1>
+  <p class="subtext">{{ A_META.prose }}</p>
 
   <div id="graphic-container">
 
-    <h2></h2>
-    <p class="subtext"></p>
+    <h2>{{ A_META.title_interactive_map }}</h2>
+    <p class="subtext">{{ A_META.prose_interactive_map }}</p>
 
     <div class="interactive-map">
-      <div id="interactive-map"></div>
+      <div id="interactive-map-attacks"></div>
     </div>
 
   </div>
 
   <div class="footer">
     <ul>
-      <li>Source: City of San Antonio Animal Care Services</li>
-      <li>Credit: Luke Whyte, San Antonio Express-News</li>
+      {% if A_META.source %}<li>Source: {% if A_META.source_url %}<a href="{{ A_META. source_url }}">{{ A_META.source }}</a>{% else %}{{ A_META.source }}{% endif %}</li>{% endif %}
+      {% if A_META.credit %}<li>Credit: {{ A_META.credit }}</li>{% endif %}
     </ul>
   </div>
 </div>
 
-<!-- build:js scripts/main.min.js -->
+<!-- build:js scripts/attacks.min.js -->
 <script src="/node_modules/pym.js/dist/pym.v1.min.js"></script>
 <script src="/node_modules/d3/build/d3.min.js"></script>
 <script src="/node_modules/lodash/lodash.min.js"></script>
 <script src="scripts/mapbox.3.0.1.min.js"></script>
 <script src="scripts/get-data.js"></script>
 <script src="scripts/interactive-map.js"></script>
-<script src="scripts/main.js"></script>
+<script src="scripts/attacks.js"></script>
 <!-- endbuild -->
 </body>
 </html>

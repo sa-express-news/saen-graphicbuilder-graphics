@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{{ META.graphic_title }} | San Antonio Express News</title>
+  <title>{{ DD_META.graphic_title }} | San Antonio Express News</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <base target='_parent'>
   <!-- build:css styles/main.min.css -->
@@ -14,42 +14,24 @@
 <body>
 
 <div class="graphic">
-  <h1>{{ META.graphic_title }}</h1>
-  <p class="subtext">{{ META.prose }}</p>
+  <h1>{{ DD_META.graphic_title }}</h1>
+  <p class="subtext">{{ DD_META.prose }}</p>
 
   <div id="graphic-container">
 
-    <h2>{{ META.title_interactive_map }}</h2>
-    <p class="subtext">{{ META.prose_interactive_map }}</p>
+    <h2>{{ DD_META.title_interactive_map }}</h2>
+    <p class="subtext">{{ DD_META.prose_interactive_map }}</p>
 
-    <div class="interactive-well-map">
-      <div class="form-group">
-        <label for="search">Enter a San Antonio address</label>
-        <input id="search" class="typeahead" type="text" placeholder="E.g. 555 Fake St., San Antonio">
-      </div>
-
-      <div class="legend">
-        <div class="legend-title">Median area rent</div>
-        <div class="legend-scale">
-          <ul class="legend-labels">
-            <li><span class="one"></span>< $730</li>
-            <li><span class="five"></span></li>
-            <li><span class="ten"></span></li>
-            <li><span class="thirty"></span></li>
-            <li><span class="thirty-one-plus"></span>> $1203</li>
-          </ul>
-        </div>
-      </div>
-
-      <div id="interactive-well-map"></div>
+    <div class="interactive-map">
+      <div id="interactive-map"></div>
     </div>
 
   </div>
 
   <div class="footer">
     <ul>
-      {% if META.source %}<li>Source: {% if META.source_url %}<a href="{{ META. source_url }}">{{ META.source }}</a>{% else %}{{ META.source }}{% endif %}</li>{% endif %}
-      {% if META.credit %}<li>Credit: {{ META.credit }}</li>{% endif %}
+      {% if DD_META.source %}<li>Source: {% if DD_META.source_url %}<a href="{{ DD_META. source_url }}">{{ DD_META.source }}</a>{% else %}{{ DD_META.source }}{% endif %}</li>{% endif %}
+      {% if DD_META.credit %}<li>Credit: {{ DD_META.credit }}</li>{% endif %}
     </ul>
   </div>
 </div>

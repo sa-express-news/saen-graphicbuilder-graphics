@@ -17,7 +17,7 @@
 
     DogMap.getData(function (data) {
       if (DogMap.buildInteractiveMap && !dogMap) {
-        dogMap = DogMap.buildInteractiveMap('interactive-map', data, 'Dangerous Dogs');
+        dogMap = DogMap.buildInteractiveMap('interactive-map-attacks', data, 'Severe Bodily Injury');
       }
 
       sendHeight();

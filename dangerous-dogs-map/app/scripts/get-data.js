@@ -1,6 +1,6 @@
 /* global d3 */
 
-var RentMap = (function (maps) {
+var DogMap = (function (maps) {
   'use strict';
 
   maps.getData = function (cb) {
@@ -16,4 +16,4 @@ var RentMap = (function (maps) {
 
   return maps;
 
-}(RentMap || {}));
+}(DogMap || {}));

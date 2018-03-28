@@ -7,7 +7,7 @@
   max-width: 720px;
 }
 
-.interactive-well-map {
+.interactive-map {
   .form-group {
     margin: 0 0 .625em;
 
@@ -92,39 +92,36 @@
         li {
           display: block;
           float: left;
-          width: 62px;
+          width: 200px;
           margin-bottom: 6px;
           text-align: center;
           font-size: 75%;
           list-style: none;
 
           @include media($default-mobile) {
-            width: 45px;
+            width: 150px;
           }
 
           span {
             display: block;
             float: left;
             height: 15px;
-            width: 62px;
+            width: 200px;
             margin: 0 0 3px 0;
 
             @include media($default-mobile) {
-              width: 45px;
+              width: 150px;
             }
 
-            &.one { background: rgba(246,210,169, 0.6); }
-            &.five { background: rgba(243,170,132, 0.6); }
-            &.ten { background: rgba(234,129,113, 0.6); }
-            &.thirty { background: rgba(213,93,106,0.6); }
-            &.thirty-one-plus { background: rgba(177,63,100,0.6); }
+            &.dangerous { background: rgba(138,7,7,0.6); }
+            &.harm { background: rgba(49,163,84,0.6); }
           }
         }
       }
     }
   }
 
-  #interactive-well-map {
+  #interactive-map, #interactive-map-attacks {
     .leaflet-popup-content-wrapper {
       background: #434675;
       color: #fff;

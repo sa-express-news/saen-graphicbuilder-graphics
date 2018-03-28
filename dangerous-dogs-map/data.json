@@ -325,5 +325,17 @@
       "Dangerous Dogs": 1,
       "Severe Bodily Injury": 0
     }
-  ]
+  ],
+  "A_META": {
+    "graphic_title": "Incidents of severe bodily injury by dogs in San Antonio",
+    "prose": "Each circle on this map indicates the address of one or more dog attacks that resulted in severe bodily injury of a human in San Antonio from October, 2016 to now. The larger the circle, the more attacks that occured in that location.",
+    "source": "City of San Antonio Animal Care Services",
+    "credit": "Luke Whyte, San Antonio Express-News"
+  },
+  "DD_META": {
+    "graphic_title": "Dangerous dogs in San Antonio",
+    "prose": "Each circle on this map indicates the address of one or more dogs listed as \"dangerous\" by the city of San Antonio from October, 2016 to now. The larger the circle, the more dangerous dogs listed as living at that location.",
+    "source": "City of San Antonio Animal Care Services",
+    "credit": "Luke Whyte, San Antonio Express-News"
+  }
 }

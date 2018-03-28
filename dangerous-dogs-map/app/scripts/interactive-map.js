@@ -1,16 +1,19 @@
 /* global L, d3, _ */
 
-var RentMap = (function (maps) {
+var DogMap = (function (maps) {
   'use strict';
 
-  var colorArr = ['#f6d2a9', '#f3aa84', '#ea8171', '#d55d6a', '#b13f64'];
+  var colorMap = {
+    'Dangerous Dogs': 'rgba(138,7,7,1)',
+    'Severe Bodily Injury': 'rgba(138,7,7,1)'
+  };
 
-  function InteractiveMap (el, data) {
+  function InteractiveMap (el, data, target) {
     this.container = d3.select('#' + el);
     if (this.container.empty()) { return; }
     this.width      = this.getContainerWidth();
     this.height     = this.getHeight();
-    // this.getColor   = this.setColorScale(data);
+    this.target     = target;
     this.map        = this.generateMapInstance(el);
     this.stylelayer = this.getStyleLayer();
     this.dataLayer  = this.setDataLayer(data);
@@ -62,10 +65,10 @@ var RentMap = (function (maps) {
     },
 
     getSettings: function () {
-      var zoom = this.width < 720 ? 9 : 10;
+      var isMobile = this.width < 500;
       return {
-        center: [29.4384, -98.4801],
-        zoom: zoom,
+        center: isMobile ? [29.44378, -98.49655] : [29.45903, -98.50891],
+        zoom: isMobile ? 10 : 11,
         minZoom: 9,
         maxZoom: 19,
         scrollWheelZoom: false,
@@ -74,31 +77,68 @@ var RentMap = (function (maps) {
     },
 
     getStyleLayer: function () {
-      var url = 'mapbox://styles/saen-editors/cjaxkh3iv3cps2rpds7c4ja2y';
+      var url = 'mapbox://styles/saen-editors/cjcv332vp03u72tlo7npit1uz';
       return L.mapbox.styleLayer(url).addTo(this.map);
     },
 
+    getRadius: function (count) {
+      return count * 300;
+    },
+
+    getColor: function () {
+      return colorMap[this.target];
+    }, 
+
+    buildCircle: function (props, latlng) {
+      if (props[this.target]) {
+        return L.circle(latlng, {
+          radius: this.getRadius(props[this.target]),
+          color: this.getColor(),
+          weight: 1,
+          fill: true,
+          fillColor: this.getColor(this.target),
+          fillOpacity: 0.2,
+        });
+      } else return null;
+    },
+
     setDataLayer: function (data) {
-      var that = this;
+      var buildCircle = this.buildCircle.bind(this);
       return L.geoJSON(data, {
         pointToLayer: function (point, latlng) {
-          return L.circle(latlng, {radius: 20})
+          return buildCircle(point.properties, latlng);
         },
-      }).bindPopup(this.setPopup).addTo(this.map);
+      }).bindPopup(this.setPopup.bind(this)).addTo(this.map);
+    },
+
+    setLanguage: function (num) {
+      if (this.target === 'Dangerous Dogs') {
+        var isAre = num === 1 ? ' is ' : ' are ';
+        var dog = num === 1 ? ' dog ' : ' dogs ';
+        return isAre + num + ' dangerous' + dog;
+      } else {
+        var wasWere = num === 1 ? ' was ' : ' were ';
+        var attack = num === 1 ? ' attack ' : ' attacks ';
+        return wasWere + num + attack + 'resulting in severe bodily injury ';
+      }
     },
 
     setPopup: function (layer) {
       var props = layer.feature.properties;
-      return 'This is ' + props.name + '. The median rent here is $' + props.rent + '.';
+      var num   = props[this.target];
+      var isAre = num === 1 ? ' is ' : ' are ';
+      var dog   = num === 1 ? ' dog ' : ' dogs ';
+      return 'There' + this.setLanguage(num) + 'at this address: ' + props.Address + '.';
     },
   };
 
-  maps.buildInteractiveMap = function (el, data) {
+  maps.buildInteractiveMap = function (el, data, target) {
     if (L) {
-      return new InteractiveMap(el, data);;
+      var map = new InteractiveMap(el, data, target);
+      return map;
     }
   };
 
   return maps;
 
-}(RentMap || {}));
+}(DogMap || {}));

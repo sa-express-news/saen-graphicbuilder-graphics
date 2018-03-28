@@ -1,0 +1,61 @@
+@import 'node_modules/newsapps-styles/init-helpers';
+@import 'node_modules/newsapps-styles/theme/graphic';
+
+@import 'base';
+
+#shot-chart{
+    margin-left: auto;
+    margin-right: auto;
+
+	svg {
+	    stroke-width: .2;
+
+		text {
+    		font-size: .2em;
+
+			&.legend-text {
+    			font-size: .075em;
+			}
+		}
+		
+		rect {
+		    stroke: black; 
+		    width: 1;
+		    fill: none;
+		}
+
+		line {
+		    stroke: black; 
+		    fill: none;
+		    width: 1;
+		}
+
+		circle {
+		    stroke: black; 
+		    fill: none;
+
+			&.shot.make {
+			    fill: green;
+			    stroke: white;
+			    stroke-width: .05;
+			}
+
+			&.shot.miss {
+			    fill: red;
+			    stroke: white;
+			    stroke-width: .05;
+			}
+		}
+
+		path {
+		    stroke: white;
+		    stroke-width: .05;
+
+		    &.shot {
+			    stroke: white; 
+			    fill: none;
+			    stroke-width: .05;
+			}
+		}
+	}
+}

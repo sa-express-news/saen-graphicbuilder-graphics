@@ -48,6 +48,32 @@ var ShotChart = (function () {
 			return Math.round(window.innerWidth > 720 ? 720 : window.innerWidth);
 		},
 
+		setXShotScale: function () {
+			return d3.scaleLinear().domain([-240,240]).range([0,50]);
+		},
+
+		setYShotScale: function () {
+			return d3.scaleLinear().domain([-50,50]).range([47,0]);
+		},
+
+		mapShotData: function (shot) {
+			var xShotScale = this.xShotScale;
+			var yShotScale = this.yShotScale;
+			console.log(shot.YCoord);
+			return {
+				x: xShotScale(shot.XCoord),
+				y: yShotScale(shot.YCoord),
+				shotType: shot.ShotType,
+				shot_distance: shot.ShotDistance,
+				playerName: shot.PlayerName,
+				playerID: shot.PlayerID,
+			};
+		},
+
+		parseData: function (data) {
+			return data.map(this.mapShotData.bind(this));
+		},
+
 		/* 
 		 * initalize chart in callback
      	 */
@@ -55,8 +81,10 @@ var ShotChart = (function () {
 		init: function (id, data) {
 			this.width      = this.setWidth();
 			//this.height     = this.setHeight();
-			this.data       = data;
-
+			this.xShotScale = this.setXShotScale();
+			this.yShotScale = this.setYShotScale();
+			this.data       = this.parseData(data);
+			console.log(this.data);
 			this.buildChart(id);
 			this.sendHeight();
 		},

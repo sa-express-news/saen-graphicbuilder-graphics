@@ -420,12 +420,20 @@ th {
       font-size: 16.2px;
       font-size: 1.0125rem; } }
 
-.graphic select, .graphic [type="text"], .graphic [type="radio"], .graphic [type="email"], .graphic [type="number"],
+.graphic select,
+.graphic [type="text"],
+.graphic [type="radio"],
+.graphic [type="email"],
+.graphic [type="number"],
 .font-base {
   font-size: 16px;
   font-size: 1rem; }
   @media screen and (max-width: 480px) {
-    .graphic select, .graphic [type="text"], .graphic [type="radio"], .graphic [type="email"], .graphic [type="number"],
+    .graphic select,
+    .graphic [type="text"],
+    .graphic [type="radio"],
+    .graphic [type="email"],
+    .graphic [type="number"],
     .font-base {
       font-size: 14.4px;
       font-size: 0.9rem; } }
@@ -574,12 +582,19 @@ hr {
   height: 0;
   visibility: hidden; }
 
-.graphic form, .graphic select {
+.graphic form,
+.graphic select {
   display: inline-block; }
-  .graphic form.full-width, .graphic select.full-width {
+  .graphic form.full-width,
+  .graphic select.full-width {
     width: 100%; }
 
-.graphic select, .graphic [type="text"], .graphic [type="radio"], .graphic [type="email"], .graphic [type="number"] {
+
+.graphic select,
+.graphic [type="text"],
+.graphic [type="radio"],
+.graphic [type="email"],
+.graphic [type="number"] {
   background: transparent;
   border: 1px solid #bbbbbb;
   display: inline-block;
@@ -588,10 +603,15 @@ hr {
   margin-bottom: .5em;
   min-height: 2em; }
 
-.graphic option, .graphic [type="text"], .graphic [type="radio"], .graphic [type="email"], .graphic [type="number"] {
+.graphic option,
+.graphic [type="text"],
+.graphic [type="radio"],
+.graphic [type="email"],
+.graphic [type="number"] {
   padding: .5em .25em; }
 
-.graphic [type="submit"], .graphic [type="button"] {
+.graphic [type="submit"],
+.graphic [type="button"] {
   border-radius: 4px;
   cursor: pointer;
   display: inline-block;
@@ -604,14 +624,17 @@ hr {
   color: #282828;
   border: 0;
   padding: .5em .75em .625em; }
-  .graphic [type="submit"]:after, .graphic [type="button"]:after {
+  .graphic [type="submit"]:after,
+  .graphic [type="button"]:after {
     clear: both;
     content: ' ';
     display: block;
     font-size: 0;
     height: 0;
     visibility: hidden; }
-  .graphic [type="submit"]:active, .graphic [type="submit"]:hover, .graphic [type="button"]:active, .graphic [type="button"]:hover {
+  .graphic [type="submit"]:active, .graphic [type="submit"]:hover,
+  .graphic [type="button"]:active,
+  .graphic [type="button"]:hover {
     background-color: rgba(255, 194, 0, 0.7); }
 
 .graphic {

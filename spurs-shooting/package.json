@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "d3-hexbin": "^0.2.2",
-    "d3-shotchart": "0.0.2",
+    "d3-shotchart": "git+https://github.com/lukewhyte/d3-shotchart.git#master",
     "d3-tip": "^0.7.1",
     "newsapps-styles": "^1.1.0",
     "pym.js": "^1.1.1"

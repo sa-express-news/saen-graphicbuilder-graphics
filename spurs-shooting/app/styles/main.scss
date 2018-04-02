@@ -4,19 +4,11 @@
 @import 'base';
 
 #shot-chart{
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
 
 	svg {
 	    stroke-width: .2;
-
-		text {
-    		font-size: .2em;
-
-			&.legend-text {
-    			font-size: .075em;
-			}
-		}
 		
 		rect {
 		    stroke: black; 
@@ -30,19 +22,19 @@
 		    width: 1;
 		}
 
-		circle {
+		circle, path {
 		    stroke: black; 
 		    fill: none;
 
 			&.shot.make {
-			    fill: green;
-			    stroke: white;
+			    fill: #1a9641;
+			    stroke: #333;
 			    stroke-width: .05;
 			}
 
 			&.shot.miss {
-			    fill: red;
-			    stroke: white;
+			    fill: #d7191c;
+			    stroke: #333;
 			    stroke-width: .05;
 			}
 		}
@@ -57,5 +49,85 @@
 			    stroke-width: .05;
 			}
 		}
+
+		.legend {
+			fill: none;
+			stroke: none;
+			font-size: .2rem;
+			font-family: georgia, sans-serif;
+			font-weight: normal;
+
+			.header {
+				fill: #000;
+				font-size: 0.5em;
+			}
+
+			.desc {
+				font-size: 0.4em;
+				fill: rgb(51, 51, 51);
+			}
+
+			circle {
+				fill: #1a9641;
+			    stroke: #333;
+			    stroke-width: .05;
+			}
+
+			path {
+				fill: #d7191c;
+			    stroke: #333;
+			    stroke-width: .05;
+			}
+		}
 	}
 }
+
+.d3-tip {
+  line-height: 1;
+  font-weight: lighter;
+  padding: 12px;
+  background: #006886;
+  color: #fff;
+  border-radius: 2px;
+  pointer-events: none; }
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: #006886;
+  position: absolute;
+  pointer-events: none; }
+
+/* Northward tooltips */
+.d3-tip.n:after {
+  content: "▼";
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+  text-align: center; }
+
+/* Eastward tooltips */
+.d3-tip.e:after {
+  content: "◀";
+  margin: -4px 0 0 0;
+  top: 50%;
+  left: -8px; }
+
+/* Southward tooltips */
+.d3-tip.s:after {
+  content: "▲";
+  margin: 0 0 1px 0;
+  top: -8px;
+  left: 0;
+  text-align: center; }
+
+/* Westward tooltips */
+.d3-tip.w:after {
+  content: "▶";
+  margin: -4px 0 0 -1px;
+  top: 50%;
+  left: 100%; }

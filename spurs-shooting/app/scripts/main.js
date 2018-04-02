@@ -15,7 +15,7 @@
 
     d3.selectAll('svg').remove();
 
-    var shotChart = new ShotChart('#shot-chart', 'assets/game.csv', sendHeight);
+    var shotChart = new ShotChart('#shot-chart', 'assets/game.csv', 'scatter', sendHeight);
 
   }
 

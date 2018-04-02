@@ -2,7 +2,7 @@
   "private": true,
   "config": {
     "s3_bucket": "graphics.expressnews.com",
-    "slug": ""
+    "slug": "spurs-shot-test"
   },
   "devDependencies": {
     "browser-sync": "^2.18.7",

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   box-sizing: border-box; }
 
@@ -748,14 +749,10 @@ a {
     padding: 0; }
 
 #shot-chart {
-  margin-left: auto;
-  margin-right: auto; }
+  margin-left: 0;
+  margin-right: 0; }
   #shot-chart svg {
     stroke-width: .2; }
-    #shot-chart svg text {
-      font-size: .2em; }
-      #shot-chart svg text.legend-text {
-        font-size: .075em; }
     #shot-chart svg rect {
       stroke: black;
       width: 1;
@@ -764,16 +761,16 @@ a {
       stroke: black;
       fill: none;
       width: 1; }
-    #shot-chart svg circle {
+    #shot-chart svg circle, #shot-chart svg path {
       stroke: black;
       fill: none; }
-      #shot-chart svg circle.shot.make {
-        fill: green;
-        stroke: white;
+      #shot-chart svg circle.shot.make, #shot-chart svg path.shot.make {
+        fill: #1a9641;
+        stroke: #333;
         stroke-width: .05; }
-      #shot-chart svg circle.shot.miss {
-        fill: red;
-        stroke: white;
+      #shot-chart svg circle.shot.miss, #shot-chart svg path.shot.miss {
+        fill: #d7191c;
+        stroke: #333;
         stroke-width: .05; }
     #shot-chart svg path {
       stroke: white;
@@ -782,3 +779,73 @@ a {
         stroke: white;
         fill: none;
         stroke-width: .05; }
+    #shot-chart svg .legend {
+      fill: none;
+      stroke: none;
+      font-size: .2rem;
+      font-family: georgia, sans-serif;
+      font-weight: normal; }
+      #shot-chart svg .legend .header {
+        fill: #000;
+        font-size: 0.5em; }
+      #shot-chart svg .legend .desc {
+        font-size: 0.4em;
+        fill: #333333; }
+      #shot-chart svg .legend circle {
+        fill: #1a9641;
+        stroke: #333;
+        stroke-width: .05; }
+      #shot-chart svg .legend path {
+        fill: #d7191c;
+        stroke: #333;
+        stroke-width: .05; }
+
+.d3-tip {
+  line-height: 1;
+  font-weight: lighter;
+  padding: 12px;
+  background: #006886;
+  color: #fff;
+  border-radius: 2px;
+  pointer-events: none; }
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: #006886;
+  position: absolute;
+  pointer-events: none; }
+
+/* Northward tooltips */
+.d3-tip.n:after {
+  content: "▼";
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+  text-align: center; }
+
+/* Eastward tooltips */
+.d3-tip.e:after {
+  content: "◀";
+  margin: -4px 0 0 0;
+  top: 50%;
+  left: -8px; }
+
+/* Southward tooltips */
+.d3-tip.s:after {
+  content: "▲";
+  margin: 0 0 1px 0;
+  top: -8px;
+  left: 0;
+  text-align: center; }
+
+/* Westward tooltips */
+.d3-tip.w:after {
+  content: "▶";
+  margin: -4px 0 0 -1px;
+  top: 50%;
+  left: 100%; }

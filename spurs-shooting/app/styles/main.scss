@@ -3,9 +3,16 @@
 
 @import 'base';
 
+.graphic {
+	margin: 0;
+	width: 100%;
+	max-width: 720px;
+}
+
 #shot-chart{
-    margin-left: 0;
+    margin: 0 auto;
     margin-right: 0;
+    max-width: 720px;
 
 	svg {
 	    stroke-width: .2;
@@ -27,13 +34,13 @@
 		    fill: none;
 
 			&.shot.make {
-			    fill: #1a9641;
+			    fill: #3E67B0;
 			    stroke: #333;
 			    stroke-width: .05;
 			}
 
 			&.shot.miss {
-			    fill: #d7191c;
+			    fill: #B12125;
 			    stroke: #333;
 			    stroke-width: .05;
 			}
@@ -68,13 +75,13 @@
 			}
 
 			circle {
-				fill: #1a9641;
+				fill: #3E67B0;
 			    stroke: #333;
 			    stroke-width: .05;
 			}
 
 			path {
-				fill: #d7191c;
+				fill: #B12125;
 			    stroke: #333;
 			    stroke-width: .05;
 			}
@@ -86,7 +93,7 @@
   line-height: 1;
   font-weight: lighter;
   padding: 12px;
-  background: #006886;
+  background: #379D92;
   color: #fff;
   border-radius: 2px;
   pointer-events: none; }
@@ -98,7 +105,7 @@
   font-size: 10px;
   width: 100%;
   line-height: 1;
-  color: #006886;
+  color: #379D92;
   position: absolute;
   pointer-events: none; }
 

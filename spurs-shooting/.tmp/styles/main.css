@@ -748,9 +748,15 @@ a {
     margin: 0;
     padding: 0; }
 
+.graphic {
+  margin: 0;
+  width: 100%;
+  max-width: 720px; }
+
 #shot-chart {
-  margin-left: 0;
-  margin-right: 0; }
+  margin: 0 auto;
+  margin-right: 0;
+  max-width: 720px; }
   #shot-chart svg {
     stroke-width: .2; }
     #shot-chart svg rect {
@@ -765,11 +771,11 @@ a {
       stroke: black;
       fill: none; }
       #shot-chart svg circle.shot.make, #shot-chart svg path.shot.make {
-        fill: #1a9641;
+        fill: #3E67B0;
         stroke: #333;
         stroke-width: .05; }
       #shot-chart svg circle.shot.miss, #shot-chart svg path.shot.miss {
-        fill: #d7191c;
+        fill: #B12125;
         stroke: #333;
         stroke-width: .05; }
     #shot-chart svg path {
@@ -792,11 +798,11 @@ a {
         font-size: 0.4em;
         fill: #333333; }
       #shot-chart svg .legend circle {
-        fill: #1a9641;
+        fill: #3E67B0;
         stroke: #333;
         stroke-width: .05; }
       #shot-chart svg .legend path {
-        fill: #d7191c;
+        fill: #B12125;
         stroke: #333;
         stroke-width: .05; }
 
@@ -804,7 +810,7 @@ a {
   line-height: 1;
   font-weight: lighter;
   padding: 12px;
-  background: #006886;
+  background: #379D92;
   color: #fff;
   border-radius: 2px;
   pointer-events: none; }
@@ -816,7 +822,7 @@ a {
   font-size: 10px;
   width: 100%;
   line-height: 1;
-  color: #006886;
+  color: #379D92;
   position: absolute;
   pointer-events: none; }
 

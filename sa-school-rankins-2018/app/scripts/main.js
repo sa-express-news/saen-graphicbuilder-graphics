@@ -8,44 +8,71 @@
   function render() {
     var $campus = $('#campus'),
         bars = {
-          notmeet: $('span#notmeet'),
-          approaches: $('span#approaches'),
-          meets: $('span#meets'),
-          masters: $('span#masters'),
+          rmeets: $('span#rmeets'),
+          mmeets: $('span#mmeets'),
+        },
+        meta = {
+          rank: $('span#rank'),
+          regiontotal: $('span#regiontotal'),
+          type: $('span#type'),
         };
 
     var campusDefault = {
-      campus: 'Hardy Oak El',
-      notmeet: 7.27699531,
-      approaches: 92.7230047,
-      meets: 78.1690141,
-      masters: 57.2769953,
+      campus: 'Alamo Heights H S',
+      rmeets: 62.9268293,
+      mmeets: 30.7692308,
+      rank: 32,
+      regiontotal: 78,
+      type: 'High',
     };
 
     function roundToWhole (num) {
       return Math.round(num);
     }
 
-    function drawBars (datum) {
-      var max = _.reduce(bars, function (max, val, key) { 
-        return datum[key] > max ? datum[key] : max; 
-      }, 0);
+    function isOutside(num) {
+      return num < 4;
+    }
 
-      max = (max + 10) > 100 ? 100 : max + 10; // add padding to end of bars
+    function addClassToBar($bar, newClass) {
+      $bar.children('.bar-value').addClass(newClass);
+    }
 
+    function getBarMax (datum) {
+      return 100;
+    }
+
+    function drawBars (datum, max) {
       _.forEach(bars, function ($bar, key) {
         if (datum[key]) {
           $('.' + key).show();
           $bar.width((datum[key] / max) * 100 + '%').children('.bar-value').text(roundToWhole(datum[key]) + '%');
+          if(isOutside(datum[key])) {
+            addClassToBar($bar, 'outside');
+          }
         } else {
           $('.' + key).hide();
         }
       });
     }
 
+    function drawMeta (datum) {
+      _.forEach(meta, function ($meta, key) {
+        if (datum[key]) {
+          $meta.text(datum[key]);
+        }
+      });
+    }
+
+    function populateTemplate (datum) {
+      drawBars(datum, getBarMax(datum));
+      drawMeta(datum);
+    }
+
     function renderCampus(datum) {
       $campus.text(datum.campus);
-      drawBars(datum);
+      $('.bar-value').removeClass('outside');
+      populateTemplate(datum);
     }
 
     renderCampus(campusDefault);

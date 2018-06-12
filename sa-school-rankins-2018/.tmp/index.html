@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Explore Brexar County STAAR results | San Antonio Express News</title>
+  <title>Which S.A. schools are preparing students to succeed? | San Antonio Express News</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <base target='_parent'>
   <!-- build:css styles/main.min.css -->
@@ -13,15 +13,15 @@
 <body>
 
 <div class="graphic">
-  <h1>Explore Brexar County STAAR results</h1>
-  <p class="subtext">In general, the percentage of Bexar County fifth and eigth-graders who passed the reading portion of Texas’ standardized STAAR test dropped from 2016 to 2017. Math scores, however, improved for both grades. Enter the name of a school district to compare the percentage of fifth and eigth-graders that passed from 2015-2017.</p>
+  <h1>Which S.A. schools are preparing students to succeed?</h1>
+  <p class="subtext">Every year Children At Risk provides school rankings to serve as a guide for understanding the performance of local schools. This includes calculating the percentage of students at the elementary, middle and high school levels properly prepared to succeed at the next level of schooling – middle school, high school or college respectively.</p>
 
   <div id="graphic-container">
 
     <div class="lookup sa-rankings-graphic">
       <div class="form-group">
-        <label for="search">Search for a Bexar county school campus to compare STAAR results for 2017, 2016 and 2015.</label>
-        <input id="search" class="typeahead" type="text" placeholder="E.g. Hardy Oak El">
+        <label for="search">Search for a San Antonio elementary, middle or high school to see how they fared in this years rankings.</label>
+        <input id="search" class="typeahead" type="text" placeholder="E.g. Judson Middle">
       </div>
 
       <div class="results-card">
@@ -30,34 +30,23 @@
         </div>
 
         <div class="bar-chart">
+          <ul>
+            <li>Regional Ranking: <span id="rank"></span> <span>of</span> <span id="regiontotal"></span></li>
+            <li>School Type: <span id="type"></span></li>
+          </ul>
+          <h3 class="subhead">5th grade reading</h3>
           <div class="chart-row">
-            <div class="row-label">Masters</div>
+            <div class="row-label">Reading</div>
             <div class="row-bar">
-              <span id="masters" class="bar-color masters">
+              <span id="rmeets" class="bar-color rmeets">
                 <span class="bar-value"></span>
               </span>
             </div>
           </div>
           <div class="chart-row">
-            <div class="row-label">Meets</div>
+            <div class="row-label">Math</div>
             <div class="row-bar">
-              <span id="meets" class="bar-color meets">
-                <span class="bar-value"></span>
-              </span>
-            </div>
-          </div>
-          <div class="chart-row">
-            <div class="row-label">Approaches</div>
-            <div class="row-bar">
-              <span id="approaches" class="bar-color approaches">
-                <span class="bar-value"></span>
-              </span>
-            </div>
-          </div>
-          <div class="chart-row">
-            <div class="row-label">Not meet</div>
-            <div class="row-bar">
-              <span id="notmeet" class="bar-color not-meet">
+              <span id="mmeets" class="bar-color mmeets">
                 <span class="bar-value"></span>
               </span>
             </div>
@@ -71,8 +60,9 @@
 
   <div class="footer">
     <ul>
-      <li>Source: Bexar County school districts</li>
-      <li>Credit: Alia Malik &amp; Luke Whyte</li>
+      <li class="note"><em>To see a thorough analysis of any school's performance, check out the Children At Risk's <a href="https://texasschoolguide.org/school-search/?sort=sortGrade&" target="_blank">analysis tool.</a></em></li>
+      <li>Source: <a href="http://childrenatrisk.org/school-rankings/">Children At Risk</a></li>
+      <li>Credit: Luke Whyte</li>
     </ul>
   </div>
 </div>

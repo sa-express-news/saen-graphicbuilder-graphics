@@ -5,7 +5,7 @@
 
 $blue: #1f78b4;
 $green: #33a02c;
-$label-width: 10%;
+$label-width: 14%;
 
 .graphic {
   max-width: 780px;
@@ -41,6 +41,7 @@ $label-width: 10%;
   overflow-y: auto;
   padding: 0;
   width: 100%;
+  cursor: pointer;
 }
 
 .tt-suggestion {
@@ -110,6 +111,15 @@ $label-width: 10%;
     margin: .5em 0 .5em;
     font-size: 1.125rem;
   }
+
+  li {
+    font-size: 1rem;
+
+    span {
+      color: darken($tribune-teal, 20%);
+      font-weight: bold;
+    }
+  }
 }
 
 .chart-row {
@@ -141,20 +151,28 @@ $label-width: 10%;
   padding: .5em .5em .5em 0;
   text-align: right;
 
-  &.notmeet { background-color: $tribune-teal; }
-  &.approaches { background-color: $tribune-teal; }
-  &.meets { background-color: $tribune-teal; }
-  &.masters { background-color: $tribune-teal; }
+  &.rmeets { background-color: $tribune-teal; }
+  &.mmeets { background-color: lighten($tribune-teal, 10%); }
 }
 
 .bar-value {
   color: rgb(255, 255, 255);
   text-shadow: 0 0 .125em rgba(0, 0, 0, .4);
+
+  &.outside {
+    color: #282828;
+    font-weight: 600;
+    position: relative;
+    left: calc(100% + 12px);
+    text-shadow: none;
+  }
 }
 
 .note {
   font-size: 1em;
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  color: #282828;
+  padding-bottom: 10px;
 }
 
 .footer {

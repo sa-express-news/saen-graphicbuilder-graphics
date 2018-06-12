@@ -772,7 +772,8 @@ a {
   max-height: 225px;
   overflow-y: auto;
   padding: 0;
-  width: 100%; }
+  width: 100%;
+  cursor: pointer; }
 
 .tt-suggestion {
   border-bottom: 1px solid #282828;
@@ -830,6 +831,11 @@ a {
     font-weight: 300;
     margin: .5em 0 .5em;
     font-size: 1.125rem; }
+  .bar-chart li {
+    font-size: 1rem; }
+    .bar-chart li span {
+      color: #00282a;
+      font-weight: bold; }
 
 .chart-row:after {
   clear: both;
@@ -844,12 +850,12 @@ a {
   font-weight: 700;
   padding: .5em 1em .5em 0;
   text-align: right;
-  width: 10%; }
+  width: 14%; }
 
 .row-bar {
   float: left;
   padding: 0 0 .75em;
-  width: 90%; }
+  width: 86%; }
 
 .last-row {
   margin: 0; }
@@ -860,22 +866,26 @@ a {
   height: 100%;
   padding: .5em .5em .5em 0;
   text-align: right; }
-  .bar-color.notmeet {
+  .bar-color.rmeets {
     background-color: #008990; }
-  .bar-color.approaches {
-    background-color: #008990; }
-  .bar-color.meets {
-    background-color: #008990; }
-  .bar-color.masters {
-    background-color: #008990; }
+  .bar-color.mmeets {
+    background-color: #00bac3; }
 
 .bar-value {
   color: white;
   text-shadow: 0 0 0.125em rgba(0, 0, 0, 0.4); }
+  .bar-value.outside {
+    color: #282828;
+    font-weight: 600;
+    position: relative;
+    left: calc(100% + 12px);
+    text-shadow: none; }
 
 .note {
   font-size: 1em;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  color: #282828;
+  padding-bottom: 10px; }
 
 .footer {
   padding: 0 0 1em 0; }

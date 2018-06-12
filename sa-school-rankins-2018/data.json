@@ -2,3523 +2,4563 @@
   "RANKINGS": [
     {
       "campus": "Hardy Oak El",
-      "notmeet": 7.27699531,
-      "approaches": 92.7230047,
-      "meets": 78.1690141,
-      "masters": 57.2769953
+      "rmeets": 78.1690141,
+      "mmeets": 80.9859155,
+      "type": "Elementary",
+      "rank": 1,
+      "regiontotal": 351
     },
     {
       "campus": "Hoffmann Lane El",
-      "notmeet": 2.5974026,
-      "approaches": 97.4025974,
-      "meets": 81.2987013,
-      "masters": 58.1818182
+      "rmeets": 81.2987013,
+      "mmeets": 79.4805195,
+      "type": "Elementary",
+      "rank": 2,
+      "regiontotal": 351
     },
     {
       "campus": "Wilderness Oak El",
-      "notmeet": 6.93333333,
-      "approaches": 93.0666667,
-      "meets": 76,
-      "masters": 51.4666667
+      "rmeets": 76,
+      "mmeets": 78.9893617,
+      "type": "Elementary",
+      "rank": 3,
+      "regiontotal": 351
     },
     {
       "campus": "Crestview El",
-      "notmeet": 8.42105263,
-      "approaches": 91.5789474,
-      "meets": 63.1578947,
-      "masters": 38.5964912
+      "rmeets": 63.1578947,
+      "mmeets": 70.0348432,
+      "type": "Elementary",
+      "rank": 4,
+      "regiontotal": 351
     },
     {
       "campus": "Blattman El",
-      "notmeet": 6.22568093,
-      "approaches": 93.7743191,
-      "meets": 75.8754864,
-      "masters": 56.4202335
+      "rmeets": 75.8754864,
+      "mmeets": 77.9069767,
+      "type": "Elementary",
+      "rank": 5,
+      "regiontotal": 351
     },
     {
       "campus": "Roan Forest El",
-      "notmeet": 12.0320856,
-      "approaches": 87.9679144,
-      "meets": 71.9251337,
-      "masters": 49.4652406
+      "rmeets": 71.9251337,
+      "mmeets": 72.1925134,
+      "type": "Elementary",
+      "rank": 6,
+      "regiontotal": 351
     },
     {
       "campus": "Timberwood Park El",
-      "notmeet": 4.51612903,
-      "approaches": 95.483871,
-      "meets": 75.1612903,
-      "masters": 51.6129032
+      "rmeets": 75.1612903,
+      "mmeets": 74.1935484,
+      "type": "Elementary",
+      "rank": 7,
+      "regiontotal": 351
     },
     {
       "campus": "Leon Springs El",
-      "notmeet": 9.73451327,
-      "approaches": 90.2654867,
-      "meets": 72.5663717,
-      "masters": 50
+      "rmeets": 72.5663717,
+      "mmeets": 68.2819383,
+      "type": "Elementary",
+      "rank": 8,
+      "regiontotal": 351
     },
     {
       "campus": "Rahe Bulverde El",
-      "notmeet": 7.7294686,
-      "approaches": 92.2705314,
-      "meets": 70.0483092,
-      "masters": 43.9613527
+      "rmeets": 70.0483092,
+      "mmeets": 72.9468599,
+      "type": "Elementary",
+      "rank": 9,
+      "regiontotal": 351
     },
     {
       "campus": "Encino Park El",
-      "notmeet": 6.77419355,
-      "approaches": 93.2258065,
-      "meets": 72.2580645,
-      "masters": 50.3225807
+      "rmeets": 72.2580645,
+      "mmeets": 74.516129,
+      "type": "Elementary",
+      "rank": 10,
+      "regiontotal": 351
     },
     {
       "campus": "Basis San Antonio- Pri North Central Campus",
-      "notmeet": 5.11811024,
-      "approaches": 94.8818898,
-      "meets": 79.1338583,
-      "masters": 52.9527559
+      "rmeets": 79.1338583,
+      "mmeets": 69.5290859,
+      "type": "Elementary",
+      "rank": 11,
+      "regiontotal": 351
     },
     {
       "campus": "Seele El",
-      "notmeet": 14.2201835,
-      "approaches": 85.7798165,
-      "meets": 66.0550459,
-      "masters": 47.2477064
+      "rmeets": 66.0550459,
+      "mmeets": 65.5963303,
+      "type": "Elementary",
+      "rank": 12,
+      "regiontotal": 351
     },
     {
       "campus": "Beard El",
-      "notmeet": 7.16112532,
-      "approaches": 92.8388747,
-      "meets": 73.657289,
-      "masters": 48.8491049
+      "rmeets": 73.657289,
+      "mmeets": 73.2142857,
+      "type": "Elementary",
+      "rank": 13,
+      "regiontotal": 351
     },
     {
       "campus": "Vineyard Ranch El",
-      "notmeet": 9.09090909,
-      "approaches": 90.9090909,
-      "meets": 71.6253444,
-      "masters": 50.9641873
+      "rmeets": 71.6253444,
+      "mmeets": 73.2782369,
+      "type": "Elementary",
+      "rank": 14,
+      "regiontotal": 351
     },
     {
       "campus": "Lackland El",
-      "notmeet": 13.6546185,
-      "approaches": 86.3453815,
-      "meets": 64.6586345,
-      "masters": 41.3654619
+      "rmeets": 64.6586345,
+      "mmeets": 67.3306773,
+      "type": "Elementary",
+      "rank": 15,
+      "regiontotal": 351
     },
     {
       "campus": "Scobee El",
-      "notmeet": 15.4639175,
-      "approaches": 84.5360825,
-      "meets": 63.2302406,
-      "masters": 41.580756
+      "rmeets": 63.2302406,
+      "mmeets": 67.3539519,
+      "type": "Elementary",
+      "rank": 16,
+      "regiontotal": 351
     },
     {
       "campus": "Mcandrew El",
-      "notmeet": 4.66666667,
-      "approaches": 95.3333333,
-      "meets": 73.3333333,
-      "masters": 49.3333333
+      "rmeets": 73.3333333,
+      "mmeets": 74,
+      "type": "Elementary",
+      "rank": 17,
+      "regiontotal": 351
     },
     {
       "campus": "Randolph El",
-      "notmeet": 8.49673203,
-      "approaches": 91.503268,
-      "meets": 70.2614379,
-      "masters": 47.0588235
+      "rmeets": 70.2614379,
+      "mmeets": 73.5294118,
+      "type": "Elementary",
+      "rank": 18,
+      "regiontotal": 351
     },
     {
       "campus": "Los Reyes El",
-      "notmeet": 8.36501901,
-      "approaches": 90.1140684,
-      "meets": 71.8631179,
-      "masters": 46.0076046
+      "rmeets": 71.8631179,
+      "mmeets": 67.4242424,
+      "type": "Elementary",
+      "rank": 19,
+      "regiontotal": 351
     },
     {
       "campus": "Castroville El",
-      "notmeet": 17.9054054,
-      "approaches": 81.4189189,
-      "meets": 57.0945946,
-      "masters": 36.8243243
+      "rmeets": 57.0945946,
+      "mmeets": 66.8918919,
+      "type": "Elementary",
+      "rank": 20,
+      "regiontotal": 351
     },
     {
       "campus": "Canyon Ridge El",
-      "notmeet": 11.9601329,
-      "approaches": 88.0398671,
-      "meets": 70.4318937,
-      "masters": 48.8372093
+      "rmeets": 70.4318937,
+      "mmeets": 70.7641196,
+      "type": "Elementary",
+      "rank": 21,
+      "regiontotal": 351
     },
     {
       "campus": "Mireles El",
-      "notmeet": 13.2882883,
-      "approaches": 86.7117117,
-      "meets": 65.5405405,
-      "masters": 42.3423423
+      "rmeets": 65.5405405,
+      "mmeets": 68.6936937,
+      "type": "Elementary",
+      "rank": 22,
+      "regiontotal": 351
     },
     {
       "campus": "Aue El",
-      "notmeet": 9.60960961,
-      "approaches": 90.3903904,
-      "meets": 72.0720721,
-      "masters": 50.4504505
+      "rmeets": 72.0720721,
+      "mmeets": 67.8678679,
+      "type": "Elementary",
+      "rank": 23,
+      "regiontotal": 351
     },
     {
       "campus": "Great Hearts Irving",
-      "notmeet": 8.89370933,
-      "approaches": 91.1062907,
-      "meets": 67.8958785,
-      "masters": 41.4316703
+      "rmeets": 67.8958785,
+      "mmeets": 68.3510638,
+      "type": "Elementary",
+      "rank": 24,
+      "regiontotal": 351
     },
     {
       "campus": "Rebecca Creek El",
-      "notmeet": 13.9534884,
-      "approaches": 86.0465116,
-      "meets": 60.0775194,
-      "masters": 42.6356589
+      "rmeets": 60.0775194,
+      "mmeets": 64.8648649,
+      "type": "Elementary",
+      "rank": 25,
+      "regiontotal": 351
     },
     {
       "campus": "Lacoste El",
-      "notmeet": 20.7282913,
-      "approaches": 78.4313726,
-      "meets": 54.3417367,
-      "masters": 33.8935574
+      "rmeets": 54.3417367,
+      "mmeets": 61.0644258,
+      "type": "Elementary",
+      "rank": 26,
+      "regiontotal": 351
     },
     {
       "campus": "Bulverde Creek",
-      "notmeet": 15.8844765,
-      "approaches": 84.1155235,
-      "meets": 62.8158845,
-      "masters": 40.9747292
+      "rmeets": 62.8158845,
+      "mmeets": 66.9658887,
+      "type": "Elementary",
+      "rank": 27,
+      "regiontotal": 351
     },
     {
       "campus": "Tuscany Heights",
-      "notmeet": 12.1513944,
-      "approaches": 87.8486056,
-      "meets": 65.7370518,
-      "masters": 41.434263
+      "rmeets": 65.7370518,
+      "mmeets": 67.7932406,
+      "type": "Elementary",
+      "rank": 28,
+      "regiontotal": 351
     },
     {
       "campus": "Cibolo Green",
-      "notmeet": 11.5749526,
-      "approaches": 88.4250474,
-      "meets": 63.9468691,
-      "masters": 41.9354839
+      "rmeets": 63.9468691,
+      "mmeets": 67.2348485,
+      "type": "Elementary",
+      "rank": 29,
+      "regiontotal": 351
     },
     {
       "campus": "Kinder Ranch El",
-      "notmeet": 14.2857143,
-      "approaches": 85,
-      "meets": 58.2142857,
-      "masters": 35.3571429
+      "rmeets": 58.2142857,
+      "mmeets": 66.7857143,
+      "type": "Elementary",
+      "rank": 30,
+      "regiontotal": 351
     },
     {
       "campus": "Lone Star Early Childhood Center",
-      "notmeet": 11.1111111,
-      "approaches": 88.8888889,
-      "meets": 54.0740741,
-      "masters": 28.8888889
+      "rmeets": 54.0740741,
+      "mmeets": 58.5185185,
+      "type": "Elementary",
+      "rank": 31,
+      "regiontotal": 351
     },
     {
       "campus": "Mh Specht El",
-      "notmeet": 9.23076923,
-      "approaches": 90.7692308,
-      "meets": 64.9230769,
-      "masters": 40.3076923
+      "rmeets": 64.9230769,
+      "mmeets": 67.0769231,
+      "type": "Elementary",
+      "rank": 32,
+      "regiontotal": 351
     },
     {
       "campus": "Hidden Forest El",
-      "notmeet": 14.8854962,
-      "approaches": 85.1145038,
-      "meets": 66.0305344,
-      "masters": 41.9847328
+      "rmeets": 66.0305344,
+      "mmeets": 65.2671756,
+      "type": "Elementary",
+      "rank": 33,
+      "regiontotal": 351
     },
     {
       "campus": "Northwood El",
-      "notmeet": 21.6346154,
-      "approaches": 78.3653846,
-      "meets": 58.6538462,
-      "masters": 45.6730769
+      "rmeets": 58.6538462,
+      "mmeets": 63.4615385,
+      "type": "Elementary",
+      "rank": 34,
+      "regiontotal": 351
     },
     {
       "campus": "Stone Oak El",
-      "notmeet": 10.741688,
-      "approaches": 89.0025575,
-      "meets": 62.915601,
-      "masters": 40.1534527
+      "rmeets": 62.915601,
+      "mmeets": 66.5816327,
+      "type": "Elementary",
+      "rank": 35,
+      "regiontotal": 351
     },
     {
       "campus": "Ellison El",
-      "notmeet": 14.1762452,
-      "approaches": 85.0574713,
-      "meets": 63.6015326,
-      "masters": 37.164751
+      "rmeets": 63.6015326,
+      "mmeets": 62.6923077,
+      "type": "Elementary",
+      "rank": 36,
+      "regiontotal": 351
     },
     {
       "campus": "Helotes El",
-      "notmeet": 12.962963,
-      "approaches": 87.037037,
-      "meets": 59.7222222,
-      "masters": 34.7222222
+      "rmeets": 59.7222222,
+      "mmeets": 68.0555556,
+      "type": "Elementary",
+      "rank": 37,
+      "regiontotal": 351
     },
     {
       "campus": "Las Lomas El",
-      "notmeet": 17.921147,
-      "approaches": 82.0788531,
-      "meets": 63.4408602,
-      "masters": 42.2939068
+      "rmeets": 63.4408602,
+      "mmeets": 64.516129,
+      "type": "Elementary",
+      "rank": 38,
+      "regiontotal": 351
     },
     {
       "campus": "School Of Science And Technology - Alamo",
-      "notmeet": 22.2222222,
-      "approaches": 77.4193548,
-      "meets": 51.6129032,
-      "masters": 33.3333333
+      "rmeets": 51.6129032,
+      "mmeets": 60.8527132,
+      "type": "Elementary",
+      "rank": 39,
+      "regiontotal": 351
     },
     {
       "campus": "Indian Springs El",
-      "notmeet": 10.4591837,
-      "approaches": 89.2857143,
-      "meets": 71.4285714,
-      "masters": 52.2959184
+      "rmeets": 71.4285714,
+      "mmeets": 60.7142857,
+      "type": "Elementary",
+      "rank": 40,
+      "regiontotal": 351
     },
     {
       "campus": "Longs Creek El",
-      "notmeet": 14.2424242,
-      "approaches": 85.7575758,
-      "meets": 61.5151515,
-      "masters": 37.2727273
+      "rmeets": 61.5151515,
+      "mmeets": 62.4242424,
+      "type": "Elementary",
+      "rank": 41,
+      "regiontotal": 351
     },
     {
       "campus": "Carson El",
-      "notmeet": 18.0555556,
-      "approaches": 81.9444444,
-      "meets": 55.5555556,
-      "masters": 32.2916667
+      "rmeets": 55.5555556,
+      "mmeets": 60.0694444,
+      "type": "Elementary",
+      "rank": 42,
+      "regiontotal": 351
     },
     {
       "campus": "Walnut Springs El",
-      "notmeet": 11.7647059,
-      "approaches": 88.2352941,
-      "meets": 59.2156863,
-      "masters": 33.3333333
+      "rmeets": 59.2156863,
+      "mmeets": 61.5686275,
+      "type": "Elementary",
+      "rank": 43,
+      "regiontotal": 351
     },
     {
       "campus": "Franklin El",
-      "notmeet": 13.803681,
-      "approaches": 86.196319,
-      "meets": 59.5092025,
-      "masters": 34.0490798
+      "rmeets": 59.5092025,
+      "mmeets": 60.4294479,
+      "type": "Elementary",
+      "rank": 44,
+      "regiontotal": 351
     },
     {
       "campus": "Raba El",
-      "notmeet": 19.7222222,
-      "approaches": 80.2777778,
-      "meets": 53.6111111,
-      "masters": 30.5555556
+      "rmeets": 53.6111111,
+      "mmeets": 60.1108033,
+      "type": "Elementary",
+      "rank": 45,
+      "regiontotal": 351
     },
     {
       "campus": "Krueger El",
-      "notmeet": 14.5833333,
-      "approaches": 85.4166667,
-      "meets": 60.1851852,
-      "masters": 32.4074074
+      "rmeets": 60.1851852,
+      "mmeets": 61.7511521,
+      "type": "Elementary",
+      "rank": 46,
+      "regiontotal": 351
     },
     {
       "campus": "Jubilee Living Way",
-      "notmeet": 16.9117647,
-      "approaches": 79.4117647,
-      "meets": 52.9411765,
-      "masters": 32.3529412
+      "rmeets": 52.9411765,
+      "mmeets": 53.6764706,
+      "type": "Elementary",
+      "rank": 47,
+      "regiontotal": 351
     },
     {
       "campus": "Navarro Int",
-      "notmeet": 19.9004975,
-      "approaches": 79.6019901,
-      "meets": 50.2487562,
-      "masters": 26.8656716
+      "rmeets": 50.2487562,
+      "mmeets": 66.3366337,
+      "type": "Elementary",
+      "rank": 48,
+      "regiontotal": 351
     },
     {
       "campus": "Big Country El",
-      "notmeet": 25.6637168,
-      "approaches": 72.8613569,
-      "meets": 44.2477876,
-      "masters": 21.5339233
+      "rmeets": 44.2477876,
+      "mmeets": 59.5870207,
+      "type": "Elementary",
+      "rank": 49,
+      "regiontotal": 351
     },
     {
       "campus": "Norma Krueger El/bert Karrer Campus",
-      "notmeet": 19.3650794,
-      "approaches": 80.6349206,
-      "meets": 50.4761905,
-      "masters": 31.1111111
+      "rmeets": 50.4761905,
+      "mmeets": 60.5678233,
+      "type": "Elementary",
+      "rank": 50,
+      "regiontotal": 351
     },
     {
       "campus": "Burke El",
-      "notmeet": 17.0403587,
-      "approaches": 80.2690583,
-      "meets": 50.6726457,
-      "masters": 27.8026906
+      "rmeets": 50.6726457,
+      "mmeets": 55.6053812,
+      "type": "Elementary",
+      "rank": 51,
+      "regiontotal": 351
     },
     {
       "campus": "Koennecke El",
-      "notmeet": 24.3055556,
-      "approaches": 74.3055556,
-      "meets": 46.5277778,
-      "masters": 26.0416667
+      "rmeets": 46.5277778,
+      "mmeets": 61.4583333,
+      "type": "Elementary",
+      "rank": 52,
+      "regiontotal": 351
     },
     {
       "campus": "Eleanor Kolitz Hebrew Language Academy",
-      "notmeet": 6.13496933,
-      "approaches": 93.8650307,
-      "meets": 61.9631902,
-      "masters": 35.5828221
+      "rmeets": 61.9631902,
+      "mmeets": 63.125,
+      "type": "Elementary",
+      "rank": 53,
+      "regiontotal": 351
     },
     {
       "campus": "Huebner El",
-      "notmeet": 17.877095,
-      "approaches": 82.122905,
-      "meets": 56.7039106,
-      "masters": 39.9441341
+      "rmeets": 56.7039106,
+      "mmeets": 63.6871508,
+      "type": "Elementary",
+      "rank": 54,
+      "regiontotal": 351
     },
     {
       "campus": "Potranco El",
-      "notmeet": 16.8490153,
-      "approaches": 82.0568928,
-      "meets": 55.5798687,
-      "masters": 36.5426696
+      "rmeets": 55.5798687,
+      "mmeets": 59.0809628,
+      "type": "Elementary",
+      "rank": 55,
+      "regiontotal": 351
     },
     {
       "campus": "Ward El",
-      "notmeet": 20.6422018,
-      "approaches": 79.3577982,
-      "meets": 55.0458716,
-      "masters": 30.733945
+      "rmeets": 55.0458716,
+      "mmeets": 53.8990826,
+      "type": "Elementary",
+      "rank": 56,
+      "regiontotal": 351
     },
     {
       "campus": "Great Hearts Monte Vista",
-      "notmeet": 16.0377359,
-      "approaches": 83.9622642,
-      "meets": 58.9622642,
-      "masters": 36.3207547
+      "rmeets": 58.9622642,
+      "mmeets": 60.5633803,
+      "type": "Elementary",
+      "rank": 57,
+      "regiontotal": 351
     },
     {
       "campus": "Elaine S Schlather Int",
-      "notmeet": 20.9631728,
-      "approaches": 79.0368272,
-      "meets": 51.1331445,
-      "masters": 24.6458924
+      "rmeets": 51.1331445,
+      "mmeets": 66.0537482,
+      "type": "Elementary",
+      "rank": 58,
+      "regiontotal": 351
     },
     {
       "campus": "Castle Hills El",
-      "notmeet": 19.6581197,
-      "approaches": 80.3418803,
-      "meets": 60.6837607,
-      "masters": 38.4615385
+      "rmeets": 60.6837607,
+      "mmeets": 53.6170213,
+      "type": "Elementary",
+      "rank": 59,
+      "regiontotal": 351
     },
     {
       "campus": "County Line El",
-      "notmeet": 13.4615385,
-      "approaches": 86.5384615,
-      "meets": 56.1538462,
-      "masters": 32.3076923
+      "rmeets": 56.1538462,
+      "mmeets": 59.2307692,
+      "type": "Elementary",
+      "rank": 60,
+      "regiontotal": 351
     },
     {
       "campus": "Cole El",
-      "notmeet": 19.0909091,
-      "approaches": 80,
-      "meets": 52.4242424,
-      "masters": 33.3333333
+      "rmeets": 52.4242424,
+      "mmeets": 61.6314199,
+      "type": "Elementary",
+      "rank": 61,
+      "regiontotal": 351
     },
     {
       "campus": "Bill Brown El",
-      "notmeet": 14.8997135,
-      "approaches": 83.3810888,
-      "meets": 64.756447,
-      "masters": 43.2664756
+      "rmeets": 64.756447,
+      "mmeets": 55.3008596,
+      "type": "Elementary",
+      "rank": 62,
+      "regiontotal": 351
     },
     {
       "campus": "Fernandez El",
-      "notmeet": 14.8288973,
-      "approaches": 85.1711027,
-      "meets": 52.0912548,
-      "masters": 28.8973384
+      "rmeets": 52.0912548,
+      "mmeets": 57.4144487,
+      "type": "Elementary",
+      "rank": 63,
+      "regiontotal": 351
     },
     {
       "campus": "John A Sippel El",
-      "notmeet": 19.9261993,
-      "approaches": 80.0738007,
-      "meets": 55.7195572,
-      "masters": 34.6863469
+      "rmeets": 55.7195572,
+      "mmeets": 59.4095941,
+      "type": "Elementary",
+      "rank": 64,
+      "regiontotal": 351
     },
     {
       "campus": "Mcqueeney El",
-      "notmeet": 21.7391304,
-      "approaches": 78.2608696,
-      "meets": 42.2360248,
-      "masters": 21.1180124
+      "rmeets": 42.2360248,
+      "mmeets": 55.2795031,
+      "type": "Elementary",
+      "rank": 65,
+      "regiontotal": 351
     },
     {
       "campus": "Johnson Ranch El",
-      "notmeet": 14.379085,
-      "approaches": 85.620915,
-      "meets": 58.8235294,
-      "masters": 40.5228758
+      "rmeets": 58.8235294,
+      "mmeets": 62.745098,
+      "type": "Elementary",
+      "rank": 66,
+      "regiontotal": 351
     },
     {
       "campus": "Fox Run El",
-      "notmeet": 21.9101124,
-      "approaches": 78.0898876,
-      "meets": 48.8764045,
-      "masters": 26.9662921
+      "rmeets": 48.8764045,
+      "mmeets": 55.0561798,
+      "type": "Elementary",
+      "rank": 67,
+      "regiontotal": 351
     },
     {
       "campus": "Brauchle El",
-      "notmeet": 22.0735786,
-      "approaches": 77.9264214,
-      "meets": 47.1571906,
-      "masters": 23.4113712
+      "rmeets": 47.1571906,
+      "mmeets": 55.5183947,
+      "type": "Elementary",
+      "rank": 68,
+      "regiontotal": 351
     },
     {
       "campus": "Hoffmann El",
-      "notmeet": 16.089613,
-      "approaches": 83.910387,
-      "meets": 56.4154786,
-      "masters": 36.0488798
+      "rmeets": 56.4154786,
+      "mmeets": 61.8367347,
+      "type": "Elementary",
+      "rank": 69,
+      "regiontotal": 351
     },
     {
       "campus": "D'hanis School",
-      "notmeet": 13.5294118,
-      "approaches": 86.4705882,
-      "meets": 59.4117647,
-      "masters": 32.9411765
+      "rmeets": 59.4117647,
+      "mmeets": 49.3670886,
+      "type": "Elementary",
+      "rank": 70,
+      "regiontotal": 351
     },
     {
       "campus": "Redland Oaks El",
-      "notmeet": 14.4230769,
-      "approaches": 85.5769231,
-      "meets": 54.8076923,
-      "masters": 34.1346154
+      "rmeets": 54.8076923,
+      "mmeets": 56.7307692,
+      "type": "Elementary",
+      "rank": 71,
+      "regiontotal": 351
     },
     {
       "campus": "Norma J Paschal El",
-      "notmeet": 18.6770428,
-      "approaches": 81.3229572,
-      "meets": 57.5875486,
-      "masters": 40.077821
+      "rmeets": 57.5875486,
+      "mmeets": 58.7548638,
+      "type": "Elementary",
+      "rank": 72,
+      "regiontotal": 351
     },
     {
       "campus": "Scarborough El",
-      "notmeet": 15.5172414,
-      "approaches": 84.4827586,
-      "meets": 50.2463054,
-      "masters": 29.5566503
+      "rmeets": 50.2463054,
+      "mmeets": 59.8039216,
+      "type": "Elementary",
+      "rank": 73,
+      "regiontotal": 351
     },
     {
       "campus": "Braun Station El",
-      "notmeet": 27.0072993,
-      "approaches": 72.9927007,
-      "meets": 52.189781,
-      "masters": 33.2116788
+      "rmeets": 52.189781,
+      "mmeets": 56.7272727,
+      "type": "Elementary",
+      "rank": 74,
+      "regiontotal": 351
     },
     {
       "campus": "Driggers El",
-      "notmeet": 21.7712177,
-      "approaches": 75.6457565,
-      "meets": 45.3874539,
-      "masters": 26.199262
+      "rmeets": 45.3874539,
+      "mmeets": 53.5055351,
+      "type": "Elementary",
+      "rank": 75,
+      "regiontotal": 351
     },
     {
       "campus": "Boldt El",
-      "notmeet": 14.4827586,
-      "approaches": 85.5172414,
-      "meets": 60,
-      "masters": 32.4137931
+      "rmeets": 60,
+      "mmeets": 55.1724138,
+      "type": "Elementary",
+      "rank": 76,
+      "regiontotal": 351
     },
     {
       "campus": "Carl Schurz El",
-      "notmeet": 21.3286713,
-      "approaches": 78.3216783,
-      "meets": 51.0489511,
-      "masters": 32.8671329
+      "rmeets": 51.0489511,
+      "mmeets": 53.4722222,
+      "type": "Elementary",
+      "rank": 77,
+      "regiontotal": 351
     },
     {
       "campus": "Garden Ridge El",
-      "notmeet": 18.0107527,
-      "approaches": 81.9892473,
-      "meets": 55.9139785,
-      "masters": 38.4408602
+      "rmeets": 55.9139785,
+      "mmeets": 60.8579089,
+      "type": "Elementary",
+      "rank": 78,
+      "regiontotal": 351
     },
     {
       "campus": "Weinert El",
-      "notmeet": 18.5873606,
-      "approaches": 81.4126394,
-      "meets": 56.5055762,
-      "masters": 28.6245353
+      "rmeets": 56.5055762,
+      "mmeets": 48.1343284,
+      "type": "Elementary",
+      "rank": 79,
+      "regiontotal": 351
     },
     {
       "campus": "Lamar El",
-      "notmeet": 13.2231405,
-      "approaches": 86.7768595,
-      "meets": 59.5041322,
-      "masters": 38.4297521
+      "rmeets": 59.5041322,
+      "mmeets": 56.25,
+      "type": "Elementary",
+      "rank": 80,
+      "regiontotal": 351
     },
     {
       "campus": "Kuentz El",
-      "notmeet": 16.2561576,
-      "approaches": 83.7438424,
-      "meets": 57.635468,
-      "masters": 34.9753695
+      "rmeets": 57.635468,
+      "mmeets": 62.6535627,
+      "type": "Elementary",
+      "rank": 81,
+      "regiontotal": 351
     },
     {
       "campus": "Elm Creek El",
-      "notmeet": 29.5321637,
-      "approaches": 69.2982456,
-      "meets": 37.4269006,
-      "masters": 19.005848
+      "rmeets": 37.4269006,
+      "mmeets": 58.8921283,
+      "type": "Elementary",
+      "rank": 82,
+      "regiontotal": 351
     },
     {
       "campus": "Nichols El",
-      "notmeet": 20.3252033,
-      "approaches": 79.6747968,
-      "meets": 51.6260163,
-      "masters": 28.8617886
+      "rmeets": 51.6260163,
+      "mmeets": 58.1300813,
+      "type": "Elementary",
+      "rank": 83,
+      "regiontotal": 351
     },
     {
       "campus": "Southwest El",
-      "notmeet": 37.716263,
-      "approaches": 61.2456747,
-      "meets": 36.6782007,
-      "masters": 20.0692042
-    },
-    {
-      "campus": "School Of Science And Technology Advancement",
-      "notmeet": 27.0676692,
-      "approaches": 72.1804511,
-      "meets": 42.1052632,
-      "masters": 20.3007519
+      "rmeets": 36.6782007,
+      "mmeets": 58.1314879,
+      "type": "Elementary",
+      "rank": 84,
+      "regiontotal": 351
     },
     {
       "campus": "Watts El",
-      "notmeet": 20,
-      "approaches": 80,
-      "meets": 51.6666667,
-      "masters": 31.6666667
+      "rmeets": 51.6666667,
+      "mmeets": 57.5,
+      "type": "Elementary",
+      "rank": 86,
+      "regiontotal": 351
     },
     {
       "campus": "Great Hearts Northern Oaks",
-      "notmeet": 9.7415507,
-      "approaches": 90.2584493,
-      "meets": 63.6182903,
-      "masters": 39.7614314
+      "rmeets": 63.6182903,
+      "mmeets": 54.2372881,
+      "type": "Elementary",
+      "rank": 87,
+      "regiontotal": 351
     },
     {
       "campus": "Forester El",
-      "notmeet": 24.1090147,
-      "approaches": 75.8909853,
-      "meets": 50.524109,
-      "masters": 27.4633124
+      "rmeets": 50.524109,
+      "mmeets": 51.7819707,
+      "type": "Elementary",
+      "rank": 88,
+      "regiontotal": 351
     },
     {
       "campus": "Rolling Meadows El",
-      "notmeet": 17.6470588,
-      "approaches": 82.3529412,
-      "meets": 53.1764706,
-      "masters": 32.7058824
+      "rmeets": 53.1764706,
+      "mmeets": 55.2693208,
+      "type": "Elementary",
+      "rank": 89,
+      "regiontotal": 351
     },
     {
       "campus": "Fields El",
-      "notmeet": 21.3622291,
-      "approaches": 77.7089783,
-      "meets": 49.5356037,
-      "masters": 33.4365325
+      "rmeets": 49.5356037,
+      "mmeets": 52.7777778,
+      "type": "Elementary",
+      "rank": 90,
+      "regiontotal": 351
     },
     {
       "campus": "Locke Hill El",
-      "notmeet": 29.8780488,
-      "approaches": 70.1219512,
-      "meets": 47.2560976,
-      "masters": 28.0487805
+      "rmeets": 47.2560976,
+      "mmeets": 56.7073171,
+      "type": "Elementary",
+      "rank": 91,
+      "regiontotal": 351
     },
     {
       "campus": "Woodridge El",
-      "notmeet": 17.2354949,
-      "approaches": 82.7645051,
-      "meets": 56.3139932,
-      "masters": 36.1774744
+      "rmeets": 56.3139932,
+      "mmeets": 56.0477002,
+      "type": "Elementary",
+      "rank": 92,
+      "regiontotal": 351
     },
     {
       "campus": "Murnin El",
-      "notmeet": 24.8291572,
-      "approaches": 75.1708428,
-      "meets": 50.7972665,
-      "masters": 28.0182232
-    },
-    {
-      "campus": "Harmony Science Academy - Brownsville",
-      "notmeet": 25.4545455,
-      "approaches": 73.0909091,
-      "meets": 43.2727273,
-      "masters": 21.0909091
+      "rmeets": 50.7972665,
+      "mmeets": 46.6970387,
+      "type": "Elementary",
+      "rank": 93,
+      "regiontotal": 351
     },
     {
       "campus": "Barbara Jordan Int",
-      "notmeet": 21.2076583,
-      "approaches": 78.7923417,
-      "meets": 49.9263623,
-      "masters": 25.3313697
+      "rmeets": 49.9263623,
+      "mmeets": 59.7058824,
+      "type": "Elementary",
+      "rank": 95,
+      "regiontotal": 351
     },
     {
       "campus": "Ricardo Salinas El",
-      "notmeet": 22.5806452,
-      "approaches": 77.4193548,
-      "meets": 49.6774194,
-      "masters": 28.3870968
+      "rmeets": 49.6774194,
+      "mmeets": 52.9032258,
+      "type": "Elementary",
+      "rank": 96,
+      "regiontotal": 351
     },
     {
       "campus": "Jubilee Harlingen",
-      "notmeet": 25.5102041,
-      "approaches": 74.4897959,
-      "meets": 51.0204082,
-      "masters": 27.5510204
+      "rmeets": 51.0204082,
+      "mmeets": 45.9183674,
+      "type": "Elementary",
+      "rank": 97,
+      "regiontotal": 351
     },
     {
       "campus": "Henderson El",
-      "notmeet": 20.6235012,
-      "approaches": 78.177458,
-      "meets": 48.441247,
-      "masters": 27.0983213
+      "rmeets": 48.441247,
+      "mmeets": 56.8345324,
+      "type": "Elementary",
+      "rank": 98,
+      "regiontotal": 351
     },
     {
       "campus": "Oak Meadow El",
-      "notmeet": 17.8010471,
-      "approaches": 81.6753927,
-      "meets": 56.5445026,
-      "masters": 37.6963351
+      "rmeets": 56.5445026,
+      "mmeets": 50.7853403,
+      "type": "Elementary",
+      "rank": 99,
+      "regiontotal": 351
     },
     {
       "campus": "Coronado Village El",
-      "notmeet": 19.5767196,
-      "approaches": 77.7777778,
-      "meets": 51.8518519,
-      "masters": 29.6296296
+      "rmeets": 51.8518519,
+      "mmeets": 44.4444444,
+      "type": "Elementary",
+      "rank": 100,
+      "regiontotal": 351
     },
     {
       "campus": "Copperfield El",
-      "notmeet": 26.3513514,
-      "approaches": 73.6486487,
-      "meets": 48.3108108,
-      "masters": 24.3243243
+      "rmeets": 48.3108108,
+      "mmeets": 48.3108108,
+      "type": "Elementary",
+      "rank": 101,
+      "regiontotal": 351
     },
     {
       "campus": "Arlon R Seay El",
-      "notmeet": 15.1832461,
-      "approaches": 84.8167539,
-      "meets": 59.1623037,
-      "masters": 32.460733
+      "rmeets": 59.1623037,
+      "mmeets": 52.6041667,
+      "type": "Elementary",
+      "rank": 102,
+      "regiontotal": 351
     },
     {
       "campus": "Wiederstein El",
-      "notmeet": 20.6349206,
-      "approaches": 79.3650794,
-      "meets": 52.3809524,
-      "masters": 30.7936508
+      "rmeets": 52.3809524,
+      "mmeets": 54.7468354,
+      "type": "Elementary",
+      "rank": 103,
+      "regiontotal": 351
     },
     {
       "campus": "Steubing El",
-      "notmeet": 23.4309623,
-      "approaches": 76.5690377,
-      "meets": 49.790795,
-      "masters": 28.4518829
+      "rmeets": 49.790795,
+      "mmeets": 54.5833333,
+      "type": "Elementary",
+      "rank": 104,
+      "regiontotal": 351
     },
     {
       "campus": "Steubing Ranch El",
-      "notmeet": 20.083682,
-      "approaches": 79.916318,
-      "meets": 50,
-      "masters": 30.9623431
+      "rmeets": 50,
+      "mmeets": 51.4644352,
+      "type": "Elementary",
+      "rank": 105,
+      "regiontotal": 351
     },
     {
       "campus": "Linton El",
-      "notmeet": 30.7692308,
-      "approaches": 69.2307692,
-      "meets": 39.9267399,
-      "masters": 18.6813187
+      "rmeets": 39.9267399,
+      "mmeets": 49.8168498,
+      "type": "Elementary",
+      "rank": 106,
+      "regiontotal": 351
     },
     {
       "campus": "Elrod El",
-      "notmeet": 22.265625,
-      "approaches": 77.734375,
-      "meets": 44.921875,
-      "masters": 25.78125
+      "rmeets": 44.921875,
+      "mmeets": 55.511811,
+      "type": "Elementary",
+      "rank": 107,
+      "regiontotal": 351
     },
     {
       "campus": "Medio Creek El",
-      "notmeet": 34.1296928,
-      "approaches": 64.5051195,
-      "meets": 34.8122867,
-      "masters": 21.1604096
+      "rmeets": 34.8122867,
+      "mmeets": 53.5836178,
+      "type": "Elementary",
+      "rank": 108,
+      "regiontotal": 351
     },
     {
       "campus": "Langley El",
-      "notmeet": 19.7247706,
-      "approaches": 76.146789,
-      "meets": 55.5045872,
-      "masters": 30.2752294
+      "rmeets": 55.5045872,
+      "mmeets": 46.7889908,
+      "type": "Elementary",
+      "rank": 109,
+      "regiontotal": 351
     },
     {
       "campus": "School Of Science And Technology Discovery",
-      "notmeet": 23.7458194,
-      "approaches": 76.2541806,
-      "meets": 46.1538462,
-      "masters": 23.4113712
+      "rmeets": 46.1538462,
+      "mmeets": 51.4388489,
+      "type": "Elementary",
+      "rank": 110,
+      "regiontotal": 351
     },
     {
       "campus": "Young Men's Leadership Academy",
-      "notmeet": 24.3093923,
-      "approaches": 75.6906077,
-      "meets": 42.5414365,
-      "masters": 19.8895028
+      "rmeets": 42.5414365,
+      "mmeets": 51.3812155,
+      "type": "Elementary",
+      "rank": 111,
+      "regiontotal": 351
     },
     {
       "campus": "Sun Valley El",
-      "notmeet": 31.5018315,
-      "approaches": 67.3992674,
-      "meets": 40.6593407,
-      "masters": 22.3443223
+      "rmeets": 40.6593407,
+      "mmeets": 47.6190476,
+      "type": "Elementary",
+      "rank": 112,
+      "regiontotal": 351
     },
     {
       "campus": "Laura Ingalls Wilder Int",
-      "notmeet": 25.7378985,
-      "approaches": 74.2621015,
-      "meets": 41.6765053,
-      "masters": 21.2514758
+      "rmeets": 41.6765053,
+      "mmeets": 55.1357733,
+      "type": "Elementary",
+      "rank": 113,
+      "regiontotal": 351
     },
     {
       "campus": "Cibolo Valley El",
-      "notmeet": 20.8754209,
-      "approaches": 79.1245791,
-      "meets": 51.8518519,
-      "masters": 34.006734
+      "rmeets": 51.8518519,
+      "mmeets": 52.5083612,
+      "type": "Elementary",
+      "rank": 114,
+      "regiontotal": 351
     },
     {
       "campus": "Ft Sam Houston El",
-      "notmeet": 17.251462,
-      "approaches": 82.4561404,
-      "meets": 52.9239766,
-      "masters": 32.1637427
+      "rmeets": 52.9239766,
+      "mmeets": 50.877193,
+      "type": "Elementary",
+      "rank": 115,
+      "regiontotal": 351
     },
     {
       "campus": "Cambridge El",
-      "notmeet": 20.0854701,
-      "approaches": 78.8461539,
-      "meets": 55.5555556,
-      "masters": 38.034188
+      "rmeets": 55.5555556,
+      "mmeets": 49.466951,
+      "type": "Elementary",
+      "rank": 116,
+      "regiontotal": 351
     },
     {
       "campus": "Olympia El",
-      "notmeet": 22.8699552,
-      "approaches": 77.1300448,
-      "meets": 48.8789238,
-      "masters": 26.9058296
+      "rmeets": 48.8789238,
+      "mmeets": 51.3392857,
+      "type": "Elementary",
+      "rank": 117,
+      "regiontotal": 351
     },
     {
       "campus": "Green Valley El",
-      "notmeet": 25.6849315,
-      "approaches": 74.3150685,
-      "meets": 46.5753425,
-      "masters": 23.9726027
+      "rmeets": 46.5753425,
+      "mmeets": 57.337884,
+      "type": "Elementary",
+      "rank": 118,
+      "regiontotal": 351
     },
     {
       "campus": "Clear Spring El",
-      "notmeet": 16.8711656,
-      "approaches": 82.8220859,
-      "meets": 50.9202454,
-      "masters": 29.7546012
+      "rmeets": 50.9202454,
+      "mmeets": 44.7852761,
+      "type": "Elementary",
+      "rank": 119,
+      "regiontotal": 351
     },
     {
       "campus": "Goodwin Frazier El",
-      "notmeet": 27.037037,
-      "approaches": 72.962963,
-      "meets": 47.7777778,
-      "masters": 27.4074074
+      "rmeets": 47.7777778,
+      "mmeets": 42.7509294,
+      "type": "Elementary",
+      "rank": 120,
+      "regiontotal": 351
     },
     {
       "campus": "Alkek El",
-      "notmeet": 26.6666667,
-      "approaches": 73.3333333,
-      "meets": 46.2745098,
-      "masters": 25.8823529
+      "rmeets": 46.2745098,
+      "mmeets": 43.359375,
+      "type": "Elementary",
+      "rank": 121,
+      "regiontotal": 351
     },
     {
       "campus": "Ott El",
-      "notmeet": 19.7771588,
-      "approaches": 79.9442897,
-      "meets": 47.9108635,
-      "masters": 23.9554318
+      "rmeets": 47.9108635,
+      "mmeets": 49.4444444,
+      "type": "Elementary",
+      "rank": 122,
+      "regiontotal": 351
     },
     {
       "campus": "Thousand Oaks El",
-      "notmeet": 27.3657289,
-      "approaches": 72.6342711,
-      "meets": 44.2455243,
-      "masters": 26.85422
+      "rmeets": 44.2455243,
+      "mmeets": 50,
+      "type": "Elementary",
+      "rank": 123,
+      "regiontotal": 351
     },
     {
       "campus": "May El",
-      "notmeet": 22.8782288,
-      "approaches": 76.7527675,
-      "meets": 48.3394834,
-      "masters": 31.7343173
+      "rmeets": 48.3394834,
+      "mmeets": 49.0774908,
+      "type": "Elementary",
+      "rank": 124,
+      "regiontotal": 351
     },
     {
       "campus": "Olmos El",
-      "notmeet": 31.9066148,
-      "approaches": 68.0933852,
-      "meets": 36.9649805,
-      "masters": 17.5097276
+      "rmeets": 36.9649805,
+      "mmeets": 45.9143969,
+      "type": "Elementary",
+      "rank": 125,
+      "regiontotal": 351
     },
     {
       "campus": "James L Masters",
-      "notmeet": 25.9259259,
-      "approaches": 74.0740741,
-      "meets": 46.2962963,
-      "masters": 25.9259259
+      "rmeets": 46.2962963,
+      "mmeets": 44.591029,
+      "type": "Elementary",
+      "rank": 126,
+      "regiontotal": 351
     },
     {
       "campus": "Kriewald Rd El",
-      "notmeet": 35.0694444,
-      "approaches": 64.9305556,
-      "meets": 36.8055556,
-      "masters": 18.4027778
+      "rmeets": 36.8055556,
+      "mmeets": 49.4809689,
+      "type": "Elementary",
+      "rank": 127,
+      "regiontotal": 351
     },
     {
       "campus": "Northwest Crossing El",
-      "notmeet": 25.4480287,
-      "approaches": 72.7598566,
-      "meets": 41.9354839,
-      "masters": 22.5806452
+      "rmeets": 41.9354839,
+      "mmeets": 48.0286738,
+      "type": "Elementary",
+      "rank": 128,
+      "regiontotal": 351
     },
     {
       "campus": "Lewis El",
-      "notmeet": 24.7126437,
-      "approaches": 75.2873563,
-      "meets": 48.2758621,
-      "masters": 26.4367816
+      "rmeets": 48.2758621,
+      "mmeets": 47.2622478,
+      "type": "Elementary",
+      "rank": 129,
+      "regiontotal": 351
     },
     {
       "campus": "Fisher El",
-      "notmeet": 31.2206573,
-      "approaches": 68.7793427,
-      "meets": 39.9061033,
-      "masters": 21.1267606
+      "rmeets": 39.9061033,
+      "mmeets": 46.1358314,
+      "type": "Elementary",
+      "rank": 130,
+      "regiontotal": 351
     },
     {
       "campus": "Thornton El",
-      "notmeet": 27.0358306,
-      "approaches": 72.9641694,
-      "meets": 46.9055375,
-      "masters": 25.0814332
+      "rmeets": 46.9055375,
+      "mmeets": 45.1298701,
+      "type": "Elementary",
+      "rank": 131,
+      "regiontotal": 351
     },
     {
       "campus": "Mt Valley El",
-      "notmeet": 27.3631841,
-      "approaches": 72.6368159,
-      "meets": 49.7512438,
-      "masters": 28.8557214
+      "rmeets": 49.7512438,
+      "mmeets": 48.2758621,
+      "type": "Elementary",
+      "rank": 132,
+      "regiontotal": 351
     },
     {
       "campus": "Devine Intermediate School",
-      "notmeet": 27.4774775,
-      "approaches": 72.2972973,
-      "meets": 42.3423423,
-      "masters": 23.8738739
+      "rmeets": 42.3423423,
+      "mmeets": 43.9189189,
+      "type": "Elementary",
+      "rank": 133,
+      "regiontotal": 351
     },
     {
       "campus": "Morrill El",
-      "notmeet": 31.3636364,
-      "approaches": 68.6363636,
-      "meets": 42.2727273,
-      "masters": 17.7272727
+      "rmeets": 42.2727273,
+      "mmeets": 42.7272727,
+      "type": "Elementary",
+      "rank": 134,
+      "regiontotal": 351
     },
     {
       "campus": "Esparza El",
-      "notmeet": 38.6227545,
-      "approaches": 61.3772455,
-      "meets": 37.7245509,
-      "masters": 18.2634731
+      "rmeets": 37.7245509,
+      "mmeets": 43.1137725,
+      "type": "Elementary",
+      "rank": 135,
+      "regiontotal": 351
     },
     {
       "campus": "Leon Valley El",
-      "notmeet": 28.2608696,
-      "approaches": 70.2898551,
-      "meets": 39.4927536,
-      "masters": 24.2753623
+      "rmeets": 39.4927536,
+      "mmeets": 44.8028674,
+      "type": "Elementary",
+      "rank": 136,
+      "regiontotal": 351
     },
     {
       "campus": "Evers El",
-      "notmeet": 26.0340633,
-      "approaches": 73.9659367,
-      "meets": 46.9586375,
-      "masters": 23.8442822
+      "rmeets": 46.9586375,
+      "mmeets": 44.0389294,
+      "type": "Elementary",
+      "rank": 137,
+      "regiontotal": 351
     },
     {
       "campus": "Heritage Academy Of Windcrest",
-      "notmeet": 34.8837209,
-      "approaches": 65.1162791,
-      "meets": 37.2093023,
-      "masters": 18.6046512
+      "rmeets": 37.2093023,
+      "mmeets": 48.8372093,
+      "type": "Elementary",
+      "rank": 138,
+      "regiontotal": 351
     },
     {
       "campus": "School Of Science And Technology Corpus Christi",
-      "notmeet": 20.5689278,
-      "approaches": 79.4310722,
-      "meets": 43.7636762,
-      "masters": 23.6323851
+      "rmeets": 43.7636762,
+      "mmeets": 45.5782313,
+      "type": "Elementary",
+      "rank": 139,
+      "regiontotal": 351
     },
     {
       "campus": "Lieck El",
-      "notmeet": 18.5840708,
-      "approaches": 81.4159292,
-      "meets": 49.5575221,
-      "masters": 28.6135693
+      "rmeets": 49.5575221,
+      "mmeets": 46.6076696,
+      "type": "Elementary",
+      "rank": 140,
+      "regiontotal": 351
     },
     {
       "campus": "Gates El",
-      "notmeet": 29.3333333,
-      "approaches": 70.6666667,
-      "meets": 34.6666667,
-      "masters": 13.3333333
+      "rmeets": 34.6666667,
+      "mmeets": 46.6666667,
+      "type": "Elementary",
+      "rank": 141,
+      "regiontotal": 351
     },
     {
       "campus": "Klein Road El",
-      "notmeet": 26.2711864,
-      "approaches": 72.8813559,
-      "meets": 44.9152542,
-      "masters": 26.5536723
+      "rmeets": 44.9152542,
+      "mmeets": 48.3146067,
+      "type": "Elementary",
+      "rank": 142,
+      "regiontotal": 351
     },
     {
       "campus": "Memorial El",
-      "notmeet": 26.7605634,
-      "approaches": 71.8309859,
-      "meets": 45.5399061,
-      "masters": 28.6384977
+      "rmeets": 45.5399061,
+      "mmeets": 45.5399061,
+      "type": "Elementary",
+      "rank": 143,
+      "regiontotal": 351
     },
     {
       "campus": "Miguel Carrillo Jr El",
-      "notmeet": 40,
-      "approaches": 57.6470588,
-      "meets": 35.8823529,
-      "masters": 17.0588235
+      "rmeets": 35.8823529,
+      "mmeets": 40,
+      "type": "Elementary",
+      "rank": 144,
+      "regiontotal": 351
     },
     {
       "campus": "Wetmore El",
-      "notmeet": 25.1655629,
-      "approaches": 74.8344371,
-      "meets": 46.0264901,
-      "masters": 26.8211921
+      "rmeets": 46.0264901,
+      "mmeets": 46.3576159,
+      "type": "Elementary",
+      "rank": 145,
+      "regiontotal": 351
     },
     {
       "campus": "Howsman El",
-      "notmeet": 33.1325301,
-      "approaches": 66.8674699,
-      "meets": 39.7590361,
-      "masters": 20.7831325
+      "rmeets": 39.7590361,
+      "mmeets": 42.7710843,
+      "type": "Elementary",
+      "rank": 146,
+      "regiontotal": 351
     },
     {
       "campus": "Freedom El",
-      "notmeet": 33.6170213,
-      "approaches": 66.3829787,
-      "meets": 37.0212766,
-      "masters": 20.8510638
+      "rmeets": 37.0212766,
+      "mmeets": 38.7234043,
+      "type": "Elementary",
+      "rank": 147,
+      "regiontotal": 351
     },
     {
       "campus": "Vogel El",
-      "notmeet": 33.0472103,
-      "approaches": 66.9527897,
-      "meets": 36.4806867,
-      "masters": 17.5965665
+      "rmeets": 36.4806867,
+      "mmeets": 44.4444444,
+      "type": "Elementary",
+      "rank": 148,
+      "regiontotal": 351
     },
     {
       "campus": "Rhodes El",
-      "notmeet": 28.1021898,
-      "approaches": 71.8978102,
-      "meets": 35.0364964,
-      "masters": 20.8029197
+      "rmeets": 35.0364964,
+      "mmeets": 47.080292,
+      "type": "Elementary",
+      "rank": 149,
+      "regiontotal": 351
     },
     {
       "campus": "Timberwilde El",
-      "notmeet": 27.3273273,
-      "approaches": 72.6726727,
-      "meets": 45.0450451,
-      "masters": 23.1231231
+      "rmeets": 45.0450451,
+      "mmeets": 39.3393393,
+      "type": "Elementary",
+      "rank": 150,
+      "regiontotal": 351
     },
     {
       "campus": "Ed Franz El",
-      "notmeet": 29.1262136,
-      "approaches": 70.8737864,
-      "meets": 41.2621359,
-      "masters": 17.9611651
+      "rmeets": 41.2621359,
+      "mmeets": 43.0693069,
+      "type": "Elementary",
+      "rank": 151,
+      "regiontotal": 351
     },
     {
       "campus": "Wanke El",
-      "notmeet": 25.120773,
-      "approaches": 73.4299517,
-      "meets": 45.1690821,
-      "masters": 26.8115942
+      "rmeets": 45.1690821,
+      "mmeets": 45.6521739,
+      "type": "Elementary",
+      "rank": 152,
+      "regiontotal": 351
     },
     {
       "campus": "Mary Lou Hartman",
-      "notmeet": 33.8842975,
-      "approaches": 66.1157025,
-      "meets": 37.1900826,
-      "masters": 22.3140496
+      "rmeets": 37.1900826,
+      "mmeets": 40.3846154,
+      "type": "Elementary",
+      "rank": 153,
+      "regiontotal": 351
     },
     {
       "campus": "Powell El",
-      "notmeet": 33.6363636,
-      "approaches": 66.3636364,
-      "meets": 37.7272727,
-      "masters": 19.5454546
+      "rmeets": 37.7272727,
+      "mmeets": 45.9090909,
+      "type": "Elementary",
+      "rank": 154,
+      "regiontotal": 351
     },
     {
       "campus": "Roy Cisneros El",
-      "notmeet": 39.1304348,
-      "approaches": 60.8695652,
-      "meets": 33.5968379,
-      "masters": 16.9960474
+      "rmeets": 33.5968379,
+      "mmeets": 45.0592885,
+      "type": "Elementary",
+      "rank": 155,
+      "regiontotal": 351
     },
     {
       "campus": "Arnold El",
-      "notmeet": 31.5573771,
-      "approaches": 67.2131148,
-      "meets": 36.4754098,
-      "masters": 18.852459
+      "rmeets": 36.4754098,
+      "mmeets": 43.6734694,
+      "type": "Elementary",
+      "rank": 156,
+      "regiontotal": 351
     },
     {
       "campus": "Westwood Terrace El",
-      "notmeet": 41.5019763,
-      "approaches": 56.9169961,
-      "meets": 32.4110672,
-      "masters": 16.2055336
+      "rmeets": 32.4110672,
+      "mmeets": 45.6349206,
+      "type": "Elementary",
+      "rank": 157,
+      "regiontotal": 351
     },
     {
       "campus": "Sky Harbour El",
-      "notmeet": 33.4394905,
-      "approaches": 64.9681529,
-      "meets": 32.4840764,
-      "masters": 16.8789809
+      "rmeets": 32.4840764,
+      "mmeets": 43.9490446,
+      "type": "Elementary",
+      "rank": 158,
+      "regiontotal": 351
     },
     {
       "campus": "Schertz El",
-      "notmeet": 32.0284698,
-      "approaches": 67.9715303,
-      "meets": 39.5017794,
-      "masters": 21.3523132
+      "rmeets": 39.5017794,
+      "mmeets": 40.9893993,
+      "type": "Elementary",
+      "rank": 159,
+      "regiontotal": 351
     },
     {
       "campus": "Allen El",
-      "notmeet": 28.6259542,
-      "approaches": 68.7022901,
-      "meets": 34.7328244,
-      "masters": 17.9389313
+      "rmeets": 34.7328244,
+      "mmeets": 38.1679389,
+      "type": "Elementary",
+      "rank": 160,
+      "regiontotal": 351
     },
     {
       "campus": "Oak Creek El",
-      "notmeet": 21.2686567,
-      "approaches": 78.7313433,
-      "meets": 49.6268657,
-      "masters": 26.4925373
+      "rmeets": 49.6268657,
+      "mmeets": 42.5373134,
+      "type": "Elementary",
+      "rank": 161,
+      "regiontotal": 351
     },
     {
       "campus": "Huppertz El",
-      "notmeet": 42.1348315,
-      "approaches": 57.8651685,
-      "meets": 32.5842697,
-      "masters": 17.4157303
+      "rmeets": 32.5842697,
+      "mmeets": 42.6966292,
+      "type": "Elementary",
+      "rank": 162,
+      "regiontotal": 351
     },
     {
       "campus": "Somerset El",
-      "notmeet": 37.4301676,
-      "approaches": 62.5698324,
-      "meets": 31.5642458,
-      "masters": 14.8044693
+      "rmeets": 31.5642458,
+      "mmeets": 47.8991597,
+      "type": "Elementary",
+      "rank": 163,
+      "regiontotal": 351
     },
     {
       "campus": "Indian Creek El",
-      "notmeet": 40.0722022,
-      "approaches": 57.7617329,
-      "meets": 31.7689531,
-      "masters": 13.3574007
+      "rmeets": 31.7689531,
+      "mmeets": 46.9314079,
+      "type": "Elementary",
+      "rank": 164,
+      "regiontotal": 351
     },
     {
       "campus": "Villarreal El",
-      "notmeet": 35.359116,
-      "approaches": 64.640884,
-      "meets": 38.121547,
-      "masters": 17.1270718
+      "rmeets": 38.121547,
+      "mmeets": 38.0165289,
+      "type": "Elementary",
+      "rank": 165,
+      "regiontotal": 351
     },
     {
       "campus": "Oralia R Rodriguez El",
-      "notmeet": 32.7137547,
-      "approaches": 66.1710037,
-      "meets": 36.0594796,
-      "masters": 18.9591078
+      "rmeets": 36.0594796,
+      "mmeets": 44.2379182,
+      "type": "Elementary",
+      "rank": 166,
+      "regiontotal": 351
     },
     {
       "campus": "Wright El",
-      "notmeet": 37.394958,
-      "approaches": 62.605042,
-      "meets": 33.1932773,
-      "masters": 16.3865546
+      "rmeets": 33.1932773,
+      "mmeets": 41.1764706,
+      "type": "Elementary",
+      "rank": 167,
+      "regiontotal": 351
     },
     {
       "campus": "Galm El",
-      "notmeet": 27.4626866,
-      "approaches": 72.5373134,
-      "meets": 43.5820896,
-      "masters": 20.5970149
+      "rmeets": 43.5820896,
+      "mmeets": 42.6865672,
+      "type": "Elementary",
+      "rank": 168,
+      "regiontotal": 351
     },
     {
       "campus": "Jourdanton El",
-      "notmeet": 30.3370787,
-      "approaches": 69.6629214,
-      "meets": 42.4157303,
-      "masters": 22.1910112
+      "rmeets": 42.4157303,
+      "mmeets": 40.7303371,
+      "type": "Elementary",
+      "rank": 169,
+      "regiontotal": 351
     },
     {
       "campus": "Gillette El",
-      "notmeet": 37.0860927,
-      "approaches": 62.9139073,
-      "meets": 30.4635762,
-      "masters": 15.8940397
+      "rmeets": 30.4635762,
+      "mmeets": 43.0463576,
+      "type": "Elementary",
+      "rank": 170,
+      "regiontotal": 351
     },
     {
       "campus": "Harmony School Of Excellence - San Antonio",
-      "notmeet": 29.8932384,
-      "approaches": 70.1067616,
-      "meets": 38.7900356,
-      "masters": 23.1316726
-    },
-    {
-      "campus": "Jubilee Brownsville",
-      "notmeet": 24.7510669,
-      "approaches": 74.6799431,
-      "meets": 42.5320057,
-      "masters": 19.2034139
+      "rmeets": 38.7900356,
+      "mmeets": 40.6360424,
+      "type": "Elementary",
+      "rank": 171,
+      "regiontotal": 351
     },
     {
       "campus": "Elolf El",
-      "notmeet": 32.7102804,
-      "approaches": 66.9781932,
-      "meets": 34.8909657,
-      "masters": 16.5109034
+      "rmeets": 34.8909657,
+      "mmeets": 43.4782609,
+      "type": "Elementary",
+      "rank": 173,
+      "regiontotal": 351
     },
     {
       "campus": "Spicewood Park El",
-      "notmeet": 40.6593407,
-      "approaches": 58.6080586,
-      "meets": 31.1355311,
-      "masters": 12.4542125
+      "rmeets": 31.1355311,
+      "mmeets": 41.7582418,
+      "type": "Elementary",
+      "rank": 174,
+      "regiontotal": 351
     },
     {
       "campus": "Miller Point El",
-      "notmeet": 35.9683795,
-      "approaches": 64.0316206,
-      "meets": 35.1778656,
-      "masters": 18.5770751
+      "rmeets": 35.1778656,
+      "mmeets": 41.1067194,
+      "type": "Elementary",
+      "rank": 175,
+      "regiontotal": 351
     },
     {
       "campus": "Carnahan El",
-      "notmeet": 35.8974359,
-      "approaches": 64.1025641,
-      "meets": 39.9267399,
-      "masters": 20.5128205
+      "rmeets": 39.9267399,
+      "mmeets": 39.4160584,
+      "type": "Elementary",
+      "rank": 176,
+      "regiontotal": 351
     },
     {
       "campus": "Coker El",
-      "notmeet": 24.1299304,
-      "approaches": 75.8700696,
-      "meets": 44.7795824,
-      "masters": 27.1461717
+      "rmeets": 44.7795824,
+      "mmeets": 41.0672854,
+      "type": "Elementary",
+      "rank": 177,
+      "regiontotal": 351
     },
     {
       "campus": "Price El",
-      "notmeet": 33.1707317,
-      "approaches": 65.8536585,
-      "meets": 32.6829268,
-      "masters": 18.5365854
+      "rmeets": 32.6829268,
+      "mmeets": 40.0966184,
+      "type": "Elementary",
+      "rank": 178,
+      "regiontotal": 351
     },
     {
       "campus": "Startzville El",
-      "notmeet": 23.2673267,
-      "approaches": 76.7326733,
-      "meets": 48.5148515,
-      "masters": 32.6732673
+      "rmeets": 48.5148515,
+      "mmeets": 32.1782178,
+      "type": "Elementary",
+      "rank": 179,
+      "regiontotal": 351
     },
     {
       "campus": "Knowlton El",
-      "notmeet": 34.4720497,
-      "approaches": 64.5962733,
-      "meets": 34.7826087,
-      "masters": 17.0807453
+      "rmeets": 34.7826087,
+      "mmeets": 39.628483,
+      "type": "Elementary",
+      "rank": 180,
+      "regiontotal": 351
     },
     {
       "campus": "Hidden Cove El",
-      "notmeet": 43.8538206,
-      "approaches": 56.1461794,
-      "meets": 29.5681063,
-      "masters": 13.2890365
+      "rmeets": 29.5681063,
+      "mmeets": 42.8571429,
+      "type": "Elementary",
+      "rank": 181,
+      "regiontotal": 351
     },
     {
       "campus": "Baskin El",
-      "notmeet": 38.7434555,
-      "approaches": 61.2565445,
-      "meets": 37.1727749,
-      "masters": 18.8481675
+      "rmeets": 37.1727749,
+      "mmeets": 36.6492147,
+      "type": "Elementary",
+      "rank": 182,
+      "regiontotal": 351
     },
     {
       "campus": "Hopkins El",
-      "notmeet": 34.2028986,
-      "approaches": 63.4782609,
-      "meets": 33.6231884,
-      "masters": 18.8405797
+      "rmeets": 33.6231884,
+      "mmeets": 41.3294798,
+      "type": "Elementary",
+      "rank": 183,
+      "regiontotal": 351
     },
     {
       "campus": "George Gervin Academy",
-      "notmeet": 42.6035503,
-      "approaches": 53.8461539,
-      "meets": 26.035503,
-      "masters": 10.6508876
-    },
-    {
-      "campus": "Harmony School Of Innovation - Laredo",
-      "notmeet": 38.6281588,
-      "approaches": 60.2888087,
-      "meets": 37.9061372,
-      "masters": 20.2166065
+      "rmeets": 26.035503,
+      "mmeets": 39.2857143,
+      "type": "Elementary",
+      "rank": 184,
+      "regiontotal": 351
     },
     {
       "campus": "Myers El",
-      "notmeet": 30.449827,
-      "approaches": 67.4740484,
-      "meets": 39.4463668,
-      "masters": 21.799308
-    },
-    {
-      "campus": "School Of Science And Technology Houston",
-      "notmeet": 33.8797814,
-      "approaches": 66.1202186,
-      "meets": 42.0765027,
-      "masters": 22.9508197
+      "rmeets": 39.4463668,
+      "mmeets": 38.7543253,
+      "type": "Elementary",
+      "rank": 186,
+      "regiontotal": 351
     },
     {
       "campus": "Morningside El",
-      "notmeet": 31.0897436,
-      "approaches": 68.5897436,
-      "meets": 39.1025641,
-      "masters": 18.5897436
+      "rmeets": 39.1025641,
+      "mmeets": 35.14377,
+      "type": "Elementary",
+      "rank": 188,
+      "regiontotal": 351
     },
     {
       "campus": "Boone El",
-      "notmeet": 34.082397,
-      "approaches": 65.917603,
-      "meets": 39.3258427,
-      "masters": 23.5955056
+      "rmeets": 39.3258427,
+      "mmeets": 35.9550562,
+      "type": "Elementary",
+      "rank": 189,
+      "regiontotal": 351
     },
     {
       "campus": "Glenoaks El",
-      "notmeet": 37.7289377,
-      "approaches": 60.4395604,
-      "meets": 30.03663,
-      "masters": 16.8498169
+      "rmeets": 30.03663,
+      "mmeets": 41.7582418,
+      "type": "Elementary",
+      "rank": 190,
+      "regiontotal": 351
     },
     {
       "campus": "Passmore El",
-      "notmeet": 33.6134454,
-      "approaches": 64.7058824,
-      "meets": 32.7731092,
-      "masters": 12.605042
+      "rmeets": 32.7731092,
+      "mmeets": 37.2384937,
+      "type": "Elementary",
+      "rank": 191,
+      "regiontotal": 351
     },
     {
       "campus": "Glass El",
-      "notmeet": 41.754386,
-      "approaches": 58.245614,
-      "meets": 30.877193,
-      "masters": 14.0350877
+      "rmeets": 30.877193,
+      "mmeets": 40,
+      "type": "Elementary",
+      "rank": 192,
+      "regiontotal": 351
     },
     {
       "campus": "Hatchett El",
-      "notmeet": 27.631579,
-      "approaches": 72.3684211,
-      "meets": 41.5789474,
-      "masters": 22.1052632
+      "rmeets": 41.5789474,
+      "mmeets": 37.3684211,
+      "type": "Elementary",
+      "rank": 193,
+      "regiontotal": 351
     },
     {
       "campus": "Franklin El",
-      "notmeet": 31.5533981,
-      "approaches": 66.5048544,
-      "meets": 33.9805825,
-      "masters": 15.5339806
+      "rmeets": 33.9805825,
+      "mmeets": 41.2621359,
+      "type": "Elementary",
+      "rank": 194,
+      "regiontotal": 351
     },
     {
       "campus": "Lighthouse Charter School - B Campus",
-      "notmeet": 34.0909091,
-      "approaches": 65.9090909,
-      "meets": 30.1136364,
-      "masters": 11.3636364
+      "rmeets": 30.1136364,
+      "mmeets": 40.9090909,
+      "type": "Elementary",
+      "rank": 195,
+      "regiontotal": 351
     },
     {
       "campus": "Carroll Bell El",
-      "notmeet": 29.0909091,
-      "approaches": 70.9090909,
-      "meets": 37.2727273,
-      "masters": 15
+      "rmeets": 37.2727273,
+      "mmeets": 36.3636364,
+      "type": "Elementary",
+      "rank": 196,
+      "regiontotal": 351
     },
     {
       "campus": "Northern Hills El",
-      "notmeet": 30,
-      "approaches": 70,
-      "meets": 40.3333333,
-      "masters": 20
+      "rmeets": 40.3333333,
+      "mmeets": 37.458194,
+      "type": "Elementary",
+      "rank": 197,
+      "regiontotal": 351
     },
     {
       "campus": "Behlau El",
-      "notmeet": 28.5393258,
-      "approaches": 71.4606742,
-      "meets": 43.3707865,
-      "masters": 24.494382
+      "rmeets": 43.3707865,
+      "mmeets": 40.3153153,
+      "type": "Elementary",
+      "rank": 198,
+      "regiontotal": 351
     },
     {
       "campus": "William Paschall El",
-      "notmeet": 41.025641,
-      "approaches": 58.974359,
-      "meets": 33.0484331,
-      "masters": 14.8148148
+      "rmeets": 33.0484331,
+      "mmeets": 39.031339,
+      "type": "Elementary",
+      "rank": 199,
+      "regiontotal": 351
     },
     {
       "campus": "Rose Garden El",
-      "notmeet": 26.6666667,
-      "approaches": 73.3333333,
-      "meets": 38.974359,
-      "masters": 23.5897436
+      "rmeets": 38.974359,
+      "mmeets": 40.5128205,
+      "type": "Elementary",
+      "rank": 200,
+      "regiontotal": 351
     },
     {
       "campus": "Valley Hi El",
-      "notmeet": 38.0434783,
-      "approaches": 61.9565217,
-      "meets": 29.8913044,
-      "masters": 14.673913
+      "rmeets": 29.8913044,
+      "mmeets": 35.8695652,
+      "type": "Elementary",
+      "rank": 201,
+      "regiontotal": 351
     },
     {
       "campus": "Bob Hope El",
-      "notmeet": 34.8958333,
-      "approaches": 63.0208333,
-      "meets": 31.25,
-      "masters": 15.1041667
+      "rmeets": 31.25,
+      "mmeets": 38.5416667,
+      "type": "Elementary",
+      "rank": 202,
+      "regiontotal": 351
     },
     {
       "campus": "Harmony School Of Innovation - San Antonio",
-      "notmeet": 35.9550562,
-      "approaches": 64.0449438,
-      "meets": 31.4606742,
-      "masters": 16.2921348
+      "rmeets": 31.4606742,
+      "mmeets": 34.5454546,
+      "type": "Elementary",
+      "rank": 203,
+      "regiontotal": 351
     },
     {
       "campus": "Royal Ridge El",
-      "notmeet": 30.9859155,
-      "approaches": 69.0140845,
-      "meets": 37.3239437,
-      "masters": 17.6056338
+      "rmeets": 37.3239437,
+      "mmeets": 35.915493,
+      "type": "Elementary",
+      "rank": 204,
+      "regiontotal": 351
     },
     {
       "campus": "Loma Park El",
-      "notmeet": 33.126935,
-      "approaches": 65.9442725,
-      "meets": 32.1981424,
-      "masters": 15.1702786
+      "rmeets": 32.1981424,
+      "mmeets": 35.6037152,
+      "type": "Elementary",
+      "rank": 205,
+      "regiontotal": 351
     },
     {
       "campus": "W M Pearce Pri",
-      "notmeet": 38.8625592,
-      "approaches": 61.1374408,
-      "meets": 31.2796209,
-      "masters": 15.1658768
+      "rmeets": 31.2796209,
+      "mmeets": 37.9146919,
+      "type": "Elementary",
+      "rank": 206,
+      "regiontotal": 351
     },
     {
       "campus": "Hill Country El",
-      "notmeet": 36,
-      "approaches": 64,
-      "meets": 40.8,
-      "masters": 20.4
+      "rmeets": 40.8,
+      "mmeets": 30.9236948,
+      "type": "Elementary",
+      "rank": 207,
+      "regiontotal": 351
     },
     {
       "campus": "Lamar El",
-      "notmeet": 40.5660377,
-      "approaches": 58.490566,
-      "meets": 29.245283,
-      "masters": 15.0943396
+      "rmeets": 29.245283,
+      "mmeets": 37.7358491,
+      "type": "Elementary",
+      "rank": 208,
+      "regiontotal": 351
     },
     {
       "campus": "Cody El",
-      "notmeet": 32.5581395,
-      "approaches": 65.1162791,
-      "meets": 36.5448505,
-      "masters": 16.9435216
+      "rmeets": 36.5448505,
+      "mmeets": 33.2225914,
+      "type": "Elementary",
+      "rank": 209,
+      "regiontotal": 351
     },
     {
       "campus": "Ridgeview El",
-      "notmeet": 43.7931035,
-      "approaches": 56.2068966,
-      "meets": 27.9310345,
-      "masters": 16.8965517
+      "rmeets": 27.9310345,
+      "mmeets": 41.3793103,
+      "type": "Elementary",
+      "rank": 210,
+      "regiontotal": 351
     },
     {
       "campus": "Brooks Collegiate Academy",
-      "notmeet": 38.8349515,
-      "approaches": 61.1650485,
-      "meets": 37.8640777,
-      "masters": 21.3592233
+      "rmeets": 37.8640777,
+      "mmeets": 31.0679612,
+      "type": "Elementary",
+      "rank": 211,
+      "regiontotal": 351
     },
     {
       "campus": "Adams Hill El",
-      "notmeet": 38.7096774,
-      "approaches": 61.2903226,
-      "meets": 29.390681,
-      "masters": 13.9784946
+      "rmeets": 29.390681,
+      "mmeets": 35.125448,
+      "type": "Elementary",
+      "rank": 212,
+      "regiontotal": 351
     },
     {
       "campus": "Advanced Learning Academy",
-      "notmeet": 21.3872832,
-      "approaches": 77.4566474,
-      "meets": 50,
-      "masters": 26.300578
+      "rmeets": 50,
+      "mmeets": 32.1212121,
+      "type": "Elementary",
+      "rank": 213,
+      "regiontotal": 351
     },
     {
       "campus": "Frank Madla El",
-      "notmeet": 45.4545455,
-      "approaches": 54.5454546,
-      "meets": 30.1948052,
-      "masters": 14.6103896
+      "rmeets": 30.1948052,
+      "mmeets": 34.5276873,
+      "type": "Elementary",
+      "rank": 214,
+      "regiontotal": 351
     },
     {
       "campus": "Vestal El",
-      "notmeet": 48.2926829,
-      "approaches": 51.7073171,
-      "meets": 28.2926829,
-      "masters": 12.195122
+      "rmeets": 28.2926829,
+      "mmeets": 36.097561,
+      "type": "Elementary",
+      "rank": 215,
+      "regiontotal": 351
     },
     {
       "campus": "Muriel Forbes Academy",
-      "notmeet": 36.1111111,
-      "approaches": 63.8888889,
-      "meets": 30.5555556,
-      "masters": 15.9722222
+      "rmeets": 30.5555556,
+      "mmeets": 36.1111111,
+      "type": "Elementary",
+      "rank": 216,
+      "regiontotal": 351
     },
     {
       "campus": "Woodlawn Hills El",
-      "notmeet": 42.7385892,
-      "approaches": 56.0165975,
-      "meets": 31.120332,
-      "masters": 16.1825726
+      "rmeets": 31.120332,
+      "mmeets": 35.6846473,
+      "type": "Elementary",
+      "rank": 217,
+      "regiontotal": 351
     },
     {
       "campus": "Woodstone El",
-      "notmeet": 33.9285714,
-      "approaches": 66.0714286,
-      "meets": 33.4183674,
-      "masters": 18.622449
+      "rmeets": 33.4183674,
+      "mmeets": 37.755102,
+      "type": "Elementary",
+      "rank": 218,
+      "regiontotal": 351
     },
     {
       "campus": "Newell E Woolls Int",
-      "notmeet": 35.9375,
-      "approaches": 64.0625,
-      "meets": 38.6160714,
-      "masters": 20.7589286
+      "rmeets": 38.6160714,
+      "mmeets": 30.8203991,
+      "type": "Elementary",
+      "rank": 219,
+      "regiontotal": 351
     },
     {
       "campus": "Freiheit El",
-      "notmeet": 39.3258427,
-      "approaches": 60.6741573,
-      "meets": 31.4606742,
-      "masters": 17.2284644
+      "rmeets": 31.4606742,
+      "mmeets": 38.2022472,
+      "type": "Elementary",
+      "rank": 220,
+      "regiontotal": 351
     },
     {
       "campus": "Riverside Park El",
-      "notmeet": 38.6363636,
-      "approaches": 59.0909091,
-      "meets": 37.1212121,
-      "masters": 15.1515152
+      "rmeets": 37.1212121,
+      "mmeets": 28.2442748,
+      "type": "Elementary",
+      "rank": 221,
+      "regiontotal": 351
     },
     {
       "campus": "Michael El",
-      "notmeet": 40.9921671,
-      "approaches": 59.0078329,
-      "meets": 30.2872063,
-      "masters": 16.7101828
+      "rmeets": 30.2872063,
+      "mmeets": 35.2480418,
+      "type": "Elementary",
+      "rank": 222,
+      "regiontotal": 351
     },
     {
       "campus": "Mcdermott El",
-      "notmeet": 39.6600567,
-      "approaches": 59.490085,
-      "meets": 33.427762,
-      "masters": 17.8470255
+      "rmeets": 33.427762,
+      "mmeets": 33.7110482,
+      "type": "Elementary",
+      "rank": 223,
+      "regiontotal": 351
     },
     {
       "campus": "H W Schulze El",
-      "notmeet": 37.1273713,
-      "approaches": 62.601626,
-      "meets": 35.2303523,
-      "masters": 20.0542005
+      "rmeets": 35.2303523,
+      "mmeets": 29.3800539,
+      "type": "Elementary",
+      "rank": 224,
+      "regiontotal": 351
     },
     {
       "campus": "S/sgt Michael P Barrera Veterans El",
-      "notmeet": 41.8103448,
-      "approaches": 58.1896552,
-      "meets": 28.4482759,
-      "masters": 12.5
+      "rmeets": 28.4482759,
+      "mmeets": 31.4655172,
+      "type": "Elementary",
+      "rank": 225,
+      "regiontotal": 351
     },
     {
       "campus": "E H Gilbert El",
-      "notmeet": 42.1052632,
-      "approaches": 57.0175439,
-      "meets": 30.2631579,
-      "masters": 14.4736842
+      "rmeets": 30.2631579,
+      "mmeets": 32.173913,
+      "type": "Elementary",
+      "rank": 226,
+      "regiontotal": 351
     },
     {
       "campus": "Jubilee Highland Park",
-      "notmeet": 32.3699422,
-      "approaches": 67.6300578,
-      "meets": 30.6358382,
-      "masters": 16.7630058
+      "rmeets": 30.6358382,
+      "mmeets": 32.4840764,
+      "type": "Elementary",
+      "rank": 227,
+      "regiontotal": 351
     },
     {
       "campus": "L B Johnson El",
-      "notmeet": 43.9130435,
-      "approaches": 56.0869565,
-      "meets": 30.4347826,
-      "masters": 14.7826087
+      "rmeets": 30.4347826,
+      "mmeets": 35.6521739,
+      "type": "Elementary",
+      "rank": 228,
+      "regiontotal": 351
     },
     {
       "campus": "Dr David C Walker El",
-      "notmeet": 40,
-      "approaches": 60,
-      "meets": 28,
-      "masters": 13.3333333
+      "rmeets": 28,
+      "mmeets": 32,
+      "type": "Elementary",
+      "rank": 229,
+      "regiontotal": 351
     },
     {
       "campus": "Poteet Int",
-      "notmeet": 41.6030534,
-      "approaches": 57.6335878,
-      "meets": 29.0076336,
-      "masters": 14.5038168
+      "rmeets": 29.0076336,
+      "mmeets": 34.6007605,
+      "type": "Elementary",
+      "rank": 230,
+      "regiontotal": 351
     },
     {
       "campus": "Neil Armstrong El",
-      "notmeet": 37.3786408,
-      "approaches": 61.6504854,
-      "meets": 32.038835,
-      "masters": 17.9611651
+      "rmeets": 32.038835,
+      "mmeets": 35.7487923,
+      "type": "Elementary",
+      "rank": 231,
+      "regiontotal": 351
     },
     {
       "campus": "Park Village El",
-      "notmeet": 37.0689655,
-      "approaches": 62.9310345,
-      "meets": 27.5862069,
-      "masters": 9.05172414
+      "rmeets": 27.5862069,
+      "mmeets": 31.4655172,
+      "type": "Elementary",
+      "rank": 232,
+      "regiontotal": 351
     },
     {
       "campus": "Stahl El",
-      "notmeet": 33.4841629,
-      "approaches": 66.5158371,
-      "meets": 37.1040724,
-      "masters": 18.3257919
+      "rmeets": 37.1040724,
+      "mmeets": 30.8390023,
+      "type": "Elementary",
+      "rank": 233,
+      "regiontotal": 351
     },
     {
       "campus": "Charlotte El",
-      "notmeet": 43.0769231,
-      "approaches": 56.9230769,
-      "meets": 29.2307692,
-      "masters": 15.3846154
+      "rmeets": 29.2307692,
+      "mmeets": 27.6923077,
+      "type": "Elementary",
+      "rank": 234,
+      "regiontotal": 351
     },
     {
       "campus": "Heritage El",
-      "notmeet": 47.4178404,
-      "approaches": 52.5821596,
-      "meets": 27.230047,
-      "masters": 10.3286385
+      "rmeets": 27.230047,
+      "mmeets": 33.3333333,
+      "type": "Elementary",
+      "rank": 235,
+      "regiontotal": 351
     },
     {
       "campus": "Wilson El",
-      "notmeet": 35.7142857,
-      "approaches": 63.3333333,
-      "meets": 30.4761905,
-      "masters": 18.5714286
+      "rmeets": 30.4761905,
+      "mmeets": 33.8095238,
+      "type": "Elementary",
+      "rank": 236,
+      "regiontotal": 351
     },
     {
       "campus": "Bellaire El",
-      "notmeet": 40.1337793,
-      "approaches": 58.5284281,
-      "meets": 25.4180602,
-      "masters": 10.0334448
+      "rmeets": 25.4180602,
+      "mmeets": 36.4548495,
+      "type": "Elementary",
+      "rank": 237,
+      "regiontotal": 351
     },
     {
       "campus": "Agnes Cotton Academy",
-      "notmeet": 39.3364929,
-      "approaches": 57.8199052,
-      "meets": 31.7535545,
-      "masters": 16.1137441
+      "rmeets": 31.7535545,
+      "mmeets": 29.7169811,
+      "type": "Elementary",
+      "rank": 238,
+      "regiontotal": 351
     },
     {
       "campus": "Highland Park El",
-      "notmeet": 42.0863309,
-      "approaches": 56.1151079,
-      "meets": 29.8561151,
-      "masters": 11.8705036
+      "rmeets": 29.8561151,
+      "mmeets": 30.3249098,
+      "type": "Elementary",
+      "rank": 239,
+      "regiontotal": 351
     },
     {
       "campus": "Schenck El",
-      "notmeet": 38.8646288,
-      "approaches": 59.3886463,
-      "meets": 30.5676856,
-      "masters": 13.1004367
+      "rmeets": 30.5676856,
+      "mmeets": 32.4675325,
+      "type": "Elementary",
+      "rank": 240,
+      "regiontotal": 351
     },
     {
       "campus": "Oak Grove El",
-      "notmeet": 36.4864865,
-      "approaches": 63.5135135,
-      "meets": 34.4594595,
-      "masters": 17.5675676
+      "rmeets": 34.4594595,
+      "mmeets": 27.027027,
+      "type": "Elementary",
+      "rank": 241,
+      "regiontotal": 351
     },
     {
       "campus": "Kindred El",
-      "notmeet": 40.4166667,
-      "approaches": 56.25,
-      "meets": 30,
-      "masters": 12.5
+      "rmeets": 30,
+      "mmeets": 29.2887029,
+      "type": "Elementary",
+      "rank": 242,
+      "regiontotal": 351
     },
     {
       "campus": "Julian C Gallardo El",
-      "notmeet": 47.8448276,
-      "approaches": 52.1551724,
-      "meets": 27.5862069,
-      "masters": 12.0689655
+      "rmeets": 27.5862069,
+      "mmeets": 29.3103448,
+      "type": "Elementary",
+      "rank": 243,
+      "regiontotal": 351
     },
     {
       "campus": "Colonial Hills El",
-      "notmeet": 40.0537634,
-      "approaches": 59.9462366,
-      "meets": 32.2580645,
-      "masters": 16.1290323
+      "rmeets": 32.2580645,
+      "mmeets": 27.613941,
+      "type": "Elementary",
+      "rank": 244,
+      "regiontotal": 351
     },
     {
       "campus": "Oak Crest Int",
-      "notmeet": 38.547486,
-      "approaches": 61.452514,
-      "meets": 31.7039106,
-      "masters": 13.9664805
+      "rmeets": 31.7039106,
+      "mmeets": 31.5642458,
+      "type": "Elementary",
+      "rank": 245,
+      "regiontotal": 351
     },
     {
       "campus": "Brooks Academy Lonestar",
-      "notmeet": 37.5,
-      "approaches": 56.9444444,
-      "meets": 33.3333333,
-      "masters": 12.5
+      "rmeets": 33.3333333,
+      "mmeets": 25,
+      "type": "Elementary",
+      "rank": 246,
+      "regiontotal": 351
     },
     {
       "campus": "Alonso S Perales El",
-      "notmeet": 43.0962343,
-      "approaches": 56.0669456,
-      "meets": 24.2677824,
-      "masters": 12.5523013
+      "rmeets": 24.2677824,
+      "mmeets": 35.1464435,
+      "type": "Elementary",
+      "rank": 247,
+      "regiontotal": 351
     },
     {
       "campus": "Neal El",
-      "notmeet": 41.6666667,
-      "approaches": 56.372549,
-      "meets": 25.9803922,
-      "masters": 15.1960784
+      "rmeets": 25.9803922,
+      "mmeets": 32.8431373,
+      "type": "Elementary",
+      "rank": 248,
+      "regiontotal": 351
     },
     {
       "campus": "Jefferson Ave El",
-      "notmeet": 38.4615385,
-      "approaches": 61.5384615,
-      "meets": 25.8241758,
-      "masters": 12.6373626
+      "rmeets": 25.8241758,
+      "mmeets": 28.5714286,
+      "type": "Elementary",
+      "rank": 249,
+      "regiontotal": 351
     },
     {
       "campus": "Maverick El",
-      "notmeet": 41.8867925,
-      "approaches": 57.3584906,
-      "meets": 27.9245283,
-      "masters": 13.9622642
+      "rmeets": 27.9245283,
+      "mmeets": 30.1886793,
+      "type": "Elementary",
+      "rank": 250,
+      "regiontotal": 351
     },
     {
       "campus": "Fenwick El",
-      "notmeet": 47.0588235,
-      "approaches": 51.3368984,
-      "meets": 24.5989305,
-      "masters": 9.09090909
+      "rmeets": 24.5989305,
+      "mmeets": 31.0160428,
+      "type": "Elementary",
+      "rank": 251,
+      "regiontotal": 351
     },
     {
       "campus": "Regency Place El",
-      "notmeet": 41.0344828,
-      "approaches": 58.9655172,
-      "meets": 32.0689655,
-      "masters": 13.7931035
+      "rmeets": 32.0689655,
+      "mmeets": 27.1477663,
+      "type": "Elementary",
+      "rank": 252,
+      "regiontotal": 351
     },
     {
       "campus": "Dellview El",
-      "notmeet": 36.0576923,
-      "approaches": 63.9423077,
-      "meets": 30.2884615,
-      "masters": 12.5
+      "rmeets": 30.2884615,
+      "mmeets": 28.9855073,
+      "type": "Elementary",
+      "rank": 253,
+      "regiontotal": 351
     },
     {
       "campus": "Mead El",
-      "notmeet": 43.5582822,
-      "approaches": 55.8282209,
-      "meets": 26.0736196,
-      "masters": 12.8834356
+      "rmeets": 26.0736196,
+      "mmeets": 30.0613497,
+      "type": "Elementary",
+      "rank": 254,
+      "regiontotal": 351
     },
     {
       "campus": "Anne Frank Inspire Academy",
-      "notmeet": 20.6896552,
-      "approaches": 79.3103448,
-      "meets": 51.7241379,
-      "masters": 28.5714286
+      "rmeets": 51.7241379,
+      "mmeets": 26.8421053,
+      "type": "Elementary",
+      "rank": 255,
+      "regiontotal": 351
     },
     {
       "campus": "Washington El",
-      "notmeet": 47.5336323,
-      "approaches": 52.0179372,
-      "meets": 26.9058296,
-      "masters": 11.6591928
+      "rmeets": 26.9058296,
+      "mmeets": 29.4642857,
+      "type": "Elementary",
+      "rank": 256,
+      "regiontotal": 351
     },
     {
       "campus": "Lytle El",
-      "notmeet": 42.1052632,
-      "approaches": 57.3684211,
-      "meets": 24.7368421,
-      "masters": 12.1052632
+      "rmeets": 24.7368421,
+      "mmeets": 33.8582677,
+      "type": "Elementary",
+      "rank": 257,
+      "regiontotal": 351
     },
     {
       "campus": "Kipp Un Mundo Dual Language Academy",
-      "notmeet": 44.9339207,
-      "approaches": 55.0660793,
-      "meets": 32.1585903,
-      "masters": 14.0969163
+      "rmeets": 32.1585903,
+      "mmeets": 21.5859031,
+      "type": "Elementary",
+      "rank": 258,
+      "regiontotal": 351
     },
     {
       "campus": "Five Palms El",
-      "notmeet": 42.1965318,
-      "approaches": 55.4913295,
-      "meets": 22.5433526,
-      "masters": 10.982659
+      "rmeets": 22.5433526,
+      "mmeets": 29.4797688,
+      "type": "Elementary",
+      "rank": 259,
+      "regiontotal": 351
     },
     {
       "campus": "Bonham Academy",
-      "notmeet": 36.9127517,
-      "approaches": 62.0805369,
-      "meets": 33.8926175,
-      "masters": 16.7785235
+      "rmeets": 33.8926175,
+      "mmeets": 26.1589404,
+      "type": "Elementary",
+      "rank": 260,
+      "regiontotal": 351
     },
     {
       "campus": "Hawthorne Pk-8 Academy",
-      "notmeet": 36.8515206,
-      "approaches": 62.9695886,
-      "meets": 31.6636852,
-      "masters": 15.921288
+      "rmeets": 31.6636852,
+      "mmeets": 26.6173752,
+      "type": "Elementary",
+      "rank": 261,
+      "regiontotal": 351
     },
     {
       "campus": "Gardendale El",
-      "notmeet": 45.5357143,
-      "approaches": 54.0178571,
-      "meets": 26.7857143,
-      "masters": 11.1607143
+      "rmeets": 26.7857143,
+      "mmeets": 26.4573991,
+      "type": "Elementary",
+      "rank": 262,
+      "regiontotal": 351
     },
     {
       "campus": "Camelot El",
-      "notmeet": 43.877551,
-      "approaches": 56.122449,
-      "meets": 27.8911565,
-      "masters": 13.2653061
+      "rmeets": 27.8911565,
+      "mmeets": 26.779661,
+      "type": "Elementary",
+      "rank": 263,
+      "regiontotal": 351
     },
     {
       "campus": "Colonies North El",
-      "notmeet": 42.8571429,
-      "approaches": 57.1428571,
-      "meets": 29.2358804,
-      "masters": 16.9435216
+      "rmeets": 29.2358804,
+      "mmeets": 31.2292359,
+      "type": "Elementary",
+      "rank": 264,
+      "regiontotal": 351
     },
     {
       "campus": "Wilshire El",
-      "notmeet": 37.9084967,
-      "approaches": 62.0915033,
-      "meets": 31.372549,
-      "masters": 16.3398693
+      "rmeets": 31.372549,
+      "mmeets": 23.5294118,
+      "type": "Elementary",
+      "rank": 265,
+      "regiontotal": 351
     },
     {
       "campus": "Hutchins El",
-      "notmeet": 47.6027397,
-      "approaches": 51.0273973,
-      "meets": 26.369863,
-      "masters": 12.6712329
+      "rmeets": 26.369863,
+      "mmeets": 28.4246575,
+      "type": "Elementary",
+      "rank": 266,
+      "regiontotal": 351
     },
     {
       "campus": "Roosevelt El",
-      "notmeet": 40.6360424,
-      "approaches": 59.0106007,
-      "meets": 25.795053,
-      "masters": 12.0141343
+      "rmeets": 25.795053,
+      "mmeets": 29.4326241,
+      "type": "Elementary",
+      "rank": 267,
+      "regiontotal": 351
     },
     {
       "campus": "El Dorado El",
-      "notmeet": 42.0118343,
-      "approaches": 57.9881657,
-      "meets": 31.6568047,
-      "masters": 13.9053254
+      "rmeets": 31.6568047,
+      "mmeets": 26.8436578,
+      "type": "Elementary",
+      "rank": 268,
+      "regiontotal": 351
     },
     {
       "campus": "Collier El",
-      "notmeet": 48.8986784,
-      "approaches": 51.1013216,
-      "meets": 23.7885463,
-      "masters": 11.8942731
+      "rmeets": 23.7885463,
+      "mmeets": 30.3964758,
+      "type": "Elementary",
+      "rank": 269,
+      "regiontotal": 351
     },
     {
       "campus": "Palo Alto El",
-      "notmeet": 38.5321101,
-      "approaches": 59.6330275,
-      "meets": 29.3577982,
-      "masters": 15.1376147
+      "rmeets": 29.3577982,
+      "mmeets": 27.0642202,
+      "type": "Elementary",
+      "rank": 270,
+      "regiontotal": 351
     },
     {
       "campus": "Hull El",
-      "notmeet": 41.7266187,
-      "approaches": 58.2733813,
-      "meets": 24.4604317,
-      "masters": 11.5107914
+      "rmeets": 24.4604317,
+      "mmeets": 30.5755396,
+      "type": "Elementary",
+      "rank": 271,
+      "regiontotal": 351
     },
     {
       "campus": "Madison El",
-      "notmeet": 44.1509434,
-      "approaches": 55.0943396,
-      "meets": 24.9056604,
-      "masters": 12.0754717
+      "rmeets": 24.9056604,
+      "mmeets": 29.0566038,
+      "type": "Elementary",
+      "rank": 272,
+      "regiontotal": 351
     },
     {
       "campus": "Spring Meadows El",
-      "notmeet": 44.5141066,
-      "approaches": 55.4858934,
-      "meets": 27.8996865,
-      "masters": 13.1661442
+      "rmeets": 27.8996865,
+      "mmeets": 30.3125,
+      "type": "Elementary",
+      "rank": 273,
+      "regiontotal": 351
     },
     {
       "campus": "Athens El",
-      "notmeet": 40.0990099,
-      "approaches": 56.4356436,
-      "meets": 26.2376238,
-      "masters": 13.3663366
+      "rmeets": 26.2376238,
+      "mmeets": 25.8706468,
+      "type": "Elementary",
+      "rank": 274,
+      "regiontotal": 351
     },
     {
       "campus": "Jubilee Wells Branch",
-      "notmeet": 30.7847083,
-      "approaches": 69.2152918,
-      "meets": 41.8511066,
-      "masters": 21.3279678
+      "rmeets": 41.8511066,
+      "mmeets": 28.5115304,
+      "type": "Elementary",
+      "rank": 275,
+      "regiontotal": 351
     },
     {
       "campus": "Roy Benavidez El",
-      "notmeet": 40.7692308,
-      "approaches": 58.4615385,
-      "meets": 27.3076923,
-      "masters": 13.4615385
+      "rmeets": 27.3076923,
+      "mmeets": 27.3076923,
+      "type": "Elementary",
+      "rank": 276,
+      "regiontotal": 351
     },
     {
       "campus": "Glenn El",
-      "notmeet": 40.3773585,
-      "approaches": 59.6226415,
-      "meets": 27.9245283,
-      "masters": 14.3396226
+      "rmeets": 27.9245283,
+      "mmeets": 26.6917293,
+      "type": "Elementary",
+      "rank": 277,
+      "regiontotal": 351
     },
     {
       "campus": "Windcrest El",
-      "notmeet": 47.826087,
-      "approaches": 52.173913,
-      "meets": 27.9503106,
-      "masters": 13.6645963
+      "rmeets": 27.9503106,
+      "mmeets": 29.8136646,
+      "type": "Elementary",
+      "rank": 278,
+      "regiontotal": 351
     },
     {
       "campus": "Rayburn El",
-      "notmeet": 39.6825397,
-      "approaches": 60.3174603,
-      "meets": 28.042328,
-      "masters": 13.2275132
+      "rmeets": 28.042328,
+      "mmeets": 24.3386243,
+      "type": "Elementary",
+      "rank": 279,
+      "regiontotal": 351
     },
     {
       "campus": "Oak Hills Terrace El",
-      "notmeet": 45.7875458,
-      "approaches": 54.2124542,
-      "meets": 29.3040293,
-      "masters": 10.989011
+      "rmeets": 29.3040293,
+      "mmeets": 27.4725275,
+      "type": "Elementary",
+      "rank": 280,
+      "regiontotal": 351
     },
     {
       "campus": "Pleasanton El",
-      "notmeet": 46.9902913,
-      "approaches": 52.815534,
-      "meets": 28.7378641,
-      "masters": 16.6990291
+      "rmeets": 28.7378641,
+      "mmeets": 36.1328125,
+      "type": "Elementary",
+      "rank": 281,
+      "regiontotal": 351
     },
     {
       "campus": "East Terrell Hills El",
-      "notmeet": 43.2098765,
-      "approaches": 56.7901235,
-      "meets": 26.8518519,
-      "masters": 10.4938272
+      "rmeets": 26.8518519,
+      "mmeets": 26.1538462,
+      "type": "Elementary",
+      "rank": 282,
+      "regiontotal": 351
     },
     {
       "campus": "Carlos Coon El",
-      "notmeet": 41.9525066,
-      "approaches": 56.9920844,
-      "meets": 28.7598945,
-      "masters": 15.0395778
+      "rmeets": 28.7598945,
+      "mmeets": 28.6842105,
+      "type": "Elementary",
+      "rank": 283,
+      "regiontotal": 351
     },
     {
       "campus": "Jubilee Kingsville",
-      "notmeet": 33.7579618,
-      "approaches": 66.2420382,
-      "meets": 29.2993631,
-      "masters": 10.8280255
+      "rmeets": 29.2993631,
+      "mmeets": 26.3888889,
+      "type": "Elementary",
+      "rank": 284,
+      "regiontotal": 351
     },
     {
       "campus": "Woodlawn Academy",
-      "notmeet": 43.8554217,
-      "approaches": 55.6626506,
-      "meets": 28.6746988,
-      "masters": 14.6987952
+      "rmeets": 28.6746988,
+      "mmeets": 23.4866828,
+      "type": "Elementary",
+      "rank": 285,
+      "regiontotal": 351
     },
     {
       "campus": "Jackson-keller El",
-      "notmeet": 42.1171171,
-      "approaches": 57.8828829,
-      "meets": 28.1531532,
-      "masters": 12.6126126
+      "rmeets": 28.1531532,
+      "mmeets": 25.6756757,
+      "type": "Elementary",
+      "rank": 286,
+      "regiontotal": 351
     },
     {
       "campus": "Harmony Hills El",
-      "notmeet": 38.9105058,
-      "approaches": 61.0894942,
-      "meets": 29.9610895,
-      "masters": 14.3968872
+      "rmeets": 29.9610895,
+      "mmeets": 27.5193798,
+      "type": "Elementary",
+      "rank": 287,
+      "regiontotal": 351
     },
     {
       "campus": "Highland Hills El",
-      "notmeet": 41.0958904,
-      "approaches": 56.5068493,
-      "meets": 21.9178082,
-      "masters": 9.93150685
+      "rmeets": 21.9178082,
+      "mmeets": 29.5532646,
+      "type": "Elementary",
+      "rank": 288,
+      "regiontotal": 351
     },
     {
       "campus": "Mission Academy",
-      "notmeet": 43.2225064,
-      "approaches": 56.7774936,
-      "meets": 27.8772379,
-      "masters": 14.0664962
+      "rmeets": 27.8772379,
+      "mmeets": 25.5263158,
+      "type": "Elementary",
+      "rank": 289,
+      "regiontotal": 351
     },
     {
       "campus": "George E Kelly El",
-      "notmeet": 44.3478261,
-      "approaches": 55.6521739,
-      "meets": 26.0869565,
-      "masters": 9.56521739
+      "rmeets": 26.0869565,
+      "mmeets": 26.9565217,
+      "type": "Elementary",
+      "rank": 290,
+      "regiontotal": 351
     },
     {
       "campus": "Woodlake El",
-      "notmeet": 49.6688742,
-      "approaches": 50,
-      "meets": 26.4900662,
-      "masters": 12.9139073
+      "rmeets": 26.4900662,
+      "mmeets": 28.807947,
+      "type": "Elementary",
+      "rank": 291,
+      "regiontotal": 351
     },
     {
       "campus": "Martin El",
-      "notmeet": 47.6878613,
-      "approaches": 51.1560694,
-      "meets": 25.433526,
-      "masters": 10.982659
+      "rmeets": 25.433526,
+      "mmeets": 23.699422,
+      "type": "Elementary",
+      "rank": 292,
+      "regiontotal": 351
     },
     {
       "campus": "Eloise Japhet Academy",
-      "notmeet": 47.5336323,
-      "approaches": 52.2421525,
-      "meets": 23.9910314,
-      "masters": 10.7623318
+      "rmeets": 23.9910314,
+      "mmeets": 28.5714286,
+      "type": "Elementary",
+      "rank": 293,
+      "regiontotal": 351
     },
     {
       "campus": "Medina School",
-      "notmeet": 30.6451613,
-      "approaches": 69.3548387,
-      "meets": 37.0967742,
-      "masters": 15.3225807
+      "rmeets": 37.0967742,
+      "mmeets": 21.3114754,
+      "type": "Elementary",
+      "rank": 294,
+      "regiontotal": 351
     },
     {
       "campus": "Margil El",
-      "notmeet": 50.78125,
-      "approaches": 48.046875,
-      "meets": 22.265625,
-      "masters": 10.9375
+      "rmeets": 22.265625,
+      "mmeets": 29.1828794,
+      "type": "Elementary",
+      "rank": 295,
+      "regiontotal": 351
     },
     {
       "campus": "Charles Graebner El",
-      "notmeet": 47.7272727,
-      "approaches": 50.8522727,
-      "meets": 25.2840909,
-      "masters": 13.0681818
+      "rmeets": 25.2840909,
+      "mmeets": 25.3561254,
+      "type": "Elementary",
+      "rank": 296,
+      "regiontotal": 351
     },
     {
       "campus": "Converse El",
-      "notmeet": 42.1568628,
-      "approaches": 57.8431373,
-      "meets": 28.7581699,
-      "masters": 16.3398693
+      "rmeets": 28.7581699,
+      "mmeets": 26.948052,
+      "type": "Elementary",
+      "rank": 297,
+      "regiontotal": 351
     },
     {
       "campus": "Patlan El",
-      "notmeet": 47.7678571,
-      "approaches": 51.3392857,
-      "meets": 25.4464286,
-      "masters": 13.8392857
+      "rmeets": 25.4464286,
+      "mmeets": 24,
+      "type": "Elementary",
+      "rank": 298,
+      "regiontotal": 351
     },
     {
       "campus": "Herff El",
-      "notmeet": 41.5,
-      "approaches": 58.5,
-      "meets": 26.5,
-      "masters": 10.5
+      "rmeets": 26.5,
+      "mmeets": 23.1527094,
+      "type": "Elementary",
+      "rank": 299,
+      "regiontotal": 351
     },
     {
       "campus": "Stonewall/flanders El",
-      "notmeet": 51.0638298,
-      "approaches": 48.9361702,
-      "meets": 23.7588653,
-      "masters": 9.57446809
+      "rmeets": 23.7588653,
+      "mmeets": 20.9219858,
+      "type": "Elementary",
+      "rank": 300,
+      "regiontotal": 351
     },
     {
       "campus": "Rogers Academy",
-      "notmeet": 42.3631124,
-      "approaches": 57.0605187,
-      "meets": 24.7838617,
-      "masters": 8.93371758
+      "rmeets": 24.7838617,
+      "mmeets": 24.7838617,
+      "type": "Elementary",
+      "rank": 301,
+      "regiontotal": 351
     },
     {
       "campus": "Salado Int",
-      "notmeet": 48.3311081,
-      "approaches": 51.6688919,
-      "meets": 26.1682243,
-      "masters": 10.8144192
+      "rmeets": 26.1682243,
+      "mmeets": 25.4327563,
+      "type": "Elementary",
+      "rank": 302,
+      "regiontotal": 351
     },
     {
       "campus": "V M Adams El",
-      "notmeet": 50.4702194,
-      "approaches": 49.5297806,
-      "meets": 23.8244514,
-      "masters": 12.8526646
+      "rmeets": 23.8244514,
+      "mmeets": 22.8840125,
+      "type": "Elementary",
+      "rank": 303,
+      "regiontotal": 351
     },
     {
       "campus": "Columbia Heights El",
-      "notmeet": 38.7234043,
-      "approaches": 61.2765957,
-      "meets": 31.0638298,
-      "masters": 14.893617
+      "rmeets": 31.0638298,
+      "mmeets": 19.4915254,
+      "type": "Elementary",
+      "rank": 304,
+      "regiontotal": 351
     },
     {
       "campus": "J T Brackenridge El",
-      "notmeet": 50,
-      "approaches": 49.270073,
-      "meets": 23.3576642,
-      "masters": 9.12408759
+      "rmeets": 23.3576642,
+      "mmeets": 25.9124088,
+      "type": "Elementary",
+      "rank": 305,
+      "regiontotal": 351
     },
     {
       "campus": "Cable El",
-      "notmeet": 48.1707317,
-      "approaches": 51.8292683,
-      "meets": 21.3414634,
-      "masters": 9.14634146
+      "rmeets": 21.3414634,
+      "mmeets": 24.3161094,
+      "type": "Elementary",
+      "rank": 306,
+      "regiontotal": 351
     },
     {
       "campus": "Beacon Hill Academy",
-      "notmeet": 48.8986784,
-      "approaches": 50.2202643,
-      "meets": 21.1453745,
-      "masters": 9.25110132
+      "rmeets": 21.1453745,
+      "mmeets": 27.3127753,
+      "type": "Elementary",
+      "rank": 307,
+      "regiontotal": 351
     },
     {
       "campus": "Serna El",
-      "notmeet": 43.1279621,
-      "approaches": 56.8720379,
-      "meets": 27.4881517,
-      "masters": 12.3222749
+      "rmeets": 27.4881517,
+      "mmeets": 20.952381,
+      "type": "Elementary",
+      "rank": 308,
+      "regiontotal": 351
     },
     {
       "campus": "Walzem El",
-      "notmeet": 42.2297297,
-      "approaches": 57.7702703,
-      "meets": 25,
-      "masters": 11.8243243
+      "rmeets": 25,
+      "mmeets": 19.7278912,
+      "type": "Elementary",
+      "rank": 309,
+      "regiontotal": 351
     },
     {
       "campus": "Candlewood El",
-      "notmeet": 48.951049,
-      "approaches": 51.0489511,
-      "meets": 19.2307692,
-      "masters": 11.8881119
+      "rmeets": 19.2307692,
+      "mmeets": 28.6713287,
+      "type": "Elementary",
+      "rank": 310,
+      "regiontotal": 351
     },
     {
       "campus": "Meadow Village El",
-      "notmeet": 50.9090909,
-      "approaches": 49.0909091,
-      "meets": 22.9090909,
-      "masters": 12.3636364
+      "rmeets": 22.9090909,
+      "mmeets": 22.9090909,
+      "type": "Elementary",
+      "rank": 311,
+      "regiontotal": 351
     },
     {
       "campus": "David Barkley/francisco Ruiz El",
-      "notmeet": 49.8069498,
-      "approaches": 50.1930502,
-      "meets": 22.3938224,
-      "masters": 10.8108108
+      "rmeets": 22.3938224,
+      "mmeets": 21.6216216,
+      "type": "Elementary",
+      "rank": 312,
+      "regiontotal": 351
     },
     {
       "campus": "Montgomery El",
-      "notmeet": 52.6785714,
-      "approaches": 47.3214286,
-      "meets": 23.2142857,
-      "masters": 9.375
+      "rmeets": 23.2142857,
+      "mmeets": 24.1071429,
+      "type": "Elementary",
+      "rank": 313,
+      "regiontotal": 351
     },
     {
       "campus": "Frank L Madla Accelerated Collegiate Academy",
-      "notmeet": 47.029703,
-      "approaches": 52.970297,
-      "meets": 25.7425743,
-      "masters": 10.8910891
+      "rmeets": 25.7425743,
+      "mmeets": 21.2871287,
+      "type": "Elementary",
+      "rank": 314,
+      "regiontotal": 351
     },
     {
       "campus": "Bexar County Academy",
-      "notmeet": 42.4581006,
-      "approaches": 57.5418994,
-      "meets": 26.2569832,
-      "masters": 7.26256983
+      "rmeets": 26.2569832,
+      "mmeets": 22.9050279,
+      "type": "Elementary",
+      "rank": 315,
+      "regiontotal": 351
     },
     {
       "campus": "Clear Spring El",
-      "notmeet": 54.1666667,
-      "approaches": 45.8333333,
-      "meets": 23.1481482,
-      "masters": 12.037037
+      "rmeets": 23.1481482,
+      "mmeets": 24.0740741,
+      "type": "Elementary",
+      "rank": 316,
+      "regiontotal": 351
     },
     {
       "campus": "Hillcrest El",
-      "notmeet": 50.4385965,
-      "approaches": 49.5614035,
-      "meets": 26.3157895,
-      "masters": 13.5964912
+      "rmeets": 26.3157895,
+      "mmeets": 23.6842105,
+      "type": "Elementary",
+      "rank": 317,
+      "regiontotal": 351
     },
     {
       "campus": "Douglass El",
-      "notmeet": 57.2327044,
-      "approaches": 41.509434,
-      "meets": 20.754717,
-      "masters": 10.6918239
+      "rmeets": 20.754717,
+      "mmeets": 25.1572327,
+      "type": "Elementary",
+      "rank": 318,
+      "regiontotal": 351
     },
     {
       "campus": "Briscoe El",
-      "notmeet": 50.8333333,
-      "approaches": 48.3333333,
-      "meets": 24.5833333,
-      "masters": 10.4166667
+      "rmeets": 24.5833333,
+      "mmeets": 25,
+      "type": "Elementary",
+      "rank": 319,
+      "regiontotal": 351
     },
     {
       "campus": "H B Gonzalez El",
-      "notmeet": 51.9650655,
-      "approaches": 48.0349345,
-      "meets": 19.650655,
-      "masters": 8.73362445
+      "rmeets": 19.650655,
+      "mmeets": 25,
+      "type": "Elementary",
+      "rank": 320,
+      "regiontotal": 351
     },
     {
       "campus": "Robert B Green El",
-      "notmeet": 44.1860465,
-      "approaches": 54.6511628,
-      "meets": 23.255814,
-      "masters": 11.627907
+      "rmeets": 23.255814,
+      "mmeets": 20.9302326,
+      "type": "Elementary",
+      "rank": 321,
+      "regiontotal": 351
     },
     {
       "campus": "Stafford El",
-      "notmeet": 56.1068702,
-      "approaches": 43.129771,
-      "meets": 18.3206107,
-      "masters": 8.77862595
+      "rmeets": 18.3206107,
+      "mmeets": 26.3358779,
+      "type": "Elementary",
+      "rank": 322,
+      "regiontotal": 351
     },
     {
       "campus": "Charles C Ball Academy",
-      "notmeet": 51.5873016,
-      "approaches": 47.2222222,
-      "meets": 21.8253968,
-      "masters": 8.33333333
+      "rmeets": 21.8253968,
+      "mmeets": 20.2380952,
+      "type": "Elementary",
+      "rank": 323,
+      "regiontotal": 351
     },
     {
       "campus": "De Zavala El",
-      "notmeet": 57.2953737,
-      "approaches": 41.6370107,
-      "meets": 19.5729537,
-      "masters": 8.18505338
+      "rmeets": 19.5729537,
+      "mmeets": 23.5714286,
+      "type": "Elementary",
+      "rank": 324,
+      "regiontotal": 351
     },
     {
       "campus": "Collins Garden El",
-      "notmeet": 49.5652174,
-      "approaches": 49.1304348,
-      "meets": 21.7391304,
-      "masters": 7.82608696
+      "rmeets": 21.7391304,
+      "mmeets": 24.3478261,
+      "type": "Elementary",
+      "rank": 325,
+      "regiontotal": 351
     },
     {
       "campus": "Natalia El",
-      "notmeet": 49.3449782,
-      "approaches": 50.6550218,
-      "meets": 24.8908297,
-      "masters": 10.0436681
+      "rmeets": 24.8908297,
+      "mmeets": 25.877193,
+      "type": "Elementary",
+      "rank": 326,
+      "regiontotal": 351
     },
     {
       "campus": "Winston El",
-      "notmeet": 53.6885246,
-      "approaches": 44.6721312,
-      "meets": 20.9016393,
-      "masters": 11.8852459
+      "rmeets": 20.9016393,
+      "mmeets": 26.2295082,
+      "type": "Elementary",
+      "rank": 327,
+      "regiontotal": 351
     },
     {
       "campus": "West Avenue El",
-      "notmeet": 53.164557,
-      "approaches": 46.835443,
-      "meets": 21.5189873,
-      "masters": 8.2278481
+      "rmeets": 21.5189873,
+      "mmeets": 18.9873418,
+      "type": "Elementary",
+      "rank": 328,
+      "regiontotal": 351
     },
     {
       "campus": "Cameron El",
-      "notmeet": 52.631579,
-      "approaches": 47.3684211,
-      "meets": 23.923445,
-      "masters": 8.13397129
+      "rmeets": 23.923445,
+      "mmeets": 22.0095694,
+      "type": "Elementary",
+      "rank": 329,
+      "regiontotal": 351
     },
     {
       "campus": "Losoya Int",
-      "notmeet": 50.7602339,
-      "approaches": 49.2397661,
-      "meets": 21.4035088,
-      "masters": 9.59064328
+      "rmeets": 21.4035088,
+      "mmeets": 18.1818182,
+      "type": "Elementary",
+      "rank": 330,
+      "regiontotal": 351
     },
     {
       "campus": "Savannah Heights Int",
-      "notmeet": 47.611465,
-      "approaches": 52.388535,
-      "meets": 21.0191083,
-      "masters": 7.1656051
+      "rmeets": 21.0191083,
+      "mmeets": 19.4577353,
+      "type": "Elementary",
+      "rank": 331,
+      "regiontotal": 351
     },
     {
       "campus": "Larkspur El",
-      "notmeet": 46.7866324,
-      "approaches": 53.2133676,
-      "meets": 24.4215938,
-      "masters": 9.51156812
+      "rmeets": 24.4215938,
+      "mmeets": 16.8797954,
+      "type": "Elementary",
+      "rank": 332,
+      "regiontotal": 351
     },
     {
       "campus": "David Crockett El",
-      "notmeet": 49.6376812,
-      "approaches": 50,
-      "meets": 17.3913044,
-      "masters": 6.52173913
+      "rmeets": 17.3913044,
+      "mmeets": 21.3768116,
+      "type": "Elementary",
+      "rank": 333,
+      "regiontotal": 351
     },
     {
       "campus": "Jubilee Highland Hills",
-      "notmeet": 46.2264151,
-      "approaches": 53.7735849,
-      "meets": 23.5849057,
-      "masters": 8.49056604
+      "rmeets": 23.5849057,
+      "mmeets": 17.9856115,
+      "type": "Elementary",
+      "rank": 334,
+      "regiontotal": 351
     },
     {
       "campus": "M L King Academy",
-      "notmeet": 54.1353384,
-      "approaches": 45.8646617,
-      "meets": 14.2857143,
-      "masters": 3.7593985
+      "rmeets": 14.2857143,
+      "mmeets": 21.1155379,
+      "type": "Elementary",
+      "rank": 335,
+      "regiontotal": 351
     },
     {
       "campus": "Hirsch El",
-      "notmeet": 51.5068493,
-      "approaches": 48.4931507,
-      "meets": 18.9041096,
-      "masters": 8.49315069
+      "rmeets": 18.9041096,
+      "mmeets": 20.9809264,
+      "type": "Elementary",
+      "rank": 336,
+      "regiontotal": 351
     },
     {
       "campus": "Foster Academy",
-      "notmeet": 53.5836178,
-      "approaches": 46.4163823,
-      "meets": 17.4061433,
-      "masters": 8.87372014
+      "rmeets": 17.4061433,
+      "mmeets": 21.5017065,
+      "type": "Elementary",
+      "rank": 337,
+      "regiontotal": 351
     },
     {
       "campus": "Bowden Academy",
-      "notmeet": 56.5217391,
-      "approaches": 41.3043478,
-      "meets": 19.1304348,
-      "masters": 8.26086957
+      "rmeets": 19.1304348,
+      "mmeets": 16.9565217,
+      "type": "Elementary",
+      "rank": 338,
+      "regiontotal": 351
     },
     {
       "campus": "Southwest Prep Northwest El",
-      "notmeet": 53.3333333,
-      "approaches": 42.2222222,
-      "meets": 16.6666667,
-      "masters": 7.77777778
+      "rmeets": 16.6666667,
+      "mmeets": 15.5555556,
+      "type": "Elementary",
+      "rank": 339,
+      "regiontotal": 351
     },
     {
       "campus": "Rodriguez El",
-      "notmeet": 57,
-      "approaches": 42,
-      "meets": 19.5,
-      "masters": 9
+      "rmeets": 19.5,
+      "mmeets": 18,
+      "type": "Elementary",
+      "rank": 340,
+      "regiontotal": 351
     },
     {
       "campus": "Brooks Academy Of Science And Engineering",
-      "notmeet": 41.1027569,
-      "approaches": 58.8972431,
-      "meets": 26.8170426,
-      "masters": 11.2781955
+      "rmeets": 26.8170426,
+      "mmeets": 15.9244265,
+      "type": "Elementary",
+      "rank": 341,
+      "regiontotal": 351
     },
     {
       "campus": "Las Palmas El",
-      "notmeet": 56.25,
-      "approaches": 42.9166667,
-      "meets": 14.5833333,
-      "masters": 6.25
+      "rmeets": 14.5833333,
+      "mmeets": 21.6666667,
+      "type": "Elementary",
+      "rank": 342,
+      "regiontotal": 351
     },
     {
       "campus": "Storm El",
-      "notmeet": 60.8888889,
-      "approaches": 37.7777778,
-      "meets": 13.7777778,
-      "masters": 5.77777778
+      "rmeets": 13.7777778,
+      "mmeets": 20.0892857,
+      "type": "Elementary",
+      "rank": 343,
+      "regiontotal": 351
     },
     {
       "campus": "Smith El",
-      "notmeet": 52.0231214,
-      "approaches": 47.3988439,
-      "meets": 16.7630058,
-      "masters": 9.8265896
+      "rmeets": 16.7630058,
+      "mmeets": 19.0751445,
+      "type": "Elementary",
+      "rank": 344,
+      "regiontotal": 351
     },
     {
       "campus": "Dorie Miller El",
-      "notmeet": 65.6716418,
-      "approaches": 31.3432836,
-      "meets": 13.4328358,
-      "masters": 6.71641791
+      "rmeets": 13.4328358,
+      "mmeets": 22.3880597,
+      "type": "Elementary",
+      "rank": 345,
+      "regiontotal": 351
     },
     {
       "campus": "Jubilee San Antonio",
-      "notmeet": 50,
-      "approaches": 50,
-      "meets": 20.4697987,
-      "masters": 8.89261745
+      "rmeets": 20.4697987,
+      "mmeets": 12.9482072,
+      "type": "Elementary",
+      "rank": 346,
+      "regiontotal": 351
     },
     {
       "campus": "Sarah S King El",
-      "notmeet": 64.9390244,
-      "approaches": 35.0609756,
-      "meets": 14.0243902,
-      "masters": 6.70731707
+      "rmeets": 14.0243902,
+      "mmeets": 19.8170732,
+      "type": "Elementary",
+      "rank": 347,
+      "regiontotal": 351
     },
     {
       "campus": "Pershing El",
-      "notmeet": 61.7760618,
-      "approaches": 37.8378378,
-      "meets": 13.5135135,
-      "masters": 5.79150579
+      "rmeets": 13.5135135,
+      "mmeets": 15.8301158,
+      "type": "Elementary",
+      "rank": 348,
+      "regiontotal": 351
     },
     {
       "campus": "Dr Harmon W Kelley El",
-      "notmeet": 54.4378698,
-      "approaches": 45.5621302,
-      "meets": 16.5680473,
-      "masters": 7.69230769
+      "rmeets": 16.5680473,
+      "mmeets": 12.4260355,
+      "type": "Elementary",
+      "rank": 349,
+      "regiontotal": 351
     },
     {
       "campus": "P F Stewart El",
-      "notmeet": 66.8049793,
-      "approaches": 33.1950208,
-      "meets": 10.373444,
-      "masters": 2.48962656
+      "rmeets": 10.373444,
+      "mmeets": 17.0124481,
+      "type": "Elementary",
+      "rank": 350,
+      "regiontotal": 351
     },
     {
       "campus": "Ogden El",
-      "notmeet": 62.8070175,
-      "approaches": 35.7894737,
-      "meets": 11.9298246,
-      "masters": 4.21052632
+      "rmeets": 11.9298246,
+      "mmeets": 14.0350877,
+      "type": "Elementary",
+      "rank": 351,
+      "regiontotal": 351
     },
     {
       "campus": "Young Women's Leadership Academy",
-      "notmeet": 1.67597765,
-      "approaches": 98.3240224,
-      "meets": 87.150838,
-      "masters": 54.1899441
+      "rmeets": 87.150838,
+      "mmeets": 89.6907217,
+      "type": "Middle",
+      "rank": 1,
+      "regiontotal": 151
     },
     {
       "campus": "Basis San Antonio- Shavano Campus",
-      "notmeet": 3.32778702,
-      "approaches": 96.672213,
-      "meets": 78.3693844,
-      "masters": 51.7470882
+      "rmeets": 78.3693844,
+      "mmeets": 84.7494553,
+      "type": "Middle",
+      "rank": 2,
+      "regiontotal": 151
     },
     {
       "campus": "Lopez Middle",
-      "notmeet": 7.18562874,
-      "approaches": 92.8143713,
-      "meets": 73.9093242,
-      "masters": 46.1933276
+      "rmeets": 73.9093242,
+      "mmeets": 77.672956,
+      "type": "Middle",
+      "rank": 3,
+      "regiontotal": 151
     },
     {
       "campus": "Great Hearts Irving",
-      "notmeet": 8.89370933,
-      "approaches": 91.1062907,
-      "meets": 67.8958785,
-      "masters": 41.4316703
+      "rmeets": 67.8958785,
+      "mmeets": 68.3510638,
+      "type": "Middle",
+      "rank": 4,
+      "regiontotal": 151
     },
     {
       "campus": "Smithson Valley Middle",
-      "notmeet": 10.0862069,
-      "approaches": 89.9137931,
-      "meets": 65.1724138,
-      "masters": 36.7241379
+      "rmeets": 65.1724138,
+      "mmeets": 71.3587488,
+      "type": "Middle",
+      "rank": 5,
+      "regiontotal": 151
     },
     {
       "campus": "Garcia Middle",
-      "notmeet": 7.07482993,
-      "approaches": 92.9251701,
-      "meets": 70.6122449,
-      "masters": 43.877551
+      "rmeets": 70.6122449,
+      "mmeets": 64.1803279,
+      "type": "Middle",
+      "rank": 6,
+      "regiontotal": 151
     },
     {
       "campus": "Bush Middle",
-      "notmeet": 11.2459547,
-      "approaches": 88.7540453,
-      "meets": 64.5631068,
-      "masters": 36.1650485
+      "rmeets": 64.5631068,
+      "mmeets": 68.5742972,
+      "type": "Middle",
+      "rank": 7,
+      "regiontotal": 151
     },
     {
       "campus": "Tejeda Middle",
-      "notmeet": 8.44947735,
-      "approaches": 91.5505227,
-      "meets": 65.9407666,
-      "masters": 38.1533101
+      "rmeets": 65.9407666,
+      "mmeets": 64.0437159,
+      "type": "Middle",
+      "rank": 8,
+      "regiontotal": 151
     },
     {
       "campus": "Great Hearts Monte Vista North",
-      "notmeet": 6.59898477,
-      "approaches": 93.4010152,
-      "meets": 69.035533,
-      "masters": 40.1015228
+      "rmeets": 69.035533,
+      "mmeets": 58.7301587,
+      "type": "Middle",
+      "rank": 9,
+      "regiontotal": 151
     },
     {
       "campus": "School Of Science And Technology - Alamo",
-      "notmeet": 22.2222222,
-      "approaches": 77.4193548,
-      "meets": 51.6129032,
-      "masters": 33.3333333
+      "rmeets": 51.6129032,
+      "mmeets": 60.8527132,
+      "type": "Middle",
+      "rank": 10,
+      "regiontotal": 151
     },
     {
       "campus": "Jubilee Living Way",
-      "notmeet": 16.9117647,
-      "approaches": 79.4117647,
-      "meets": 52.9411765,
-      "masters": 32.3529412
+      "rmeets": 52.9411765,
+      "mmeets": 53.6764706,
+      "type": "Middle",
+      "rank": 11,
+      "regiontotal": 151
     },
     {
       "campus": "Randolph Middle",
-      "notmeet": 8.42696629,
-      "approaches": 91.5730337,
-      "meets": 65.4494382,
-      "masters": 37.6404494
+      "rmeets": 65.4494382,
+      "mmeets": 64.1269841,
+      "type": "Middle",
+      "rank": 12,
+      "regiontotal": 151
     },
     {
       "campus": "Church Hill Middle",
-      "notmeet": 13.75,
-      "approaches": 86.25,
-      "meets": 59.7916667,
-      "masters": 33.6458333
+      "rmeets": 59.7916667,
+      "mmeets": 59.5596756,
+      "type": "Middle",
+      "rank": 13,
+      "regiontotal": 151
     },
     {
       "campus": "Eleanor Kolitz Hebrew Language Academy",
-      "notmeet": 6.13496933,
-      "approaches": 93.8650307,
-      "meets": 61.9631902,
-      "masters": 35.5828221
+      "rmeets": 61.9631902,
+      "mmeets": 63.125,
+      "type": "Middle",
+      "rank": 14,
+      "regiontotal": 151
     },
     {
       "campus": "Spring Branch Middle",
-      "notmeet": 13.0143541,
-      "approaches": 86.9856459,
-      "meets": 60.6698565,
-      "masters": 32.4401914
+      "rmeets": 60.6698565,
+      "mmeets": 59.8712446,
+      "type": "Middle",
+      "rank": 15,
+      "regiontotal": 151
     },
     {
       "campus": "Hill Middle",
-      "notmeet": 12.1996303,
-      "approaches": 87.8003697,
-      "meets": 64.232902,
-      "masters": 36.5064695
+      "rmeets": 64.232902,
+      "mmeets": 56.5934066,
+      "type": "Middle",
+      "rank": 16,
+      "regiontotal": 151
     },
     {
       "campus": "D'hanis School",
-      "notmeet": 13.5294118,
-      "approaches": 86.4705882,
-      "meets": 59.4117647,
-      "masters": 32.9411765
+      "rmeets": 59.4117647,
+      "mmeets": 49.3670886,
+      "type": "Middle",
+      "rank": 17,
+      "regiontotal": 151
     },
     {
       "campus": "School Of Science And Technology",
-      "notmeet": 11.5646259,
-      "approaches": 88.4353742,
-      "meets": 59.1836735,
-      "masters": 29.2517007
-    },
-    {
-      "campus": "School Of Science And Technology Advancement",
-      "notmeet": 27.0676692,
-      "approaches": 72.1804511,
-      "meets": 42.1052632,
-      "masters": 20.3007519
-    },
-    {
-      "campus": "Harmony Science Academy - Brownsville",
-      "notmeet": 25.4545455,
-      "approaches": 73.0909091,
-      "meets": 43.2727273,
-      "masters": 21.0909091
+      "rmeets": 59.1836735,
+      "mmeets": 47.107438,
+      "type": "Middle",
+      "rank": 18,
+      "regiontotal": 151
     },
     {
       "campus": "Briscoe Middle",
-      "notmeet": 15.2650823,
-      "approaches": 84.7349177,
-      "meets": 57.8610603,
-      "masters": 29.9817185
+      "rmeets": 57.8610603,
+      "mmeets": 56.8807339,
+      "type": "Middle",
+      "rank": 21,
+      "regiontotal": 151
     },
     {
       "campus": "Jourdanton J H",
-      "notmeet": 22.4550898,
-      "approaches": 77.5449102,
-      "meets": 45.8083832,
-      "masters": 19.1616767
+      "rmeets": 45.8083832,
+      "mmeets": 54.8192771,
+      "type": "Middle",
+      "rank": 22,
+      "regiontotal": 151
     },
     {
       "campus": "Marion Middle",
-      "notmeet": 20.8201893,
-      "approaches": 79.1798107,
-      "meets": 48.8958991,
-      "masters": 23.3438486
+      "rmeets": 48.8958991,
+      "mmeets": 55.7432432,
+      "type": "Middle",
+      "rank": 23,
+      "regiontotal": 151
     },
     {
       "campus": "Great Hearts Northern Oaks",
-      "notmeet": 9.7415507,
-      "approaches": 90.2584493,
-      "meets": 63.6182903,
-      "masters": 39.7614314
+      "rmeets": 63.6182903,
+      "mmeets": 54.2372881,
+      "type": "Middle",
+      "rank": 24,
+      "regiontotal": 151
     },
     {
       "campus": "Jubilee Harlingen",
-      "notmeet": 25.5102041,
-      "approaches": 74.4897959,
-      "meets": 51.0204082,
-      "masters": 27.5510204
+      "rmeets": 51.0204082,
+      "mmeets": 45.9183674,
+      "type": "Middle",
+      "rank": 25,
+      "regiontotal": 151
     },
     {
       "campus": "Harmony Science Acad (San Antonio)",
-      "notmeet": 21.7741936,
-      "approaches": 78.2258065,
-      "meets": 43.8172043,
-      "masters": 22.0430108
+      "rmeets": 43.8172043,
+      "mmeets": 50.5813954,
+      "type": "Middle",
+      "rank": 26,
+      "regiontotal": 151
     },
     {
       "campus": "Rawlinson Middle",
-      "notmeet": 16.8216399,
-      "approaches": 83.1783601,
-      "meets": 55.6213018,
-      "masters": 30.4311074
+      "rmeets": 55.6213018,
+      "mmeets": 51.5947467,
+      "type": "Middle",
+      "rank": 27,
+      "regiontotal": 151
     },
     {
       "campus": "Dobie J H",
-      "notmeet": 16.7508418,
-      "approaches": 83.2491583,
-      "meets": 53.3670034,
-      "masters": 25.6734007
+      "rmeets": 53.3670034,
+      "mmeets": 58.2582583,
+      "type": "Middle",
+      "rank": 28,
+      "regiontotal": 151
     },
     {
       "campus": "School Of Science And Technology Discovery",
-      "notmeet": 23.7458194,
-      "approaches": 76.2541806,
-      "meets": 46.1538462,
-      "masters": 23.4113712
+      "rmeets": 46.1538462,
+      "mmeets": 51.4388489,
+      "type": "Middle",
+      "rank": 29,
+      "regiontotal": 151
     },
     {
       "campus": "Young Men's Leadership Academy",
-      "notmeet": 24.3093923,
-      "approaches": 75.6906077,
-      "meets": 42.5414365,
-      "masters": 19.8895028
+      "rmeets": 42.5414365,
+      "mmeets": 51.3812155,
+      "type": "Middle",
+      "rank": 30,
+      "regiontotal": 151
     },
     {
       "campus": "Alamo Heights J H",
-      "notmeet": 15.8928571,
-      "approaches": 84.1071429,
-      "meets": 57.2321429,
-      "masters": 33.3928571
-    },
-    {
-      "campus": "Harmony Science Academy - Laredo",
-      "notmeet": 24.2630386,
-      "approaches": 75.7369615,
-      "meets": 43.537415,
-      "masters": 19.7278912
+      "rmeets": 57.2321429,
+      "mmeets": 52.8586839,
+      "type": "Middle",
+      "rank": 31,
+      "regiontotal": 151
     },
     {
       "campus": "Bernal Middle",
-      "notmeet": 15.956151,
-      "approaches": 84.043849,
-      "meets": 52.4969549,
-      "masters": 26.9183922
+      "rmeets": 52.4969549,
+      "mmeets": 49.9306519,
+      "type": "Middle",
+      "rank": 33,
+      "regiontotal": 151
     },
     {
       "campus": "Folks Middle",
-      "notmeet": 13.8476756,
-      "approaches": 86.1523244,
-      "meets": 58.6547972,
-      "masters": 31.6518299
+      "rmeets": 58.6547972,
+      "mmeets": 47.7447745,
+      "type": "Middle",
+      "rank": 34,
+      "regiontotal": 151
     },
     {
       "campus": "Bradley Middle",
-      "notmeet": 15.802075,
-      "approaches": 84.197925,
-      "meets": 54.7486034,
-      "masters": 31.60415
+      "rmeets": 54.7486034,
+      "mmeets": 45.411985,
+      "type": "Middle",
+      "rank": 35,
+      "regiontotal": 151
     },
     {
       "campus": "Jefferson Middle",
-      "notmeet": 15.0995196,
-      "approaches": 84.9004804,
-      "meets": 54.1523679,
-      "masters": 28.2772821
+      "rmeets": 54.1523679,
+      "mmeets": 44.7148289,
+      "type": "Middle",
+      "rank": 36,
+      "regiontotal": 151
     },
     {
       "campus": "Navarro J H",
-      "notmeet": 15.755627,
-      "approaches": 84.244373,
-      "meets": 52.4115756,
-      "masters": 28.9389068
+      "rmeets": 52.4115756,
+      "mmeets": 53.6121673,
+      "type": "Middle",
+      "rank": 37,
+      "regiontotal": 151
     },
     {
       "campus": "Medina Valley Middle",
-      "notmeet": 21.350365,
-      "approaches": 78.649635,
-      "meets": 45.620438,
-      "masters": 21.9890511
+      "rmeets": 45.620438,
+      "mmeets": 49.6558505,
+      "type": "Middle",
+      "rank": 38,
+      "regiontotal": 151
     },
     {
       "campus": "New Braunfels Middle",
-      "notmeet": 17.6300578,
-      "approaches": 82.3699422,
-      "meets": 48.5549133,
-      "masters": 23.5067437
+      "rmeets": 48.5549133,
+      "mmeets": 50.4054054,
+      "type": "Middle",
+      "rank": 39,
+      "regiontotal": 151
     },
     {
       "campus": "Charlotte Middle",
-      "notmeet": 27.6119403,
-      "approaches": 72.3880597,
-      "meets": 40.2985075,
-      "masters": 13.4328358
+      "rmeets": 40.2985075,
+      "mmeets": 43.6090226,
+      "type": "Middle",
+      "rank": 40,
+      "regiontotal": 151
     },
     {
       "campus": "Oakrun Middle",
-      "notmeet": 16.755603,
-      "approaches": 83.244397,
-      "meets": 53.6819637,
-      "masters": 27.8548559
+      "rmeets": 53.6819637,
+      "mmeets": 44.5078459,
+      "type": "Middle",
+      "rank": 41,
+      "regiontotal": 151
     },
     {
       "campus": "School Of Science And Technology Corpus Christi",
-      "notmeet": 20.5689278,
-      "approaches": 79.4310722,
-      "meets": 43.7636762,
-      "masters": 23.6323851
+      "rmeets": 43.7636762,
+      "mmeets": 45.5782313,
+      "type": "Middle",
+      "rank": 42,
+      "regiontotal": 151
     },
     {
       "campus": "Kipp Poder Academy",
-      "notmeet": 35.4978355,
-      "approaches": 64.5021645,
-      "meets": 32.9004329,
-      "masters": 16.8831169
+      "rmeets": 32.9004329,
+      "mmeets": 42.8571429,
+      "type": "Middle",
+      "rank": 43,
+      "regiontotal": 151
     },
     {
       "campus": "Canyon Middle",
-      "notmeet": 27.7056277,
-      "approaches": 72.2943723,
-      "meets": 43.5497836,
-      "masters": 19.8268398
+      "rmeets": 43.5497836,
+      "mmeets": 48.9099526,
+      "type": "Middle",
+      "rank": 44,
+      "regiontotal": 151
     },
     {
       "campus": "Ray D Corbett J H",
-      "notmeet": 19.5652174,
-      "approaches": 80.4347826,
-      "meets": 52.2575251,
-      "masters": 27.8428094
+      "rmeets": 52.2575251,
+      "mmeets": 44.3983403,
+      "type": "Middle",
+      "rank": 45,
+      "regiontotal": 151
     },
     {
       "campus": "Garner Middle",
-      "notmeet": 29.2580982,
-      "approaches": 70.7419018,
-      "meets": 38.3490073,
-      "masters": 17.7638454
+      "rmeets": 38.3490073,
+      "mmeets": 39.0160183,
+      "type": "Middle",
+      "rank": 46,
+      "regiontotal": 151
     },
     {
       "campus": "Virginia Allred Stacey Jr/sr H S",
-      "notmeet": 16.9014085,
-      "approaches": 83.0985916,
-      "meets": 49.7652582,
-      "masters": 26.2910798
+      "rmeets": 49.7652582,
+      "mmeets": 43.9393939,
+      "type": "Middle",
+      "rank": 47,
+      "regiontotal": 151
     },
     {
       "campus": "Luna Middle",
-      "notmeet": 19.873817,
-      "approaches": 80.126183,
-      "meets": 47.8706625,
-      "masters": 21.0567823
+      "rmeets": 47.8706625,
+      "mmeets": 41.8907199,
+      "type": "Middle",
+      "rank": 48,
+      "regiontotal": 151
     },
     {
       "campus": "Robert G Cole Middle/high School",
-      "notmeet": 18.8741722,
-      "approaches": 81.1258278,
-      "meets": 52.3178808,
-      "masters": 29.4701987
+      "rmeets": 52.3178808,
+      "mmeets": 41.3284133,
+      "type": "Middle",
+      "rank": 49,
+      "regiontotal": 151
     },
     {
       "campus": "Mt Valley Middle",
-      "notmeet": 23.9189189,
-      "approaches": 76.0810811,
-      "meets": 47.027027,
-      "masters": 22.2972973
-    },
-    {
-      "campus": "Jubilee Brownsville",
-      "notmeet": 24.7510669,
-      "approaches": 74.6799431,
-      "meets": 42.5320057,
-      "masters": 19.2034139
+      "rmeets": 47.027027,
+      "mmeets": 40.5325444,
+      "type": "Middle",
+      "rank": 50,
+      "regiontotal": 151
     },
     {
       "campus": "Stinson Middle",
-      "notmeet": 21.3028169,
-      "approaches": 78.6971831,
-      "meets": 48.7676056,
-      "masters": 24.471831
+      "rmeets": 48.7676056,
+      "mmeets": 38.0350195,
+      "type": "Middle",
+      "rank": 52,
+      "regiontotal": 151
     },
     {
       "campus": "Devine Middle",
-      "notmeet": 26.0674157,
-      "approaches": 73.9325843,
-      "meets": 41.7977528,
-      "masters": 18.6516854
+      "rmeets": 41.7977528,
+      "mmeets": 40.0900901,
+      "type": "Middle",
+      "rank": 53,
+      "regiontotal": 151
     },
     {
       "campus": "George Gervin Academy",
-      "notmeet": 42.6035503,
-      "approaches": 53.8461539,
-      "meets": 26.035503,
-      "masters": 10.6508876
+      "rmeets": 26.035503,
+      "mmeets": 39.2857143,
+      "type": "Middle",
+      "rank": 54,
+      "regiontotal": 151
     },
     {
       "campus": "Driscoll Middle",
-      "notmeet": 23.1722429,
-      "approaches": 76.8277571,
-      "meets": 43.866171,
-      "masters": 20.1982652
+      "rmeets": 43.866171,
+      "mmeets": 36.7605634,
+      "type": "Middle",
+      "rank": 55,
+      "regiontotal": 151
     },
     {
       "campus": "Harris Middle",
-      "notmeet": 21.7312895,
-      "approaches": 78.2687106,
-      "meets": 45.0856628,
-      "masters": 22.0018034
-    },
-    {
-      "campus": "School Of Science And Technology Houston",
-      "notmeet": 33.8797814,
-      "approaches": 66.1202186,
-      "meets": 42.0765027,
-      "masters": 22.9508197
+      "rmeets": 45.0856628,
+      "mmeets": 38.3419689,
+      "type": "Middle",
+      "rank": 56,
+      "regiontotal": 151
     },
     {
       "campus": "Lighthouse Charter School - B Campus",
-      "notmeet": 34.0909091,
-      "approaches": 65.9090909,
-      "meets": 30.1136364,
-      "masters": 11.3636364
+      "rmeets": 30.1136364,
+      "mmeets": 40.9090909,
+      "type": "Middle",
+      "rank": 58,
+      "regiontotal": 151
     },
     {
       "campus": "Jackson Middle",
-      "notmeet": 34.9875931,
-      "approaches": 65.012407,
-      "meets": 34.8635236,
-      "masters": 17.2456576
+      "rmeets": 34.8635236,
+      "mmeets": 36.6058906,
+      "type": "Middle",
+      "rank": 59,
+      "regiontotal": 151
     },
     {
       "campus": "Krueger Middle",
-      "notmeet": 35.3503185,
-      "approaches": 64.6496815,
-      "meets": 40.552017,
-      "masters": 21.3375796
+      "rmeets": 40.552017,
+      "mmeets": 31.2891114,
+      "type": "Middle",
+      "rank": 60,
+      "regiontotal": 151
     },
     {
       "campus": "Zachry Middle",
-      "notmeet": 26.5159301,
-      "approaches": 73.4840699,
-      "meets": 35.6628983,
-      "masters": 15.6217883
+      "rmeets": 35.6628983,
+      "mmeets": 38.9508929,
+      "type": "Middle",
+      "rank": 61,
+      "regiontotal": 151
     },
     {
       "campus": "Jordan Middle",
-      "notmeet": 25.3708041,
-      "approaches": 74.6291959,
-      "meets": 41.9984387,
-      "masters": 17.9547229
+      "rmeets": 41.9984387,
+      "mmeets": 36.9037657,
+      "type": "Middle",
+      "rank": 62,
+      "regiontotal": 151
     },
     {
       "campus": "Eisenhower Middle",
-      "notmeet": 30.7207207,
-      "approaches": 69.2792793,
-      "meets": 39.9099099,
-      "masters": 19.9099099
+      "rmeets": 39.9099099,
+      "mmeets": 36.8366285,
+      "type": "Middle",
+      "rank": 63,
+      "regiontotal": 151
     },
     {
       "campus": "Mcdowell Middle",
-      "notmeet": 31.3769752,
-      "approaches": 68.6230248,
-      "meets": 38.1489842,
-      "masters": 17.8329571
+      "rmeets": 38.1489842,
+      "mmeets": 37.7128954,
+      "type": "Middle",
+      "rank": 64,
+      "regiontotal": 151
     },
     {
       "campus": "Harmony School Of Innovation - San Antonio",
-      "notmeet": 35.9550562,
-      "approaches": 64.0449438,
-      "meets": 31.4606742,
-      "masters": 16.2921348
+      "rmeets": 31.4606742,
+      "mmeets": 34.5454546,
+      "type": "Middle",
+      "rank": 65,
+      "regiontotal": 151
     },
     {
       "campus": "Vale Middle",
-      "notmeet": 24.2658424,
-      "approaches": 75.7341577,
-      "meets": 42.4265842,
-      "masters": 18.3153014
+      "rmeets": 42.4265842,
+      "mmeets": 36.3636364,
+      "type": "Middle",
+      "rank": 66,
+      "regiontotal": 151
     },
     {
       "campus": "Stevenson Middle",
-      "notmeet": 21.1567732,
-      "approaches": 78.8432268,
-      "meets": 45.6621005,
-      "masters": 23.0593607
+      "rmeets": 45.6621005,
+      "mmeets": 36.5289256,
+      "type": "Middle",
+      "rank": 67,
+      "regiontotal": 151
     },
     {
       "campus": "Kitty Hawk Middle",
-      "notmeet": 25.0757576,
-      "approaches": 74.9242424,
-      "meets": 40.7575758,
-      "masters": 18.1818182
+      "rmeets": 40.7575758,
+      "mmeets": 35.1440329,
+      "type": "Middle",
+      "rank": 68,
+      "regiontotal": 151
     },
     {
       "campus": "Bandera Middle",
-      "notmeet": 26.9076305,
-      "approaches": 73.0923695,
-      "meets": 45.9839357,
-      "masters": 23.4939759
+      "rmeets": 45.9839357,
+      "mmeets": 31.0272537,
+      "type": "Middle",
+      "rank": 69,
+      "regiontotal": 151
     },
     {
       "campus": "Brooks Collegiate Academy",
-      "notmeet": 38.8349515,
-      "approaches": 61.1650485,
-      "meets": 37.8640777,
-      "masters": 21.3592233
+      "rmeets": 37.8640777,
+      "mmeets": 31.0679612,
+      "type": "Middle",
+      "rank": 70,
+      "regiontotal": 151
     },
     {
       "campus": "Nimitz Middle",
-      "notmeet": 35.6608479,
-      "approaches": 64.3391521,
-      "meets": 34.081463,
-      "masters": 17.7888612
+      "rmeets": 34.081463,
+      "mmeets": 33.4910123,
+      "type": "Middle",
+      "rank": 71,
+      "regiontotal": 151
     },
     {
       "campus": "Terrell Wells Middle",
-      "notmeet": 35.4482759,
-      "approaches": 64.5517241,
-      "meets": 30.7586207,
-      "masters": 13.6551724
+      "rmeets": 30.7586207,
+      "mmeets": 34.0206186,
+      "type": "Middle",
+      "rank": 72,
+      "regiontotal": 151
     },
     {
       "campus": "Ronald E Mcnair Middle",
-      "notmeet": 33.0698287,
-      "approaches": 66.9301713,
-      "meets": 32.0158103,
-      "masters": 12.516469
+      "rmeets": 32.0158103,
+      "mmeets": 35.6200528,
+      "type": "Middle",
+      "rank": 73,
+      "regiontotal": 151
     },
     {
       "campus": "Muriel Forbes Academy",
-      "notmeet": 36.1111111,
-      "approaches": 63.8888889,
-      "meets": 30.5555556,
-      "masters": 15.9722222
+      "rmeets": 30.5555556,
+      "mmeets": 36.1111111,
+      "type": "Middle",
+      "rank": 74,
+      "regiontotal": 151
     },
     {
       "campus": "Advanced Learning Academy",
-      "notmeet": 21.3872832,
-      "approaches": 77.4566474,
-      "meets": 50,
-      "masters": 26.300578
+      "rmeets": 50,
+      "mmeets": 32.1212121,
+      "type": "Middle",
+      "rank": 75,
+      "regiontotal": 151
     },
     {
       "campus": "Jubilee Highland Park",
-      "notmeet": 32.3699422,
-      "approaches": 67.6300578,
-      "meets": 30.6358382,
-      "masters": 16.7630058
+      "rmeets": 30.6358382,
+      "mmeets": 32.4840764,
+      "type": "Middle",
+      "rank": 76,
+      "regiontotal": 151
     },
     {
       "campus": "Connally Middle",
-      "notmeet": 22.6178011,
-      "approaches": 77.382199,
-      "meets": 46.3874346,
-      "masters": 21.5706806
+      "rmeets": 46.3874346,
+      "mmeets": 26.7508611,
+      "type": "Middle",
+      "rank": 77,
+      "regiontotal": 151
     },
     {
       "campus": "Rudder Middle",
-      "notmeet": 31.15727,
-      "approaches": 68.84273,
-      "meets": 38.3778437,
-      "masters": 16.7161227
+      "rmeets": 38.3778437,
+      "mmeets": 27.6008493,
+      "type": "Middle",
+      "rank": 78,
+      "regiontotal": 151
     },
     {
       "campus": "Ross Middle",
-      "notmeet": 32.4569356,
-      "approaches": 67.5430644,
-      "meets": 32.819583,
-      "masters": 14.1432457
+      "rmeets": 32.819583,
+      "mmeets": 27.9182879,
+      "type": "Middle",
+      "rank": 79,
+      "regiontotal": 151
     },
     {
       "campus": "Agnes Cotton Academy",
-      "notmeet": 39.3364929,
-      "approaches": 57.8199052,
-      "meets": 31.7535545,
-      "masters": 16.1137441
+      "rmeets": 31.7535545,
+      "mmeets": 29.7169811,
+      "type": "Middle",
+      "rank": 80,
+      "regiontotal": 151
     },
     {
       "campus": "Kipp Camino Academy",
-      "notmeet": 34.9344978,
-      "approaches": 64.8471616,
-      "meets": 31.8777293,
-      "masters": 11.790393
+      "rmeets": 31.8777293,
+      "mmeets": 26.7241379,
+      "type": "Middle",
+      "rank": 81,
+      "regiontotal": 151
     },
     {
       "campus": "Judson Middle",
-      "notmeet": 32.4481328,
-      "approaches": 67.5518672,
-      "meets": 39.253112,
-      "masters": 19.4190871
+      "rmeets": 39.253112,
+      "mmeets": 28.5163777,
+      "type": "Middle",
+      "rank": 82,
+      "regiontotal": 151
     },
     {
       "campus": "Wood Middle",
-      "notmeet": 30.0507614,
-      "approaches": 69.9492386,
-      "meets": 34.213198,
-      "masters": 14.0101523
+      "rmeets": 34.213198,
+      "mmeets": 29.3453725,
+      "type": "Middle",
+      "rank": 83,
+      "regiontotal": 151
     },
     {
       "campus": "Hobby Middle",
-      "notmeet": 29.4581281,
-      "approaches": 70.5418719,
-      "meets": 36.7487685,
-      "masters": 17.2413793
+      "rmeets": 36.7487685,
+      "mmeets": 31.5621679,
+      "type": "Middle",
+      "rank": 84,
+      "regiontotal": 151
     },
     {
       "campus": "Judith A Resnik Middle",
-      "notmeet": 39.3464052,
-      "approaches": 60.6535948,
-      "meets": 27.0588235,
-      "masters": 9.41176471
+      "rmeets": 27.0588235,
+      "mmeets": 30.8093995,
+      "type": "Middle",
+      "rank": 85,
+      "regiontotal": 151
     },
     {
       "campus": "White Middle",
-      "notmeet": 39.4523327,
-      "approaches": 60.5476673,
-      "meets": 30.831643,
-      "masters": 16.5314402
+      "rmeets": 30.831643,
+      "mmeets": 30.5285868,
+      "type": "Middle",
+      "rank": 86,
+      "regiontotal": 151
     },
     {
       "campus": "Francis R Scobee Middle",
-      "notmeet": 34.7319347,
-      "approaches": 65.2680653,
-      "meets": 30.5361305,
-      "masters": 14.9184149
+      "rmeets": 30.5361305,
+      "mmeets": 30.0349243,
+      "type": "Middle",
+      "rank": 87,
+      "regiontotal": 151
     },
     {
       "campus": "Brooks Academy Lonestar",
-      "notmeet": 37.5,
-      "approaches": 56.9444444,
-      "meets": 33.3333333,
-      "masters": 12.5
+      "rmeets": 33.3333333,
+      "mmeets": 25,
+      "type": "Middle",
+      "rank": 88,
+      "regiontotal": 151
     },
     {
       "campus": "Harlandale Middle",
-      "notmeet": 40.78478,
-      "approaches": 59.21522,
-      "meets": 25.4458977,
-      "masters": 8.91795482
+      "rmeets": 25.4458977,
+      "mmeets": 31.5656566,
+      "type": "Middle",
+      "rank": 89,
+      "regiontotal": 151
     },
     {
       "campus": "Jim Barnes Middle",
-      "notmeet": 36.0100376,
-      "approaches": 63.9899624,
-      "meets": 32.3713927,
-      "masters": 14.9309912
+      "rmeets": 32.3713927,
+      "mmeets": 29.6246649,
+      "type": "Middle",
+      "rank": 90,
+      "regiontotal": 151
     },
     {
       "campus": "Pleasanton J H",
-      "notmeet": 34.7826087,
-      "approaches": 65.2173913,
-      "meets": 34.3873518,
-      "masters": 16.9960474
+      "rmeets": 34.3873518,
+      "mmeets": 31.2364425,
+      "type": "Middle",
+      "rank": 91,
+      "regiontotal": 151
     },
     {
       "campus": "Poteet J H",
-      "notmeet": 34.5549738,
-      "approaches": 65.4450262,
-      "meets": 34.0314136,
-      "masters": 15.1832461
+      "rmeets": 34.0314136,
+      "mmeets": 24.3323442,
+      "type": "Middle",
+      "rank": 92,
+      "regiontotal": 151
     },
     {
       "campus": "Hawthorne Pk-8 Academy",
-      "notmeet": 36.8515206,
-      "approaches": 62.9695886,
-      "meets": 31.6636852,
-      "masters": 15.921288
+      "rmeets": 31.6636852,
+      "mmeets": 26.6173752,
+      "type": "Middle",
+      "rank": 93,
+      "regiontotal": 151
     },
     {
       "campus": "Bonham Academy",
-      "notmeet": 36.9127517,
-      "approaches": 62.0805369,
-      "meets": 33.8926175,
-      "masters": 16.7785235
+      "rmeets": 33.8926175,
+      "mmeets": 26.1589404,
+      "type": "Middle",
+      "rank": 94,
+      "regiontotal": 151
     },
     {
       "campus": "Anne Frank Inspire Academy",
-      "notmeet": 20.6896552,
-      "approaches": 79.3103448,
-      "meets": 51.7241379,
-      "masters": 28.5714286
+      "rmeets": 51.7241379,
+      "mmeets": 26.8421053,
+      "type": "Middle",
+      "rank": 95,
+      "regiontotal": 151
     },
     {
       "campus": "Pease Middle",
-      "notmeet": 30.762489,
-      "approaches": 69.237511,
-      "meets": 33.7423313,
-      "masters": 14.1980719
+      "rmeets": 33.7423313,
+      "mmeets": 24.8353716,
+      "type": "Middle",
+      "rank": 96,
+      "regiontotal": 151
     },
     {
       "campus": "A Leal Jr Middle",
-      "notmeet": 36.9949495,
-      "approaches": 63.0050505,
-      "meets": 27.020202,
-      "masters": 10.7323232
+      "rmeets": 27.020202,
+      "mmeets": 25.7617729,
+      "type": "Middle",
+      "rank": 97,
+      "regiontotal": 151
     },
     {
       "campus": "Kingsborough Middle",
-      "notmeet": 40.7582938,
-      "approaches": 59.2417062,
-      "meets": 27.014218,
-      "masters": 10.2685624
+      "rmeets": 27.014218,
+      "mmeets": 27.9674797,
+      "type": "Middle",
+      "rank": 98,
+      "regiontotal": 151
     },
     {
       "campus": "Jubilee Wells Branch",
-      "notmeet": 30.7847083,
-      "approaches": 69.2152918,
-      "meets": 41.8511066,
-      "masters": 21.3279678
+      "rmeets": 41.8511066,
+      "mmeets": 28.5115304,
+      "type": "Middle",
+      "rank": 99,
+      "regiontotal": 151
     },
     {
       "campus": "Robert C Zamora Middle",
-      "notmeet": 32.4074074,
-      "approaches": 67.5925926,
-      "meets": 31.8518519,
-      "masters": 15.3703704
+      "rmeets": 31.8518519,
+      "mmeets": 22.6907631,
+      "type": "Middle",
+      "rank": 100,
+      "regiontotal": 151
     },
     {
       "campus": "Rayburn Middle",
-      "notmeet": 37.2697725,
-      "approaches": 62.7302275,
-      "meets": 30.1191766,
-      "masters": 10.8342362
+      "rmeets": 30.1191766,
+      "mmeets": 25.483504,
+      "type": "Middle",
+      "rank": 101,
+      "regiontotal": 151
     },
     {
       "campus": "Woodlawn Academy",
-      "notmeet": 43.8554217,
-      "approaches": 55.6626506,
-      "meets": 28.6746988,
-      "masters": 14.6987952
+      "rmeets": 28.6746988,
+      "mmeets": 23.4866828,
+      "type": "Middle",
+      "rank": 102,
+      "regiontotal": 151
     },
     {
       "campus": "Jubilee Kingsville",
-      "notmeet": 33.7579618,
-      "approaches": 66.2420382,
-      "meets": 29.2993631,
-      "masters": 10.8280255
+      "rmeets": 29.2993631,
+      "mmeets": 26.3888889,
+      "type": "Middle",
+      "rank": 103,
+      "regiontotal": 151
     },
     {
       "campus": "Woodlake Hills Middle",
-      "notmeet": 37.5586855,
-      "approaches": 62.4413146,
-      "meets": 29.9295775,
-      "masters": 13.1455399
+      "rmeets": 29.9295775,
+      "mmeets": 21.6819974,
+      "type": "Middle",
+      "rank": 104,
+      "regiontotal": 151
     },
     {
       "campus": "Mission Academy",
-      "notmeet": 43.2225064,
-      "approaches": 56.7774936,
-      "meets": 27.8772379,
-      "masters": 14.0664962
+      "rmeets": 27.8772379,
+      "mmeets": 25.5263158,
+      "type": "Middle",
+      "rank": 105,
+      "regiontotal": 151
     },
     {
       "campus": "Eloise Japhet Academy",
-      "notmeet": 47.5336323,
-      "approaches": 52.2421525,
-      "meets": 23.9910314,
-      "masters": 10.7623318
+      "rmeets": 23.9910314,
+      "mmeets": 28.5714286,
+      "type": "Middle",
+      "rank": 106,
+      "regiontotal": 151
     },
     {
       "campus": "Twain Middle",
-      "notmeet": 41.5540541,
-      "approaches": 58.445946,
-      "meets": 25.6756757,
-      "masters": 8.78378378
+      "rmeets": 25.6756757,
+      "mmeets": 19.6850394,
+      "type": "Middle",
+      "rank": 107,
+      "regiontotal": 151
     },
     {
       "campus": "Kipp Aspire Academy",
-      "notmeet": 38.4288747,
-      "approaches": 61.5711253,
-      "meets": 27.388535,
-      "masters": 12.9511677
+      "rmeets": 27.388535,
+      "mmeets": 19.7142857,
+      "type": "Middle",
+      "rank": 108,
+      "regiontotal": 151
     },
     {
       "campus": "Medina School",
-      "notmeet": 30.6451613,
-      "approaches": 69.3548387,
-      "meets": 37.0967742,
-      "masters": 15.3225807
+      "rmeets": 37.0967742,
+      "mmeets": 21.3114754,
+      "type": "Middle",
+      "rank": 109,
+      "regiontotal": 151
     },
     {
       "campus": "Dr Paul S Saenz J H",
-      "notmeet": 36.8421053,
-      "approaches": 63.1578947,
-      "meets": 33.6842105,
-      "masters": 12.631579
+      "rmeets": 33.6842105,
+      "mmeets": 16.8421053,
+      "type": "Middle",
+      "rank": 110,
+      "regiontotal": 151
     },
     {
       "campus": "Rogers Academy",
-      "notmeet": 42.3631124,
-      "approaches": 57.0605187,
-      "meets": 24.7838617,
-      "masters": 8.93371758
+      "rmeets": 24.7838617,
+      "mmeets": 24.7838617,
+      "type": "Middle",
+      "rank": 111,
+      "regiontotal": 151
     },
     {
       "campus": "Natalia J H",
-      "notmeet": 38.9121339,
-      "approaches": 61.0878661,
-      "meets": 26.7782427,
-      "masters": 12.5523013
+      "rmeets": 26.7782427,
+      "mmeets": 23.6363636,
+      "type": "Middle",
+      "rank": 112,
+      "regiontotal": 151
     },
     {
       "campus": "Kirby Middle",
-      "notmeet": 47.0744681,
-      "approaches": 52.9255319,
-      "meets": 23.537234,
-      "masters": 7.18085106
+      "rmeets": 23.537234,
+      "mmeets": 24.4039271,
+      "type": "Middle",
+      "rank": 113,
+      "regiontotal": 151
     },
     {
       "campus": "Beacon Hill Academy",
-      "notmeet": 48.8986784,
-      "approaches": 50.2202643,
-      "meets": 21.1453745,
-      "masters": 9.25110132
+      "rmeets": 21.1453745,
+      "mmeets": 27.3127753,
+      "type": "Middle",
+      "rank": 114,
+      "regiontotal": 151
     },
     {
       "campus": "Neff Middle",
-      "notmeet": 39.795047,
-      "approaches": 60.204953,
-      "meets": 25.7045261,
-      "masters": 9.30828352
+      "rmeets": 25.7045261,
+      "mmeets": 24.1071429,
+      "type": "Middle",
+      "rank": 115,
+      "regiontotal": 151
     },
     {
       "campus": "Bexar County Academy",
-      "notmeet": 42.4581006,
-      "approaches": 57.5418994,
-      "meets": 26.2569832,
-      "masters": 7.26256983
+      "rmeets": 26.2569832,
+      "mmeets": 22.9050279,
+      "type": "Middle",
+      "rank": 116,
+      "regiontotal": 151
     },
     {
       "campus": "Frank L Madla Accelerated Collegiate Academy",
-      "notmeet": 47.029703,
-      "approaches": 52.970297,
-      "meets": 25.7425743,
-      "masters": 10.8910891
+      "rmeets": 25.7425743,
+      "mmeets": 21.2871287,
+      "type": "Middle",
+      "rank": 117,
+      "regiontotal": 151
     },
     {
       "campus": "Jones Middle",
-      "notmeet": 42.6443203,
-      "approaches": 57.3556797,
-      "meets": 25.6052142,
-      "masters": 10.9869646
+      "rmeets": 25.6052142,
+      "mmeets": 19.8198198,
+      "type": "Middle",
+      "rank": 118,
+      "regiontotal": 151
     },
     {
       "campus": "Charles C Ball Academy",
-      "notmeet": 51.5873016,
-      "approaches": 47.2222222,
-      "meets": 21.8253968,
-      "masters": 8.33333333
+      "rmeets": 21.8253968,
+      "mmeets": 20.2380952,
+      "type": "Middle",
+      "rank": 119,
+      "regiontotal": 151
     },
     {
       "campus": "Harris Middle",
-      "notmeet": 44.0860215,
-      "approaches": 55.9139785,
-      "meets": 21.5053763,
-      "masters": 7.12365591
+      "rmeets": 21.5053763,
+      "mmeets": 21.12,
+      "type": "Middle",
+      "rank": 120,
+      "regiontotal": 151
     },
     {
       "campus": "Whittier Middle",
-      "notmeet": 41.5048544,
-      "approaches": 58.4951456,
-      "meets": 22.2087379,
-      "masters": 7.2815534
+      "rmeets": 22.2087379,
+      "mmeets": 18.7338501,
+      "type": "Middle",
+      "rank": 121,
+      "regiontotal": 151
     },
     {
       "campus": "Briesemeister Middle",
-      "notmeet": 44.400527,
-      "approaches": 55.599473,
-      "meets": 26.2187088,
-      "masters": 11.5942029
+      "rmeets": 26.2187088,
+      "mmeets": 22.8412256,
+      "type": "Middle",
+      "rank": 122,
+      "regiontotal": 151
     },
     {
       "campus": "E T Wrenn Middle",
-      "notmeet": 41.0742496,
-      "approaches": 58.9257504,
-      "meets": 21.1690363,
-      "masters": 7.42496051
+      "rmeets": 21.1690363,
+      "mmeets": 21.079258,
+      "type": "Middle",
+      "rank": 123,
+      "regiontotal": 151
     },
     {
       "campus": "Henry Metzger Middle",
-      "notmeet": 39.3478261,
-      "approaches": 60.6521739,
-      "meets": 28.4782609,
-      "masters": 10.4347826
+      "rmeets": 28.4782609,
+      "mmeets": 17.2496984,
+      "type": "Middle",
+      "rank": 124,
+      "regiontotal": 151
     },
     {
       "campus": "Dwight Middle",
-      "notmeet": 43.8177874,
-      "approaches": 56.1822126,
-      "meets": 21.2581345,
-      "masters": 7.80911063
+      "rmeets": 21.2581345,
+      "mmeets": 21.9399538,
+      "type": "Middle",
+      "rank": 125,
+      "regiontotal": 151
     },
     {
       "campus": "Lytle J H",
-      "notmeet": 47.8036176,
-      "approaches": 52.1963824,
-      "meets": 23.255814,
-      "masters": 9.04392765
+      "rmeets": 23.255814,
+      "mmeets": 21.0242588,
+      "type": "Middle",
+      "rank": 126,
+      "regiontotal": 151
     },
     {
       "campus": "Rhodes Middle",
-      "notmeet": 44.5517241,
-      "approaches": 55.4482759,
-      "meets": 20.9655172,
-      "masters": 7.5862069
+      "rmeets": 20.9655172,
+      "mmeets": 18.4496124,
+      "type": "Middle",
+      "rank": 127,
+      "regiontotal": 151
     },
     {
       "campus": "Somerset J H",
-      "notmeet": 43.5810811,
-      "approaches": 56.4189189,
-      "meets": 24.3243243,
-      "masters": 9.96621622
+      "rmeets": 24.3243243,
+      "mmeets": 18.5667752,
+      "type": "Middle",
+      "rank": 128,
+      "regiontotal": 151
     },
     {
       "campus": "Sharon Christa Mcauliffe Middle",
-      "notmeet": 47.2748815,
-      "approaches": 52.7251185,
-      "meets": 21.9194313,
-      "masters": 7.46445498
+      "rmeets": 21.9194313,
+      "mmeets": 17.7514793,
+      "type": "Middle",
+      "rank": 129,
+      "regiontotal": 151
     },
     {
       "campus": "Julius L Matthey Middle",
-      "notmeet": 48.3050848,
-      "approaches": 51.6949153,
-      "meets": 22.6392252,
-      "masters": 9.44309927
+      "rmeets": 22.6392252,
+      "mmeets": 14.8251748,
+      "type": "Middle",
+      "rank": 130,
+      "regiontotal": 151
     },
     {
       "campus": "M L King Academy",
-      "notmeet": 54.1353384,
-      "approaches": 45.8646617,
-      "meets": 14.2857143,
-      "masters": 3.7593985
+      "rmeets": 14.2857143,
+      "mmeets": 21.1155379,
+      "type": "Middle",
+      "rank": 131,
+      "regiontotal": 151
     },
     {
       "campus": "Jubilee Highland Hills",
-      "notmeet": 46.2264151,
-      "approaches": 53.7735849,
-      "meets": 23.5849057,
-      "masters": 8.49056604
+      "rmeets": 23.5849057,
+      "mmeets": 17.9856115,
+      "type": "Middle",
+      "rank": 132,
+      "regiontotal": 151
     },
     {
       "campus": "Foster Academy",
-      "notmeet": 53.5836178,
-      "approaches": 46.4163823,
-      "meets": 17.4061433,
-      "masters": 8.87372014
+      "rmeets": 17.4061433,
+      "mmeets": 21.5017065,
+      "type": "Middle",
+      "rank": 133,
+      "regiontotal": 151
     },
     {
       "campus": "Brentwood Middle",
-      "notmeet": 46.627566,
-      "approaches": 53.372434,
-      "meets": 19.6480938,
-      "masters": 5.42521994
+      "rmeets": 19.6480938,
+      "mmeets": 18.5800604,
+      "type": "Middle",
+      "rank": 134,
+      "regiontotal": 151
     },
     {
       "campus": "Bowden Academy",
-      "notmeet": 56.5217391,
-      "approaches": 41.3043478,
-      "meets": 19.1304348,
-      "masters": 8.26086957
+      "rmeets": 19.1304348,
+      "mmeets": 16.9565217,
+      "type": "Middle",
+      "rank": 135,
+      "regiontotal": 151
     },
     {
       "campus": "East Central Heritage Middle",
-      "notmeet": 44.0766551,
-      "approaches": 55.923345,
-      "meets": 27.3519164,
-      "masters": 11.9337979
+      "rmeets": 27.3519164,
+      "mmeets": 15.6063618,
+      "type": "Middle",
+      "rank": 136,
+      "regiontotal": 151
     },
     {
       "campus": "Abraham Kazen Middle",
-      "notmeet": 43.9759036,
-      "approaches": 56.0240964,
-      "meets": 23.2931727,
-      "masters": 8.83534137
+      "rmeets": 23.2931727,
+      "mmeets": 14.1350211,
+      "type": "Middle",
+      "rank": 137,
+      "regiontotal": 151
     },
     {
       "campus": "Gus Garcia Middle",
-      "notmeet": 50.7142857,
-      "approaches": 49.2857143,
-      "meets": 17.1428571,
-      "masters": 5.71428571
+      "rmeets": 17.1428571,
+      "mmeets": 17.6024279,
+      "type": "Middle",
+      "rank": 138,
+      "regiontotal": 151
     },
     {
       "campus": "Alan B Shepard Middle",
-      "notmeet": 50.5843072,
-      "approaches": 49.4156928,
-      "meets": 21.0350584,
-      "masters": 8.84808013
+      "rmeets": 21.0350584,
+      "mmeets": 14.3598616,
+      "type": "Middle",
+      "rank": 139,
+      "regiontotal": 151
     },
     {
       "campus": "Legacy Middle",
-      "notmeet": 43.7194127,
-      "approaches": 56.2805873,
-      "meets": 25.2854812,
-      "masters": 8.64600326
+      "rmeets": 25.2854812,
+      "mmeets": 10.0840336,
+      "type": "Middle",
+      "rank": 140,
+      "regiontotal": 151
     },
     {
       "campus": "Davis Middle",
-      "notmeet": 53.9101498,
-      "approaches": 46.0898503,
-      "meets": 16.9717138,
-      "masters": 5.49084859
+      "rmeets": 16.9717138,
+      "mmeets": 11.8584071,
+      "type": "Middle",
+      "rank": 141,
+      "regiontotal": 151
     },
     {
       "campus": "Lowell Middle",
-      "notmeet": 51.4423077,
-      "approaches": 48.5576923,
-      "meets": 16.1057692,
-      "masters": 4.56730769
+      "rmeets": 16.1057692,
+      "mmeets": 10.7648725,
+      "type": "Middle",
+      "rank": 142,
+      "regiontotal": 151
     },
     {
       "campus": "Longfellow Middle",
-      "notmeet": 53.4231201,
-      "approaches": 46.5768799,
-      "meets": 16.9472503,
-      "masters": 6.17283951
+      "rmeets": 16.9472503,
+      "mmeets": 13.5102533,
+      "type": "Middle",
+      "rank": 143,
+      "regiontotal": 151
     },
     {
       "campus": "Jubilee San Antonio",
-      "notmeet": 50,
-      "approaches": 50,
-      "meets": 20.4697987,
-      "masters": 8.89261745
+      "rmeets": 20.4697987,
+      "mmeets": 12.9482072,
+      "type": "Middle",
+      "rank": 144,
+      "regiontotal": 151
     },
     {
       "campus": "Poe Middle",
-      "notmeet": 53.2986111,
-      "approaches": 46.7013889,
-      "meets": 17.1875,
-      "masters": 5.38194444
+      "rmeets": 17.1875,
+      "mmeets": 9.05660377,
+      "type": "Middle",
+      "rank": 145,
+      "regiontotal": 151
     },
     {
       "campus": "Rogers Middle",
-      "notmeet": 54.8872181,
-      "approaches": 45.112782,
-      "meets": 16.9172932,
-      "masters": 5.07518797
+      "rmeets": 16.9172932,
+      "mmeets": 6.30252101,
+      "type": "Middle",
+      "rank": 146,
+      "regiontotal": 151
     },
     {
       "campus": "Tafolla Middle",
-      "notmeet": 57.1018651,
-      "approaches": 42.8981349,
-      "meets": 12.482066,
-      "masters": 3.58680057
+      "rmeets": 12.482066,
+      "mmeets": 8.85714286,
+      "type": "Middle",
+      "rank": 147,
+      "regiontotal": 151
     },
     {
       "campus": "Carpe Diem Schools",
-      "notmeet": 43.8271605,
-      "approaches": 56.1728395,
-      "meets": 22.8395062,
-      "masters": 9.87654321
+      "rmeets": 22.8395062,
+      "mmeets": 6.96202532,
+      "type": "Middle",
+      "rank": 148,
+      "regiontotal": 151
     },
     {
       "campus": "Highlands H S",
-      "notmeet": 56.1290323,
-      "approaches": 43.8709677,
-      "meets": 20.3225807,
-      "masters": 6.4516129
+      "rmeets": 20.3225807,
+      "mmeets": 2.63157895,
+      "type": "Middle",
+      "rank": 149,
+      "regiontotal": 151
     },
     {
       "campus": "Irving Middle",
-      "notmeet": 63.4146342,
-      "approaches": 36.5853659,
-      "meets": 11.1908178,
-      "masters": 3.44332855
+      "rmeets": 11.1908178,
+      "mmeets": 7.66917293,
+      "type": "Middle",
+      "rank": 150,
+      "regiontotal": 151
     },
     {
       "campus": "Page Middle",
-      "notmeet": 62.8032345,
-      "approaches": 37.1967655,
-      "meets": 14.0161725,
-      "masters": 5.92991914
+      "rmeets": 14.0161725,
+      "mmeets": 4.34782609,
+      "type": "Middle",
+      "rank": 151,
+      "regiontotal": 151
+    },
+    {
+      "campus": "Young Women's Leadership Academy",
+      "rmeets": 93.006993,
+      "mmeets": 98.6111111,
+      "type": "High",
+      "rank": 1,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Judson Early College Academy",
+      "rmeets": 96.8253968,
+      "mmeets": 100,
+      "type": "High",
+      "rank": 2,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Health Careers H S",
+      "rmeets": 99.3023256,
+      "mmeets": 92.9824561,
+      "type": "High",
+      "rank": 3,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Travis Early College H S",
+      "rmeets": 94.3877551,
+      "mmeets": 73.1707317,
+      "type": "High",
+      "rank": 4,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Johnson H S",
+      "rmeets": 78.1110402,
+      "mmeets": 76.6961652,
+      "type": "High",
+      "rank": 5,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Memorial Early College H S With St Philip's",
+      "rmeets": 91.8918919,
+      "mmeets": 65.2173913,
+      "type": "High",
+      "rank": 7,
+      "regiontotal": 78
+    },
+    {
+      "campus": "School Of Science And Technology",
+      "rmeets": 74.0740741,
+      "mmeets": 57.5,
+      "type": "High",
+      "rank": 8,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Clark H S",
+      "rmeets": 60.8355091,
+      "mmeets": 63.3273703,
+      "type": "High",
+      "rank": 9,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Brandeis H S",
+      "rmeets": 65.9959759,
+      "mmeets": 58.7264151,
+      "type": "High",
+      "rank": 10,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Reagan H S",
+      "rmeets": 81.5181518,
+      "mmeets": 51.5075377,
+      "type": "High",
+      "rank": 11,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Smithson Valley H S",
+      "rmeets": 74.5626822,
+      "mmeets": 55.8194774,
+      "type": "High",
+      "rank": 12,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Byron P Steele Ii H S",
+      "rmeets": 65.3876273,
+      "mmeets": 61.2529002,
+      "type": "High",
+      "rank": 13,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Virginia Allred Stacey Jr/sr H S",
+      "rmeets": 58.6956522,
+      "mmeets": 77.6119403,
+      "type": "High",
+      "rank": 14,
+      "regiontotal": 78
+    },
+    {
+      "campus": "New Braunfels Middle",
+      "rmeets": "NA",
+      "mmeets": 65.1006711,
+      "type": "High",
+      "rank": 15,
+      "regiontotal": 78
+    },
+    {
+      "campus": "O'connor H S",
+      "rmeets": 64.8197956,
+      "mmeets": 56.6129032,
+      "type": "High",
+      "rank": 16,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Samuel Clemens H S",
+      "rmeets": 58.3554377,
+      "mmeets": 57.8571429,
+      "type": "High",
+      "rank": 17,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Harmony Science Acad (San Antonio)",
+      "rmeets": 57.6271186,
+      "mmeets": 49.1666667,
+      "type": "High",
+      "rank": 18,
+      "regiontotal": 78
+    },
+    {
+      "campus": "George Gervin Academy",
+      "rmeets": 30.1204819,
+      "mmeets": 96,
+      "type": "High",
+      "rank": 19,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Robert G Cole Middle/high School",
+      "rmeets": 63.0541872,
+      "mmeets": 66.9642857,
+      "type": "High",
+      "rank": 20,
+      "regiontotal": 78
+    },
+    {
+      "campus": "International School Of America",
+      "rmeets": 80.5785124,
+      "mmeets": 33.3333333,
+      "type": "High",
+      "rank": 21,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Warren H S",
+      "rmeets": 53.9048738,
+      "mmeets": 57.9937304,
+      "type": "High",
+      "rank": 22,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Fox Technical H S",
+      "rmeets": 68.75,
+      "mmeets": 33.8983051,
+      "type": "High",
+      "rank": 23,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Brennan H S",
+      "rmeets": 56.1611374,
+      "mmeets": 57.480315,
+      "type": "High",
+      "rank": 24,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Medina Valley H S",
+      "rmeets": 54.7008547,
+      "mmeets": 48.7261147,
+      "type": "High",
+      "rank": 25,
+      "regiontotal": 78
+    },
+    {
+      "campus": "School Of Science And Technology Corpus Christi",
+      "rmeets": 41.7910448,
+      "mmeets": 59.1836735,
+      "type": "High",
+      "rank": 26,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Randolph H S",
+      "rmeets": 68.9956332,
+      "mmeets": 48,
+      "type": "High",
+      "rank": 27,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Churchill H S",
+      "rmeets": 59.9496222,
+      "mmeets": 37.1158392,
+      "type": "High",
+      "rank": 28,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Taft H S",
+      "rmeets": 57.1126388,
+      "mmeets": 40.2616279,
+      "type": "High",
+      "rank": 29,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Marion H S",
+      "rmeets": 45.7489879,
+      "mmeets": 47.9591837,
+      "type": "High",
+      "rank": 30,
+      "regiontotal": 78
+    },
+    {
+      "campus": "D'hanis School",
+      "rmeets": 36.3636364,
+      "mmeets": 50,
+      "type": "High",
+      "rank": 31,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Alamo Heights H S",
+      "rmeets": 62.9268293,
+      "mmeets": 30.7692308,
+      "type": "High",
+      "rank": 32,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Canyon H S",
+      "rmeets": 50.4996669,
+      "mmeets": 41.9047619,
+      "type": "High",
+      "rank": 33,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Macarthur H S",
+      "rmeets": 53.5766423,
+      "mmeets": 33.8742394,
+      "type": "High",
+      "rank": 34,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Devine H S",
+      "rmeets": 42.0634921,
+      "mmeets": 44.2424242,
+      "type": "High",
+      "rank": 35,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Madison H S",
+      "rmeets": 51.2417638,
+      "mmeets": 32.4213406,
+      "type": "High",
+      "rank": 36,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Canyon Lake H S",
+      "rmeets": 50.2683363,
+      "mmeets": 36.5591398,
+      "type": "High",
+      "rank": 37,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Marshall H S",
+      "rmeets": 47.8882834,
+      "mmeets": 34.717608,
+      "type": "High",
+      "rank": 38,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Bandera H S",
+      "rmeets": 49.4535519,
+      "mmeets": 34.8993289,
+      "type": "High",
+      "rank": 39,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Lee H S",
+      "rmeets": 41.4294367,
+      "mmeets": 38.4341637,
+      "type": "High",
+      "rank": 40,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Henry Ford Academy Alameda School For Art + Design",
+      "rmeets": 50,
+      "mmeets": 26.0869565,
+      "type": "High",
+      "rank": 41,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Hondo H S",
+      "rmeets": 34.6534654,
+      "mmeets": 42.4657534,
+      "type": "High",
+      "rank": 42,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Navarro H S",
+      "rmeets": 57.2649573,
+      "mmeets": 21.1009174,
+      "type": "High",
+      "rank": 43,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Medina School",
+      "rmeets": 44.6428571,
+      "mmeets": 30.4347826,
+      "type": "High",
+      "rank": 44,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Holmes H S",
+      "rmeets": 35.4786371,
+      "mmeets": 33.8820302,
+      "type": "High",
+      "rank": 45,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Milton B Lee Academy Of Science & Engineering",
+      "rmeets": 39.8148148,
+      "mmeets": 26,
+      "type": "High",
+      "rank": 46,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Pleasanton H S",
+      "rmeets": 37.9310345,
+      "mmeets": 31.9066148,
+      "type": "High",
+      "rank": 47,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Mccollum H S",
+      "rmeets": 34.9307774,
+      "mmeets": 31.496063,
+      "type": "High",
+      "rank": 48,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Jourdanton H S",
+      "rmeets": 42.8057554,
+      "mmeets": 28.7671233,
+      "type": "High",
+      "rank": 49,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Roosevelt H S",
+      "rmeets": 37.2055675,
+      "mmeets": 24.16,
+      "type": "High",
+      "rank": 50,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Stevens H S",
+      "rmeets": 39.4962793,
+      "mmeets": 25.7467994,
+      "type": "High",
+      "rank": 51,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Karen Wagner H S",
+      "rmeets": 30.0789663,
+      "mmeets": 27.7972028,
+      "type": "High",
+      "rank": 52,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Kipp University Prep H S",
+      "rmeets": 37.8731343,
+      "mmeets": 9.90990991,
+      "type": "High",
+      "rank": 53,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Natalia H S",
+      "rmeets": 35.6321839,
+      "mmeets": 23.6842105,
+      "type": "High",
+      "rank": 54,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Harlandale H S",
+      "rmeets": 29.0756303,
+      "mmeets": 26.2054507,
+      "type": "High",
+      "rank": 55,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Southwest H S",
+      "rmeets": 32.5793823,
+      "mmeets": 22.4963716,
+      "type": "High",
+      "rank": 56,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Jay H S",
+      "rmeets": 31.5789474,
+      "mmeets": 21.2877792,
+      "type": "High",
+      "rank": 57,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Seguin H S",
+      "rmeets": 34.0198322,
+      "mmeets": 21.641791,
+      "type": "High",
+      "rank": 58,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Brackenridge H S",
+      "rmeets": 29.2418773,
+      "mmeets": 19.2893401,
+      "type": "High",
+      "rank": 59,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Southside H S",
+      "rmeets": 26.6531028,
+      "mmeets": 20.4481793,
+      "type": "High",
+      "rank": 60,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Somerset H S",
+      "rmeets": 26.962963,
+      "mmeets": 18.3673469,
+      "type": "High",
+      "rank": 61,
+      "regiontotal": 78
+    },
+    {
+      "campus": "South San Antonio H S",
+      "rmeets": 28.597561,
+      "mmeets": 21.1409396,
+      "type": "High",
+      "rank": 62,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Memorial H S",
+      "rmeets": 22.6694915,
+      "mmeets": 28.4768212,
+      "type": "High",
+      "rank": 63,
+      "regiontotal": 78
+    },
+    {
+      "campus": "East Central H S",
+      "rmeets": 35.9493671,
+      "mmeets": 12.2019635,
+      "type": "High",
+      "rank": 64,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Judson H S",
+      "rmeets": 37.866354,
+      "mmeets": 11.7737003,
+      "type": "High",
+      "rank": 65,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Edison H S",
+      "rmeets": 24.7403211,
+      "mmeets": 21.6666667,
+      "type": "High",
+      "rank": 66,
+      "regiontotal": 78
+    },
+    {
+      "campus": "John F Kennedy H S",
+      "rmeets": 19.650655,
+      "mmeets": 28.5245902,
+      "type": "High",
+      "rank": 67,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Burbank H S",
+      "rmeets": 29.1616039,
+      "mmeets": 14.9825784,
+      "type": "High",
+      "rank": 68,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Poteet H S",
+      "rmeets": 34.9514563,
+      "mmeets": 11.8055556,
+      "type": "High",
+      "rank": 69,
+      "regiontotal": 78
+    },
+    {
+      "campus": "New Braunfels H S",
+      "rmeets": "NA",
+      "mmeets": 18.2608696,
+      "type": "High",
+      "rank": 70,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Jefferson H S",
+      "rmeets": 27.3040482,
+      "mmeets": 13.9112903,
+      "type": "High",
+      "rank": 71,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Lytle H S",
+      "rmeets": 31.4878893,
+      "mmeets": 4.54545455,
+      "type": "High",
+      "rank": 72,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Charlotte H S",
+      "rmeets": 19.4690266,
+      "mmeets": 18.5185185,
+      "type": "High",
+      "rank": 73,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Jubilee Highland Hills",
+      "rmeets": "NA",
+      "mmeets": 17.5,
+      "type": "High",
+      "rank": 74,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Jubilee San Antonio",
+      "rmeets": 24.3902439,
+      "mmeets": 3.26797386,
+      "type": "High",
+      "rank": 75,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Houston H S",
+      "rmeets": 16.8525403,
+      "mmeets": 13.5693215,
+      "type": "High",
+      "rank": 76,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Lanier H S",
+      "rmeets": 13.2420091,
+      "mmeets": 12.633452,
+      "type": "High",
+      "rank": 77,
+      "regiontotal": 78
+    },
+    {
+      "campus": "Highlands H S",
+      "rmeets": 17.9547229,
+      "mmeets": 8.34879406,
+      "type": "High",
+      "rank": 78,
+      "regiontotal": 78
     }
   ],
   "META": {
-    "graphic_title": "Explore Brexar County STAAR results",
-    "prose": "In general, the percentage of Bexar County fifth and eigth-graders who passed the reading portion of Texas’ standardized STAAR test dropped from 2016 to 2017. Math scores, however, improved for both grades. Enter the name of a school district to compare the percentage of fifth and eigth-graders that passed from 2015-2017.",
-    "source": "Bexar County school districts",
-    "credit": "Alia Malik & Luke Whyte"
+    "graphic_title": "Which S.A. schools are preparing students to succeed?",
+    "prose": "Every year Children At Risk provides school rankings to serve as a guide for understanding the performance of local schools. This includes calculating the percentage of students at the elementary, middle and high school levels properly prepared to succeed at the next level of schooling – middle school, high school or college respectively.",
+    "source": "Children At Risk",
+    "credit": "Luke Whyte",
+    "source_url": "http://childrenatrisk.org/school-rankings/",
+    "instructions": "Search for a San Antonio elementary, middle or high school to see how they fared in this years rankings."
   }
 }

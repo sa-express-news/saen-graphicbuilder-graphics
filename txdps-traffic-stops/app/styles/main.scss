@@ -1,0 +1,130 @@
+@import 'node_modules/newsapps-styles/init-helpers';
+@import 'node_modules/newsapps-styles/theme/graphic';
+@import 'node_modules/newsapps-styles/helpers/tables';
+
+@import 'base';
+
+$maroon: rgb(180, 70, 75);
+$darkBlue: #3E67B0;
+$blue: #44ABDF;
+$yellow: #FCC10F;
+$lightYellow: #FCE598;
+$teal: #379D92;
+
+
+.graphic {
+	max-width: 720px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.all-counties {
+	width: 100%;
+}
+
+.single-county {
+	width: 48%;
+	display: inline-block;
+
+	&.right {
+		padding-left: 1%;
+	}
+
+	&.left {
+		padding-right: 1%;
+	}
+
+	@include media($default-mobile) {
+		width: 100%;
+		display: inline-block;
+
+		&.right {
+			padding-left: 0;
+		}
+
+		&.left {
+			padding-right: 0;
+		}
+	}
+}
+
+.bar-chart {
+  @include clearfix;
+  font-size: .8em;
+  height: 220px;
+  margin: 0 0 5.5em; // 20px
+
+  @include media($default-mobile) {
+    height: 190px;
+  }
+}
+
+.column {
+  float: left;
+  height: 100%;
+  margin: 0 0.5%;
+  position: relative;
+  width: 4.5%;
+}
+
+.column-color {
+  background-color: $maroon;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+
+  &.all { background-color: $maroon; }
+  &.cameron { background-color: $darkBlue; }
+  &.webb { background-color: $blue; }
+  &.hidalgo { background-color: $yellow; }
+  &.starr { background-color: $teal; }
+}
+
+.column-label {
+  bottom: -3.5em;
+  left: -0.4em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  transform: rotate(-75deg);
+  transform-origin: right, top;
+  -ms-transform: rotate(-75deg);
+  -ms-transform-origin:right, top; 
+  -webkit-transform: rotate(-75deg);
+  -webkit-transform-origin:right, top;
+}
+
+.column-value {
+  color: $white;
+  font-size: 1.1em;
+  margin: .25em 0;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0 0 .1em $tribune-black;
+  width: 100%;
+
+  @include media($default-mobile) {
+    font-size: 1em;
+  }
+
+  &.outside {
+    color: $maroon;
+    margin: -1.5em 0;
+    text-shadow: none;
+
+    &.all { color: $maroon; }
+	&.cameron { color: $darkBlue; }
+	&.webb { color: $blue; }
+	&.hidalgo { color: $yellow; }
+	&.starr { color: $teal; }
+  }
+}
+.single-county .column-value {
+	font-size: 1em;
+}
+
+.legend {
+	text-align: center;
+	margin-bottom: 2em;
+}
+

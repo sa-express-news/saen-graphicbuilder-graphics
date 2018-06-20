@@ -1,0 +1,15 @@
+{% macro build(data, min, max, colorClass) %}
+<div class="bar-chart mult-bar-chart" id="bar-chart">
+  {% for name, value in data %}
+    {% if name != 'county' and name != 'totals' %}
+      <div class="column">
+        <div class="column-color {{ colorClass }}" style="height: {{ (+value - min) / (max - min) * 100  }}%">
+          <span class="column-value{%if ((+value - min) / (max - min)) < 0.1 %} outside {{ colorClass }}{% endif %}">{{ value|comma }}</span>
+        </div>
+        <div class="column-label">{{ name }}</div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+<div class="legend">{{ data.county }}</div>
+{% endmacro %}

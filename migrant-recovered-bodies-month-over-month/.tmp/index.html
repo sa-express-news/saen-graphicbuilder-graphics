@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> | San Antonio Express News</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base target='_parent'>
+  <!-- build:css styles/main.min.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+</head>
+<body>
+
+<div class="graphic">
+  <h1>Monthly averages of recovered migrant bodies in Brooks County</h1>
+  <p class="subtext">This chart shows the number of recovered migrant bodies from month to month for each year from January 2009 to June 2018. Each lighter line represents one year of data. The bold line is the average of all 10.</p>
+
+  <div id="graphic-container">
+
+    <div id="line-chart"></div>
+
+  </div>
+
+  <div class="footer">
+    <ul>
+      <li><em>*Lighter lines represent a single year. The bold line is an average of all 10.</em></li>
+      <li>Source: <a href="https://data.world/expressnews/missing-migrant-data/workspace/file?filename=brooks-recovered-bodies-mom.csv">Brooks County Sheriff&#39;s Office</a></li>
+      <li>Credit: Luke Whyte | San Antonio Express-News</li>
+    </ul>
+  </div>
+</div>
+
+<!-- build:js scripts/main.min.js -->
+<script src="/node_modules/pym.js/dist/pym.v1.min.js"></script>
+<script src="/node_modules/d3/build/d3.min.js"></script>
+<script src="scripts/line-chart.js"></script>
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
+</body>
+</html>

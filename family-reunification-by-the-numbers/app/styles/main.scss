@@ -1,0 +1,73 @@
+@import 'node_modules/newsapps-styles/init-helpers';
+@import 'node_modules/newsapps-styles/theme/graphic';
+
+@import 'base';
+
+.graphic {
+	max-width: 620px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#graphic-container {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: baseline;
+	margin-bottom: 20px;
+
+	.block-wrapper {
+		width: 50%;
+		justify-content: center;
+		flex-flow: row wrap;
+		text-align: center;
+		display: flex;
+		padding: 10px 2px;
+
+		.number {
+			color: #44ABDF;
+			font-size: 2rem;
+		}
+
+		.desc {
+			font-weight: 300;
+			font-size: 0.9rem;
+		}
+
+		&.title {
+			width: 100%;
+			padding: 14px 2px 10px;
+
+			&:nth-child(even) {
+				padding-top: 20px;
+			}
+
+			.number {
+				color: #3E67B0;
+				font-size: 2.6rem;
+			}
+		}
+
+		@include media(500px) {
+			width: 25%;
+
+			&.title .content {
+				max-width: 50%;
+			}
+		}
+	}
+
+	hr.border {
+	    border: 0;
+	    height: 1px;
+	    width: 80%;
+    	margin: 12px 0;
+	    background: rgba(153,153,153,.3);
+	    background-image: linear-gradient(to right, rgba(204,204,204,.1), rgba(153,153,153,.3), rgba(204,204,204,.1));
+	}
+}
+
+.footer .note {
+	margin-bottom: 10px;
+}

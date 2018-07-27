@@ -1,0 +1,76 @@
+{
+  "META": {
+    "graphic_title": "Family reunifications by the numbers",
+    "prose": "Here's a look at the process of family reunifications according to data released in the July 26th federal court case filing",
+    "source": "Federal court case",
+    "note": "These include reunifications with parents in the interior, discharges to other sponsors (such as in situations where the parent is not eligible for reunification), reunifications with parents in DHS custody earlier in the process or children that turned 18",
+    "credit": "Luke Whyte | San Antonio Express-News"
+  },
+  "DATA": [
+    {
+      "number": 2551,
+      "desc": "Total number of possible children originally identified",
+      "isTitle": true
+    },
+    {
+      "number": 1820,
+      "desc": "Total number of children who have been discharged from custody",
+      "isTitle": false
+    },
+    {
+      "number": 1442,
+      "desc": "Children discharged by being reunified with parents in ICE custody",
+      "isTitle": false
+    },
+    {
+      "number": 20,
+      "desc": "Children whom further review showed were not separated from parents",
+      "isTitle": false
+    },
+    {
+      "number": 378,
+      "desc": "Children discharged in other circumstances*",
+      "isTitle": false
+    },
+    {
+      "number": 711,
+      "desc": "Children in government care, where the adult associated with the child is either not eligible for reunification or not available for discharge at this time",
+      "isTitle": true
+    },
+    {
+      "number": 431,
+      "desc": "Children whose parents were likely deported",
+      "isTitle": false
+    },
+    {
+      "number": 120,
+      "desc": "Children whose parents waived reunification",
+      "isTitle": false
+    },
+    {
+      "number": 7,
+      "desc": "Children whose reunification was precluded by plaintiffs and court order",
+      "isTitle": false
+    },
+    {
+      "number": 21,
+      "desc": "Children whose parents triggered red flags in background check",
+      "isTitle": false
+    },
+    {
+      "number": 46,
+      "desc": "Children whose parents triggered red flags from another case file review",
+      "isTitle": false
+    },
+    {
+      "number": 79,
+      "desc": "Children whose parents were released into the interior",
+      "isTitle": false
+    },
+    {
+      "number": 94,
+      "desc": "Children whose parents' location is under case file review",
+      "isTitle": false
+    }
+  ]
+}

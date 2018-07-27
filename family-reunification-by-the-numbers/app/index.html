@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{ META.graphic_title }} | San Antonio Express News</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base target='_parent'>
+  <!-- build:css styles/main.min.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+</head>
+<body>
+
+<div class="graphic">
+  <h1>{{ META.graphic_title }}</h1>
+  <p class="subtext">{{ META.prose }}</p>
+
+  <div id="graphic-container">
+
+    {% for row in DATA %}
+      <div class="block-wrapper{% if row.isTitle %} title{% endif %}">
+        <div class="content">
+          <div class="number">{{ row.number | comma }}</div>
+          <div class="desc">{{ row.desc }}</div>
+        </div>
+        {% if row.isTitle %}
+          <hr class="border" />
+        {% endif %}
+      </div>
+    {% endfor %}
+
+  </div>
+
+  <div class="footer">
+    <ul>
+      {% if META.note %}<li class="note">*{{ META.note }}</li>{% endif %}
+      {% if META.source %}<li>Source: {% if META.source_url %}<a href="{{ META. source_url }}">{{ META.source }}</a>{% else %}{{ META.source }}{% endif %}</li>{% endif %}
+      {% if META.credit %}<li>Credit: {{ META.credit }}</li>{% endif %}
+    </ul>
+  </div>
+</div>
+
+<!-- build:js scripts/main.min.js -->
+<script src="/node_modules/pym.js/dist/pym.v1.min.js"></script>
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
+</body>
+</html>

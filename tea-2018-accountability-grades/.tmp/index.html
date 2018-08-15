@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>How did your school and district perform? | San Antonio Express News</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base target='_parent'>
+  <!-- build:css styles/main.min.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+</head>
+<body>
+
+<div class="graphic">
+  <h1>How did your school and district perform?</h1>
+  <p class="subtext">Every year Children At Risk provides school rankings to serve as a guide for understanding the performance of local schools. This includes calculating the percentage of students at the elementary, middle and high school levels properly prepared to succeed at the next level of schooling – middle school, high school or college respectively.</p>
+
+  <div id="graphic-container">
+
+    <div class="lookup sa-rankings-graphic">
+      <div class="form-group">
+        <label for="search">Search for a San Antonio elementary, middle or high school to see how they fared in this years rankings.</label>
+        <input id="search" class="typeahead" type="text" placeholder="E.g. Judson Middle">
+      </div>
+    </div>
+    <div class="results-card">
+      <div class="results-header">
+        <h2 class="results-title"><span id="name"></span></h2>
+      </div>
+      <div class="charts">
+        <ul>
+          <li>Number of economically disadvantaged students: <span id="ecodis"></span>%</li>
+          <li id="district-score">District: <span id="district"></span> scored <span id="score"></span> out of 100</li>
+        </ul>
+        <div id="overall"></div>
+        <div id="achievement"></div>
+        <div id="growth"></div>
+        <div id="relative"></div>
+        <div id="gaps"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <ul>
+      <li>Source: <a href="https://txschools.org/">Texas Education Agency</a></li>
+      <li>Credit: Luke Whyte</li>
+    </ul>
+  </div>
+</div>
+
+<!-- build:js scripts/main.min.js -->
+<script src="/node_modules/pym.js/dist/pym.v1.min.js"></script>
+<script src="/node_modules/d3/dist/d3.min.js"></script>
+<script src="/node_modules/jquery/dist/jquery.min.js"></script>
+<script src="/node_modules/typeahead.js/dist/typeahead.bundle.js"></script>
+<script src="/node_modules/lodash/lodash.min.js"></script>
+<script src="scripts/draw-donuts.js"></script>
+<script src="scripts/search.js"></script>
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
+</body>
+</html>

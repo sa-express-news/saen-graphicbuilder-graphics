@@ -77,7 +77,7 @@ gulp.task('html', ['templates'], function() {
   // need to update useref version and the pipe
   var assets = $.useref.assets({searchPath: ['.tmp', 'app', '.']});
 
-  return gulp.src('.tmp/index.html')
+  return gulp.src(['.tmp/index.html', '.tmp/table.html', '.tmp/search.html'])
     .pipe(assets)
     .pipe($.if('*.js', $.uglify()))
     .pipe($.if('*.css', $.csso()))

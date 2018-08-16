@@ -17,4 +17,4 @@ echo "Syncing *.html files to S3..."
 aws s3 sync --acl public-read --profile graphicBuilder --exclude '*.*' --include '*.html' --cache-control 'no-cache' --content-encoding 'gzip' dist s3://$GRAPHIC_S3_BUCKET/graphics/$PROJECT_SLUG/
 
 echo "Syncing everything else to S3..."
-aws s3 sync --acl public-read --profile graphicBuilder --exclude '*.html' --exclude '*.js' --exclude '*.css' dist s3://$GRAPHIC_S3_BUCKET/graphics/$PROJECT_SLUG/
+aws s3 sync --acl public-read --profile graphicBuilder --exclude '*.html' --exclude '*.js' --exclude '*.css' --exclude 'app/dev_assets' dist s3://$GRAPHIC_S3_BUCKET/graphics/$PROJECT_SLUG/

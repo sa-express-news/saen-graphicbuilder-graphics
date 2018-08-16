@@ -22,7 +22,7 @@ var SchoolSearch = (function (charts) {
             default:
                 return 'F';
         }
-    };
+    }
 
     function extractData (key, datum) {
         var dataKey = dataKeyMap[key];
@@ -43,7 +43,7 @@ var SchoolSearch = (function (charts) {
         return {
             grade: 'E',
             score: 100 - data.score,
-        }
+        };
     }
 
     function DrawDonut(el, data) {
@@ -60,7 +60,7 @@ var SchoolSearch = (function (charts) {
 
     DrawDonut.prototype = {
         getWidth: function (el) {
-            var divider = el === 'overall' || window.innerWidth <= 480 ? 1 : 2;
+            var divider = (el === 'overall' || window.innerWidth <= 480) ? 1 : 2;
             var parentW = document.querySelector('div.charts').offsetWidth;
             return parentW > 720 ? (720 / divider) : (parentW / divider);
         },
@@ -74,7 +74,6 @@ var SchoolSearch = (function (charts) {
         },
 
         getColor: function (grade) {
-            ['#a6cee3','#1f78b4','#b2df8a','#33a02c','#fb9a99']
             var map = {
                 A: '#4575b4',
                 B: '#91bfdb',
@@ -88,7 +87,7 @@ var SchoolSearch = (function (charts) {
         },
 
         getArc: function () {
-            return d3.arc().outerRadius(this.radius - 10).innerRadius(this.radius - (this.radius * .3));
+            return d3.arc().outerRadius(this.radius - 10).innerRadius(this.radius - (this.radius * 0.3));
         },
 
         getPie: function () {
@@ -112,7 +111,7 @@ var SchoolSearch = (function (charts) {
             g.append('path')
                 .attr('d', this.arc)
                 .style('fill', function(d) { return that.getColor(d.data.grade); })
-                .style('stroke', function (d) { return d.data.grade !== 'E' ? 'rgba(51,51,51,0.6)' : '#FFF'; })
+                .style('stroke', function (d) { return d.data.grade !== 'E' ? 'rgba(51,51,51,0.6)' : '#FFF'; });
 
             g.append('text')
                 .text(function(d) { 
@@ -142,7 +141,7 @@ var SchoolSearch = (function (charts) {
                 new DrawDonut(key, dataArr);
             }
         });
-    }
+    };
 
     return charts;
 }(SchoolSearch || {}));

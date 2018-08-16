@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{ META.graphic_title }} | San Antonio Express News</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base target='_parent'>
+  <!-- build:css styles/table.min.css -->
+  <link rel="stylesheet" href="/node_modules/datatables.net-dt/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+</head>
+<body>
+
+<div class="graphic">
+  <div id="graphic-container">
+    <div class="sa-rankings-graphic table">
+      <h1>{{ META.table_graphic_title }}</h1>
+      <p class="subtext">{{ META.table_prose }}</p>
+      <table id="school-table">
+        <thead>
+            <tr>
+                <th>School</th>
+                <th>Grades</th>
+                <th>Rating</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    </div>
+  </div>
+
+  <div class="footer">
+    <ul>
+      {% if META.source %}<li>Source: {% if META.source_url %}<a href="{{ META. source_url }}">{{ META.source }}</a>{% else %}{{ META.source }}{% endif %}</li>{% endif %}
+      {% if META.credit %}<li>Credit: {{ META.credit }}</li>{% endif %}
+    </ul>
+  </div>
+</div>
+
+<!-- build:js scripts/table.min.js -->
+<script src="/node_modules/pym.js/dist/pym.v1.min.js"></script>
+<script src="/node_modules/d3/dist/d3.min.js"></script>
+<script src="/node_modules/jquery/dist/jquery.min.js"></script>
+<script src="/node_modules/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="/node_modules/lodash/lodash.min.js"></script>
+<script src="scripts/get-data.js"></script>
+<script src="scripts/table.js"></script>
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
+</body>
+</html>

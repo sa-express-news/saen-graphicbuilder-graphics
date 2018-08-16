@@ -1,0 +1,634 @@
+distname,name,cntyname,grdspan,percent_econ_disadv,overall_rating,overall_scaled_score,student_achievement_rating,student_achievement_score,school_progress_academic_growth_rating,school_progress_academic_growth_score,school_progress_relative_performance_rating,school_progress_relative_performance_score,closing_gaps_rating,closing_gaps_score,is_district
+POR VIDA ACADEMY,POR VIDA ACADEMY CHARTER H S,BEXAR,'09 - 12,98.3,Improvement Required,59,Met Alternative Standard,66,Met Alternative Standard,71,Not Rated,,Improvement Required,30,false
+GEORGE GERVIN ACADEMY,GEORGE GERVIN ACADEMY,BEXAR,'PK - 12,100,Met Standard,88,Met Standard,86,Met Standard,80,Met Standard,89,Met Standard,86,false
+GEORGE GERVIN ACADEMY,RUTH JONES MCCLENDON MIDDLE,BEXAR,'06 - 12,100,Met Alternative Standard,90,Met Alternative Standard,88,Met Alternative Standard,87,Not Rated,,Met Alternative Standard,93,false
+NEW FRONTIERS PUBLIC SCHOOLS INC,FRANK L MADLA EARLY COLLEGE H S,BEXAR,'09 - 12,74.5,Met Standard,85,Met Standard,82,Met Standard,60,Met Standard,88,Met Standard,78,false
+NEW FRONTIERS PUBLIC SCHOOLS INC,FRANK L MADLA ACCELERATED COLLEGIA,BEXAR,'KG - 08,87,Improvement Required,57,Improvement Required,51,Improvement Required,57,Improvement Required,53,Improvement Required,56,false
+SCHOOL OF EXCELLENCE IN EDUCATION,MILTON B LEE ACADEMY OF SCIENCE &,BEXAR,'09 - 12,82.9,Met Standard,75,Met Standard,71,Met Standard,78,Met Standard,68,Met Standard,67,false
+SCHOOL OF EXCELLENCE IN EDUCATION,DR PAUL S SAENZ J H,BEXAR,'07 - 08,84.9,Met Standard,81,Met Standard,70,Met Standard,83,Met Standard,80,Met Standard,75,false
+SCHOOL OF EXCELLENCE IN EDUCATION,DR HARMON W KELLEY EL,BEXAR,'PK - 06,91,Met Standard,73,Improvement Required,59,Met Standard,77,Met Standard,65,Met Standard,62,false
+SCHOOL OF EXCELLENCE IN EDUCATION,DR DAVID C WALKER EL,BEXAR,'PK - 06,93.9,Improvement Required,51,Improvement Required,57,Improvement Required,56,Met Standard,60,Improvement Required,30,false
+SOUTHWEST PREPARATORY SCHOOL,SOUTHWEST PREPARATORY SCHOOL,BEXAR,'PK - 05,82.6,Met Standard,85,Improvement Required,59,Met Standard,85,Met Standard,60,Not Rated,,false
+SOUTHWEST PREPARATORY SCHOOL,SOUTHWEST PREPARATORY SOUTHEAST CA,BEXAR,'PK - 12,87.3,Met Alternative Standard,80,Met Alternative Standard,84,Met Alternative Standard,74,Not Rated,,Met Alternative Standard,71,false
+SOUTHWEST PREPARATORY SCHOOL,SOUTHWEST PREPARATORY SCHOOL-NORTH,BEXAR,'05 - 12,79.4,Met Alternative Standard,80,Met Alternative Standard,82,Met Alternative Standard,84,Not Rated,,Met Alternative Standard,71,false
+SOUTHWEST PREPARATORY SCHOOL,NEW DIRECTIONS,BEXAR,'06 - 12,71.6,Met Alternative Standard,81,Met Alternative Standard,85,Met Alternative Standard,73,Not Rated,,Met Alternative Standard,71,false
+SOUTHWEST PREPARATORY SCHOOL,SOUTHWEST PREP NORTHWEST EL,BEXAR,'PK - 04,91.9,Met Standard,89,Improvement Required,53,Met Standard,89,Improvement Required,55,Not Rated,,false
+SOUTHWEST PREPARATORY SCHOOL,SEGUIN EL,BEXAR,'PK - 06,56.9,Met Standard,80,Met Standard,78,Met Standard,75,Met Standard,80,Met Standard,81,false
+INSPIRE ACADEMIES,JHW INSPIRE ACADEMY - AFTON OAKS,BEXAR,'06 - 12,99.3,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+INSPIRE ACADEMIES,ANNE FRANK INSPIRE ACADEMY,BEXAR,'KG - 11,1.1,Met Standard,70,Met Standard,69,Improvement Required,58,Improvement Required,48,Met Standard,71,false
+BEXAR COUNTY ACADEMY,BEXAR COUNTY ACADEMY,BEXAR,'PK - 08,96.3,Improvement Required,59,Improvement Required,57,Improvement Required,58,Met Standard,60,Improvement Required,56,false
+POSITIVE SOLUTIONS CHARTER SCHOOL,POSITIVE SOLUTIONS CHARTER,BEXAR,'09 - 12,92,Met Alternative Standard,62,Met Alternative Standard,75,Improvement Required,55,Not Rated,,Improvement Required,30,false
+HERITAGE ACADEMY,HERITAGE ACADEMY OF WINDCREST,BEXAR,'PK - 05,81.4,Met Standard,69,Met Standard,67,Improvement Required,59,Met Standard,72,Met Standard,63,false
+HERITAGE ACADEMY,HERITAGE ACADEMY,BEXAR,'07 - 08,85.3,Met Alternative Standard,90,Met Alternative Standard,90,Met Alternative Standard,85,Not Rated,,Not Rated,,false
+HERITAGE ACADEMY,HERITAGE ACADEMY OF SAN ANTONIO,BEXAR,'05 - 06,64.9,Met Alternative Standard,91,Met Alternative Standard,91,Met Alternative Standard,91,Not Rated,,Not Rated,,false
+JUBILEE ACADEMIES,JUBILEE SAN ANTONIO,BEXAR,'KG - 12,60.6,Met Standard,76,Improvement Required,59,Met Standard,80,Improvement Required,51,Met Standard,65,false
+JUBILEE ACADEMIES,JUBILEE HIGHLAND HILLS,BEXAR,'PK - 08,71.2,Improvement Required,54,Improvement Required,54,Improvement Required,55,Improvement Required,53,Improvement Required,50,false
+JUBILEE ACADEMIES,JUBILEE - LAKE VIEW UNIVERSITY PRE,BEXAR,'PK - 12,70.7,Improvement Required,53,Improvement Required,49,Improvement Required,57,Improvement Required,51,Improvement Required,45,false
+JUBILEE ACADEMIES,JUBILEE HIGHLAND PARK,BEXAR,'PK - 08,65.2,Met Standard,64,Met Standard,64,Improvement Required,58,Met Standard,60,Met Standard,65,false
+JUBILEE ACADEMIES,JUBILEE LEADERSHIP ACADEMY,BEXAR,'PK - 06,78.4,Met Standard,65,Met Standard,71,Improvement Required,54,Met Standard,75,Improvement Required,43,false
+LIGHTHOUSE CHARTER SCHOOL,LIGHTHOUSE CHARTER SCHOOL - B CAMP,BEXAR,'02 - 08,84.9,Met Standard,63,Met Standard,65,Met Standard,62,Met Standard,70,Improvement Required,45,false
+LIGHTHOUSE CHARTER SCHOOL,LIGHTHOUSE CHARTER SCHOOL,BEXAR,'PK - 08,86.7,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+KIPP SAN ANTONIO,KIPP UNIVERSITY PREP H S,BEXAR,'09 - 12,84.5,Met Standard,85,Met Standard,85,Met Standard,72,Met Standard,88,Met Standard,77,false
+KIPP SAN ANTONIO,KIPP ASPIRE ACADEMY,BEXAR,'05 - 08,87.6,Met Standard,78,Met Standard,70,Met Standard,80,Met Standard,80,Met Standard,74,false
+KIPP SAN ANTONIO,KIPP CAMINO ACADEMY,BEXAR,'05 - 08,87.3,Met Standard,88,Met Standard,75,Met Standard,86,Met Standard,87,Met Standard,89,false
+KIPP SAN ANTONIO,KIPP PODER ACADEMY,BEXAR,'05 - 07,88.1,Met Standard,81,Met Standard,73,Met Standard,60,Met Standard,83,Met Standard,75,false
+KIPP SAN ANTONIO,KIPP UN MUNDO DUAL LANGUAGE ACADEM,BEXAR,'KG - 04,87.1,Improvement Required,54,Improvement Required,58,Met Standard,62,Met Standard,60,Improvement Required,35,false
+KIPP SAN ANTONIO,KIPP ESPERANZA DUAL LANGUAGE ACADE,BEXAR,'KG - 03,80.8,Met Standard,69,Met Standard,67,Not Rated,,Met Standard,72,Met Standard,62,false
+SCHOOL OF SCIENCE AND TECHNOLOGY,SCHOOL OF SCIENCE AND TECHNOLOGY,BEXAR,'06 - 12,51.9,Met Standard,91,Met Standard,91,Met Standard,79,Met Standard,87,Met Standard,92,false
+SCHOOL OF SCIENCE AND TECHNOLOGY,SCHOOL OF SCIENCE AND TECHNOLOGY -,BEXAR,'KG - 08,58.4,Met Standard,88,Met Standard,89,Met Standard,83,Met Standard,88,Met Standard,85,false
+SCHOOL OF SCIENCE AND TECHNOLOGY,SCHOOL OF SCIENCE AND TECHNOLOGY H,BEXAR,'KG - 07,66.7,Met Standard,76,Met Standard,73,Met Standard,74,Met Standard,75,Met Standard,79,false
+SCHOOL OF SCIENCE AND TECHNOLOGY,SCHOOL OF SCIENCE AND TECHNOLOGY E,BEXAR,'KG - 05,83.6,Met Standard,71,Met Standard,69,Met Standard,67,Met Standard,74,Met Standard,65,false
+HARMONY SCIENCE ACAD (SAN ANTONIO),HARMONY SCIENCE ACAD (SAN ANTONIO),BEXAR,'06 - 12,65,Met Standard,86,Met Standard,84,Met Standard,81,Met Standard,84,Met Standard,89,false
+HARMONY SCIENCE ACAD (SAN ANTONIO),HARMONY SCHOOL OF INNOVATION - SAN,BEXAR,'PK - 08,82.9,Met Standard,74,Met Standard,70,Met Standard,72,Met Standard,75,Met Standard,72,false
+HARMONY SCIENCE ACAD (SAN ANTONIO),HARMONY SCHOOL OF EXCELLENCE - SAN,BEXAR,'PK - 05,67.7,Met Standard,74,Met Standard,72,Met Standard,72,Met Standard,75,Met Standard,72,false
+BROOKS ACADEMY OF SCIENCE AND ENGI,BROOKS ACADEMY OF SCIENCE AND ENGI,BEXAR,'KG - 12,76.9,Met Standard,68,Met Standard,68,Met Standard,72,Met Standard,69,Improvement Required,59,false
+BROOKS ACADEMY OF SCIENCE AND ENGI,BROOKS COLLEGIATE ACADEMY,BEXAR,'PK - 10,56.1,Met Standard,62,Met Standard,60,Improvement Required,55,Met Standard,60,Met Standard,66,false
+BROOKS ACADEMY OF SCIENCE AND ENGI,BROOKS ACADEMY LONESTAR,BEXAR,'KG - 05,89.5,Improvement Required,55,Improvement Required,55,Met Standard,65,Improvement Required,56,Improvement Required,30,false
+BROOKS ACADEMY OF SCIENCE AND ENGI,BROOKS ACADEMY OAKS,BEXAR,'PK - 05,50.9,Met Standard,91,Met Standard,91,Met Standard,90,Met Standard,91,Not Rated,,false
+SCHOOL OF SCIENCE AND TECHNOLOGY D,SCHOOL OF SCIENCE AND TECHNOLOGY D,BEXAR,'KG - 08,63.1,Met Standard,82,Met Standard,77,Met Standard,80,Met Standard,81,Met Standard,84,false
+SCHOOL OF SCIENCE AND TECHNOLOGY D,SCHOOL OF SCIENCE AND TECHNOLOGY C,BEXAR,'KG - 12,76.6,Met Standard,89,Met Standard,88,Met Standard,84,Met Standard,91,Met Standard,84,false
+SCHOOL OF SCIENCE AND TECHNOLOGY D,SCHOOL OF SCIENCE AND TECHNOLOGY A,BEXAR,'KG - 07,85.7,Met Standard,87,Met Standard,79,Met Standard,88,Met Standard,87,Met Standard,83,false
+HENRY FORD ACADEMY ALAMEDA SCHOOL,HENRY FORD ACADEMY ALAMEDA SCHOOL,BEXAR,'09 - 12,47.4,Met Standard,75,Met Standard,69,Met Standard,75,Met Standard,64,Met Standard,75,false
+BASIS TEXAS,BASIS SAN ANTONIO- SHAVANO CAMPUS,BEXAR,'06 - 12,4,Met Standard,95,Met Standard,95,Met Standard,84,Met Standard,83,Met Standard,94,false
+BASIS TEXAS,BASIS SAN ANTONIO- PRI NORTH CENTR,BEXAR,'KG - 05,4.4,Met Standard,87,Met Standard,92,Met Standard,70,Met Standard,66,Met Standard,76,false
+BASIS TEXAS,BASIS SAN ANTONIO PRI- MEDICAL CEN,BEXAR,'KG - 05,4.4,Met Standard,87,Met Standard,92,Met Standard,67,Met Standard,69,Met Standard,74,false
+GREAT HEARTS TEXAS,GREAT HEARTS MONTE VISTA,BEXAR,'KG - 05,19.6,Met Standard,91,Met Standard,90,Met Standard,85,Met Standard,72,Met Standard,92,false
+GREAT HEARTS TEXAS,GREAT HEARTS MONTE VISTA NORTH,BEXAR,'06 - 12,19,Met Standard,88,Met Standard,89,Met Standard,62,Met Standard,70,Met Standard,84,false
+GREAT HEARTS TEXAS,GREAT HEARTS NORTHERN OAKS,BEXAR,'KG - 09,12.1,Met Standard,90,Met Standard,91,Met Standard,82,Met Standard,69,Met Standard,89,false
+ELEANOR KOLITZ HEBREW LANGUAGE ACA,ELEANOR KOLITZ HEBREW LANGUAGE ACA,BEXAR,'KG - 08,11.3,Met Standard,89,Met Standard,91,Met Standard,75,Met Standard,70,Met Standard,84,false
+CARPE DIEM SCHOOLS,CARPE DIEM SCHOOLS,BEXAR,'06 - 12,59.3,Improvement Required,59,Improvement Required,54,Met Standard,68,Improvement Required,55,Improvement Required,47,false
+COMPASS ROSE ACADEMY,COMPASS ROSE ACADEMY,BEXAR,'06 - 07,78.9,Met Standard,65,Met Standard,67,Met Standard,63,Met Standard,74,Improvement Required,45,false
+ALAMO HEIGHTS ISD,ALAMO HEIGHTS H S,BEXAR,'09 - 12,17.7,Met Standard,87,Met Standard,91,Met Standard,66,Met Standard,76,Met Standard,77,false
+ALAMO HEIGHTS ISD,BEXAR CO J J A E P,BEXAR,'09 - 09,33.3,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+ALAMO HEIGHTS ISD,ALAMO HEIGHTS J H,BEXAR,'06 - 08,20.5,Met Standard,88,Met Standard,88,Met Standard,83,Met Standard,66,Met Standard,87,false
+ALAMO HEIGHTS ISD,CAMBRIDGE EL,BEXAR,'01 - 05,23.5,Met Standard,82,Met Standard,83,Met Standard,80,Met Standard,63,Met Standard,78,false
+ALAMO HEIGHTS ISD,HOWARD EL,BEXAR,'EE - KG,29.8,Met Standard,86,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,false
+ALAMO HEIGHTS ISD,WOODRIDGE EL,BEXAR,'01 - 05,20.2,Met Standard,86,Met Standard,85,Met Standard,80,Met Standard,62,Met Standard,88,false
+HARLANDALE ISD,HARLANDALE H S,BEXAR,'09 - 12,84.6,Met Standard,75,Met Standard,76,Met Standard,72,Met Standard,79,Met Standard,66,false
+HARLANDALE ISD,MCCOLLUM H S,BEXAR,'09 - 12,80.8,Met Standard,78,Met Standard,78,Met Standard,69,Met Standard,79,Met Standard,75,false
+HARLANDALE ISD,HAC DAEP H S,BEXAR,'09 - 12,84.6,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+HARLANDALE ISD,FRANK M TEJEDA ACADEMY,BEXAR,'09 - 12,94.5,Improvement Required,59,Met Alternative Standard,71,Improvement Required,58,Not Rated,,Improvement Required,30,false
+HARLANDALE ISD,BEXAR CO J J A E P,BEXAR,'07 - 11,85.7,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+HARLANDALE ISD,HARLANDALE ALTERNATIVE CENTER BOOT,BEXAR,'09 - 09,100,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+HARLANDALE ISD,FENLEY TRANSITIONAL H S,BEXAR,'09 - 12,88.9,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+HARLANDALE ISD,HARLANDALE ISD STEM ECHS-ALAMO COL,BEXAR,'09 - 12,68.2,Met Standard,94,Met Standard,91,Met Standard,86,Met Standard,91,Met Standard,100,false
+HARLANDALE ISD,HARLANDALE MIDDLE,BEXAR,'06 - 08,87.1,Met Standard,81,Met Standard,73,Met Standard,74,Met Standard,83,Met Standard,75,false
+HARLANDALE ISD,A LEAL JR MIDDLE,BEXAR,'06 - 08,91.2,Met Standard,78,Met Standard,69,Met Standard,72,Met Standard,80,Met Standard,72,false
+HARLANDALE ISD,TERRELL WELLS MIDDLE,BEXAR,'06 - 08,85.4,Met Standard,84,Met Standard,75,Met Standard,80,Met Standard,85,Met Standard,82,false
+HARLANDALE ISD,KINGSBOROUGH MIDDLE,BEXAR,'06 - 08,84.9,Met Standard,75,Met Standard,70,Met Standard,66,Met Standard,80,Met Standard,63,false
+HARLANDALE ISD,HAC DAEP MIDDLE,BEXAR,'06 - 08,100,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+HARLANDALE ISD,HARLANDALE ALTERNATIVE CENTER BOOT,BEXAR,'06 - 06,100,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+HARLANDALE ISD,FENLEY TRANSITIONAL MIDDLE,BEXAR,'07 - 08,100,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+HARLANDALE ISD,TEJEDA JUNIOR ACADEMY,BEXAR,'08 - 08,100,Met Alternative Standard,69,Met Alternative Standard,70,Met Alternative Standard,85,Not Rated,,Improvement Required,30,false
+HARLANDALE ISD,CARROLL BELL EL,BEXAR,'PK - 05,86.8,Met Standard,79,Met Standard,73,Met Standard,70,Met Standard,81,Met Standard,73,false
+HARLANDALE ISD,BELLAIRE EL,BEXAR,'PK - 05,84.6,Met Standard,74,Met Standard,64,Met Standard,74,Met Standard,69,Met Standard,75,false
+HARLANDALE ISD,COLLIER EL,BEXAR,'PK - 05,97.3,Met Standard,71,Met Standard,64,Met Standard,70,Met Standard,72,Met Standard,70,false
+HARLANDALE ISD,COLUMBIA HEIGHTS EL,BEXAR,'PK - 05,87.6,Met Standard,64,Improvement Required,59,Met Standard,65,Met Standard,63,Met Standard,63,false
+HARLANDALE ISD,STONEWALL/FLANDERS EL,BEXAR,'PK - 05,96.8,Met Standard,79,Improvement Required,56,Met Standard,82,Improvement Required,59,Met Standard,72,false
+HARLANDALE ISD,V M ADAMS EL,BEXAR,'PK - 05,90.7,Met Standard,85,Met Standard,62,Met Standard,90,Met Standard,69,Met Standard,72,false
+HARLANDALE ISD,GILLETTE EL,BEXAR,'PK - 05,90.6,Met Standard,83,Met Standard,75,Met Standard,79,Met Standard,84,Met Standard,80,false
+HARLANDALE ISD,H W SCHULZE EL,BEXAR,'PK - 05,84.8,Met Standard,82,Met Standard,73,Met Standard,77,Met Standard,81,Met Standard,84,false
+HARLANDALE ISD,MORRILL EL,BEXAR,'PK - 05,89.7,Met Standard,88,Met Standard,78,Met Standard,79,Met Standard,87,Met Standard,89,false
+HARLANDALE ISD,RAYBURN EL,BEXAR,'PK - 05,92.1,Met Standard,85,Met Standard,64,Met Standard,88,Met Standard,70,Met Standard,77,false
+HARLANDALE ISD,VESTAL EL,BEXAR,'PK - 05,90.9,Met Standard,86,Met Standard,75,Met Standard,88,Met Standard,84,Met Standard,82,false
+HARLANDALE ISD,WRIGHT EL,BEXAR,'PK - 05,91.1,Met Standard,73,Met Standard,70,Improvement Required,58,Met Standard,77,Met Standard,62,false
+HARLANDALE ISD,JEWEL C WIETZEL CENTER,BEXAR,'07 - 12,86.7,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+HARLANDALE ISD,E H GILBERT EL,BEXAR,'PK - 05,88.2,Met Standard,78,Met Standard,65,Met Standard,80,Met Standard,72,Met Standard,72,false
+EDGEWOOD ISD,JOHN F KENNEDY H S,BEXAR,'09 - 12,87.9,Met Standard,65,Met Standard,63,Met Standard,66,Met Standard,63,Met Standard,64,false
+EDGEWOOD ISD,MEMORIAL H S,BEXAR,'09 - 12,88.3,Improvement Required,59,Met Standard,61,Met Standard,66,Met Standard,66,Improvement Required,42,false
+EDGEWOOD ISD,BRENTWOOD MIDDLE,BEXAR,'06 - 08,88.3,Met Standard,67,Improvement Required,56,Met Standard,66,Met Standard,60,Met Standard,68,false
+EDGEWOOD ISD,ALTERNATIVE CENTER,BEXAR,'06 - 12,90.3,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+EDGEWOOD ISD,E T WRENN MIDDLE,BEXAR,'06 - 08,89.5,Met Standard,67,Improvement Required,59,Improvement Required,59,Met Standard,69,Met Standard,63,false
+EDGEWOOD ISD,GUS GARCIA MIDDLE,BEXAR,'06 - 08,94.5,Improvement Required,59,Improvement Required,57,Improvement Required,58,Met Standard,66,Improvement Required,47,false
+EDGEWOOD ISD,ROY CISNEROS EL,BEXAR,'KG - 05,94.8,Met Standard,80,Met Standard,72,Met Standard,75,Met Standard,81,Met Standard,79,false
+EDGEWOOD ISD,ALONSO S PERALES EL,BEXAR,'PK - 05,94.5,Improvement Required,58,Improvement Required,57,Improvement Required,56,Met Standard,60,Improvement Required,52,false
+EDGEWOOD ISD,GARDENDALE EL,BEXAR,'PK - 05,97.3,Met Standard,59,Improvement Required,56,Met Standard,65,Improvement Required,58,Improvement Required,59,false
+EDGEWOOD ISD,L B JOHNSON EL,BEXAR,'PK - 05,96.7,Improvement Required,52,Improvement Required,56,Improvement Required,58,Improvement Required,59,Improvement Required,35,false
+EDGEWOOD ISD,LAS PALMAS EL,BEXAR,'KG - 05,96.9,Met Standard,71,Improvement Required,50,Met Standard,72,Improvement Required,52,Met Standard,68,false
+EDGEWOOD ISD,LOMA PARK EL,BEXAR,'EE - 05,97.3,Met Standard,67,Met Standard,62,Improvement Required,58,Met Standard,70,Improvement Required,59,false
+EDGEWOOD ISD,ROOSEVELT EL,BEXAR,'KG - 05,95.8,Met Standard,66,Improvement Required,59,Improvement Required,59,Met Standard,66,Met Standard,66,false
+EDGEWOOD ISD,STAFFORD EL,BEXAR,'KG - 05,93.3,Met Standard,70,Improvement Required,57,Met Standard,70,Met Standard,60,Met Standard,69,false
+EDGEWOOD ISD,WINSTON EL,BEXAR,'PK - 05,96.1,Improvement Required,57,Improvement Required,54,Improvement Required,56,Improvement Required,56,Improvement Required,58,false
+EDGEWOOD ISD,H B GONZALEZ EL,BEXAR,'PK - 05,92.2,Improvement Required,55,Improvement Required,52,Improvement Required,57,Improvement Required,54,Improvement Required,50,false
+EDGEWOOD ISD,CARDENAS CENTER,BEXAR,'PK - PK,99.4,Met Standard,80,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,false
+EDGEWOOD ISD,STAFFORD CENTER,BEXAR,'PK - PK,100,Met Standard,70,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,false
+EDGEWOOD ISD,EL DAEP,BEXAR,'05 - 05,100,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+RANDOLPH FIELD ISD,RANDOLPH H S,BEXAR,'09 - 12,5.4,Met Standard,91,Met Standard,92,Met Standard,75,Met Standard,65,Met Standard,89,false
+RANDOLPH FIELD ISD,RANDOLPH MIDDLE,BEXAR,'06 - 08,6.3,Met Standard,89,Met Standard,91,Met Standard,77,Improvement Required,58,Met Standard,85,false
+RANDOLPH FIELD ISD,RANDOLPH EL,BEXAR,'PK - 05,10.6,Met Standard,94,Met Standard,92,Met Standard,83,Met Standard,73,Met Standard,100,false
+SAN ANTONIO ISD,BRACKENRIDGE H S,BEXAR,'09 - 12,86.7,Met Standard,76,Met Standard,73,Met Standard,75,Met Standard,78,Met Standard,71,false
+SAN ANTONIO ISD,BURBANK H S,BEXAR,'09 - 12,88.1,Met Standard,75,Met Standard,75,Met Standard,72,Met Standard,77,Met Standard,71,false
+SAN ANTONIO ISD,EDISON H S,BEXAR,'09 - 12,88.4,Met Standard,75,Met Standard,76,Met Standard,65,Met Standard,77,Met Standard,70,false
+SAN ANTONIO ISD,FOX TECHNICAL H S,BEXAR,'09 - 12,72.7,Met Standard,90,Met Standard,93,Met Standard,75,Met Standard,93,Met Standard,83,false
+SAN ANTONIO ISD,HIGHLANDS H S,BEXAR,'08 - 12,92.4,Met Standard,69,Met Standard,63,Met Standard,65,Met Standard,70,Met Standard,67,false
+SAN ANTONIO ISD,HOUSTON H S,BEXAR,'09 - 12,90.9,Met Standard,70,Met Standard,62,Met Standard,63,Met Standard,70,Met Standard,70,false
+SAN ANTONIO ISD,JEFFERSON H S,BEXAR,'09 - 12,85.5,Met Standard,62,Met Standard,63,Improvement Required,59,Met Standard,65,Improvement Required,56,false
+SAN ANTONIO ISD,LANIER H S,BEXAR,'09 - 12,92.4,Met Standard,63,Met Standard,60,Improvement Required,58,Met Standard,62,Met Standard,65,false
+SAN ANTONIO ISD,ESTRADA ACHIEVEMENT CTR,BEXAR,'06 - 12,91.5,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+SAN ANTONIO ISD,JJA,BEXAR,'09 - 10,100,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+SAN ANTONIO ISD,TRAVIS EARLY COLLEGE H S,BEXAR,'09 - 12,75.8,Met Standard,98,Met Standard,97,Met Standard,85,Met Standard,97,Met Standard,100,false
+SAN ANTONIO ISD,YOUNG WOMEN'S LEADERSHIP ACADEMY,BEXAR,'06 - 12,59.3,Met Standard,98,Met Standard,97,Met Standard,91,Met Standard,97,Met Standard,100,false
+SAN ANTONIO ISD,COOPER ACADEMY AT NAVARRO,BEXAR,'09 - 12,93.7,Improvement Required,55,Met Alternative Standard,66,Not Rated,,Not Rated,,Improvement Required,30,false
+SAN ANTONIO ISD,ST PHILIP'S COLLEGE EARLY COLLEGE,BEXAR,'09 - 12,83.5,Met Standard,87,Met Standard,77,Met Standard,63,Met Standard,86,Met Standard,89,false
+SAN ANTONIO ISD,ADVANCED LEARNING ACADEMY,BEXAR,'PK - 11,52,Met Standard,81,Met Standard,77,Met Standard,75,Met Standard,81,Met Standard,80,false
+SAN ANTONIO ISD,CAST TECH H S,BEXAR,'09 - 09,66.7,Met Standard,80,Met Standard,75,Improvement Required,50,Met Standard,82,Met Standard,76,false
+SAN ANTONIO ISD,DAVIS MIDDLE,BEXAR,'06 - 08,96.4,Improvement Required,59,Improvement Required,53,Improvement Required,59,Improvement Required,58,Met Standard,67,false
+SAN ANTONIO ISD,HARRIS MIDDLE,BEXAR,'06 - 08,91.9,Met Standard,64,Improvement Required,58,Met Standard,66,Met Standard,66,Met Standard,60,false
+SAN ANTONIO ISD,IRVING MIDDLE,BEXAR,'07 - 08,97.9,Met Standard,85,Improvement Required,58,Met Standard,92,Met Standard,69,Met Standard,77,false
+SAN ANTONIO ISD,LONGFELLOW MIDDLE,BEXAR,'06 - 08,91.7,Improvement Required,53,Improvement Required,56,Improvement Required,59,Met Standard,60,Improvement Required,36,false
+SAN ANTONIO ISD,LOWELL MIDDLE,BEXAR,'06 - 08,97.5,Improvement Required,55,Improvement Required,54,Improvement Required,57,Improvement Required,59,Improvement Required,47,false
+SAN ANTONIO ISD,PAGE MIDDLE,BEXAR,'07 - 08,96.4,Met Standard,76,Improvement Required,49,Met Standard,77,Improvement Required,52,Met Standard,75,false
+SAN ANTONIO ISD,POE MIDDLE,BEXAR,'06 - 08,96.6,Improvement Required,59,Improvement Required,52,Improvement Required,58,Improvement Required,57,Met Standard,61,false
+SAN ANTONIO ISD,RHODES MIDDLE,BEXAR,'06 - 08,92.8,Met Standard,70,Met Standard,60,Met Standard,69,Met Standard,70,Met Standard,70,false
+SAN ANTONIO ISD,ROGERS MIDDLE,BEXAR,'06 - 08,91.7,Met Standard,62,Improvement Required,53,Met Standard,60,Improvement Required,57,Met Standard,66,false
+SAN ANTONIO ISD,TWAIN MIDDLE,BEXAR,'08 - 08,90.6,Met Standard,88,Met Standard,67,Met Standard,91,Met Standard,79,Met Standard,80,false
+SAN ANTONIO ISD,WHITTIER MIDDLE,BEXAR,'06 - 08,92,Met Standard,80,Met Standard,69,Met Standard,77,Met Standard,80,Met Standard,79,false
+SAN ANTONIO ISD,TAFOLLA MIDDLE,BEXAR,'06 - 08,94.4,Met Standard,67,Improvement Required,53,Met Standard,66,Improvement Required,58,Met Standard,69,false
+SAN ANTONIO ISD,BREWER ACADEMY,BEXAR,'06 - 12,77.4,Met Alternative Standard,63,Improvement Required,38,Met Alternative Standard,63,Not Rated,,Not Rated,,false
+SAN ANTONIO ISD,ARNOLD EL,BEXAR,'EE - 05,91.6,Met Standard,73,Met Standard,70,Improvement Required,58,Met Standard,77,Met Standard,63,false
+SAN ANTONIO ISD,CHARLES C BALL ACADEMY,BEXAR,'PK - 07,98.3,Met Standard,72,Met Standard,65,Met Standard,65,Met Standard,74,Met Standard,68,false
+SAN ANTONIO ISD,BASKIN EL,BEXAR,'PK - 05,84.5,Met Standard,79,Met Standard,72,Met Standard,72,Met Standard,80,Met Standard,77,false
+SAN ANTONIO ISD,BEACON HILL ACADEMY,BEXAR,'PK - 07,92.5,Improvement Required,56,Improvement Required,56,Improvement Required,58,Improvement Required,59,Improvement Required,48,false
+SAN ANTONIO ISD,BONHAM ACADEMY,BEXAR,'KG - 08,59,Met Standard,72,Met Standard,69,Met Standard,72,Met Standard,62,Met Standard,72,false
+SAN ANTONIO ISD,J T BRACKENRIDGE EL,BEXAR,'PK - 05,98.9,Met Standard,75,Improvement Required,57,Met Standard,75,Met Standard,60,Met Standard,74,false
+SAN ANTONIO ISD,BRISCOE EL,BEXAR,'EE - 05,91.7,Improvement Required,58,Improvement Required,56,Improvement Required,59,Improvement Required,58,Improvement Required,55,false
+SAN ANTONIO ISD,CAMERON EL,BEXAR,'EE - 05,94.3,Met Standard,70,Improvement Required,56,Met Standard,72,Improvement Required,59,Met Standard,64,false
+SAN ANTONIO ISD,COLLINS GARDEN EL,BEXAR,'PK - 05,95.7,Met Standard,73,Improvement Required,56,Met Standard,74,Improvement Required,59,Met Standard,72,false
+SAN ANTONIO ISD,AGNES COTTON ACADEMY,BEXAR,'PK - 07,94.9,Met Standard,69,Met Standard,64,Improvement Required,58,Met Standard,72,Met Standard,63,false
+SAN ANTONIO ISD,DAVID CROCKETT EL,BEXAR,'PK - 06,97.8,Improvement Required,57,Improvement Required,55,Improvement Required,59,Improvement Required,57,Improvement Required,51,false
+SAN ANTONIO ISD,DOUGLASS EL,BEXAR,'PK - 06,91.7,Improvement Required,59,Improvement Required,55,Improvement Required,58,Improvement Required,57,Met Standard,61,false
+SAN ANTONIO ISD,DE ZAVALA EL,BEXAR,'PK - 05,97.2,Improvement Required,57,Improvement Required,52,Improvement Required,58,Improvement Required,54,Improvement Required,55,false
+SAN ANTONIO ISD,FENWICK EL,BEXAR,'PK - 06,95.3,Met Standard,68,Met Standard,64,Met Standard,67,Met Standard,72,Met Standard,60,false
+SAN ANTONIO ISD,MURIEL FORBES ACADEMY,BEXAR,'PK - 07,95.4,Met Standard,73,Met Standard,69,Met Standard,62,Met Standard,76,Met Standard,66,false
+SAN ANTONIO ISD,FOSTER ACADEMY,BEXAR,'EE - 07,96.7,Met Standard,66,Improvement Required,52,Met Standard,67,Improvement Required,54,Met Standard,65,false
+SAN ANTONIO ISD,FRANKLIN EL,BEXAR,'PK - 05,92.3,Met Standard,72,Met Standard,70,Improvement Required,58,Met Standard,77,Met Standard,60,false
+SAN ANTONIO ISD,GATES EL,BEXAR,'PK - 06,98.2,Met Standard,91,Met Standard,77,Met Standard,80,Met Standard,87,Met Standard,100,false
+SAN ANTONIO ISD,CHARLES GRAEBNER EL,BEXAR,'PK - 05,94.9,Met Standard,85,Met Standard,65,Met Standard,88,Met Standard,73,Met Standard,77,false
+SAN ANTONIO ISD,ROBERT B GREEN EL,BEXAR,'KG - 06,90.1,Met Standard,65,Improvement Required,59,Met Standard,65,Met Standard,65,Met Standard,65,false
+SAN ANTONIO ISD,HERFF EL,BEXAR,'PK - 06,96.4,Improvement Required,59,Improvement Required,56,Met Standard,65,Improvement Required,59,Improvement Required,50,false
+SAN ANTONIO ISD,HIGHLAND HILLS EL,BEXAR,'PK - 05,91.2,Met Standard,83,Met Standard,67,Met Standard,85,Met Standard,74,Met Standard,77,false
+SAN ANTONIO ISD,HIGHLAND PARK EL,BEXAR,'PK - 05,95,Met Standard,82,Met Standard,71,Met Standard,83,Met Standard,79,Met Standard,80,false
+SAN ANTONIO ISD,HILLCREST EL,BEXAR,'EE - 05,97,Met Standard,73,Improvement Required,58,Met Standard,74,Met Standard,63,Met Standard,72,false
+SAN ANTONIO ISD,HIRSCH EL,BEXAR,'EE - 05,96.7,Improvement Required,55,Improvement Required,50,Improvement Required,57,Improvement Required,52,Improvement Required,51,false
+SAN ANTONIO ISD,HUPPERTZ EL,BEXAR,'PK - 05,94.3,Met Standard,69,Improvement Required,58,Met Standard,69,Met Standard,63,Met Standard,70,false
+SAN ANTONIO ISD,RODRIGUEZ EL,BEXAR,'PK - 05,95.1,Improvement Required,56,Improvement Required,52,Met Standard,62,Improvement Required,54,Improvement Required,43,false
+SAN ANTONIO ISD,ELOISE JAPHET ACADEMY,BEXAR,'PK - 07,92.2,Met Standard,68,Met Standard,60,Met Standard,67,Met Standard,67,Met Standard,71,false
+SAN ANTONIO ISD,M L KING ACADEMY,BEXAR,'KG - 08,95.6,Met Standard,80,Improvement Required,56,Met Standard,83,Improvement Required,59,Met Standard,73,false
+SAN ANTONIO ISD,GEORGE E KELLY EL,BEXAR,'PK - 05,94.7,Met Standard,82,Met Standard,65,Met Standard,85,Met Standard,73,Met Standard,74,false
+SAN ANTONIO ISD,SARAH S KING EL,BEXAR,'EE - 05,97.7,Met Standard,79,Improvement Required,56,Met Standard,82,Improvement Required,59,Met Standard,72,false
+SAN ANTONIO ISD,LAMAR EL,BEXAR,'PK - 06,73.4,Met Standard,72,Met Standard,64,Met Standard,74,Met Standard,65,Met Standard,67,false
+SAN ANTONIO ISD,BOWDEN ACADEMY,BEXAR,'PK - 07,97.3,Met Standard,75,Improvement Required,57,Met Standard,75,Met Standard,60,Met Standard,75,false
+SAN ANTONIO ISD,MADISON EL,BEXAR,'PK - 05,93.6,Met Standard,72,Met Standard,65,Met Standard,65,Met Standard,72,Met Standard,73,false
+SAN ANTONIO ISD,MARGIL EL,BEXAR,'EE - 06,98.9,Met Standard,68,Met Standard,60,Met Standard,62,Met Standard,69,Met Standard,66,false
+SAN ANTONIO ISD,MAVERICK EL,BEXAR,'EE - 05,86.1,Met Standard,77,Met Standard,69,Met Standard,77,Met Standard,75,Met Standard,77,false
+SAN ANTONIO ISD,DORIE MILLER EL,BEXAR,'PK - 05,96.6,Met Standard,78,Met Standard,62,Met Standard,80,Met Standard,70,Met Standard,72,false
+SAN ANTONIO ISD,NEAL EL,BEXAR,'PK - 05,94.5,Met Standard,76,Met Standard,69,Met Standard,70,Met Standard,76,Met Standard,75,false
+SAN ANTONIO ISD,OGDEN EL,BEXAR,'PK - 06,96.5,Improvement Required,59,Improvement Required,50,Met Standard,62,Improvement Required,52,Improvement Required,55,false
+SAN ANTONIO ISD,PERSHING EL,BEXAR,'PK - 06,98.5,Met Standard,76,Improvement Required,54,Met Standard,77,Improvement Required,56,Met Standard,72,false
+SAN ANTONIO ISD,RIVERSIDE PARK EL,BEXAR,'EE - 06,96.2,Met Standard,70,Met Standard,65,Met Standard,62,Met Standard,73,Met Standard,62,false
+SAN ANTONIO ISD,ROGERS ACADEMY,BEXAR,'PK - 07,91.1,Met Standard,63,Improvement Required,58,Improvement Required,59,Met Standard,62,Met Standard,65,false
+SAN ANTONIO ISD,DAVID BARKLEY/FRANCISCO RUIZ EL,BEXAR,'PK - 05,93.7,Met Standard,73,Improvement Required,57,Met Standard,74,Met Standard,60,Met Standard,71,false
+SAN ANTONIO ISD,MARK TWAIN DUAL LANGUAGE ACADEMY,BEXAR,'PK - 02,64,Met Standard,63,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,false
+SAN ANTONIO ISD,SCHENCK EL,BEXAR,'EE - 05,89.7,Met Standard,77,Met Standard,71,Met Standard,60,Met Standard,79,Met Standard,71,false
+SAN ANTONIO ISD,SMITH EL,BEXAR,'EE - 05,95.9,Met Standard,83,Met Standard,62,Met Standard,86,Met Standard,70,Met Standard,75,false
+SAN ANTONIO ISD,STEELE MONTESSORI ACADEMY,BEXAR,'EE - 01,75.2,Met Standard,72,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,false
+SAN ANTONIO ISD,P F STEWART EL,BEXAR,'PK - 05,96.2,Met Standard,84,Improvement Required,57,Met Standard,91,Met Standard,60,Met Standard,71,false
+SAN ANTONIO ISD,STORM EL,BEXAR,'PK - 05,98.6,Met Standard,70,Improvement Required,49,Met Standard,69,Improvement Required,51,Met Standard,71,false
+SAN ANTONIO ISD,WASHINGTON EL,BEXAR,'PK - 06,99,Improvement Required,57,Improvement Required,56,Improvement Required,57,Improvement Required,58,Improvement Required,55,false
+SAN ANTONIO ISD,WILSON EL,BEXAR,'PK - 05,92,Met Standard,75,Met Standard,70,Met Standard,72,Met Standard,77,Met Standard,69,false
+SAN ANTONIO ISD,WOODLAWN ACADEMY,BEXAR,'KG - 08,87.1,Met Standard,61,Improvement Required,57,Met Standard,60,Improvement Required,59,Met Standard,64,false
+SAN ANTONIO ISD,WOODLAWN HILLS EL,BEXAR,'PK - 05,93.6,Met Standard,71,Improvement Required,59,Met Standard,70,Met Standard,65,Met Standard,73,false
+SAN ANTONIO ISD,YOUNG MEN'S LEADERSHIP ACADEMY,BEXAR,'04 - 08,59.1,Met Standard,81,Met Standard,80,Met Standard,66,Met Standard,83,Met Standard,77,false
+SAN ANTONIO ISD,HAWTHORNE PK-8 ACADEMY,BEXAR,'KG - 08,76.8,Met Standard,68,Met Standard,64,Met Standard,69,Met Standard,66,Met Standard,65,false
+SAN ANTONIO ISD,JT BRACKENRIDGE DAEP,BEXAR,'02 - 05,88.9,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+SAN ANTONIO ISD,HEALY-MURPHY,BEXAR,'09 - 12,100,Improvement Required,54,Met Alternative Standard,64,Improvement Required,44,Not Rated,,Improvement Required,30,false
+SAN ANTONIO ISD,CHRISTUS SANTA ROSA,BEXAR,'08 - 10,0,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+SAN ANTONIO ISD,SEIDEL LEARNING CENTER,BEXAR,'07 - 10,33.3,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+SAN ANTONIO ISD,JUVENILE DETENT CTR,BEXAR,'05 - 11,14.8,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+SAN ANTONIO ISD,CHILDREN'S SHELTER OF SA,BEXAR,'PK - 05,73.5,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+SAN ANTONIO ISD,HEALY MURPHY PK,BEXAR,'PK - PK,97.2,Met Standard,68,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,false
+SAN ANTONIO ISD,MISSION ACADEMY,BEXAR,'PK - 08,94.3,Met Standard,78,Met Standard,71,Met Standard,75,Met Standard,79,Met Standard,76,false
+SAN ANTONIO ISD,SAISD - PK 4 SA,BEXAR,'PK - PK,93.4,Met Standard,78,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,false
+SAN ANTONIO ISD,CARROLL EARLY CHILDHOOD CAMPUS,BEXAR,'PK - KG,100,Met Standard,91,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,false
+SAN ANTONIO ISD,CARVAJAL EARLY CHILDHOOD CAMPUS,BEXAR,'EE - PK,100,Met Standard,73,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,false
+SAN ANTONIO ISD,KNOX EARLY CHILDHOOD CAMPUS,BEXAR,'PK - PK,100,Met Standard,85,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,false
+SAN ANTONIO ISD,TYNAN EARLY CHILDHOOD CAMPUS,BEXAR,'EE - PK,100,Met Standard,75,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,false
+SAN ANTONIO ISD,NELSON EARLY CHILDHOOD CAMPUS,BEXAR,'EE - PK,100,Met Standard,68,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,false
+SAN ANTONIO ISD,GONZALES EARLY CHILDHOOD CAMPUS,BEXAR,'PK - PK,94.6,Met Standard,68,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,false
+SOUTH SAN ANTONIO ISD,SOUTH SAN ANTONIO H S,BEXAR,'09 - 12,77.1,Met Standard,68,Met Standard,66,Met Standard,69,Met Standard,71,Met Standard,61,false
+SOUTH SAN ANTONIO ISD,DWIGHT MIDDLE,BEXAR,'06 - 08,90.4,Improvement Required,59,Improvement Required,58,Improvement Required,58,Met Standard,66,Improvement Required,59,false
+SOUTH SAN ANTONIO ISD,ALAN B SHEPARD MIDDLE,BEXAR,'06 - 08,91.2,Improvement Required,59,Improvement Required,58,Improvement Required,59,Met Standard,66,Improvement Required,59,false
+SOUTH SAN ANTONIO ISD,ROBERT C ZAMORA MIDDLE,BEXAR,'06 - 08,86.2,Improvement Required,59,Improvement Required,59,Improvement Required,58,Met Standard,66,Improvement Required,59,false
+SOUTH SAN ANTONIO ISD,HUTCHINS EL,BEXAR,'EE - 05,88.5,Met Standard,68,Improvement Required,58,Met Standard,69,Met Standard,60,Met Standard,65,false
+SOUTH SAN ANTONIO ISD,KINDRED EL,BEXAR,'PK - 05,95.8,Improvement Required,59,Improvement Required,55,Met Standard,60,Improvement Required,57,Improvement Required,56,false
+SOUTH SAN ANTONIO ISD,PALO ALTO EL,BEXAR,'EE - 05,91.1,Met Standard,68,Improvement Required,58,Met Standard,69,Met Standard,62,Met Standard,66,false
+SOUTH SAN ANTONIO ISD,PRICE EL,BEXAR,'PK - 05,91,Met Standard,82,Met Standard,71,Met Standard,83,Met Standard,79,Met Standard,79,false
+SOUTH SAN ANTONIO ISD,FRANK MADLA EL,BEXAR,'PK - 05,89.3,Met Standard,71,Improvement Required,59,Met Standard,74,Met Standard,63,Met Standard,64,false
+SOUTH SAN ANTONIO ISD,FIVE PALMS EL,BEXAR,'PK - 05,94.3,Met Standard,72,Improvement Required,58,Met Standard,72,Met Standard,63,Met Standard,72,false
+SOUTH SAN ANTONIO ISD,NEIL ARMSTRONG EL,BEXAR,'EE - 05,93.7,Met Standard,67,Met Standard,64,Improvement Required,55,Met Standard,70,Met Standard,60,false
+SOUTH SAN ANTONIO ISD,MIGUEL CARRILLO JR EL,BEXAR,'PK - 05,91.1,Improvement Required,53,Improvement Required,51,Improvement Required,57,Improvement Required,53,Improvement Required,43,false
+SOUTH SAN ANTONIO ISD,ROY BENAVIDEZ EL,BEXAR,'PK - 05,86.9,Met Standard,81,Met Standard,62,Met Standard,83,Met Standard,69,Met Standard,75,false
+SOMERSET ISD,SOMERSET H S,BEXAR,'09 - 12,70.7,Met Standard,78,Met Standard,78,Met Standard,72,Met Standard,80,Met Standard,72,false
+SOMERSET ISD,ATASCOSA CO ALTER,BEXAR,'09 - 10,66.7,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+SOMERSET ISD,SHIRLEEN ZACHARIAS EARLY CLGE LEAD,BEXAR,'09 - 12,60,Met Standard,85,Met Standard,82,Met Standard,85,Met Standard,85,Not Rated,,false
+SOMERSET ISD,SOMERSET J H,BEXAR,'07 - 08,77.8,Met Standard,76,Met Standard,70,Met Standard,79,Met Standard,77,Met Standard,70,false
+SOMERSET ISD,SOMERSET EL,BEXAR,'01 - 04,80.8,Met Standard,81,Met Standard,76,Met Standard,72,Met Standard,83,Met Standard,76,false
+SOMERSET ISD,SOMERSET EARLY CHILDHOOD EL,BEXAR,'EE - KG,83.2,Met Standard,79,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,false
+SOMERSET ISD,S/SGT MICHAEL P BARRERA VETERANS E,BEXAR,'PK - 04,81.7,Met Standard,65,Met Standard,62,Improvement Required,59,Met Standard,66,Met Standard,61,false
+SOMERSET ISD,SAVANNAH HEIGHTS INT,BEXAR,'05 - 06,79.4,Met Standard,70,Met Standard,67,Improvement Required,59,Met Standard,74,Met Standard,62,false
+NORTH EAST ISD,LEE H S,BEXAR,'09 - 12,62.3,Met Standard,76,Met Standard,74,Met Standard,60,Met Standard,78,Met Standard,72,false
+NORTH EAST ISD,MACARTHUR H S,BEXAR,'09 - 12,46.3,Met Standard,79,Met Standard,80,Met Standard,70,Met Standard,79,Met Standard,78,false
+NORTH EAST ISD,CHURCHILL H S,BEXAR,'09 - 12,34.9,Met Standard,85,Met Standard,89,Met Standard,75,Met Standard,80,Met Standard,77,false
+NORTH EAST ISD,ROOSEVELT H S,BEXAR,'09 - 12,65.9,Met Standard,76,Met Standard,73,Met Standard,73,Met Standard,78,Met Standard,70,false
+NORTH EAST ISD,MADISON H S,BEXAR,'09 - 12,46.1,Met Standard,78,Met Standard,79,Met Standard,75,Met Standard,77,Met Standard,76,false
+NORTH EAST ISD,REAGAN H S,BEXAR,'09 - 12,12.1,Met Standard,93,Met Standard,94,Met Standard,79,Met Standard,81,Met Standard,90,false
+NORTH EAST ISD,ACADEMY OF CREATIVE ED,BEXAR,'10 - 12,45.2,Met Alternative Standard,85,Met Alternative Standard,85,Not Rated,,Not Rated,,Not Rated,,false
+NORTH EAST ISD,INTERNATIONAL SCHOOL OF AMERICA,BEXAR,'09 - 12,19.5,Met Standard,96,Met Standard,94,Met Standard,78,Met Standard,84,Met Standard,100,false
+NORTH EAST ISD,ALTER H S,BEXAR,'09 - 12,69.9,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+NORTH EAST ISD,JOHNSON H S,BEXAR,'09 - 12,15.5,Met Standard,93,Met Standard,94,Met Standard,87,Met Standard,82,Met Standard,89,false
+NORTH EAST ISD,NORTH EAST J J A E P,BEXAR,'06 - 12,56,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+NORTH EAST ISD,EISENHOWER MIDDLE,BEXAR,'06 - 08,56.2,Met Standard,77,Met Standard,75,Met Standard,77,Met Standard,75,Met Standard,77,false
+NORTH EAST ISD,GARNER MIDDLE,BEXAR,'06 - 08,70.3,Met Standard,88,Met Standard,80,Met Standard,81,Met Standard,88,Met Standard,87,false
+NORTH EAST ISD,KRUEGER MIDDLE,BEXAR,'06 - 08,74,Met Standard,79,Met Standard,75,Met Standard,72,Met Standard,83,Met Standard,71,false
+NORTH EAST ISD,NIMITZ MIDDLE,BEXAR,'06 - 08,71.8,Met Standard,83,Met Standard,77,Met Standard,74,Met Standard,85,Met Standard,79,false
+NORTH EAST ISD,JACKSON MIDDLE,BEXAR,'06 - 08,69.6,Met Standard,86,Met Standard,75,Met Standard,85,Met Standard,81,Met Standard,87,false
+NORTH EAST ISD,WHITE MIDDLE,BEXAR,'06 - 08,70.2,Met Standard,80,Met Standard,75,Met Standard,70,Met Standard,81,Met Standard,76,false
+NORTH EAST ISD,WOOD MIDDLE,BEXAR,'06 - 08,62.7,Met Standard,72,Met Standard,72,Met Standard,69,Met Standard,72,Met Standard,72,false
+NORTH EAST ISD,BRADLEY MIDDLE,BEXAR,'06 - 08,36.2,Met Standard,89,Met Standard,90,Met Standard,83,Met Standard,85,Met Standard,88,false
+NORTH EAST ISD,DRISCOLL MIDDLE,BEXAR,'06 - 08,48.4,Met Standard,79,Met Standard,78,Met Standard,77,Met Standard,75,Met Standard,82,false
+NORTH EAST ISD,BUSH MIDDLE,BEXAR,'06 - 08,14.4,Met Standard,95,Met Standard,93,Met Standard,90,Met Standard,83,Met Standard,100,false
+NORTH EAST ISD,ALTER MIDDLE,BEXAR,'06 - 08,81.3,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+NORTH EAST ISD,HOMEBASED COMP ED,BEXAR,'11 - 12,50,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+NORTH EAST ISD,TEJEDA MIDDLE,BEXAR,'06 - 08,20.2,Met Standard,93,Met Standard,92,Met Standard,84,Met Standard,82,Met Standard,96,false
+NORTH EAST ISD,LOPEZ MIDDLE,BEXAR,'06 - 08,10.6,Met Standard,95,Met Standard,94,Met Standard,89,Met Standard,86,Met Standard,98,false
+NORTH EAST ISD,HARRIS MIDDLE,BEXAR,'06 - 08,47.4,Met Standard,83,Met Standard,83,Met Standard,79,Met Standard,82,Met Standard,83,false
+NORTH EAST ISD,HILL MIDDLE,BEXAR,'06 - 08,18,Met Standard,92,Met Standard,91,Met Standard,81,Met Standard,75,Met Standard,94,false
+NORTH EAST ISD,CASTLE HILLS EL,BEXAR,'KG - 05,36.7,Met Standard,85,Met Standard,86,Met Standard,74,Met Standard,79,Met Standard,84,false
+NORTH EAST ISD,COKER EL,BEXAR,'KG - 05,46.1,Met Standard,88,Met Standard,78,Met Standard,86,Met Standard,75,Met Standard,94,false
+NORTH EAST ISD,COLONIAL HILLS EL,BEXAR,'KG - 05,88.1,Met Standard,84,Met Standard,72,Met Standard,86,Met Standard,80,Met Standard,79,false
+NORTH EAST ISD,DELLVIEW EL,BEXAR,'EE - 05,85.1,Met Standard,75,Met Standard,71,Met Standard,67,Met Standard,77,Met Standard,69,false
+NORTH EAST ISD,EAST TERRELL HILLS EL,BEXAR,'PK - 05,87.5,Met Standard,75,Met Standard,69,Met Standard,75,Met Standard,75,Met Standard,76,false
+NORTH EAST ISD,HARMONY HILLS EL,BEXAR,'EE - 05,67.1,Met Standard,61,Met Standard,60,Met Standard,60,Improvement Required,58,Met Standard,63,false
+NORTH EAST ISD,JACKSON-KELLER EL,BEXAR,'KG - 05,92.1,Met Standard,80,Met Standard,64,Met Standard,83,Met Standard,70,Met Standard,74,false
+NORTH EAST ISD,LARKSPUR EL,BEXAR,'KG - 05,82.5,Met Standard,77,Improvement Required,59,Met Standard,80,Met Standard,60,Met Standard,71,false
+NORTH EAST ISD,NORTHWOOD EL,BEXAR,'KG - 05,43.1,Met Standard,85,Met Standard,85,Met Standard,75,Met Standard,81,Met Standard,85,false
+NORTH EAST ISD,OAK GROVE EL,BEXAR,'EE - 05,83.1,Met Standard,64,Met Standard,60,Met Standard,60,Met Standard,65,Met Standard,62,false
+NORTH EAST ISD,OLMOS EL,BEXAR,'PK - 05,90.2,Met Standard,86,Met Standard,77,Met Standard,86,Met Standard,86,Met Standard,87,false
+NORTH EAST ISD,RIDGEVIEW EL,BEXAR,'EE - 05,88.6,Met Standard,74,Met Standard,71,Improvement Required,59,Met Standard,79,Met Standard,62,false
+NORTH EAST ISD,SERNA EL,BEXAR,'EE - 05,83.5,Met Standard,80,Met Standard,60,Met Standard,83,Met Standard,65,Met Standard,74,false
+NORTH EAST ISD,WALZEM EL,BEXAR,'EE - 05,84.4,Met Standard,76,Improvement Required,56,Met Standard,77,Improvement Required,57,Met Standard,72,false
+NORTH EAST ISD,WEST AVENUE EL,BEXAR,'PK - 05,92.4,Improvement Required,59,Improvement Required,52,Met Standard,65,Improvement Required,54,Improvement Required,59,false
+NORTH EAST ISD,WILSHIRE EL,BEXAR,'EE - 05,87.9,Met Standard,82,Met Standard,71,Met Standard,85,Met Standard,78,Met Standard,76,false
+NORTH EAST ISD,WINDCREST EL,BEXAR,'KG - 05,72.5,Met Standard,66,Met Standard,62,Met Standard,67,Met Standard,60,Met Standard,65,false
+NORTH EAST ISD,CAMELOT EL,BEXAR,'EE - 05,90.9,Met Standard,84,Met Standard,67,Met Standard,88,Met Standard,74,Met Standard,76,false
+NORTH EAST ISD,CLEAR SPRING EL,BEXAR,'KG - 05,87.7,Met Standard,77,Improvement Required,58,Met Standard,79,Met Standard,60,Met Standard,72,false
+NORTH EAST ISD,REGENCY PLACE EL,BEXAR,'KG - 05,81.9,Met Standard,78,Met Standard,70,Met Standard,79,Met Standard,75,Met Standard,76,false
+NORTH EAST ISD,EL DORADO EL,BEXAR,'PK - 05,80.6,Met Standard,75,Improvement Required,58,Met Standard,75,Improvement Required,59,Met Standard,74,false
+NORTH EAST ISD,MONTGOMERY EL,BEXAR,'EE - 05,91,Met Standard,66,Met Standard,60,Met Standard,65,Met Standard,67,Met Standard,62,false
+NORTH EAST ISD,HIDDEN FOREST EL,BEXAR,'KG - 05,16.4,Met Standard,94,Met Standard,92,Met Standard,89,Met Standard,81,Met Standard,100,false
+NORTH EAST ISD,WOODSTONE EL,BEXAR,'KG - 05,65.1,Met Standard,64,Met Standard,65,Met Standard,65,Met Standard,62,Met Standard,62,false
+NORTH EAST ISD,STAHL EL,BEXAR,'KG - 05,61,Met Standard,67,Met Standard,67,Met Standard,67,Met Standard,60,Met Standard,66,false
+NORTH EAST ISD,THOUSAND OAKS EL,BEXAR,'KG - 05,44.6,Met Standard,84,Met Standard,77,Met Standard,80,Met Standard,72,Met Standard,94,false
+NORTH EAST ISD,NORTHERN HILLS EL,BEXAR,'PK - 05,69.9,Improvement Required,58,Met Standard,65,Improvement Required,58,Met Standard,65,Improvement Required,43,false
+NORTH EAST ISD,REDLAND OAKS EL,BEXAR,'EE - 05,29.4,Met Standard,84,Met Standard,88,Met Standard,74,Met Standard,75,Met Standard,75,false
+NORTH EAST ISD,ENCINO PARK EL,BEXAR,'EE - 05,17.6,Met Standard,95,Met Standard,93,Met Standard,85,Met Standard,84,Met Standard,100,false
+NORTH EAST ISD,FOX RUN EL,BEXAR,'EE - 05,57.7,Met Standard,82,Met Standard,80,Met Standard,74,Met Standard,83,Met Standard,78,false
+NORTH EAST ISD,OAK MEADOW EL,BEXAR,'EE - 05,33.6,Met Standard,90,Met Standard,85,Met Standard,77,Met Standard,75,Met Standard,100,false
+NORTH EAST ISD,STONE OAK EL,BEXAR,'EE - 05,22.4,Met Standard,89,Met Standard,91,Met Standard,74,Met Standard,80,Met Standard,84,false
+NORTH EAST ISD,LONGS CREEK EL,BEXAR,'EE - 05,33.3,Met Standard,94,Met Standard,91,Met Standard,83,Met Standard,84,Met Standard,100,false
+NORTH EAST ISD,HUEBNER EL,BEXAR,'EE - 05,24.2,Met Standard,82,Met Standard,85,Met Standard,67,Met Standard,67,Met Standard,76,false
+NORTH EAST ISD,HARDY OAK EL,BEXAR,'EE - 05,6.8,Met Standard,96,Met Standard,94,Met Standard,92,Met Standard,82,Met Standard,100,false
+NORTH EAST ISD,WETMORE EL,BEXAR,'EE - 05,42.9,Met Standard,75,Met Standard,75,Met Standard,74,Met Standard,65,Met Standard,76,false
+NORTH EAST ISD,ROYAL RIDGE EL,BEXAR,'PK - 05,58.9,Met Standard,70,Met Standard,71,Met Standard,65,Met Standard,67,Met Standard,66,false
+NORTH EAST ISD,ROAN FOREST EL,BEXAR,'EE - 05,30.3,Met Standard,93,Met Standard,92,Met Standard,88,Met Standard,86,Met Standard,94,false
+NORTH EAST ISD,CANYON RIDGE EL,BEXAR,'EE - 05,15.2,Met Standard,94,Met Standard,91,Met Standard,86,Met Standard,72,Met Standard,100,false
+NORTH EAST ISD,STEUBING RANCH EL,BEXAR,'KG - 05,50.8,Met Standard,81,Met Standard,82,Met Standard,80,Met Standard,81,Met Standard,80,false
+NORTH EAST ISD,BULVERDE CREEK,BEXAR,'EE - 05,25.8,Met Standard,90,Met Standard,91,Met Standard,80,Met Standard,82,Met Standard,88,false
+NORTH EAST ISD,WILDERNESS OAK EL,BEXAR,'KG - 05,10.9,Met Standard,97,Met Standard,95,Met Standard,92,Met Standard,86,Met Standard,100,false
+NORTH EAST ISD,TUSCANY HEIGHTS,BEXAR,'KG - 05,11.8,Met Standard,93,Met Standard,92,Met Standard,82,Met Standard,72,Met Standard,94,false
+NORTH EAST ISD,CIBOLO GREEN,BEXAR,'KG - 05,15.5,Met Standard,94,Met Standard,92,Met Standard,90,Met Standard,75,Met Standard,100,false
+NORTH EAST ISD,LAS LOMAS EL,BEXAR,'PK - 05,20.2,Met Standard,93,Met Standard,91,Met Standard,83,Met Standard,79,Met Standard,98,false
+NORTH EAST ISD,VINEYARD RANCH EL,BEXAR,'PK - 05,10.8,Met Standard,91,Met Standard,92,Met Standard,83,Met Standard,75,Met Standard,88,false
+NORTH EAST ISD,ALTERNATIVE EL,BEXAR,'03 - 05,100,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+NORTH EAST ISD,NEISD - PK4SA,BEXAR,'PK - PK,81.9,Met Standard,85,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,false
+EAST CENTRAL ISD,EAST CENTRAL H S,BEXAR,'09 - 12,56.8,Met Standard,72,Met Standard,73,Improvement Required,57,Met Standard,72,Met Standard,70,false
+EAST CENTRAL ISD,EAST CENTRAL CHOICE PROGAM,BEXAR,'06 - 12,70.6,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+EAST CENTRAL ISD,BEXAR CO J J A E P,BEXAR,'07 - 12,25,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+EAST CENTRAL ISD,BEXAR COUNTY LRN CTR,BEXAR,'07 - 12,80.7,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+EAST CENTRAL ISD,OAK CREST INT,BEXAR,'04 - 05,64.2,Met Standard,67,Met Standard,60,Met Standard,67,Improvement Required,57,Met Standard,68,false
+EAST CENTRAL ISD,SALADO INT,BEXAR,'04 - 05,73.6,Met Standard,61,Improvement Required,54,Met Standard,60,Improvement Required,54,Met Standard,63,false
+EAST CENTRAL ISD,EAST CENTRAL HERITAGE MIDDLE,BEXAR,'06 - 08,60.2,Met Standard,63,Met Standard,62,Improvement Required,58,Improvement Required,57,Met Standard,64,false
+EAST CENTRAL ISD,LEGACY MIDDLE,BEXAR,'06 - 08,70.8,Improvement Required,58,Improvement Required,54,Improvement Required,57,Improvement Required,54,Met Standard,61,false
+EAST CENTRAL ISD,JOHN GLENN EL,BEXAR,'EE - 03,54.8,Met Standard,62,Met Standard,65,Not Rated,,Improvement Required,58,Improvement Required,56,false
+EAST CENTRAL ISD,HARMONY EL,BEXAR,'KG - 03,72.1,Improvement Required,54,Met Standard,64,Not Rated,,Met Standard,63,Improvement Required,30,false
+EAST CENTRAL ISD,PECAN VALLEY EL,BEXAR,'EE - 03,78.6,Met Standard,67,Met Standard,65,Not Rated,,Met Standard,69,Met Standard,62,false
+EAST CENTRAL ISD,SINCLAIR EL,BEXAR,'KG - 03,68.7,Met Standard,60,Improvement Required,59,Not Rated,,Improvement Required,57,Met Standard,63,false
+EAST CENTRAL ISD,EAST CENTRAL DEV CTR,BEXAR,'EE - PK,90.2,Met Standard,60,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,false
+EAST CENTRAL ISD,HIGHLAND FOREST EL,BEXAR,'KG - 03,71.6,Improvement Required,55,Improvement Required,55,Not Rated,,Improvement Required,54,Improvement Required,56,false
+EAST CENTRAL ISD,PRE/K FOR SA - EAST CENTRAL ISD,BEXAR,'PK - PK,97.1,Met Standard,60,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,false
+SOUTHWEST ISD,SOUTHWEST H S,BEXAR,'09 - 12,72,Met Standard,71,Met Standard,73,Met Standard,63,Met Standard,70,Met Standard,66,false
+SOUTHWEST ISD,SOUTHWEST LEGACY H S,BEXAR,'09 - 11,85.4,Met Standard,61,Met Standard,60,Improvement Required,59,Met Standard,70,Improvement Required,39,false
+SOUTHWEST ISD,SOUTHWEST ACADEMY,BEXAR,'09 - 12,84.8,Improvement Required,59,Met Alternative Standard,72,Not Rated,,Not Rated,,Improvement Required,30,false
+SOUTHWEST ISD,RONALD E MCNAIR MIDDLE,BEXAR,'06 - 08,75.3,Met Standard,67,Met Standard,69,Improvement Required,57,Met Standard,75,Improvement Required,47,false
+SOUTHWEST ISD,SHARON CHRISTA MCAULIFFE MIDDLE,BEXAR,'06 - 08,96.5,Improvement Required,59,Improvement Required,58,Improvement Required,56,Met Standard,69,Improvement Required,59,false
+SOUTHWEST ISD,FRANCIS R SCOBEE MIDDLE,BEXAR,'06 - 08,74.5,Met Standard,75,Met Standard,72,Improvement Required,58,Met Standard,79,Met Standard,65,false
+SOUTHWEST ISD,JUDITH A RESNIK MIDDLE,BEXAR,'06 - 08,87,Met Standard,77,Met Standard,71,Improvement Required,59,Met Standard,81,Met Standard,68,false
+SOUTHWEST ISD,SOUTHWEST EL,BEXAR,'EE - 05,72.1,Met Standard,85,Met Standard,78,Met Standard,83,Met Standard,85,Met Standard,85,false
+SOUTHWEST ISD,SUN VALLEY EL,BEXAR,'EE - 05,74.7,Met Standard,81,Met Standard,75,Met Standard,75,Met Standard,81,Met Standard,81,false
+SOUTHWEST ISD,INDIAN CREEK EL,BEXAR,'EE - 05,95.5,Met Standard,79,Met Standard,72,Met Standard,69,Met Standard,80,Met Standard,78,false
+SOUTHWEST ISD,BOB HOPE EL,BEXAR,'PK - 05,88.8,Met Standard,82,Met Standard,74,Met Standard,79,Met Standard,83,Met Standard,79,false
+SOUTHWEST ISD,SKY HARBOUR EL,BEXAR,'EE - 05,97.2,Met Standard,81,Met Standard,74,Met Standard,70,Met Standard,84,Met Standard,75,false
+SOUTHWEST ISD,HIDDEN COVE EL,BEXAR,'PK - 05,99.1,Met Standard,74,Met Standard,67,Met Standard,65,Met Standard,75,Met Standard,72,false
+SOUTHWEST ISD,BIG COUNTRY EL,BEXAR,'EE - 05,73.7,Met Standard,91,Met Standard,85,Met Standard,85,Met Standard,89,Met Standard,96,false
+SOUTHWEST ISD,ELM CREEK EL,BEXAR,'EE - 05,76.5,Met Standard,92,Met Standard,85,Met Standard,82,Met Standard,90,Met Standard,96,false
+SOUTHWEST ISD,KRIEWALD RD EL,BEXAR,'EE - 05,73.8,Met Standard,90,Met Standard,80,Met Standard,89,Met Standard,86,Met Standard,92,false
+SOUTHWEST ISD,SPICEWOOD PARK EL,BEXAR,'EE - 05,95,Met Standard,73,Met Standard,67,Met Standard,67,Met Standard,75,Met Standard,68,false
+SOUTHWEST ISD,MEDIO CREEK EL,BEXAR,'EE - 05,91.9,Met Standard,82,Met Standard,75,Met Standard,67,Met Standard,84,Met Standard,76,false
+LACKLAND ISD,VIRGINIA ALLRED STACEY JR/SR H S,BEXAR,'06 - 12,23.9,Met Standard,90,Met Standard,86,Met Standard,86,Met Standard,66,Met Standard,100,false
+LACKLAND ISD,LACKLAND EL,BEXAR,'EE - 05,29.2,Met Standard,82,Met Standard,83,Met Standard,74,Met Standard,70,Met Standard,78,false
+FT SAM HOUSTON ISD,ROBERT G COLE MIDDLE/HIGH SCHOOL,BEXAR,'06 - 12,25.7,Met Standard,89,Met Standard,89,Met Standard,81,Met Standard,73,Met Standard,89,false
+FT SAM HOUSTON ISD,FT SAM HOUSTON EL,BEXAR,'EE - 05,33,Met Standard,84,Met Standard,86,Met Standard,79,Met Standard,75,Met Standard,79,false
+NORTHSIDE ISD,HOLMES H S,BEXAR,'09 - 12,77.3,Met Standard,79,Met Standard,80,Met Standard,78,Met Standard,81,Met Standard,74,false
+NORTHSIDE ISD,JAY H S,BEXAR,'09 - 12,71.8,Met Standard,71,Met Standard,69,Met Standard,68,Met Standard,73,Met Standard,67,false
+NORTHSIDE ISD,MARSHALL H S,BEXAR,'09 - 12,40.7,Met Standard,83,Met Standard,83,Met Standard,76,Met Standard,76,Met Standard,82,false
+NORTHSIDE ISD,HOLMGREEN CENTER,BEXAR,'01 - 12,43.2,Improvement Required,52,Improvement Required,52,Not Rated,,Improvement Required,47,Not Rated,,false
+NORTHSIDE ISD,CLARK H S,BEXAR,'09 - 12,28.1,Met Standard,90,Met Standard,91,Met Standard,82,Met Standard,81,Met Standard,87,false
+NORTHSIDE ISD,HEALTH CAREERS H S,BEXAR,'09 - 12,20,Met Standard,99,Met Standard,98,Met Standard,91,Met Standard,96,Met Standard,100,false
+NORTHSIDE ISD,TAFT H S,BEXAR,'09 - 12,35.5,Met Standard,83,Met Standard,85,Met Standard,73,Met Standard,73,Met Standard,77,false
+NORTHSIDE ISD,ALTERNATIVE H S,BEXAR,'09 - 12,73.4,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+NORTHSIDE ISD,CHAVEZ EXCEL ACADEMY,BEXAR,'12 - 12,63.4,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+NORTHSIDE ISD,REDDIX CENTER,BEXAR,'EE - 12,35.2,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+NORTHSIDE ISD,O'CONNOR H S,BEXAR,'09 - 12,19.7,Met Standard,91,Met Standard,90,Met Standard,80,Met Standard,71,Met Standard,94,false
+NORTHSIDE ISD,WARREN H S,BEXAR,'09 - 12,39.3,Met Standard,87,Met Standard,87,Met Standard,83,Met Standard,79,Met Standard,88,false
+NORTHSIDE ISD,STEVENS H S,BEXAR,'09 - 12,46.3,Met Standard,74,Met Standard,75,Met Standard,69,Met Standard,68,Met Standard,72,false
+NORTHSIDE ISD,BRANDEIS H S,BEXAR,'09 - 12,21.9,Met Standard,91,Met Standard,92,Met Standard,81,Met Standard,77,Met Standard,88,false
+NORTHSIDE ISD,BRENNAN H S,BEXAR,'09 - 12,30.2,Met Standard,85,Met Standard,85,Met Standard,84,Met Standard,71,Met Standard,85,false
+NORTHSIDE ISD,HARLAN H S,BEXAR,'09 - 11,32.4,Met Standard,91,Met Standard,91,Met Standard,85,Met Standard,83,Met Standard,90,false
+NORTHSIDE ISD,DAEP AT HOLMGREEN,BEXAR,'01 - 11,100,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+NORTHSIDE ISD,NISD BEXAR COUNTY JJA,BEXAR,'08 - 12,12.5,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+NORTHSIDE ISD,NEFF MIDDLE,BEXAR,'06 - 08,78.6,Met Standard,72,Met Standard,67,Met Standard,66,Met Standard,74,Met Standard,67,false
+NORTHSIDE ISD,RAYBURN MIDDLE,BEXAR,'06 - 08,79.1,Met Standard,76,Met Standard,71,Met Standard,69,Met Standard,79,Met Standard,70,false
+NORTHSIDE ISD,ROSS MIDDLE,BEXAR,'06 - 08,83.8,Met Standard,82,Met Standard,75,Met Standard,72,Met Standard,85,Met Standard,76,false
+NORTHSIDE ISD,JONES MIDDLE,BEXAR,'06 - 08,89.2,Met Standard,71,Met Standard,62,Met Standard,69,Met Standard,72,Met Standard,68,false
+NORTHSIDE ISD,HOBBY MIDDLE,BEXAR,'06 - 08,55.3,Met Standard,81,Met Standard,80,Met Standard,75,Met Standard,82,Met Standard,79,false
+NORTHSIDE ISD,PEASE MIDDLE,BEXAR,'06 - 08,71.4,Met Standard,70,Met Standard,70,Met Standard,66,Met Standard,74,Met Standard,62,false
+NORTHSIDE ISD,STEVENSON MIDDLE,BEXAR,'06 - 08,36,Met Standard,80,Met Standard,81,Met Standard,66,Met Standard,69,Met Standard,78,false
+NORTHSIDE ISD,RUDDER MIDDLE,BEXAR,'06 - 08,69.3,Met Standard,78,Met Standard,75,Met Standard,70,Met Standard,81,Met Standard,72,false
+NORTHSIDE ISD,ZACHRY MIDDLE,BEXAR,'06 - 08,69.2,Met Standard,79,Met Standard,75,Improvement Required,59,Met Standard,82,Met Standard,73,false
+NORTHSIDE ISD,STINSON MIDDLE,BEXAR,'06 - 08,38.2,Met Standard,82,Met Standard,84,Met Standard,70,Met Standard,77,Met Standard,78,false
+NORTHSIDE ISD,JORDAN MIDDLE,BEXAR,'06 - 08,49.6,Met Standard,79,Met Standard,79,Met Standard,63,Met Standard,77,Met Standard,78,false
+NORTHSIDE ISD,CONNALLY MIDDLE,BEXAR,'06 - 08,43.1,Met Standard,79,Met Standard,80,Met Standard,72,Met Standard,75,Met Standard,75,false
+NORTHSIDE ISD,RAWLINSON MIDDLE,BEXAR,'06 - 08,30.6,Met Standard,84,Met Standard,87,Met Standard,70,Met Standard,77,Met Standard,78,false
+NORTHSIDE ISD,LUNA MIDDLE,BEXAR,'06 - 08,38.3,Met Standard,79,Met Standard,80,Met Standard,72,Met Standard,70,Met Standard,78,false
+NORTHSIDE ISD,JEFFERSON MIDDLE,BEXAR,'06 - 08,33.7,Met Standard,85,Met Standard,86,Met Standard,75,Met Standard,79,Met Standard,84,false
+NORTHSIDE ISD,VALE MIDDLE,BEXAR,'06 - 08,47.1,Met Standard,75,Met Standard,75,Met Standard,63,Met Standard,69,Met Standard,74,false
+NORTHSIDE ISD,GARCIA MIDDLE,BEXAR,'06 - 08,10.9,Met Standard,93,Met Standard,93,Met Standard,84,Met Standard,80,Met Standard,92,false
+NORTHSIDE ISD,BRISCOE MIDDLE,BEXAR,'06 - 08,21,Met Standard,88,Met Standard,90,Met Standard,75,Met Standard,72,Met Standard,83,false
+NORTHSIDE ISD,FOLKS MIDDLE,BEXAR,'06 - 08,26.1,Met Standard,88,Met Standard,88,Met Standard,77,Met Standard,75,Met Standard,87,false
+NORTHSIDE ISD,BERNAL MIDDLE,BEXAR,'06 - 08,24.7,Met Standard,85,Met Standard,86,Met Standard,75,Met Standard,69,Met Standard,82,false
+NORTHSIDE ISD,ALTERNATIVE MIDDLE,BEXAR,'06 - 08,84.6,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+NORTHSIDE ISD,CABLE EL,BEXAR,'EE - 05,93.1,Met Standard,74,Met Standard,60,Met Standard,74,Met Standard,67,Met Standard,75,false
+NORTHSIDE ISD,GLENN EL,BEXAR,'EE - 05,86.1,Met Standard,73,Improvement Required,59,Met Standard,72,Met Standard,63,Met Standard,74,false
+NORTHSIDE ISD,GLENOAKS EL,BEXAR,'EE - 05,74.8,Met Standard,76,Met Standard,72,Met Standard,62,Met Standard,77,Met Standard,74,false
+NORTHSIDE ISD,HELOTES EL,BEXAR,'KG - 05,14.3,Met Standard,94,Met Standard,91,Met Standard,86,Met Standard,70,Met Standard,100,false
+NORTHSIDE ISD,HULL EL,BEXAR,'EE - 05,92.1,Met Standard,80,Met Standard,60,Met Standard,83,Met Standard,67,Met Standard,74,false
+NORTHSIDE ISD,ALLEN EL,BEXAR,'EE - 05,91.6,Met Standard,89,Met Standard,75,Met Standard,91,Met Standard,84,Met Standard,85,false
+NORTHSIDE ISD,FISHER EL,BEXAR,'EE - 05,66.8,Met Standard,77,Met Standard,74,Met Standard,74,Met Standard,77,Met Standard,78,false
+NORTHSIDE ISD,LEON VALLEY EL,BEXAR,'EE - 05,72.7,Met Standard,88,Met Standard,76,Met Standard,85,Met Standard,82,Met Standard,94,false
+NORTHSIDE ISD,LOCKE HILL EL,BEXAR,'EE - 05,48.1,Met Standard,76,Met Standard,79,Improvement Required,59,Met Standard,79,Met Standard,70,false
+NORTHSIDE ISD,GLASS EL,BEXAR,'EE - 05,77.6,Met Standard,85,Met Standard,72,Met Standard,89,Met Standard,77,Met Standard,77,false
+NORTHSIDE ISD,POWELL EL,BEXAR,'EE - 05,72.1,Met Standard,75,Met Standard,72,Met Standard,69,Met Standard,75,Met Standard,74,false
+NORTHSIDE ISD,VALLEY HI EL,BEXAR,'EE - 05,78.9,Met Standard,90,Met Standard,77,Met Standard,91,Met Standard,85,Met Standard,88,false
+NORTHSIDE ISD,WESTWOOD TERRACE EL,BEXAR,'EE - 05,95,Met Standard,77,Met Standard,70,Met Standard,69,Met Standard,78,Met Standard,74,false
+NORTHSIDE ISD,COLONIES NORTH EL,BEXAR,'EE - 05,75.3,Met Standard,78,Met Standard,72,Met Standard,79,Met Standard,76,Met Standard,75,false
+NORTHSIDE ISD,VILLARREAL EL,BEXAR,'EE - 05,81.3,Met Standard,75,Met Standard,70,Met Standard,72,Met Standard,75,Met Standard,75,false
+NORTHSIDE ISD,MEADOW VILLAGE EL,BEXAR,'EE - 05,86.5,Met Standard,68,Improvement Required,56,Met Standard,69,Improvement Required,57,Met Standard,67,false
+NORTHSIDE ISD,OAK HILLS TERRACE EL,BEXAR,'EE - 05,70.9,Met Standard,68,Improvement Required,55,Met Standard,69,Improvement Required,54,Met Standard,67,false
+NORTHSIDE ISD,HOWSMAN EL,BEXAR,'EE - 05,69.9,Met Standard,80,Met Standard,75,Met Standard,79,Met Standard,80,Met Standard,79,false
+NORTHSIDE ISD,PASSMORE EL,BEXAR,'EE - 05,90.1,Met Standard,81,Met Standard,72,Met Standard,82,Met Standard,80,Met Standard,77,false
+NORTHSIDE ISD,ADAMS HILL EL,BEXAR,'EE - 05,79.3,Met Standard,78,Met Standard,70,Met Standard,80,Met Standard,74,Met Standard,74,false
+NORTHSIDE ISD,ESPARZA EL,BEXAR,'EE - 05,72.6,Met Standard,76,Met Standard,67,Met Standard,77,Met Standard,69,Met Standard,74,false
+NORTHSIDE ISD,BOONE EL,BEXAR,'EE - 05,66.8,Met Standard,76,Met Standard,70,Met Standard,77,Met Standard,69,Met Standard,75,false
+NORTHSIDE ISD,CARLOS COON EL,BEXAR,'EE - 05,72.8,Met Standard,75,Met Standard,70,Met Standard,75,Met Standard,72,Met Standard,75,false
+NORTHSIDE ISD,MURNIN EL,BEXAR,'EE - 05,59.9,Met Standard,77,Met Standard,76,Met Standard,74,Met Standard,77,Met Standard,78,false
+NORTHSIDE ISD,LINTON EL,BEXAR,'EE - 05,85.5,Met Standard,83,Met Standard,77,Met Standard,80,Met Standard,85,Met Standard,79,false
+NORTHSIDE ISD,TIMBERWILDE EL,BEXAR,'EE - 05,65.1,Met Standard,81,Met Standard,77,Met Standard,72,Met Standard,82,Met Standard,79,false
+NORTHSIDE ISD,BRAUN STATION EL,BEXAR,'EE - 05,33.5,Met Standard,83,Met Standard,82,Met Standard,85,Met Standard,72,Met Standard,79,false
+NORTHSIDE ISD,CODY EL,BEXAR,'EE - 05,74.5,Met Standard,69,Met Standard,69,Met Standard,65,Met Standard,70,Met Standard,67,false
+NORTHSIDE ISD,NORTHWEST CROSSING EL,BEXAR,'EE - 05,55.2,Met Standard,80,Met Standard,74,Met Standard,80,Met Standard,72,Met Standard,79,false
+NORTHSIDE ISD,KNOWLTON EL,BEXAR,'EE - 05,77.5,Met Standard,87,Met Standard,75,Met Standard,88,Met Standard,82,Met Standard,86,false
+NORTHSIDE ISD,FORESTER EL,BEXAR,'EE - 05,48.7,Met Standard,86,Met Standard,78,Met Standard,83,Met Standard,77,Met Standard,92,false
+NORTHSIDE ISD,SCOBEE EL,BEXAR,'EE - 05,42.1,Met Standard,92,Met Standard,88,Met Standard,83,Met Standard,82,Met Standard,100,false
+NORTHSIDE ISD,GALM EL,BEXAR,'EE - 05,42.6,Met Standard,77,Met Standard,77,Met Standard,77,Met Standard,70,Met Standard,77,false
+NORTHSIDE ISD,ELROD EL,BEXAR,'EE - 05,45.9,Met Standard,79,Met Standard,77,Met Standard,72,Met Standard,73,Met Standard,82,false
+NORTHSIDE ISD,WANKE EL,BEXAR,'EE - 05,40.7,Met Standard,79,Met Standard,76,Met Standard,79,Met Standard,66,Met Standard,80,false
+NORTHSIDE ISD,THORNTON EL,BEXAR,'EE - 05,41.2,Met Standard,79,Met Standard,77,Met Standard,75,Met Standard,69,Met Standard,84,false
+NORTHSIDE ISD,BRAUCHLE EL,BEXAR,'EE - 05,65.2,Met Standard,86,Met Standard,79,Met Standard,83,Met Standard,84,Met Standard,90,false
+NORTHSIDE ISD,FERNANDEZ EL,BEXAR,'EE - 05,50.7,Met Standard,81,Met Standard,82,Met Standard,72,Met Standard,81,Met Standard,79,false
+NORTHSIDE ISD,LEON SPRINGS EL,BEXAR,'EE - 05,12,Met Standard,94,Met Standard,92,Met Standard,91,Met Standard,77,Met Standard,100,false
+NORTHSIDE ISD,EVERS EL,BEXAR,'EE - 05,48.8,Met Standard,80,Met Standard,73,Met Standard,80,Met Standard,66,Met Standard,80,false
+NORTHSIDE ISD,MAY EL,BEXAR,'EE - 05,36.4,Met Standard,80,Met Standard,79,Met Standard,74,Met Standard,70,Met Standard,81,false
+NORTHSIDE ISD,MCDERMOTT EL,BEXAR,'EE - 05,73.6,Met Standard,78,Met Standard,67,Met Standard,79,Met Standard,69,Met Standard,76,false
+NORTHSIDE ISD,MYERS EL,BEXAR,'EE - 05,67,Met Standard,73,Met Standard,72,Improvement Required,59,Met Standard,74,Met Standard,69,false
+NORTHSIDE ISD,STEUBING EL,BEXAR,'EE - 05,32.2,Met Standard,92,Met Standard,88,Met Standard,90,Met Standard,77,Met Standard,98,false
+NORTHSIDE ISD,MICHAEL EL,BEXAR,'EE - 05,68,Met Standard,66,Met Standard,62,Met Standard,67,Improvement Required,59,Met Standard,63,false
+NORTHSIDE ISD,CARSON EL,BEXAR,'EE - 05,31,Met Standard,93,Met Standard,90,Met Standard,86,Met Standard,80,Met Standard,100,false
+NORTHSIDE ISD,BURKE EL,BEXAR,'EE - 05,76.3,Met Standard,94,Met Standard,90,Met Standard,90,Met Standard,91,Met Standard,100,false
+NORTHSIDE ISD,RABA EL,BEXAR,'EE - 05,40.1,Met Standard,93,Met Standard,90,Met Standard,91,Met Standard,83,Met Standard,96,false
+NORTHSIDE ISD,LEWIS EL,BEXAR,'EE - 05,42.9,Met Standard,86,Met Standard,80,Met Standard,83,Met Standard,75,Met Standard,92,false
+NORTHSIDE ISD,RHODES EL,BEXAR,'EE - 05,63.7,Met Standard,83,Met Standard,74,Met Standard,82,Met Standard,76,Met Standard,84,false
+NORTHSIDE ISD,NICHOLS EL,BEXAR,'EE - 05,38.3,Met Standard,80,Met Standard,82,Met Standard,67,Met Standard,75,Met Standard,75,false
+NORTHSIDE ISD,DRIGGERS EL,BEXAR,'EE - 05,71.6,Met Standard,79,Met Standard,76,Met Standard,62,Met Standard,81,Met Standard,73,false
+NORTHSIDE ISD,CARNAHAN EL,BEXAR,'EE - 05,60.4,Met Standard,75,Met Standard,72,Met Standard,74,Met Standard,72,Met Standard,76,false
+NORTHSIDE ISD,AUE EL,BEXAR,'EE - 05,7.9,Met Standard,89,Met Standard,91,Met Standard,79,Met Standard,66,Met Standard,84,false
+NORTHSIDE ISD,SCARBOROUGH EL,BEXAR,'EE - 05,32.8,Met Standard,90,Met Standard,85,Met Standard,83,Met Standard,74,Met Standard,100,false
+NORTHSIDE ISD,BEARD EL,BEXAR,'EE - 05,9.2,Met Standard,94,Met Standard,92,Met Standard,86,Met Standard,75,Met Standard,100,false
+NORTHSIDE ISD,BLATTMAN EL,BEXAR,'EE - 05,8,Met Standard,95,Met Standard,93,Met Standard,90,Met Standard,80,Met Standard,100,false
+NORTHSIDE ISD,OTT EL,BEXAR,'EE - 05,41.9,Met Standard,78,Met Standard,76,Met Standard,77,Met Standard,67,Met Standard,79,false
+NORTHSIDE ISD,WARD EL,BEXAR,'EE - 05,51.8,Met Standard,86,Met Standard,82,Met Standard,82,Met Standard,82,Met Standard,96,false
+NORTHSIDE ISD,HATCHETT EL,BEXAR,'EE - 05,66.1,Met Standard,74,Met Standard,73,Met Standard,65,Met Standard,75,Met Standard,71,false
+NORTHSIDE ISD,MEAD EL,BEXAR,'EE - 05,86.7,Met Standard,78,Met Standard,70,Met Standard,79,Met Standard,76,Met Standard,75,false
+NORTHSIDE ISD,KRUEGER EL,BEXAR,'EE - 05,26,Met Standard,94,Met Standard,92,Met Standard,82,Met Standard,83,Met Standard,100,false
+NORTHSIDE ISD,LANGLEY EL,BEXAR,'EE - 05,33.8,Met Standard,83,Met Standard,85,Met Standard,74,Met Standard,75,Met Standard,79,false
+NORTHSIDE ISD,HOFFMANN EL,BEXAR,'EE - 05,23.8,Met Standard,87,Met Standard,85,Met Standard,82,Met Standard,66,Met Standard,92,false
+NORTHSIDE ISD,MARTIN EL,BEXAR,'EE - 05,91.2,Improvement Required,58,Improvement Required,54,Improvement Required,59,Improvement Required,56,Improvement Required,54,false
+NORTHSIDE ISD,KUENTZ EL,BEXAR,'EE - 05,16.1,Met Standard,92,Met Standard,88,Met Standard,77,Met Standard,62,Met Standard,100,false
+NORTHSIDE ISD,BEHLAU EL,BEXAR,'EE - 05,40.7,Met Standard,69,Met Standard,72,Met Standard,60,Improvement Required,58,Met Standard,62,false
+NORTHSIDE ISD,FRANKLIN EL,BEXAR,'EE - 05,34.4,Met Standard,91,Met Standard,90,Met Standard,79,Met Standard,82,Met Standard,92,false
+NORTHSIDE ISD,MIRELES EL,BEXAR,'EE - 05,21.9,Met Standard,91,Met Standard,91,Met Standard,79,Met Standard,75,Met Standard,90,false
+NORTHSIDE ISD,HENDERSON EL,BEXAR,'EE - 05,35.3,Met Standard,86,Met Standard,82,Met Standard,80,Met Standard,72,Met Standard,94,false
+NORTHSIDE ISD,KALLISON EL,BEXAR,'EE - 05,23.4,Met Standard,94,Met Standard,91,Met Standard,91,Met Standard,77,Met Standard,100,false
+NORTHSIDE ISD,LIECK EL,BEXAR,'EE - 05,33.8,Met Standard,86,Met Standard,80,Met Standard,83,Met Standard,70,Met Standard,94,false
+NORTHSIDE ISD,FIELDS EL,BEXAR,'EE - 05,43.6,Met Standard,82,Met Standard,83,Met Standard,75,Met Standard,80,Met Standard,81,false
+NORTHSIDE ISD,BOLDT EL,BEXAR,'EE - 05,26.4,Met Standard,92,Met Standard,88,Met Standard,83,Met Standard,72,Met Standard,100,false
+NORTHSIDE ISD,COLE EL,BEXAR,'EE - 05,23.9,Met Standard,94,Met Standard,92,Met Standard,92,Met Standard,82,Met Standard,100,false
+NORTHSIDE ISD,MCANDREW EL,BEXAR,'KG - 05,5.8,Met Standard,95,Met Standard,93,Met Standard,89,Met Standard,78,Met Standard,100,false
+NORTHSIDE ISD,ELLISON EL,BEXAR,'EE - 05,22.5,Met Standard,91,Met Standard,90,Met Standard,80,Met Standard,72,Met Standard,92,false
+NORTHSIDE ISD,LOS REYES EL,BEXAR,'EE - 05,19.3,Met Standard,94,Met Standard,92,Met Standard,86,Met Standard,82,Met Standard,100,false
+NORTHSIDE ISD,PUPIL PERSONNEL CAMPUS,BEXAR,'KG - 06,40,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+NORTHSIDE ISD,NISD PKSA,BEXAR,'PK - PK,67.1,Met Standard,84,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,false
+JUDSON ISD,JUDSON H S,BEXAR,'09 - 12,54.6,Met Standard,68,Met Standard,69,Met Standard,60,Met Standard,70,Met Standard,63,false
+JUDSON ISD,JUDSON LEARNING ACAD,BEXAR,'10 - 12,42.9,Met Alternative Standard,87,Met Alternative Standard,87,Not Rated,,Not Rated,,Not Rated,,false
+JUDSON ISD,JUDSON CARE ACADEMY,BEXAR,'06 - 12,67.1,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+JUDSON ISD,BEXAR CO J J A E P,BEXAR,'09 - 09,0,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+JUDSON ISD,KAREN WAGNER H S,BEXAR,'09 - 12,71.6,Met Standard,69,Met Standard,67,Met Standard,70,Met Standard,69,Met Standard,66,false
+JUDSON ISD,JUDSON EARLY COLLEGE ACADEMY,BEXAR,'09 - 12,44.7,Met Standard,98,Met Standard,97,Met Standard,91,Met Standard,97,Met Standard,100,false
+JUDSON ISD,VETERANS MEMORIAL H S,BEXAR,'09 - 12,46.3,Met Standard,77,Met Standard,77,Met Standard,65,Met Standard,78,Met Standard,73,false
+JUDSON ISD,KIRBY MIDDLE,BEXAR,'06 - 08,83,Met Standard,62,Improvement Required,58,Improvement Required,59,Met Standard,63,Met Standard,61,false
+JUDSON ISD,KITTY HAWK MIDDLE,BEXAR,'06 - 08,49.8,Met Standard,77,Met Standard,78,Met Standard,69,Met Standard,75,Met Standard,73,false
+JUDSON ISD,WOODLAKE HILLS MIDDLE,BEXAR,'06 - 08,73.4,Met Standard,76,Met Standard,71,Met Standard,74,Met Standard,77,Met Standard,73,false
+JUDSON ISD,HENRY METZGER MIDDLE,BEXAR,'06 - 08,74.3,Met Standard,66,Met Standard,62,Improvement Required,59,Met Standard,66,Met Standard,65,false
+JUDSON ISD,JUDSON MIDDLE,BEXAR,'06 - 08,62.1,Met Standard,80,Met Standard,78,Met Standard,60,Met Standard,83,Met Standard,73,false
+JUDSON ISD,CONVERSE EL,BEXAR,'EE - 05,69.4,Met Standard,68,Met Standard,60,Met Standard,69,Improvement Required,59,Met Standard,64,false
+JUDSON ISD,HOPKINS EL,BEXAR,'EE - 05,85.9,Met Standard,78,Met Standard,72,Met Standard,67,Met Standard,80,Met Standard,73,false
+JUDSON ISD,ED FRANZ EL,BEXAR,'EE - 05,63.5,Met Standard,72,Met Standard,72,Met Standard,60,Met Standard,73,Met Standard,69,false
+JUDSON ISD,CORONADO VILLAGE EL,BEXAR,'PK - 05,58,Met Standard,76,Met Standard,77,Improvement Required,57,Met Standard,79,Met Standard,68,false
+JUDSON ISD,PARK VILLAGE EL,BEXAR,'EE - 05,84,Met Standard,74,Met Standard,62,Met Standard,75,Met Standard,67,Met Standard,73,false
+JUDSON ISD,CRESTVIEW EL,BEXAR,'PK - 05,59.4,Met Standard,94,Met Standard,92,Met Standard,82,Met Standard,92,Met Standard,100,false
+JUDSON ISD,WOODLAKE EL,BEXAR,'EE - 05,71.3,Met Standard,78,Met Standard,69,Met Standard,79,Met Standard,70,Met Standard,74,false
+JUDSON ISD,OLYMPIA EL,BEXAR,'EE - 05,41.8,Met Standard,77,Met Standard,79,Met Standard,74,Met Standard,74,Met Standard,73,false
+JUDSON ISD,SPRING MEADOWS EL,BEXAR,'EE - 05,71.7,Met Standard,85,Met Standard,70,Met Standard,88,Met Standard,72,Met Standard,78,false
+JUDSON ISD,MILLER POINT EL,BEXAR,'EE - 05,71.7,Met Standard,88,Met Standard,75,Met Standard,88,Met Standard,80,Met Standard,87,false
+JUDSON ISD,CANDLEWOOD EL,BEXAR,'EE - 05,83.4,Met Standard,71,Improvement Required,56,Met Standard,72,Improvement Required,58,Met Standard,69,false
+JUDSON ISD,ELOLF EL,BEXAR,'PK - 05,70.2,Met Standard,78,Met Standard,73,Met Standard,77,Met Standard,77,Met Standard,79,false
+JUDSON ISD,WILLIAM PASCHALL EL,BEXAR,'EE - 05,77.4,Met Standard,75,Met Standard,70,Met Standard,72,Met Standard,74,Met Standard,77,false
+JUDSON ISD,MARY LOU HARTMAN,BEXAR,'EE - 05,71.3,Met Standard,76,Met Standard,71,Met Standard,75,Met Standard,73,Met Standard,77,false
+JUDSON ISD,RICARDO SALINAS EL,BEXAR,'EE - 05,53.1,Met Standard,79,Met Standard,78,Met Standard,70,Met Standard,79,Met Standard,79,false
+JUDSON ISD,JAMES L MASTERS,BEXAR,'EE - 05,60.2,Met Standard,80,Met Standard,77,Met Standard,70,Met Standard,80,Met Standard,79,false
+JUDSON ISD,ROLLING MEADOWS EL,BEXAR,'PK - 05,34.4,Met Standard,84,Met Standard,86,Met Standard,69,Met Standard,77,Met Standard,78,false
+JUDSON ISD,COPPERFIELD EL,BEXAR,'EE - 05,56.2,Met Standard,89,Met Standard,78,Met Standard,90,Met Standard,80,Met Standard,86,false
+SOUTHSIDE ISD,SOUTHSIDE H S,BEXAR,'09 - 12,74.7,Met Standard,72,Met Standard,71,Met Standard,73,Met Standard,73,Met Standard,68,false
+SOUTHSIDE ISD,SOUTHSIDE ALTER CTR,BEXAR,'07 - 09,66.7,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+SOUTHSIDE ISD,JULIUS L MATTHEY MIDDLE,BEXAR,'07 - 08,83.4,Met Standard,80,Met Standard,64,Met Standard,83,Met Standard,72,Met Standard,72,false
+SOUTHSIDE ISD,W M PEARCE PRI,BEXAR,'PK - 04,83.5,Met Standard,65,Met Standard,64,Improvement Required,55,Met Standard,69,Improvement Required,56,false
+SOUTHSIDE ISD,LOSOYA INT,BEXAR,'05 - 06,86.8,Met Standard,68,Met Standard,60,Improvement Required,57,Met Standard,69,Met Standard,65,false
+SOUTHSIDE ISD,HERITAGE EL,BEXAR,'PK - 04,86.7,Met Standard,66,Improvement Required,56,Met Standard,67,Improvement Required,57,Met Standard,65,false
+SOUTHSIDE ISD,FREEDOM EL,BEXAR,'EE - 04,84.2,Met Standard,76,Met Standard,64,Met Standard,77,Met Standard,69,Met Standard,75,false
+SOUTHSIDE ISD,JULIAN C GALLARDO EL,BEXAR,'EE - 04,85.4,Improvement Required,55,Improvement Required,58,Improvement Required,56,Met Standard,60,Improvement Required,43,false
+MEADOWLAND CHARTER DISTRICT,OAKS ACADEMY,KENDALL,'01 - 12,89.2,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+MEADOWLAND CHARTER DISTRICT,LAKES ACADEMY,KENDALL,'02 - 11,98.1,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+BOERNE ISD,BOERNE H S,KENDALL,'09 - 12,18.2,Met Standard,92,Met Standard,93,Met Standard,80,Met Standard,79,Met Standard,89,false
+BOERNE ISD,BOERNE - SAMUEL V CHAMPION H S,KENDALL,'09 - 12,9.5,Met Standard,93,Met Standard,94,Met Standard,85,Met Standard,77,Met Standard,90,false
+BOERNE ISD,BOERNE MIDDLE NORTH,KENDALL,'06 - 08,26.7,Met Standard,89,Met Standard,90,Met Standard,86,Met Standard,79,Met Standard,87,false
+BOERNE ISD,BOERNE MIDDLE SOUTH,KENDALL,'06 - 08,11.3,Met Standard,92,Met Standard,92,Met Standard,86,Met Standard,77,Met Standard,91,false
+BOERNE ISD,CURINGTON EL,KENDALL,'PK - 05,33.1,Met Standard,83,Met Standard,83,Met Standard,75,Met Standard,73,Met Standard,83,false
+BOERNE ISD,FABRA EL,KENDALL,'EE - 05,36.5,Met Standard,91,Met Standard,89,Met Standard,83,Met Standard,81,Met Standard,96,false
+BOERNE ISD,FAIR OAKS RANCH EL,KENDALL,'EE - 05,6.3,Met Standard,95,Met Standard,93,Met Standard,91,Met Standard,79,Met Standard,100,false
+BOERNE ISD,KENDALL EL,KENDALL,'KG - 05,22.8,Met Standard,91,Met Standard,91,Met Standard,91,Met Standard,77,Met Standard,92,false
+BOERNE ISD,CIBOLO CREEK EL,KENDALL,'EE - 05,13.7,Met Standard,87,Met Standard,91,Met Standard,72,Met Standard,67,Met Standard,77,false
+COMFORT ISD,COMFORT H S,KENDALL,'09 - 12,41.6,Met Standard,80,Met Standard,83,Met Standard,73,Met Standard,76,Met Standard,74,false
+COMFORT ISD,COMFORT MIDDLE,KENDALL,'06 - 08,47.4,Met Standard,76,Met Standard,76,Met Standard,70,Met Standard,70,Met Standard,75,false
+COMFORT ISD,COMFORT EL,KENDALL,'EE - 05,66.4,Met Standard,88,Met Standard,77,Met Standard,89,Met Standard,81,Met Standard,86,false
+DEVINE ISD,DEVINE H S,MEDINA,'09 - 12,44.7,Met Standard,80,Met Standard,82,Met Standard,75,Met Standard,77,Met Standard,76,false
+DEVINE ISD,DEVINE DAEP SCHOOL,MEDINA,'12 - 12,50,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+DEVINE ISD,DEVINE MIDDLE,MEDINA,'06 - 08,55.3,Met Standard,71,Met Standard,75,Improvement Required,58,Met Standard,75,Met Standard,62,false
+DEVINE ISD,JOHN J CIAVARRA EL,MEDINA,'EE - 02,62.9,Met Standard,78,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,false
+DEVINE ISD,DEVINE INTERMEDIATE SCHOOL,MEDINA,'03 - 05,59.1,Met Standard,78,Met Standard,74,Met Standard,79,Met Standard,74,Met Standard,76,false
+D'HANIS ISD,D'HANIS SCHOOL,MEDINA,'PK - 12,60.8,Met Standard,88,Met Standard,86,Met Standard,72,Met Standard,84,Met Standard,92,false
+NATALIA ISD,NATALIA H S,MEDINA,'09 - 12,76.8,Met Standard,62,Met Standard,70,Improvement Required,55,Met Standard,71,Improvement Required,42,false
+NATALIA ISD,NATALIA J H,MEDINA,'06 - 08,76.1,Met Standard,63,Improvement Required,59,Met Standard,60,Met Standard,60,Met Standard,70,false
+NATALIA ISD,NATALIA EL,MEDINA,'02 - 05,84.1,Improvement Required,55,Improvement Required,55,Improvement Required,59,Improvement Required,56,Improvement Required,47,false
+NATALIA ISD,NATALIA EARLY CHILD CTR,MEDINA,'EE - 01,84.3,Improvement Required,55,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,false
+HONDO ISD,HONDO H S,MEDINA,'09 - 12,51.3,Met Standard,81,Met Standard,78,Met Standard,84,Met Standard,75,Met Standard,73,false
+HONDO ISD,MCDOWELL MIDDLE,MEDINA,'06 - 08,59.2,Met Standard,78,Met Standard,76,Met Standard,77,Met Standard,79,Met Standard,75,false
+HONDO ISD,MEYER EL,MEDINA,'EE - 02,73.1,Improvement Required,59,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,false
+HONDO ISD,NEWELL E WOOLLS INT,MEDINA,'03 - 05,62.4,Improvement Required,59,Met Standard,65,Improvement Required,57,Met Standard,60,Improvement Required,46,false
+MEDINA VALLEY ISD,MEDINA VALLEY H S,MEDINA,'09 - 12,48.5,Met Standard,89,Met Standard,90,Met Standard,83,Met Standard,85,Met Standard,88,false
+MEDINA VALLEY ISD,BEXAR COUNTY JUVENILE JUSTICE ACAD,MEDINA,'09 - 09,100,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+MEDINA VALLEY ISD,MEDINA VALLEY MIDDLE,MEDINA,'06 - 08,52.9,Met Standard,80,Met Standard,81,Met Standard,69,Met Standard,82,Met Standard,75,false
+MEDINA VALLEY ISD,CASTROVILLE EL,MEDINA,'PK - 05,55.3,Met Standard,92,Met Standard,90,Met Standard,80,Met Standard,89,Met Standard,96,false
+MEDINA VALLEY ISD,LACOSTE EL,MEDINA,'EE - 05,64.3,Met Standard,86,Met Standard,83,Met Standard,74,Met Standard,86,Met Standard,87,false
+MEDINA VALLEY ISD,POTRANCO EL,MEDINA,'PK - 05,46.1,Met Standard,86,Met Standard,83,Met Standard,79,Met Standard,81,Met Standard,92,false
+TRINITY CHARTER SCHOOL,TRINITY CHARTER SCHOOL,COMAL,'05 - 12,100,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+TRINITY CHARTER SCHOOL,TRINITY CHARTER SCHOOL,COMAL,'06 - 12,100,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+TRINITY CHARTER SCHOOL,PEGASUS SCHOOL,COMAL,'05 - 12,100,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+TRINITY CHARTER SCHOOL,BOKENKAMP,COMAL,'KG - 08,100,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+TRINITY CHARTER SCHOOL,AZLEWAY - CHAPEL HILL,COMAL,'02 - 12,100,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+TRINITY CHARTER SCHOOL,AZLEWAY - BIG SANDY,COMAL,'07 - 11,100,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+TRINITY CHARTER SCHOOL,AZLEWAY - WILLOW BEND,COMAL,'02 - 12,100,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+TRINITY CHARTER SCHOOL,NEW HOPE,COMAL,'07 - 08,100,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+NEW BRAUNFELS ISD,NEW BRAUNFELS H S,COMAL,'09 - 12,25.9,Met Standard,87,Met Standard,89,Met Standard,83,Met Standard,78,Met Standard,83,false
+NEW BRAUNFELS ISD,NEW BRAUNFELS H S NINTH GRADE CENT,COMAL,'09 - 10,27.3,Met Standard,86,Met Standard,90,Met Standard,65,Met Standard,79,Met Standard,77,false
+NEW BRAUNFELS ISD,THE NBISD LEARNING CENTER,COMAL,'09 - 12,39.6,Met Alternative Standard,79,Met Alternative Standard,79,Not Rated,,Not Rated,,Not Rated,,false
+NEW BRAUNFELS ISD,NEW BRAUNFELS MIDDLE,COMAL,'06 - 09,35.4,Met Standard,88,Met Standard,86,Met Standard,75,Met Standard,80,Met Standard,91,false
+NEW BRAUNFELS ISD,OAKRUN MIDDLE,COMAL,'06 - 08,33.1,Met Standard,86,Met Standard,87,Met Standard,80,Met Standard,80,Met Standard,85,false
+NEW BRAUNFELS ISD,LONE STAR EARLY CHILDHOOD CENTER,COMAL,'EE - PK,86.8,Met Standard,88,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,Not Rated: Paired Campus,,false
+NEW BRAUNFELS ISD,CARL SCHURZ EL,COMAL,'KG - 05,49.8,Met Standard,78,Met Standard,80,Met Standard,75,Met Standard,80,Met Standard,74,false
+NEW BRAUNFELS ISD,SEELE EL,COMAL,'KG - 05,41.1,Met Standard,88,Met Standard,92,Met Standard,83,Met Standard,89,Met Standard,78,false
+NEW BRAUNFELS ISD,LAMAR EL,COMAL,'KG - 05,42.4,Met Standard,92,Met Standard,89,Met Standard,89,Met Standard,83,Met Standard,100,false
+NEW BRAUNFELS ISD,COUNTY LINE EL,COMAL,'KG - 05,29.2,Met Standard,85,Met Standard,83,Met Standard,77,Met Standard,70,Met Standard,88,false
+NEW BRAUNFELS ISD,WALNUT SPRINGS EL,COMAL,'KG - 05,28.1,Met Standard,86,Met Standard,89,Met Standard,70,Met Standard,75,Met Standard,79,false
+NEW BRAUNFELS ISD,MEMORIAL EL,COMAL,'KG - 05,45.9,Met Standard,83,Met Standard,77,Met Standard,80,Met Standard,72,Met Standard,89,false
+NEW BRAUNFELS ISD,KLEIN ROAD EL,COMAL,'KG - 05,46.2,Met Standard,81,Met Standard,76,Met Standard,79,Met Standard,70,Met Standard,84,false
+NEW BRAUNFELS ISD,VOSS FARMS EL,COMAL,'KG - 05,36.1,Met Standard,81,Met Standard,82,Met Standard,75,Met Standard,74,Met Standard,79,false
+NEW BRAUNFELS ISD,VERAMENDI EL,COMAL,'KG - 05,32.2,Met Standard,85,Met Standard,88,Met Standard,75,Met Standard,77,Met Standard,78,false
+COMAL ISD,CANYON H S,COMAL,'09 - 12,30.6,Met Standard,84,Met Standard,86,Met Standard,83,Met Standard,75,Met Standard,78,false
+COMAL ISD,SMITHSON VALLEY H S,COMAL,'09 - 12,13,Met Standard,92,Met Standard,93,Met Standard,80,Met Standard,76,Met Standard,88,false
+COMAL ISD,CANYON LAKE H S,COMAL,'09 - 12,35.7,Met Standard,85,Met Standard,87,Met Standard,78,Met Standard,79,Met Standard,80,false
+COMAL ISD,MEMORIAL EARLY COLLEGE H S WITH ST,COMAL,'09 - 12,20.4,Met Standard,98,Met Standard,97,Met Standard,80,Met Standard,92,Met Standard,100,false
+COMAL ISD,SMITHSON VALLEY MIDDLE,COMAL,'06 - 08,12.1,Met Standard,93,Met Standard,92,Met Standard,85,Met Standard,75,Met Standard,95,false
+COMAL ISD,CANYON MIDDLE,COMAL,'06 - 08,42.7,Met Standard,82,Met Standard,83,Met Standard,79,Met Standard,79,Met Standard,78,false
+COMAL ISD,SPRING BRANCH MIDDLE,COMAL,'06 - 08,20.1,Met Standard,94,Met Standard,91,Met Standard,85,Met Standard,80,Met Standard,100,false
+COMAL ISD,CHURCH HILL MIDDLE,COMAL,'06 - 08,30.4,Met Standard,93,Met Standard,91,Met Standard,81,Met Standard,84,Met Standard,98,false
+COMAL ISD,MT VALLEY MIDDLE,COMAL,'06 - 08,45.1,Met Standard,88,Met Standard,85,Met Standard,88,Met Standard,84,Met Standard,87,false
+COMAL ISD,RAHE BULVERDE EL,COMAL,'EE - 05,19,Met Standard,92,Met Standard,92,Met Standard,90,Met Standard,81,Met Standard,92,false
+COMAL ISD,GARDEN RIDGE EL,COMAL,'EE - 05,19.6,Met Standard,94,Met Standard,91,Met Standard,86,Met Standard,78,Met Standard,100,false
+COMAL ISD,GOODWIN FRAZIER EL,COMAL,'PK - 05,62.5,Met Standard,71,Met Standard,72,Met Standard,69,Met Standard,72,Met Standard,69,false
+COMAL ISD,STARTZVILLE EL,COMAL,'PK - 05,62.6,Met Standard,76,Met Standard,76,Met Standard,74,Met Standard,79,Met Standard,68,false
+COMAL ISD,BILL BROWN EL,COMAL,'PK - 05,25.7,Met Standard,90,Met Standard,91,Met Standard,88,Met Standard,80,Met Standard,88,false
+COMAL ISD,ARLON R SEAY EL,COMAL,'KG - 05,18.6,Met Standard,78,Met Standard,80,Met Standard,70,Improvement Required,58,Met Standard,73,false
+COMAL ISD,MH SPECHT EL,COMAL,'PK - 05,20.8,Met Standard,91,Met Standard,92,Met Standard,83,Met Standard,80,Met Standard,90,false
+COMAL ISD,HOFFMANN LANE EL,COMAL,'KG - 05,5.3,Met Standard,97,Met Standard,95,Met Standard,91,Met Standard,84,Met Standard,100,false
+COMAL ISD,REBECCA CREEK EL,COMAL,'PK - 05,47.6,Met Standard,79,Met Standard,83,Improvement Required,59,Met Standard,81,Met Standard,70,false
+COMAL ISD,TIMBERWOOD PARK EL,COMAL,'PK - 05,10.1,Met Standard,95,Met Standard,93,Met Standard,85,Met Standard,80,Met Standard,100,false
+COMAL ISD,FREIHEIT EL,COMAL,'EE - 05,54.6,Met Standard,74,Met Standard,72,Met Standard,74,Met Standard,66,Met Standard,74,false
+COMAL ISD,MORNINGSIDE EL,COMAL,'EE - 05,66.4,Met Standard,80,Met Standard,72,Met Standard,82,Met Standard,74,Met Standard,76,false
+COMAL ISD,CLEAR SPRING EL,COMAL,'PK - 05,51.9,Met Standard,74,Met Standard,76,Met Standard,60,Met Standard,74,Met Standard,69,false
+COMAL ISD,MT VALLEY EL,COMAL,'EE - 05,46.3,Met Standard,79,Met Standard,82,Met Standard,69,Met Standard,80,Met Standard,73,false
+COMAL ISD,JOHNSON RANCH EL,COMAL,'EE - 05,13.8,Met Standard,90,Met Standard,91,Met Standard,82,Met Standard,69,Met Standard,89,false
+COMAL ISD,KINDER RANCH EL,COMAL,'PK - 05,30.9,Met Standard,94,Met Standard,91,Met Standard,90,Met Standard,83,Met Standard,100,false
+COMAL ISD,OAK CREEK EL,COMAL,'EE - 05,34.4,Met Standard,89,Met Standard,90,Met Standard,77,Met Standard,81,Met Standard,87,false
+COMAL ISD,INDIAN SPRINGS EL,COMAL,'KG - 05,7.4,Met Standard,94,Met Standard,91,Met Standard,86,Met Standard,60,Met Standard,100,false
+COMAL ISD,COMAL ACADEMY,COMAL,'11 - 12,26.5,Met Alternative Standard,80,Met Alternative Standard,80,Not Rated,,Not Rated,,Not Rated,,false
+COMAL ISD,COMAL DISCIPLINE CENTER,COMAL,'06 - 12,48.7,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,false
+IDEA PUBLIC SCHOOLS,IDEA CARVER COLLEGE PREPARATORY,HIDALGO,'06 - 11,77.6,Met Standard,91,Met Standard,91,Met Standard,91,Met Standard,92,Met Standard,88,false
+IDEA PUBLIC SCHOOLS,IDEA SOUTH FLORES COLLEGE PREPARAT,HIDALGO,'06 - 10,79.7,Met Standard,93,Met Standard,89,Met Standard,85,Met Standard,91,Met Standard,98,false
+IDEA PUBLIC SCHOOLS,IDEA WALZEM ACADEMY,HIDALGO,'PK - 05,75.3,Met Standard,76,Met Standard,69,Met Standard,77,Met Standard,72,Met Standard,74,false
+IDEA PUBLIC SCHOOLS,IDEA EASTSIDE ACADEMY,HIDALGO,'PK - 04,93.1,Met Standard,63,Met Standard,60,Improvement Required,59,Met Standard,67,Improvement Required,54,false
+IDEA PUBLIC SCHOOLS,IDEA JUDSON ACADEMY,HIDALGO,'KG - 03,60.7,Met Standard,79,Met Standard,77,Not Rated,,Met Standard,80,Met Standard,78,false
+IDEA PUBLIC SCHOOLS,IDEA MAYS ACADEMY,HIDALGO,'KG - 03,89.9,Met Standard,72,Met Standard,69,Not Rated,,Met Standard,75,Met Standard,66,false
+IDEA PUBLIC SCHOOLS,IDEA MONTERREY PARK COLLEGE PREPAR,HIDALGO,'06 - 09,86.8,Met Standard,87,Met Standard,83,Met Standard,77,Met Standard,91,Met Standard,78,false
+IDEA PUBLIC SCHOOLS,IDEA WALZEM COLLEGE PREPARATORY,HIDALGO,'06 - 09,75.8,Met Standard,81,Met Standard,74,Met Standard,75,Met Standard,82,Met Standard,77,false
+IDEA PUBLIC SCHOOLS,IDEA EASTSIDE COLLEGE PREPARATORY,HIDALGO,'06 - 08,92.9,Met Standard,86,Met Standard,78,Met Standard,75,Met Standard,90,Met Standard,78,false
+IDEA PUBLIC SCHOOLS,IDEA JUDSON COLLEGE PREPARATORY,HIDALGO,'06 - 07,67.4,Met Standard,82,Met Standard,78,Met Standard,74,Met Standard,85,Met Standard,76,false
+IDEA PUBLIC SCHOOLS,IDEA MAYS COLLEGE PREPARATORY,HIDALGO,'06 - 07,91.2,Met Standard,95,Met Standard,91,Met Standard,91,Met Standard,93,Met Standard,100,false
+IDEA PUBLIC SCHOOLS,IDEA CARVER ACADEMY,HIDALGO,'PK - 05,77.2,Met Standard,92,Met Standard,83,Met Standard,86,Met Standard,89,Met Standard,100,false
+IDEA PUBLIC SCHOOLS,IDEA SOUTH FLORES ACADEMY,HIDALGO,'PK - 05,78.9,Met Standard,93,Met Standard,89,Met Standard,85,Met Standard,91,Met Standard,98,false
+IDEA PUBLIC SCHOOLS,IDEA MONTERREY PARK ACADEMY,HIDALGO,'KG - 05,88.6,Met Standard,82,Met Standard,74,Met Standard,82,Met Standard,83,Met Standard,79,false
+---,MEADOWLAND CHARTER DISTRICT,KENDALL,---,92.7,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,true
+---,BOERNE ISD,KENDALL,---,17.4,A,92,A,93,A,90,B,80,A,90,true
+---,COMFORT ISD,KENDALL,---,54.5,B,84,B,85,B,82,B,83,B,82,true
+---,DEVINE ISD,MEDINA,---,54.8,B,81,B,82,D,69,B,81,C,77,true
+---,D'HANIS ISD,MEDINA,---,60.8,Met Standard,88,Met Standard,86,Met Standard,72,Met Standard,84,Met Standard,92,true
+---,NATALIA ISD,MEDINA,---,80.3,F,59,D,67,F,58,D,69,F,36,true
+---,HONDO ISD,MEDINA,---,60.8,C,75,C,76,C,73,C,75,C,71,true
+---,MEDINA VALLEY ISD,MEDINA,---,52.3,A,90,B,89,C,79,B,89,A,92,true
+---,TRINITY CHARTER SCHOOL,COMAL,---,100,Not Rated,,Not Rated,,Not Rated,,Not Rated,,Not Rated,,true
+---,NEW BRAUNFELS ISD,COMAL,---,35.8,B,86,B,86,B,84,C,76,B,86,true
+---,COMAL ISD,COMAL,---,29.2,B,89,A,90,B,87,C,79,B,88,true
+---,LACKLAND ISD,BEXAR,---,27.2,A,91,B,85,B,87,D,69,A,100,true
+---,FT SAM HOUSTON ISD,BEXAR,---,29.7,A,92,A,90,B,84,C,78,A,97,true
+---,RANDOLPH FIELD ISD,BEXAR,---,7.9,A,94,A,92,B,84,D,69,A,97,true
+---,SOUTHSIDE ISD,BEXAR,---,82.1,C,73,D,69,D,69,C,74,C,71,true
+---,SOMERSET ISD,BEXAR,---,77.3,C,79,C,76,C,70,B,81,C,75,true
+---,EAST CENTRAL ISD,BEXAR,---,64.9,C,70,D,69,F,58,C,70,C,70,true
+---,SOUTHWEST ISD,BEXAR,---,82.4,C,71,C,70,F,59,C,70,C,72,true
+---,HARLANDALE ISD,BEXAR,---,87.3,C,76,C,72,C,79,C,76,C,70,true
+---,SOUTH SAN ANTONIO ISD,BEXAR,---,86.5,D,64,D,63,D,60,D,69,F,51,true
+---,SAN ANTONIO ISD,BEXAR,---,90.7,C,74,D,64,C,70,C,75,C,72,true
+---,ALAMO HEIGHTS ISD,BEXAR,---,20.7,B,89,A,90,B,84,C,78,B,86,true
+---,NORTH EAST ISD,BEXAR,---,46.6,B,85,B,84,B,84,B,83,B,86,true
+---,JUDSON ISD,BEXAR,---,63.4,C,72,C,71,C,70,C,73,C,71,true
+---,SCHERTZ-CIBOLO-U CITY ISD,GUADALUPE,---,28.4,B,87,B,86,B,84,C,73,B,89,true
+---,EDGEWOOD ISD,BEXAR,---,93.2,D,63,D,60,F,59,D,64,D,61,true
+---,NORTHSIDE ISD,BEXAR,---,48.1,B,84,B,82,C,79,C,79,B,88,true

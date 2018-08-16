@@ -41,7 +41,7 @@ var SchoolSearch = (function (charts) {
     function properNounCasing (str) {
         if (str && typeof str === 'string') {
             var lower = str.toLowerCase();
-            return lower.split(' ').map(word => {
+            return lower.split(' ').map(function (word) {
                 if (/(^isd$|^hs$|^stem$|^jc$)/.test(word)) {
                     return word.toUpperCase();
                 } else {
@@ -76,38 +76,36 @@ var SchoolSearch = (function (charts) {
 
     renderCampus(campusDefault);
 
-    var searchSchools = new Bloodhound({
-      datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
-      queryTokenizer: Bloodhound.tokenizers.whitespace,
-      prefetch: {
-        url: 'assets/campus-results.json'
-      },
-      ttl: 3600000 // One hour
-    });
+    charts.$schoolSearchInit = function (data, sendHeight) {
+        var searchSchools = new Bloodhound({
+          datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
+          queryTokenizer: Bloodhound.tokenizers.whitespace,
+          local: data,
+          ttl: 3600000 // One hour
+        });
 
-    searchSchools.initialize();
+        searchSchools.initialize();
 
-    $schoolSearch = $('#search').typeahead({
-      autoselect: true,
-      hint: false,
-      highlight: false,
-      minLength: 2,
-    }, {
-      name: 'accountability',
-      limit: 50,
-      displayKey: function(obj) {
-        return properNounCasing(obj.name);
-      },
-      source: searchSchools.ttAdapter()
-    });
+        $schoolSearch = $('#search').typeahead({
+          autoselect: true,
+          hint: false,
+          highlight: false,
+          minLength: 2,
+        }, {
+          name: 'accountability',
+          limit: 50,
+          displayKey: function(obj) {
+            return properNounCasing(obj.name);
+          },
+          source: searchSchools.ttAdapter()
+        });
 
-    charts.$schoolSearchInit = function (sendHeight) {
         $schoolSearch.on('typeahead:selected', function(e, datum) {
           e.stopPropagation();
           renderCampus(datum);
           sendHeight();
         });
-    }
+    };
 
     return charts;
 }(SchoolSearch || {}));

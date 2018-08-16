@@ -19,7 +19,15 @@
       }
     }
 
-    SchoolSearch.$schoolSearchInit(sendHeight);
+    SchoolSearch.getData(function (data) {
+      if (SchoolSearch.$schoolSearchInit) {
+        SchoolSearch.$schoolSearchInit(data, sendHeight);
+      }
+      if (SchoolSearch.tableInit) {
+        SchoolSearch.tableInit(data, sendHeight);
+      }
+      sendHeight();
+    });
 
     sendHeight();
   }

@@ -15,6 +15,11 @@ $label-width: 14%;
 
 .sa-rankings-graphic {
   padding-bottom: .5em;
+
+  &.table {
+    padding-top: 1.5em;
+    width: 100%;
+  }
 }
 
 .form-group {
@@ -37,11 +42,15 @@ $label-width: 14%;
 
       div.tt-dataset {
         z-index: 1000;
-        background: white;
+        background: #FDFDFD;
 
         div.tt-suggestion {
           z-index: 1000;
           cursor: pointer;
+
+          &:hover, &.tt-cursor {
+            background: rgba(145,191,219,0.2);
+          }
         }
       }
     }
@@ -55,12 +64,25 @@ $label-width: 14%;
   }
 }
 
-div.charts {
-    width: 100%;
+div.results-header {
+    h2.results-title {
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+}
 
+div.meta {
     li span.number {
       font-weight: bold;
     }
+}
+
+div.charts {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
 
     div {
         width: 49%;
@@ -68,6 +90,12 @@ div.charts {
 
         p.subtext {
           text-align: center;
+          font-weight: 500;
+
+          &.small {
+            font-size: 0.8rem;
+            font-weight: normal;
+          }
         }
 
         hr {
@@ -91,3 +119,14 @@ div.charts {
         }
     }
 }
+
+table#school-table {
+    width: 100%;
+    padding-top: 1em;
+}
+
+div.dataTables_wrapper {
+    width: 100%;
+    padding-top: 2em;
+}
+

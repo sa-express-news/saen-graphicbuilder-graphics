@@ -3,62 +3,90 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>How did your school and district perform? | San Antonio Express News</title>
+  <title> | San Antonio Express News</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <base target='_parent'>
   <!-- build:css styles/main.min.css -->
+  <link rel="stylesheet" href="/node_modules/datatables.net-dt/css/jquery.dataTables.min.css">
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
 </head>
 <body>
 
 <div class="graphic">
-  <h1>How did your school and district perform?</h1>
-  <p class="subtext">Every year Children At Risk provides school rankings to serve as a guide for understanding the performance of local schools. This includes calculating the percentage of students at the elementary, middle and high school levels properly prepared to succeed at the next level of schooling – middle school, high school or college respectively.</p>
-
   <div id="graphic-container">
-
     <div class="lookup sa-rankings-graphic">
+      <h1>How did your school and district score in the new TEA system?</h1>
+      <p class="subtext">Following new state legislation, the Texas Education Agency has designed a new academic accountability system that places more emphasis on student progress and relative performance. Enter an Bexar, Comal, Kendall or Medina County school or district name below to see how it performed.</p>
       <div class="form-group">
-        <label for="search">Search for a San Antonio elementary, middle or high school to see how they fared in this years rankings.</label>
+        <label for="search">Search for an area elementary, middle or high school to see how they fared in this years rankings.</label>
         <input id="search" class="typeahead" type="text" placeholder="E.g. Judson Middle">
       </div>
+      <div class="results-card">
+        <div class="results-header">
+          <h2 class="results-title"><span id="name"></span></h2>
+        </div>
+        <div class="meta">
+          <ul>
+            <li class="subtext">Number of economically disadvantaged students: <span id="ecodis" class="number"></span>%</li>
+            <li class="subtext" id="district-score">District: <span id="district"></span> scored <span id="score" class="number"></span> out of <span class="number">100</span></li>
+          </ul>
+        </div>
+        <div class="charts">
+          <div id="overall">
+            <div class="chart"></div>
+            <p class="subtext">Overall accountability score</p>
+            <p class="subtext small">The overall score is a merge of the four scores below. Closing the gaps is weighted at 30% with the best score among the other three factors making up the remaining 70%.</p>
+            <hr>
+          </div>
+          <div id="achievement">
+            <div class="chart"></div>
+            <p class="subtext">Student achievement score</p>
+            <p class="subtext small">Measures raw performance on standardized tests, as well as graduation rates and college and career readiness measures.</p>
+            <hr>
+          </div>
+          <div id="growth">
+            <div class="chart"></div>
+            <p class="subtext">School performance: academic growth score</p>
+            <p class="subtext small">Measures how much students progressed year-over-year, rewarding students even if their raw score remains relatively low.</p>
+            <hr>
+          </div>
+          <div id="relative">
+            <div class="chart"></div>
+            <p class="subtext">School performance: relative performance score</p>
+            <p class="subtext small">Measures student achievement compared with schools with similar percentages of economically disadvantaged students.</p>
+            <hr>
+          </div>
+          <div id="gaps">
+            <div class="chart"></div>
+            <p class="subtext">Closing the gaps score</p>
+            <p class="subtext small">Measures the relative performance of students from various academic groups.</p>
+            <hr>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="results-card">
-      <div class="results-header">
-        <h2 class="results-title"><span id="name"></span></h2>
-      </div>
-      <div class="charts">
-        <ul>
-          <li class="subtext">Number of economically disadvantaged students: <span id="ecodis" class="number"></span>%</li>
-          <li class="subtext" id="district-score">District: <span id="district"></span> scored <span id="score" class="number"></span> out of <span class="number">100</span></li>
-        </ul>
-        <div id="overall">
-          <div class="chart"></div>
-          <p class="subtext">Overall score</p>
-          <hr>
-        </div>
-        <div id="achievement">
-          <div class="chart"></div>
-          <p class="subtext">Student achievement score</p>
-          <hr>
-        </div>
-        <div id="growth">
-          <div class="chart"></div>
-          <p class="subtext">Overall score</p>
-          <hr>
-        </div>
-        <div id="relative">
-          <div class="chart"></div>
-          <p class="subtext">Overall score</p>
-          <hr>
-        </div>
-        <div id="gaps">
-          <div class="chart"></div>
-          <p class="subtext">Overall score</p>
-          <hr>
-        </div>
-      </div>
+
+    <div class="footer">
+      <ul>
+        <li>*Note: NR stands for &quot;Not Rated&quot;</li>
+      </ul>
+    </div>
+
+    <div class="sa-rankings-graphic table">
+      <h1>Search and compare all school accountability scores</h1>
+      <p class="subtext">Use the table below to search and compare the 2018 accountability ratings for different Bexar, Comal, Kendall or Medina County schools</p>
+      <table id="school-table">
+        <thead>
+            <tr>
+                <th>School</th>
+                <th>Grades</th>
+                <th>Rating</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
     </div>
   </div>
 
@@ -74,9 +102,12 @@
 <script src="/node_modules/pym.js/dist/pym.v1.min.js"></script>
 <script src="/node_modules/d3/dist/d3.min.js"></script>
 <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+<script src="/node_modules/datatables.net/js/jquery.dataTables.min.js"></script>
 <script src="/node_modules/typeahead.js/dist/typeahead.bundle.js"></script>
 <script src="/node_modules/lodash/lodash.min.js"></script>
+<script src="scripts/get-data.js"></script>
 <script src="scripts/draw-donuts.js"></script>
+<script src="scripts/table.js"></script>
 <script src="scripts/search.js"></script>
 <script src="scripts/main.js"></script>
 <!-- endbuild -->

@@ -6,7 +6,7 @@
   <title>{{ META.graphic_title }} | San Antonio Express News</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <base target='_parent'>
-  <!-- build:css styles/main.min.css -->
+  <!-- build:css styles/search.min.css -->
   <link rel="stylesheet" href="/node_modules/datatables.net-dt/css/jquery.dataTables.min.css">
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
@@ -67,47 +67,23 @@
       </div>
     </div>
 
-    <div class="footer">
-      <ul>
-        {% if META.note %}<li>*Note: {{ META.note }}</li>{% endif %}
-      </ul>
-    </div>
-
-    <div class="sa-rankings-graphic table">
-      <h1>{{ META.table_graphic_title }}</h1>
-      <p class="subtext">{{ META.table_prose }}</p>
-      <table id="school-table">
-        <thead>
-            <tr>
-                <th>School</th>
-                <th>Grades</th>
-                <th>Rating</th>
-                <th>Score</th>
-            </tr>
-        </thead>
-        <tbody></tbody>
-    </table>
-    </div>
-  </div>
-
   <div class="footer">
     <ul>
+      {% if META.note %}<li>*Note: {{ META.note }}</li>{% endif %}
       {% if META.source %}<li>Source: {% if META.source_url %}<a href="{{ META. source_url }}">{{ META.source }}</a>{% else %}{{ META.source }}{% endif %}</li>{% endif %}
       {% if META.credit %}<li>Credit: {{ META.credit }}</li>{% endif %}
     </ul>
   </div>
 </div>
 
-<!-- build:js scripts/main.min.js -->
+<!-- build:js scripts/search.min.js -->
 <script src="/node_modules/pym.js/dist/pym.v1.min.js"></script>
 <script src="/node_modules/d3/dist/d3.min.js"></script>
 <script src="/node_modules/jquery/dist/jquery.min.js"></script>
-<script src="/node_modules/datatables.net/js/jquery.dataTables.min.js"></script>
 <script src="/node_modules/typeahead.js/dist/typeahead.bundle.js"></script>
 <script src="/node_modules/lodash/lodash.min.js"></script>
 <script src="scripts/get-data.js"></script>
 <script src="scripts/draw-donuts.js"></script>
-<script src="scripts/table.js"></script>
 <script src="scripts/search.js"></script>
 <script src="scripts/main.js"></script>
 <!-- endbuild -->

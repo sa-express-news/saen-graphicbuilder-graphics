@@ -754,6 +754,9 @@ a {
 
 .sa-rankings-graphic {
   padding-bottom: .5em; }
+  .sa-rankings-graphic.table {
+    padding-top: 1.5em;
+    width: 100%; }
 
 .form-group {
   margin: 0 0 .625em; }
@@ -769,25 +772,44 @@ a {
       width: 100%; }
       .form-group span.twitter-typeahead div.tt-menu div.tt-dataset {
         z-index: 1000;
-        background: white; }
+        background: #FDFDFD; }
         .form-group span.twitter-typeahead div.tt-menu div.tt-dataset div.tt-suggestion {
           z-index: 1000;
           cursor: pointer; }
+          .form-group span.twitter-typeahead div.tt-menu div.tt-dataset div.tt-suggestion:hover, .form-group span.twitter-typeahead div.tt-menu div.tt-dataset div.tt-suggestion.tt-cursor {
+            background: rgba(145, 191, 219, 0.2); }
   .form-group input {
     display: block;
     line-height: 1.4;
     padding: .3125em .625em;
     width: 100%; }
 
+div.results-header h2.results-title {
+  font-weight: bold;
+  font-size: 1.2em; }
+
+div.meta li span.number {
+  font-weight: bold; }
+
 div.charts {
-  width: 100%; }
-  div.charts li span.number {
-    font-weight: bold; }
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: baseline;
+      align-items: baseline; }
   div.charts div {
     width: 49%;
     display: inline-block; }
     div.charts div p.subtext {
-      text-align: center; }
+      text-align: center;
+      font-weight: 500; }
+      div.charts div p.subtext.small {
+        font-size: 0.8rem;
+        font-weight: normal; }
     div.charts div hr {
       border: 0;
       height: 1px;
@@ -801,3 +823,11 @@ div.charts {
     @media screen and (max-width: 480px) {
       div.charts div {
         width: 100%; } }
+
+table#school-table {
+  width: 100%;
+  padding-top: 1em; }
+
+div.dataTables_wrapper {
+  width: 100%;
+  padding-top: 2em; }

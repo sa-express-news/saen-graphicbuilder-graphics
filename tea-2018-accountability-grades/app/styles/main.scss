@@ -8,7 +8,9 @@ $green: #33a02c;
 $label-width: 14%;
 
 .graphic {
-  max-width: 780px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .sa-rankings-graphic {
@@ -26,7 +28,24 @@ $label-width: 14%;
     margin: 0 0 .357142857em;
   }
 
-  span.twitter-typeahead { width: 100%; }
+  span.twitter-typeahead { 
+    width: 100%;
+
+    div.tt-menu {
+      z-index: 1000;
+      width: 100%;
+
+      div.tt-dataset {
+        z-index: 1000;
+        background: white;
+
+        div.tt-suggestion {
+          z-index: 1000;
+          cursor: pointer;
+        }
+      }
+    }
+  }
 
   input {
     display: block;
@@ -39,12 +58,36 @@ $label-width: 14%;
 div.charts {
     width: 100%;
 
+    li span.number {
+      font-weight: bold;
+    }
+
     div {
         width: 49%;
         display: inline-block;
 
+        p.subtext {
+          text-align: center;
+        }
+
+        hr {
+          border: 0;
+          height: 1px;
+          background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+          width: 10%;
+        }
+
+        div.chart {
+          width: 100%;
+          text-align: center;
+        }
+
         &#overall {
             width: 100%;
+        }
+
+        @include media($default-mobile) {
+          width: 100%;
         }
     }
 }

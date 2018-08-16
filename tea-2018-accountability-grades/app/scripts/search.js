@@ -70,7 +70,7 @@ var SchoolSearch = (function (charts) {
     }
 
     function renderCampus(datum) {
-      $('#name').text(properNounCasing(datum.campus));
+      $('span#name').text(properNounCasing(datum.name));
       populateTemplate(datum);
     }
 
@@ -96,16 +96,16 @@ var SchoolSearch = (function (charts) {
       name: 'accountability',
       limit: 50,
       displayKey: function(obj) {
-        return obj.name;
+        return properNounCasing(obj.name);
       },
       source: searchSchools.ttAdapter()
     });
 
-    charts.$schoolSearchInit = function (pymChild) {
+    charts.$schoolSearchInit = function (sendHeight) {
         $schoolSearch.on('typeahead:selected', function(e, datum) {
           e.stopPropagation();
           renderCampus(datum);
-          pymChild.sendHeight();
+          sendHeight();
         });
     }
 

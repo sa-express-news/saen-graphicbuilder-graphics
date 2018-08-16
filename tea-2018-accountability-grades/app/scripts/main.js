@@ -5,12 +5,23 @@
 
   var pymChild, $billSearch;
 
-  function render() {
-    SchoolSearch.$schoolSearchInit(pymChild);
-
+  function sendHeight () {
     if (pymChild) {
       pymChild.sendHeight();
     }
+  }
+
+  function render() {
+
+    function sendHeight () {
+      if (pymChild) {
+        pymChild.sendHeight();
+      }
+    }
+
+    SchoolSearch.$schoolSearchInit(sendHeight);
+
+    sendHeight();
   }
 
   function load() {

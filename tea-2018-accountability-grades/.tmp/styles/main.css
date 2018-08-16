@@ -748,7 +748,9 @@ a {
     padding: 0; }
 
 .graphic {
-  max-width: 780px; }
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto; }
 
 .sa-rankings-graphic {
   padding-bottom: .5em; }
@@ -762,6 +764,15 @@ a {
     margin: 0 0 .357142857em; }
   .form-group span.twitter-typeahead {
     width: 100%; }
+    .form-group span.twitter-typeahead div.tt-menu {
+      z-index: 1000;
+      width: 100%; }
+      .form-group span.twitter-typeahead div.tt-menu div.tt-dataset {
+        z-index: 1000;
+        background: white; }
+        .form-group span.twitter-typeahead div.tt-menu div.tt-dataset div.tt-suggestion {
+          z-index: 1000;
+          cursor: pointer; }
   .form-group input {
     display: block;
     line-height: 1.4;
@@ -770,8 +781,23 @@ a {
 
 div.charts {
   width: 100%; }
+  div.charts li span.number {
+    font-weight: bold; }
   div.charts div {
     width: 49%;
     display: inline-block; }
+    div.charts div p.subtext {
+      text-align: center; }
+    div.charts div hr {
+      border: 0;
+      height: 1px;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+      width: 10%; }
+    div.charts div div.chart {
+      width: 100%;
+      text-align: center; }
     div.charts div#overall {
       width: 100%; }
+    @media screen and (max-width: 480px) {
+      div.charts div {
+        width: 100%; } }

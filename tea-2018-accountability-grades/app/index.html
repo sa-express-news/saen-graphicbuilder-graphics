@@ -29,38 +29,39 @@
         <div class="meta">
           <ul>
             <li class="subtext">Number of economically disadvantaged students: <span id="ecodis" class="number"></span>%</li>
-            <li class="subtext" id="district-score">District: <span id="district"></span> scored <span id="score" class="number"></span> out of <span class="number">100</span></li>
+            <li class="subtext" id="district-score">District: <span id="district"></span> scored <span id="score" class="number"></span> out of <span class="number">100</span> with a rating of <span class="number" id="rating"></span></li>
+            <li class="subtext" id="district-rating"><span id="district"></span> achieved a rating of <span class="number" id="rating"></span></li>
           </ul>
         </div>
         <div class="charts">
           <div id="overall">
             <div class="chart"></div>
             <p class="subtext">Overall accountability score</p>
-            <p class="subtext small">The overall score is a merge of the four scores below. Closing the gaps is weighted at 30% with the best score among the other three factors making up the remaining 70%.</p>
+            <p class="subtext small">{{ META.overall }}</p>
             <hr>
           </div>
           <div id="achievement">
             <div class="chart"></div>
             <p class="subtext">Student achievement score</p>
-            <p class="subtext small">Measures raw performance on standardized tests, as well as graduation rates and college and career readiness measures.</p>
+            <p class="subtext small">{{ META.achievement }}</p>
             <hr>
           </div>
           <div id="growth">
             <div class="chart"></div>
             <p class="subtext">School performance: academic growth score</p>
-            <p class="subtext small">Measures how much students progressed year-over-year, rewarding students even if their raw score remains relatively low.</p>
+            <p class="subtext small">{{ META.growth }}</p>
             <hr>
           </div>
           <div id="relative">
             <div class="chart"></div>
             <p class="subtext">School performance: relative performance score</p>
-            <p class="subtext small">Measures student achievement compared with schools with similar percentages of economically disadvantaged students.</p>
+            <p class="subtext small">{{ META.relative }}</p>
             <hr>
           </div>
           <div id="gaps">
             <div class="chart"></div>
             <p class="subtext">Closing the gaps score</p>
-            <p class="subtext small">Measures the relative performance of students from various academic groups.</p>
+            <p class="subtext small">{{ META.gap }}</p>
             <hr>
           </div>
         </div>

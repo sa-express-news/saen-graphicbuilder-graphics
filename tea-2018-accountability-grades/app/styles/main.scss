@@ -120,13 +120,21 @@ div.charts {
     }
 }
 
-table#school-table {
+div.sa-rankings-graphic.table {
     width: 100%;
     padding-top: 1em;
+
+    @include media($default-mobile) {
+        display: none;
+    }
 }
 
 div.dataTables_wrapper {
     width: 100%;
     padding-top: 2em;
+
+    @include media($default-mobile) {
+        display: none;
+    }
 }
 

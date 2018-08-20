@@ -11001,6 +11001,11 @@
     "instructions": "Search for an area elementary, middle or high school to see how they fared in this years rankings.",
     "note": "NR stands for \"Not Rated\"",
     "table_graphic_title": "Search and compare all school accountability scores",
-    "table_prose": "Use the table below to search and compare the 2018 accountability ratings for different Bexar, Comal, Kendall or Medina County schools"
+    "table_prose": "Use the table below to search and compare the 2018 accountability ratings for different Bexar, Comal, Kendall or Medina County schools",
+    "overall": "The overall score is a merge of the four scores below. Closing the gaps is weighted at 30% with the best score among the other three factors making up the remaining 70%.",
+    "achievement": "Measures raw performance on standardized tests, as well as graduation rates and college and career readiness measures.",
+    "growth": "Measures how much students progressed year-over-year, rewarding students even if their raw score remains relatively low.",
+    "relative": "Measures student achievement compared with schools with similar percentages of economically disadvantaged students.",
+    "gap": "Measures the relative performance of students from various demographic groups."
   }
 }

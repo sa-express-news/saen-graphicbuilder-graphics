@@ -23,7 +23,7 @@
       if (SchoolSearch.$schoolSearchInit) {
         SchoolSearch.$schoolSearchInit(data, sendHeight);
       }
-      if (SchoolSearch.tableInit) {
+      if (SchoolSearch.tableInit && window.innerWidth > 480) {
         SchoolSearch.tableInit(data, sendHeight);
       }
       sendHeight();

@@ -11,6 +11,7 @@ var SchoolSearch = (function (charts) {
     function Table (data, sendHeight) {
         this.data = this.mapDataToColumns(data);
         this.table = this.getTable();
+        sendHeight();
     }
 
     Table.prototype = {
@@ -56,6 +57,7 @@ var SchoolSearch = (function (charts) {
             var that = this;
             return $('table#school-table').DataTable({
                 data: that.data,
+                lengthChange: false,
                 columns: [
                     { data: 'School' },
                     { data: 'Grades' },

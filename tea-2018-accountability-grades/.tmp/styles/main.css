@@ -824,10 +824,16 @@ div.charts {
       div.charts div {
         width: 100%; } }
 
-table#school-table {
+div.sa-rankings-graphic.table {
   width: 100%;
   padding-top: 1em; }
+  @media screen and (max-width: 480px) {
+    div.sa-rankings-graphic.table {
+      display: none; } }
 
 div.dataTables_wrapper {
   width: 100%;
   padding-top: 2em; }
+  @media screen and (max-width: 480px) {
+    div.dataTables_wrapper {
+      display: none; } }

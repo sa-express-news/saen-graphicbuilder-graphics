@@ -12,15 +12,17 @@ export default {
         focus: Number,
         radius: Number,
         capita: Number,
+        color: String,
         elID: String,
     },
     mounted: function () {
-        const { total, focus, radius, capita, elID } = this;
+        const { total, focus, radius, capita, color, elID } = this;
         peopleBubble({
             total,
             focus,
             radius,
             capita,
+            color,
             elID
         })
     }
@@ -28,4 +30,8 @@ export default {
 </script>
 
 <style src="./weepeople.css"></style>
-<style lang="scss"></style>
+<style lang="scss">
+    text.person {
+        font-size: 1.5em;
+    }
+</style>

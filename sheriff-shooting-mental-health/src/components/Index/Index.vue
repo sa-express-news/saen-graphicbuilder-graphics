@@ -10,6 +10,7 @@
                     :focus="ONE.people_focus"
                     :radius="ONE.radius_percent"
                     :capita="ONE.people_per_wee"
+                    color="blue"
                     elID="one"
                 />
             </div>

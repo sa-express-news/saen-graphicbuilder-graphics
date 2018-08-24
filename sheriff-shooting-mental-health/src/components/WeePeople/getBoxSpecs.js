@@ -1,46 +1,56 @@
 const getTotal = (total, capita) => Math.floor(total / capita); 
 
+const rowIterator = (iterator, specs, utils) => {
+    specs.rows = iterator;
+    specs.cols = Math.ceil(utils.N / specs.rows);  
+
+    specs.rectHeight = (utils.areaHeight - (specs.rows - 1) * utils.gutter[1]) / specs.rows;          
+    specs.rectWidth = specs.rectHeight * utils.rectRatio;
+
+    if (specs.cols * specs.rectWidth + (specs.cols - 1) * utils.gutter[0] > utils.areaWidth) {
+        return rowIterator(specs.rows + 1, specs, utils);
+    }
+
+    return [specs.rectWidth, specs.rectHeight];
+};
+
+const colIterator = (iterator, specs, utils) => {
+    specs.cols = iterator;
+    specs.rows = Math.ceil(utils.N / specs.cols);
+
+    specs.rectWidth = (utils.areaWidth - (specs.cols - 1) * utils.gutter[0]) / specs.cols;
+    specs.rectHeight = specs.rectWidth / utils.rectRatio;
+
+    if (specs.rows * specs.rectHeight + (specs.rows - 1) * utils.gutter[1] > utils.areaHeight) {
+        return colIterator(specs.cols + 1, specs, utils);
+    }
+    
+    return [specs.rectWidth, specs.rectHeight];
+};
+
 export default (total, capita, areaWidth, areaHeight) => {
-    let cols, rows, rectWidth, rectHeight;
+    const specs = {
+        cols: 0,
+        rows: 0,
+        rectWidth: 0,
+        rectHeight: 0,
+    };
 
-    const N = getTotal(total, capita);
-    const rectRatio =  6 / 9;
-    const gutter = [2, 2];  
+    const utils = {
+        areaHeight,
+        areaWidth,
+        N: getTotal(total, capita),
+        rectRatio: 0.74,
+        gutter: [0.5, 0.5],
+    };
 
-    function rowIterator(iterator) {
-        rows = iterator;
-        cols = Math.ceil(N/rows);  
-
-        rectHeight = (areaHeight - (rows-1)*gutter[1])/rows;          
-        rectWidth = rectHeight*rectRatio;
-
-        if (cols * rectWidth + (cols - 1)*gutter[0] > areaWidth) {
-            rowIterator(rows + 1);
-        }
-    }
-
-    function colIterator(iterator) {
-        cols = iterator;
-        rows = Math.ceil(N/cols);
-
-        rectWidth = (areaWidth - (cols - 1)*gutter[0])/cols;
-        rectHeight = rectWidth/rectRatio;
-
-        if (rows * rectHeight + (rows - 1)*gutter[1] > areaHeight) {
-            colIterator(cols + 1);
-        }
-    }
-
-    rowIterator(1);
-    const size1 = [rectWidth, rectHeight];
-
-    colIterator(1);
-    const size2 = [rectWidth, rectHeight];
+    const rowSpecs = rowIterator(1, specs, utils);
+    const colSpecs = colIterator(1, specs, utils);
 
     return {
-        rows,
-        cols,
-        width: Math.max(size1[0], size2[0]),
-        height: Math.max(size1[1], size2[1])
+        rows: specs.rows,
+        cols: specs.cols,
+        width: Math.max(rowSpecs[0], colSpecs[0]),
+        height: Math.max(rowSpecs[1], colSpecs[1])
     };
 } 

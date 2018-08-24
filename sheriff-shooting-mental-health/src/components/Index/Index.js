@@ -1,3 +1,6 @@
+import WeePeople from '../WeePeople/WeePeople.vue';
+
+// main data source
 import data from '../../../data.json';
 
 const getTitle = () => data && data.META
@@ -12,7 +15,7 @@ export default {
             return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         }
     },
-    mounted() {
-        // Enter your JS here!
-    }
+    components: {
+        'wee-people': WeePeople,
+    },
 }

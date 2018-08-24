@@ -1,1 +1,15 @@
-{}
+{
+  "META": {
+    "graphic_title": "Family reunifications by the numbers",
+    "prose": "Here's a look at the process of family reunifications according to data released in the July 26th federal court case filing",
+    "source": "Federal court case",
+    "note": "These include reunifications with parents in the interior, discharges to other sponsors (such as in situations where the parent is not eligible for reunification), reunifications with parents in DHS custody earlier in the process or children that turned 18",
+    "credit": "Luke Whyte | San Antonio Express-News"
+  },
+  "ONE": {
+    "people_total": 550000,
+    "people_focus": 550000,
+    "radius_percent": 100,
+    "people_per_wee": 1000
+  }
+}

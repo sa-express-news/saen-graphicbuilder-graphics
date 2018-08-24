@@ -5,7 +5,13 @@
             <p class="subtext">{{ META.prose }}</p>
 
             <div id="graphic-container">
-                <!-- Enter your code here! -->
+                <wee-people 
+                    :total="ONE.people_total"
+                    :focus="ONE.people_focus"
+                    :radius="ONE.radius_percent"
+                    :capita="ONE.people_per_wee"
+                    elID="one"
+                />
             </div>
 
             <div class="footer">

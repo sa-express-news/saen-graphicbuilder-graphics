@@ -1,5 +1,11 @@
 <template>
-    <div :id="elID"></div>
+    <div>
+        <p class="instructions subtext">Scroll to Start ↓</p>
+        <div :id="elID"></div>
+        <p class="instructions subtext">
+            (Each <span class='weepeople' :style="{ color: color, fontSize: '1.4em' }">n</span> represents about {{ capita }} people)
+        </p>
+    </div>
 </template>
 
 <script>
@@ -10,17 +16,15 @@ export default {
     props: {
         total: Number,
         focus: Number,
-        radius: Number,
         capita: Number,
         color: String,
         elID: String,
     },
     mounted: function () {
-        const { total, focus, radius, capita, color, elID } = this;
+        const { total, focus, capita, color, elID } = this;
         peopleBubble({
             total,
             focus,
-            radius,
             capita,
             color,
             elID
@@ -32,6 +36,12 @@ export default {
 <style src="./weepeople.css"></style>
 <style lang="scss">
     text.person {
-        font-size: 1.5em;
+        font-size: 1em;
+    }
+    p.instructions.subtext {
+        line-height: 30px;
+        color: #999;
+        font-size: 1.05em;
+        text-align: center;
     }
 </style>

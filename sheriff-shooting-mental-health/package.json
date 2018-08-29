@@ -20,8 +20,10 @@
   "dependencies": {
     "d3": "^5.6.0",
     "express-news-styleguide": "^1.0.4",
+    "intersection-observer": "^0.5.0",
     "pym.js": "^1.3.2",
-    "vue": "^2.5.17"
+    "vue": "^2.5.17",
+    "vue-observe-visibility": "^0.4.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.1",

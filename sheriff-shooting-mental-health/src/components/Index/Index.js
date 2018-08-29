@@ -1,4 +1,5 @@
-import WeePeople from '../WeePeople/WeePeople.vue';
+import WeePeople    from '../WeePeople/WeePeople.vue';
+import Explination  from '../Explination/Explination.vue';
 
 // main data source
 import data from '../../../data.json';
@@ -9,7 +10,10 @@ const getTitle = () => data && data.META
 export default {
     name: 'graphic',
     title: getTitle,
-    data: function () { return data },
+    data: function () { return Object.assign({}, data, { 
+        CURR: data.ONE, 
+        graphicHeight: 0,
+    })},
     methods: {
         commaSeparate: function (num) {
             return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -17,5 +21,6 @@ export default {
     },
     components: {
         'wee-people': WeePeople,
+        'explination': Explination,
     },
 }

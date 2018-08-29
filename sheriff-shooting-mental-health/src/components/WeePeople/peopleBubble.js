@@ -4,14 +4,13 @@ import getBoxSpecs from './getBoxSpecs';
 
 class PeopleBubble {
     constructor(config) {
-        this.focus        = 80 // this.getPeople(config.focus);
-
         this.width        = this.getWidth();
         this.height       = this.getHeight();
         this.color        = this.getColor(config.color);
         this.alphabet     = this.getAlphabet();
         this.peopleSpecs  = this.getPeopleSpecs(config.total, config.capita);
         this.people       = this.getPeople(config.total, config.capita);
+        this.focus        = this.getPeople(config.focus, config.capita);
         this.svg          = this.getSVG(config.elID);
 
         this.setXPosition = this.setXPosition.bind(this);
@@ -62,6 +61,16 @@ class PeopleBubble {
     }
 
     setYPosition(idx) {
+        // const midRow = Math.floor(this.peopleSpecs.rows / 2);
+        // const currRow = Math.floor(idx / this.peopleSpecs.cols)
+        // const midArea = (this.height / 2) - (this.peopleSpecs.height / 2);
+        // if (currRow < midRow) {
+        //   return midArea - ((currRow * this.peopleSpecs.height) - this.peopleSpecs.height);
+        // } else if (currRow > midRow) {
+        //   return midArea + ((currRow * this.peopleSpecs.height) + this.peopleSpecs.height);
+        // } else {
+        //   return midArea;
+        // }
         return ((Math.floor(idx / this.peopleSpecs.cols)) * this.peopleSpecs.height) + this.peopleSpecs.height;
     }
 

@@ -5,7 +5,7 @@
         v-observe-visibility="{
           callback: visibilityChanged,
           intersection: {
-            threshold: 0.9,
+            threshold: 0.6,
           },
           throttle: 300,
         }"
@@ -21,12 +21,12 @@ export default {
     props: { 
         prose: String,
         graphic: String,
+        curr: String,
     },
     data: function () {
         return {
-            instructionsHeight: 75,
+            instructionsHeight: 150,
             graphicSize: 0,
-            isVisible: false,
         }
     },
     computed: {
@@ -36,13 +36,13 @@ export default {
     },
     methods: {
         visibilityChanged (isVisible, entry) {
-            if (isVisible !== this.isVisible) {
-                console.log(entry)
+            if (isVisible && (this.graphic !== this.curr)) {
+                this.$emit('update-current', this.graphic);
             }
         }
     },
     mounted: function () {
-        this.graphicSize = window.innerWidth < 720 ? window.innerWidth * 0.4 : 720 * 0.4;
+        this.graphicSize = window.innerWidth < 720 ? window.innerWidth * 0.5 : 720 * 0.5;
     },
 }
 </script>

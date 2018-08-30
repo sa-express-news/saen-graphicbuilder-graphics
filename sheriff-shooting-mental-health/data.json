@@ -1,15 +1,15 @@
 {
   "META": {
-    "graphic_title": "Family reunifications by the numbers",
-    "prose": "Here's a look at the process of family reunifications according to data released in the July 26th federal court case filing",
+    "graphic_title": "Mapping the health of Texas' mental health system",
+    "prose": "This is some filler text that we'll change out to both describe this data section and to give the reader some instructions for how to use it",
     "source": "Federal court case",
     "note": "These include reunifications with parents in the interior, discharges to other sponsors (such as in situations where the parent is not eligible for reunification), reunifications with parents in DHS custody earlier in the process or children that turned 18",
     "credit": "Luke Whyte | San Antonio Express-News"
   },
   "ONE": {
-    "people_total": 450000,
-    "people_focus": 300000,
-    "people_per_wee": 10000,
+    "people_total": 550000,
+    "people_focus": 550000,
+    "people_per_wee": 1000,
     "prose": "In the mid 1950s, there were 550,000 psychiatric inpatients in the United States. This marked the high point in an era of institutionalization beginning almost a century and a half prior with the opening of the first asylum in 1817. At this time, most, if not all, hospital admissions were involuntary.",
     "type": "weepeople",
     "color": "#08519c"
@@ -19,13 +19,23 @@
     "people_focus": 30000,
     "people_per_wee": 1000,
     "prose": "By the early 1990s, that number had dropped to 30,000 inpatients, a trend marked by a shift in criteria for civil commitment from a “need-for-treatment” model, which often resulted in questionable asylum commitments, to a “dangerousness” model where patients are involuntarily detained against their will only if deemed an immediate risk to themselves or others.",
-    "type": "weepeople"
+    "type": "weepeople",
+    "color": "#08519c"
   },
   "THREE": {
     "people_total": 3300000,
     "people_focus": 560000,
-    "people_per_wee": 1000,
+    "people_per_wee": 10000,
     "prose": "Though well intentioned, the trend in deinstitutionalization did not correspond with a drop in mental health issues. In 1955 there were 560,000 state hospital beds available for an estimated 3.3 million people living with serious mental illness and other disabilities in the U.S.",
-    "type": "weepeople"
+    "type": "weepeople",
+    "color": "#006d2c"
+  },
+  "FOUR": {
+    "people_total": 8100000,
+    "people_focus": 38000,
+    "people_per_wee": 10000,
+    "prose": "By 2016, just under 38,000 of those public beds remained open for an estimated 8.1 million people living with the same conditions. This shift has led to unintended consequences like a spike in homeless or incarcerated mentally ill people and a raised likelihood that potentially dangerous individuals – like BLANK – will be released onto the street.",
+    "type": "weepeople",
+    "color": "#006d2c"
   }
 }

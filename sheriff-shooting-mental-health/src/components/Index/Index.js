@@ -20,8 +20,11 @@ export default {
         },
     },
     methods: {
-        commaSeparate: function (num) {
+        commaSeparate(num) {
             return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        },
+        updateCurrentModal(newCurr) {
+            this.currentGraphic = newCurr;
         }
     },
     components: {

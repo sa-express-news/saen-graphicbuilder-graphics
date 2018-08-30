@@ -1,8 +1,10 @@
 <template>
     <div>
         <div class="graphic">
-            <h1>{{ META.graphic_title }}</h1>
-            <p class="subtext">{{ META.prose }}</p>
+            <div class="header">
+                <h1>{{ META.graphic_title }}</h1>
+                <p class="subtext">{{ META.prose }}</p>
+            </div>
 
             <main>
                 <div id="graphic-container">
@@ -11,6 +13,7 @@
                         :focus="CURR.people_focus"
                         :capita="CURR.people_per_wee"
                         :color="CURR.color"
+                        :curr="currentGraphic"
                         elID="weepeople"
                     />
                 </div>
@@ -18,12 +21,30 @@
                 <div id="prose">
                     <explination
                         graphic="ONE"
-                        :prose="CURR.prose"
+                        :prose="ONE.prose"
+                        :curr="currentGraphic"
+                        @update-current="updateCurrentModal"
                     />
 
                     <explination
                         graphic="TWO"
-                        :prose="CURR.prose"
+                        :prose="TWO.prose"
+                        :curr="currentGraphic"
+                        @update-current="updateCurrentModal"
+                    />
+
+                     <explination
+                        graphic="THREE"
+                        :prose="THREE.prose"
+                        :curr="currentGraphic"
+                        @update-current="updateCurrentModal"
+                    />
+
+                    <explination
+                        graphic="FOUR"
+                        :prose="FOUR.prose"
+                        :curr="currentGraphic"
+                        @update-current="updateCurrentModal"
                     />
 
                     <div class="footer">

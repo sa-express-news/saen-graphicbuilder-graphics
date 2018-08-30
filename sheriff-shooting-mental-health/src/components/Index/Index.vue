@@ -21,6 +21,11 @@
                         :prose="CURR.prose"
                     />
 
+                    <explination
+                        graphic="TWO"
+                        :prose="CURR.prose"
+                    />
+
                     <div class="footer">
                         <ul>
                             <li v-if="META.note" class="note">*{{ META.note }}</li>

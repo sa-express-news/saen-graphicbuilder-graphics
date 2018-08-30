@@ -20,6 +20,7 @@ export default {
     name: 'explination',
     props: { 
         prose: String,
+        graphic: String,
     },
     data: function () {
         return {

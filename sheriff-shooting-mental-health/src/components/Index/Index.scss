@@ -12,13 +12,16 @@
     main {
         position: relative;
         height: 100%;
-        overflow: hidden;
+        overflow: scroll;
+
+        #graphic-container {
+            position: fixed;
+        }
     }
 }
 
 #prose {
     position: absolute;
-    overflow: hidden;
     box-sizing: border-box;
     top: 0;
 }

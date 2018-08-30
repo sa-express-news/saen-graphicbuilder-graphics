@@ -7,9 +7,9 @@
     "credit": "Luke Whyte | San Antonio Express-News"
   },
   "ONE": {
-    "people_total": 550000,
-    "people_focus": 550000,
-    "people_per_wee": 1000,
+    "people_total": 450000,
+    "people_focus": 300000,
+    "people_per_wee": 10000,
     "prose": "In the mid 1950s, there were 550,000 psychiatric inpatients in the United States. This marked the high point in an era of institutionalization beginning almost a century and a half prior with the opening of the first asylum in 1817. At this time, most, if not all, hospital admissions were involuntary.",
     "type": "weepeople",
     "color": "#08519c"

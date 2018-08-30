@@ -11,9 +11,14 @@ export default {
     name: 'graphic',
     title: getTitle,
     data: function () { return Object.assign({}, data, { 
-        CURR: data.ONE, 
+        currentGraphic: 'ONE', 
         graphicHeight: 0,
     })},
+    computed: {
+        CURR() {
+            return data[this.currentGraphic];
+        },
+    },
     methods: {
         commaSeparate: function (num) {
             return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");

@@ -93,7 +93,7 @@ class PeopleBubble {
 
     getSplitSimulation() {
         return d3.forceSimulation()
-                .force('collision', d3.forceCollide().strength(1).radius(function (d) { return d.r; }))
+                .force('collision', d3.forceCollide().strength(0.01).radius(function (d) { return d.r; }))
                 .force('x', d3.forceX().x(this.getXSplitPos.bind(this)).strength(0.005))
                 .force('y', d3.forceY().y(this.getYSplitPos.bind(this)).strength(0.005))
                 .alphaDecay(0.05)
@@ -140,7 +140,7 @@ class PeopleBubble {
     }
 
     setOpacity(d) {
-        return (d.i + 1) > this.focus ? 0.5 : 1;
+        return (d.i + 1) > this.focus ? 0.2 : 1;
     }
 
     pluckPerson() {

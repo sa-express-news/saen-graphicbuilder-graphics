@@ -1,6 +1,9 @@
-{ 
-    "META": {
-        "graphic_title": "Graphic",
-        "prose": "Chatter for graphic"
-    }
+{
+  "META": {
+    "graphic_title": "Estimated percent of undocumented residents in U.S. metro areas",
+    "prose": "This map shows the 50 metro areas with the highest percent of undocumented residents among the 100 largest U.S. metro areas in 2014. The largest is McAllen-Edinburg-Mission, TX with 10.2% of the population or roughly 85,000 people. The second largest is Houston-The Woodlands-Sugar Land, TX with 8.7% of the population or roughly 575,000 residents.",
+    "source": "Pew Research Center",
+    "source_url": "http://www.pewhispanic.org/2017/02/13/estimates-of-unauthorized-immigrant-population-by-metro-area-2014/",
+    "credit": "Luke Whyte | San Antonio Express-News"
+  }
 }

@@ -2,7 +2,7 @@
   "name": "graphicBuilder",
   "config": {
     "s3_bucket": "graphics.expressnews.com",
-    "slug": ""
+    "slug": "undocumented-resident-percentages"
   },
   "version": "0.2.0",
   "private": true,
@@ -28,6 +28,7 @@
     "@vue/cli-plugin-eslint": "^3.0.1",
     "@vue/cli-service": "^3.0.1",
     "chalk": "^2.4.1",
+    "compression-webpack-plugin": "^2.0.0",
     "eslint-plugin-only-warn": "^1.0.1",
     "googleapis": "^16.1.0",
     "inquirer": "^6.1.0",

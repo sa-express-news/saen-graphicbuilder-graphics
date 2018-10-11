@@ -14,6 +14,9 @@ echo "Syncing *.js files to S3..."
 aws s3 sync --acl public-read --profile graphicBuilder --exclude '*.*' --include '*.js' --cache-control 'max-age=31536000' --content-encoding 'gzip' dist s3://$GRAPHIC_S3_BUCKET/graphics/$PROJECT_SLUG/
 
 echo "Syncing *.html files to S3..."
+mv dist/index.html dist/raw.html
+gzip < dist/raw.html > dist/index.html
+rm dist/raw.html
 aws s3 sync --acl public-read --profile graphicBuilder --exclude '*.*' --include '*.html' --cache-control 'no-cache' --content-encoding 'gzip' dist s3://$GRAPHIC_S3_BUCKET/graphics/$PROJECT_SLUG/
 
 echo "Syncing everything else to S3..."

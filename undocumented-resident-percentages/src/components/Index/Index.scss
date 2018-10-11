@@ -3,6 +3,10 @@
 
 @import 'base';
 
+div.graphic {
+    max-width: 960px;
+}
+
 svg.map {
     width: 100%;
     max-width: 960px;

@@ -20,8 +20,6 @@ class RgvMap {
         this.map        = this.generateMapInstance(id);
         this.stylelayer = this.getStyleLayer();
         this.dataLayer  = this.setDataLayer(data);
-
-        this.map.on('click', e => console.log(e.latlng))
     }
 
     isMobile() {

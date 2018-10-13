@@ -5,7 +5,7 @@
             <p class="subtext">{{ META.prose }}</p>
 
             <div id="graphic-container">
-                <!-- Enter your code here! -->
+                <RgvMap />
             </div>
 
             <div class="footer">

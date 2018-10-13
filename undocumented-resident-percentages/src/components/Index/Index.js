@@ -26,7 +26,12 @@ export default {
             if (path.id) {
                 tippy(path, { 
                     content: this.hydrateTooltip(path.id),
-                    size: 'small',
+                    delay: 100,
+                    arrow: true,
+                    arrowType: 'round',
+                    size: 'large',
+                    duration: 500,
+                    animation: 'scale'
                 });
             }
         });

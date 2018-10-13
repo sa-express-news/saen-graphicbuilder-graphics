@@ -29,8 +29,6 @@ const setGzipRule = config => {
         filename: '[file]',
         algorithm: 'gzip',
         test: /\.js$|\.css$|\.html$|\.eot?.+$|\.ttf?.+$|\.woff?.+$|\.svg?.+$/,
-        threshold: 10240,
-        minRatio: 0.8,
     }));
     return gzipRule;
 };

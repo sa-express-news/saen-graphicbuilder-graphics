@@ -5,12 +5,8 @@
             <p class="subtext">{{ META.prose }}</p>
 
             <div id="graphic-container">
-                <SelectGroup
-                    @group-changed="selectGroup"
-                />
-                <Table
-                    :items="getTableData()"
-                />
+                <SelectGroup @group-changed="selectGroup" />
+                <Table :items="getTableItems()" />
             </div>
 
             <div class="footer">

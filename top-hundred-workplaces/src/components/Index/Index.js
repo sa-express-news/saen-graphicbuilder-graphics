@@ -9,10 +9,9 @@ const getTitle = () => data && data.META
 export default {
     name: 'graphic',
     title: getTitle,
-    data() { 
+    data() {
         return { 
             groupKey: 'large',
-            perPage: 10,
             large: data.LARGE,
             medium: data.MEDIUM,
             small: data.SMALL,
@@ -20,28 +19,13 @@ export default {
         };
     },
     methods: {
-        commaSeparate(num) {
+        commaSeparate (num) {
             return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         },
-        formatTableData(data) {
-            return JSON.stringify({
-                pagination: {
-                    total: data.length,
-                    per_page: this.perPage,
-                    current_page: 1,
-                    last_page: Math.ceil(data.length / this.perPage),
-                    next_page_url: null,
-                    prev_page_url: null,
-                    from: 1,
-                    to: this.perPage,
-                },
-                data,
-            });
-        },
-        selectGroup(group) {
+        selectGroup (group) {
             this.groupKey = group;
         },
-        getTableData() {
+        getTableItems () {
             return this[this.groupKey];
         },
     },

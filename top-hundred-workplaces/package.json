@@ -2,7 +2,7 @@
   "name": "graphicBuilder",
   "config": {
     "s3_bucket": "graphics.expressnews.com",
-    "slug": ""
+    "slug": "top-hundred-workplaces"
   },
   "version": "0.2.0",
   "private": true,

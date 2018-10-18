@@ -1,16 +1,16 @@
 <template>
     <div class="select-group">
-        <label class="container">Large
+        <label class="wrap">Large
             <input type="radio" name="group" checked="checked" value="large" @input="$emit('group-changed', $event.target.value)">
             <span class="checkmark"></span>
         </label>
 
-        <label class="container">Medium
+        <label class="wrap">Medium
             <input type="radio" name="group" value="medium" @input="$emit('group-changed', $event.target.value)">
             <span class="checkmark"></span>
         </label>
 
-        <label class="container">Small
+        <label class="wrap">Small
             <input type="radio" name="group" value="small" @input="$emit('group-changed', $event.target.value)">
             <span class="checkmark"></span>
         </label>
@@ -24,8 +24,10 @@ export default {
 </script>
 
 <style lang="scss">
-/* Customize the label (the container) */
-.container {
+@import '~express-news-styleguide/init-base';
+
+/* Customize the label (the wrap) */
+.wrap {
   display: inline-block;
   position: relative;
   padding-left: 28px;
@@ -52,9 +54,9 @@ export default {
         background-color: #ccc;
     }
 
-    /* When the radio button is checked, add a blue background */
+    /* When the radio button is checked, add a red background */
     input:checked ~ .checkmark {
-        background-color: #2196F3;
+        background-color: $red;
 
         /* Show the indicator (dot/circle) when checked */
         &:after {
@@ -81,7 +83,7 @@ export default {
 }
 
 /* Style the indicator (dot/circle) */
-.container .checkmark:after {
+.wrap .checkmark:after {
     top: 7px;
     left: 7px;
     width: 6px;

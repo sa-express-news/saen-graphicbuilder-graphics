@@ -6,7 +6,10 @@
 
             <div id="graphic-container">
                 <SelectGroup @group-changed="selectGroup" />
-                <Table :items="getTableItems()" />
+                <Table 
+                    :items="getTableItems()"
+                    :sendHeight="sendHeight"
+                />
             </div>
 
             <div class="footer">

@@ -18,6 +18,12 @@ export default {
             META: data.META,
         };
     },
+    props: {
+        sendHeight: {
+            type: Function,
+            required: true,
+        },
+    },
     methods: {
         commaSeparate (num) {
             return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -28,6 +34,9 @@ export default {
         getTableItems () {
             return this[this.groupKey];
         },
+    },
+    updated() {
+        this.sendHeight();
     },
     components: {
         SelectGroup,

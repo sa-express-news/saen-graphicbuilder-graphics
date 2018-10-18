@@ -16,13 +16,17 @@ Vue.config.productionTip = false
 
 let pymChild;
 
-const renderVue = () => new Vue({
-  render: h => h(Index),
-  mounted: () => {
+const sendHeight = () => {
     if (pymChild) {
         pymChild.sendHeight();
     }
-  },
+}
+
+const renderVue = () => new Vue({
+  render: h => h(Index, {
+    props: { sendHeight }
+  }),
+  mounted: sendHeight,
 }).$mount('#app');
 
 function load () {

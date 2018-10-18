@@ -80,6 +80,10 @@ export default {
             type: Array,
             required: true,
         },
+        sendHeight: {
+            type: Function,
+            required: true,
+        },
     },
     computed: {
         sortOptions () {
@@ -104,6 +108,9 @@ export default {
             this.totalRows = filteredItems.length;
             this.currentPage = 1;
         }
+    },
+    updated() {
+        this.sendHeight();
     },
 }
 </script>

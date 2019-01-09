@@ -70,13 +70,13 @@ class RgvMap {
 
     generateMapInstance(id) {
         const settings = this.getSettings();
-        L.mapbox.accessToken = 'pk.eyJ1Ijoic2Flbi1lZGl0b3JzIiwiYSI6ImNpeXVreTZ6YjAwenYycW15d3hoNmp1aTEifQ.OjH869qC5JzcGVVy-rg4JQ';
+        L.mapbox.accessToken = 'pk.eyJ1IjoibHVrZXdoeXRlIiwiYSI6IlZHaDVCQjQifQ.yUYnbLVrkSRq2Akdyirobg';
         this.container.style('width', this.width + 'px').style('height', this.height + 'px');
         return L.map(id, settings);
     }
 
     getStyleLayer() {
-      const url = 'mapbox://styles/saen-editors/cj8lz9cbp6d0i2ro29ef2422q';
+      const url = 'mapbox://styles/lukewhyte/cjqpm6izt0mtb2sslh97eqkw1';
       return L.mapbox.styleLayer(url).addTo(this.map);
     }
 

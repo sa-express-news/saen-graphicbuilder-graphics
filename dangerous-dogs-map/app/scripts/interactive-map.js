@@ -59,7 +59,7 @@ var DogMap = (function (maps) {
 
     generateMapInstance: function (el) {
       var settings = this.getSettings();
-      L.mapbox.accessToken = 'pk.eyJ1IjoibHVrZXdoeXRlIiwiYSI6IlZHaDVCQjQifQ.yUYnbLVrkSRq2Akdyirobg';
+      L.mapbox.accessToken = 'pk.eyJ1Ijoic2Flbi1lZGl0b3JzIiwiYSI6ImNpeXVreTZ6YjAwenYycW15d3hoNmp1aTEifQ.OjH869qC5JzcGVVy-rg4JQ'; 
       this.container.style('width', this.width + 'px').style('height', this.height + 'px');
       return L.map(el, settings);
     },
@@ -77,7 +77,7 @@ var DogMap = (function (maps) {
     },
 
     getStyleLayer: function () {
-      var url = 'mapbox://styles/lukewhyte/cjqplcumy1ir72spfmajtob5i';
+      var url = 'mapbox://styles/saen-editors/cjcv332vp03u72tlo7npit1uz';
       return L.mapbox.styleLayer(url).addTo(this.map);
     },
 

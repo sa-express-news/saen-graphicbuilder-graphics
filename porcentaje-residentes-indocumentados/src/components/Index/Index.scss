@@ -1,0 +1,17 @@
+@import '~express-news-styleguide/init-base';
+@import '~express-news-styleguide/theme/graphic';
+
+@import 'base';
+
+@import '~tippy.js/dist/tippy.css';
+
+div.graphic {
+    max-width: 960px;
+}
+
+svg.map {
+    width: 100%;
+    max-width: 960px;
+    height: auto;
+    margin: 0 auto;
+}

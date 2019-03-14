@@ -1,0 +1,231 @@
+{
+  "META": {
+    "graphic_title": "Trends in max and min temperature records per decade",
+    "prose": "The following charts show the number of hottest day and coldest day records set per decade since 1970 using 1920 as a baseline for counting records. Given a balanced climate, the number of record setting days would be expected to decrease decade over decade as more possible record-setting days since 1920 are added to the dataset. However, we can see that, from the 1990s onward, the number of maximum highs continues to rise as the number of minimum lows drops off.",
+    "source": "Associate Press and the National Centers for Environmental Information",
+    "source_url": "https://data.world/associatedpress/temperature-records/workspace/project-summary",
+    "credit": "Luke Whyte | San Antonio Express-News"
+  },
+  "BOERNE": [
+    {
+      "station": "USC00410902",
+      "name": "BOERNE",
+      "decade": "1970_1979",
+      "daytime_highs": 60,
+      "nighttime_lows": 136
+    },
+    {
+      "station": "USC00410902",
+      "name": "BOERNE",
+      "decade": "1980_1989",
+      "daytime_highs": 78,
+      "nighttime_lows": 74
+    },
+    {
+      "station": "USC00410902",
+      "name": "BOERNE",
+      "decade": "1990_1999",
+      "daytime_highs": 36,
+      "nighttime_lows": 52
+    },
+    {
+      "station": "USC00410902",
+      "name": "BOERNE",
+      "decade": "2000_2009",
+      "daytime_highs": 64,
+      "nighttime_lows": 21
+    },
+    {
+      "station": "USC00410902",
+      "name": "BOERNE",
+      "decade": "2010_2019",
+      "daytime_highs": 47,
+      "nighttime_lows": 21
+    }
+  ],
+  "LLANO": [
+    {
+      "station": "USC00415272",
+      "name": "LLANO",
+      "decade": "1970_1979",
+      "daytime_highs": 37,
+      "nighttime_lows": 112
+    },
+    {
+      "station": "USC00415272",
+      "name": "LLANO",
+      "decade": "1980_1989",
+      "daytime_highs": 47,
+      "nighttime_lows": 60
+    },
+    {
+      "station": "USC00415272",
+      "name": "LLANO",
+      "decade": "1990_1999",
+      "daytime_highs": 27,
+      "nighttime_lows": 16
+    },
+    {
+      "station": "USC00415272",
+      "name": "LLANO",
+      "decade": "2000_2009",
+      "daytime_highs": 62,
+      "nighttime_lows": 74
+    },
+    {
+      "station": "USC00415272",
+      "name": "LLANO",
+      "decade": "2010_2019",
+      "daytime_highs": 40,
+      "nighttime_lows": 28
+    }
+  ],
+  "SOUTH": [
+    {
+      "station": 1,
+      "name": "SOUTH",
+      "decade": "1970_1979",
+      "daytime_highs": 2537,
+      "nighttime_lows": 5259
+    },
+    {
+      "station": 1,
+      "name": "SOUTH",
+      "decade": "1980_1989",
+      "daytime_highs": 3073,
+      "nighttime_lows": 4799
+    },
+    {
+      "station": 1,
+      "name": "SOUTH",
+      "decade": "1990_1999",
+      "daytime_highs": 1930,
+      "nighttime_lows": 2504
+    },
+    {
+      "station": 1,
+      "name": "SOUTH",
+      "decade": "2000_2009",
+      "daytime_highs": 2704,
+      "nighttime_lows": 1758
+    },
+    {
+      "station": 1,
+      "name": "SOUTH",
+      "decade": "2010_2019",
+      "daytime_highs": 2724,
+      "nighttime_lows": 1606
+    }
+  ],
+  "US": [
+    {
+      "station": 2,
+      "name": "US",
+      "decade": "1970_1979",
+      "daytime_highs": 22907,
+      "nighttime_lows": 35911
+    },
+    {
+      "station": 2,
+      "name": "US",
+      "decade": "1980_1989",
+      "daytime_highs": 26176,
+      "nighttime_lows": 28453
+    },
+    {
+      "station": 2,
+      "name": "US",
+      "decade": "1990_1999",
+      "daytime_highs": 20857,
+      "nighttime_lows": 16906
+    },
+    {
+      "station": 2,
+      "name": "US",
+      "decade": "2000_2009",
+      "daytime_highs": 20574,
+      "nighttime_lows": 11142
+    },
+    {
+      "station": 2,
+      "name": "US",
+      "decade": "2010_2019",
+      "daytime_highs": 18463,
+      "nighttime_lows": 8981
+    }
+  ],
+  "LULING": [
+    {
+      "station": "USC00415429",
+      "name": "LULING",
+      "decade": "1970_1979",
+      "daytime_highs": 57,
+      "nighttime_lows": 167
+    },
+    {
+      "station": "USC00415429",
+      "name": "LULING",
+      "decade": "1980_1989",
+      "daytime_highs": 106,
+      "nighttime_lows": 106
+    },
+    {
+      "station": "USC00415429",
+      "name": "LULING",
+      "decade": "1990_1999",
+      "daytime_highs": 57,
+      "nighttime_lows": 54
+    },
+    {
+      "station": "USC00415429",
+      "name": "LULING",
+      "decade": "2000_2009",
+      "daytime_highs": 44,
+      "nighttime_lows": 46
+    },
+    {
+      "station": "USC00415429",
+      "name": "LULING",
+      "decade": "2010_2019",
+      "daytime_highs": 61,
+      "nighttime_lows": 57
+    }
+  ],
+  "SA": [
+    {
+      "station": "USW00012921",
+      "name": "SA",
+      "decade": "1970_1979",
+      "daytime_highs": 102,
+      "nighttime_lows": 163
+    },
+    {
+      "station": "USW00012921",
+      "name": "SA",
+      "decade": "1980_1989",
+      "daytime_highs": 108,
+      "nighttime_lows": 87
+    },
+    {
+      "station": "USW00012921",
+      "name": "SA",
+      "decade": "1990_1999",
+      "daytime_highs": 101,
+      "nighttime_lows": 46
+    },
+    {
+      "station": "USW00012921",
+      "name": "SA",
+      "decade": "2000_2009",
+      "daytime_highs": 77,
+      "nighttime_lows": 21
+    },
+    {
+      "station": "USW00012921",
+      "name": "SA",
+      "decade": "2010_2019",
+      "daytime_highs": 56,
+      "nighttime_lows": 12
+    }
+  ]
+}

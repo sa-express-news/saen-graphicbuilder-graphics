@@ -1,0 +1,9 @@
+{
+  "META": {
+    "graphic_title": "Number of farm labor contractors per county",
+    "prose": "This map shows the number of farm labor contractors (FLCs) per county in each U.S. county as of October, 2018. The maximum bubble size has been capped at 350 FLCs to keep three outlier counties in California's Central Valley with over 1000 FLCs each from distorting the data. Hover over any bubble for county details.",
+    "source": "U.S. Department of Labor",
+    "source_url": "https://www.dol.gov/whd/regs/statutes/FLCList.htm",
+    "credit": "Luke Whyte | San Antonio Express-News"
+  }
+}

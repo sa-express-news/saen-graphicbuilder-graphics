@@ -1,0 +1,127 @@
+@import '~express-news-styleguide/init-base';
+@import '~express-news-styleguide/theme/graphic';
+
+@import 'base';
+
+$red: #B12125;
+$lightRed: #DC8B6A;
+$darkBlue: #3E67B0;
+$blue: #44ABDF;
+$yellow: #FCC10F;
+$lightYellow: #FCE598;
+$teal: #379D92;
+$lightTeal: #9BCEC8;
+$violet: #742E66;
+$lightViolet: #993D88;
+$gunmetal: #4C5A69;
+$lightMetal: #929AA3;
+
+.legends {
+    margin-top: 10px;
+
+    .legend {
+        .box {
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            margin-left: 4px;
+
+            &.highs { background-color: $red }
+            &.lows { background-color: $lightRed }
+        }
+
+        .text {
+            display: inline-block;
+            font-size: 0.8em;
+            vertical-align: middle;
+            height: 30px;
+            margin-left: 5px;
+        }
+    }
+}
+
+.wrapper {
+    display: inline-block;
+    width: 100%;
+
+    &.right {
+        width: 100%;
+		padding-left: 0;
+	}
+
+	&.left {
+        width: 100%;
+		padding-right: 0;
+    }
+    
+    @include mediaquery($default-tablet) {
+        &.right {
+            width: 48%;
+			padding-left: 1%;
+		}
+
+		&.left {
+            width: 48%;
+			padding-right: 1%;
+		}
+    }
+}
+
+.bar-chart {
+    @include clearfix;
+    width: 100%;
+    font-size: .8em;
+    height: 190px;
+    margin: 2em 0 2.5em; // 20px
+
+    @include mediaquery($default-tablet) {
+        height: 220px;
+    }
+}
+
+.desc {
+    text-align: center;
+    margin: 5em 0 2em;
+}
+
+#san-antonio {
+    .legend .box {
+        &.highs { background-color: $red; }
+        &.lows { background-color: $lightRed; }
+    }
+}
+
+#llano {
+    .legend .box {
+        &.highs { background-color: $darkBlue; }
+        &.lows { background-color: $blue; }
+    }
+}
+
+#boerne {
+    .legend .box {
+        &.highs { background-color: $yellow; }
+        &.lows { background-color: $lightYellow; }
+    }
+}
+
+#luling {
+    .legend .box {
+        &.highs { background-color: $teal; }
+        &.lows { background-color: $lightTeal; }
+    }
+}
+
+#south {
+    .legend .box {
+        &.highs { background-color: $violet; }
+        &.lows { background-color: $lightViolet; }
+    }
+}
+
+#us {
+    .legend .box {
+        &.highs { background-color: $gunmetal; }
+        &.lows { background-color: $lightMetal; }
+    }
+}

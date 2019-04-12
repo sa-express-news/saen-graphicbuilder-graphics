@@ -1,0 +1,157 @@
+{
+  "META": {
+    "graphic_title": "Migrant farmworker “streams”",
+    "prose": "This map shows the three, generally accepted “migrant streams” in which farmworkers tend to travel to harvest crops seasonally. Each stream begins and ends in one of three “sending states,” Florida, Texas or California, where farmworkers will return at the end of the season. The streams are fluid, adjusting to regional shifts, with the Texas stream being the most divergent, with some workers ending up in Washington state or Florida.",
+    "source": "U.S. Department of Health & Human Services, Migrant Head Start Program",
+    "source_url": "https://eclkc.ohs.acf.hhs.gov/definition/migrant-seasonal-head-start-programs",
+    "credit": "Mike Fisher | San Antonio Express-News"
+  },
+  "TREE": [
+    {
+      "name": "Supermarkets",
+      "displayName": "Supermarkets and wholesalers",
+      "group": "Buyers",
+      "color": "#B12125",
+      "opacity": 1,
+      "type": "supermarket",
+      "tooltip": "SM Jones sells produce to wholesalers and supermarkets that sell it to consumers."
+    },
+    {
+      "name": "SM Jones",
+      "displayName": "SM Jones",
+      "parent": "Supermarkets",
+      "group": "Farms",
+      "color": "#DC8B6A",
+      "opacity": 1,
+      "type": "packing",
+      "connection": "vertical",
+      "tooltip": "SM Jones is a produce packing and transport company, they work with four partner farms to prepare and ship produce to supermarkets and wholesalers."
+    },
+    {
+      "name": "Twin H Farms",
+      "displayName": "Twin H Farms",
+      "parent": "SM Jones",
+      "group": "Farms",
+      "color": "#DC8B6A",
+      "opacity": 0.6,
+      "type": "farm",
+      "connection": "horizontal-left",
+      "tooltip": "The Holt family farm"
+    },
+    {
+      "name": "Sunrise Labor",
+      "displayName": "Sunrise Labor Corp",
+      "parent": "SM Jones",
+      "group": "Contractor corporation",
+      "color": "#3E67B0",
+      "opacity": 1,
+      "type": "sunrise",
+      "connection": "vertical",
+      "tooltip": "Sunrise Labor Corp is a farm labor contractor corporation. Their clients are farms that need workers to harvest produce. They hire contractors, like Hernandez, to recruit low wage workers, like Jimenez Luna"
+    },
+    {
+      "name": "Turek Farms",
+      "displayName": "Turek Farms",
+      "parent": "SM Jones",
+      "group": "Farms",
+      "color": "#DC8B6A",
+      "opacity": 0.6,
+      "type": "farm",
+      "connection": "horizontal-right",
+      "tooltip": "Turek Farms in Kings Ferry, NY is SM Jones partner. Jimenez Luna fled Hernandez' crew from here."
+    },
+    {
+      "name": "Farm Four",
+      "displayName": "Anonymous Farm",
+      "parent": "Turek Farms",
+      "group": "Farms",
+      "color": "#DC8B6A",
+      "opacity": 0.6,
+      "type": "farm",
+      "connection": "horizontal-right"
+    },
+    {
+      "name": "Farm One",
+      "displayName": "Anonymous Farm",
+      "parent": "Twin H Farms",
+      "group": "Farms",
+      "color": "#DC8B6A",
+      "opacity": 0.6,
+      "type": "farm",
+      "connection": "horizontal-left"
+    },
+    {
+      "name": "YCO",
+      "displayName": "Your Corporate Office",
+      "parent": "Sunrise Labor",
+      "group": "Contractor corporation",
+      "color": "#44ABDF",
+      "opacity": 1,
+      "type": "yco",
+      "connection": "horizontal-left",
+      "tooltip": "Your Corporate Office Labor Corp, owned by Rusty Reaves, handled payroll and administrative tasks for Sunrise Labor"
+    },
+    {
+      "name": "Contractor One",
+      "displayName": "Anonymous contractor",
+      "parent": "Sunrise Labor",
+      "group": "Farm labor contractors",
+      "color": "#FCC10F",
+      "opacity": 0.2,
+      "type": "flcs",
+      "connection": "vertical"
+    },
+    {
+      "name": "Salvador Hernandez",
+      "displayName": "Salvador hernandez",
+      "parent": "Sunrise Labor",
+      "group": "Farm labor contractors",
+      "color": "#FCC10F",
+      "opacity": 1,
+      "type": "flcs",
+      "connection": "vertical",
+      "tooltip": "This is Salvador Hernadez, one of several contractors working for Sunrise Labor"
+    },
+    {
+      "name": "Contractor Three",
+      "displayName": "Anonymous contractor",
+      "parent": "Sunrise Labor",
+      "group": "Farm labor contractors",
+      "color": "#FCC10F",
+      "opacity": 0.2,
+      "type": "flcs",
+      "connection": "vertical"
+    },
+    {
+      "name": "Workers One",
+      "displayName": "Harvest crew",
+      "parent": "Contractor One",
+      "group": "Farm workers",
+      "color": "#379D92",
+      "opacity": 0.2,
+      "type": "farmworkers",
+      "connection": "vertical"
+    },
+    {
+      "name": "Workers Two",
+      "displayName": "Jimenez Luna's crew",
+      "parent": "Salvador Hernandez",
+      "group": "Farm workers",
+      "color": "#379D92",
+      "opacity": 1,
+      "type": "farmworkers",
+      "connection": "vertical",
+      "tooltip": "This is Salvador Hernandez' crew of indebted workers. Including Juan Jimenez Luna"
+    },
+    {
+      "name": "Workers Three",
+      "displayName": "Harvest crew",
+      "parent": "Contractor Three",
+      "group": "Farm workers",
+      "color": "#379D92",
+      "opacity": 0.2,
+      "type": "farmworkers",
+      "connection": "vertical"
+    }
+  ]
+}

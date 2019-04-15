@@ -25,4 +25,8 @@ const addNode = (tree, node, idx) => {
     return tree;
 }
 
-export default flatTree => flatTree.reduce(addNode, [])[0];
+export default flatTree => ({
+    farms: flatTree.filter(node => node.isFarm),
+    yco: flatTree.find(node => node.name === 'YCO'),
+    tree: flatTree.filter(node => !node.isOffset).reduce(addNode, [])[0],
+});

@@ -1,5 +1,9 @@
+import { hierarchy } from 'd3';
+
 //components
 import Chart from '../Chart/Chart.vue';
+
+import buildTree from './buildTree';
 
 import data from '../../../data.json';
 
@@ -9,15 +13,22 @@ const getTitle = () => data && data.META
 export default {
     name: 'graphic',
     title: getTitle,
-    data() { 
+    data() {
+        const { tree, farms, yco } = buildTree(data.TREE);
         return Object.assign({}, data, {
             width: 0,
+            tree: hierarchy(tree),
+            farms,
+            yco,
         }); 
     },
     computed: {
         height() {
             return this.width * 0.8;
-        }
+        },
+        viewBoxString () {
+            return `0 0 ${this.width} ${this.height}`
+        },
     },
     methods: {
         commaSeparate(num) {
@@ -35,6 +46,6 @@ export default {
         window.removeEventListener('resize', this.setWidth);
     },
     components: {
-        chart: Chart,
+        Chart,
     }
 }

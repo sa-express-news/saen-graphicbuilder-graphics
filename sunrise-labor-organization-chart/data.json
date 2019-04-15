@@ -9,11 +9,13 @@
   "TREE": [
     {
       "name": "Supermarkets",
-      "displayName": "Supermarkets and wholesalers",
+      "displayName": "Supermarkets",
       "group": "Buyers",
       "color": "#B12125",
       "opacity": 1,
       "type": "supermarket",
+      "isFarm": false,
+      "isOffset": false,
       "tooltip": "SM Jones sells produce to wholesalers and supermarkets that sell it to consumers."
     },
     {
@@ -24,7 +26,8 @@
       "color": "#DC8B6A",
       "opacity": 1,
       "type": "packing",
-      "connection": "vertical",
+      "isFarm": false,
+      "isOffset": false,
       "tooltip": "SM Jones is a produce packing and transport company, they work with four partner farms to prepare and ship produce to supermarkets and wholesalers."
     },
     {
@@ -35,7 +38,8 @@
       "color": "#DC8B6A",
       "opacity": 0.6,
       "type": "farm",
-      "connection": "horizontal-left",
+      "isFarm": true,
+      "isOffset": true,
       "tooltip": "The Holt family farm"
     },
     {
@@ -46,7 +50,8 @@
       "color": "#3E67B0",
       "opacity": 1,
       "type": "sunrise",
-      "connection": "vertical",
+      "isFarm": false,
+      "isOffset": false,
       "tooltip": "Sunrise Labor Corp is a farm labor contractor corporation. Their clients are farms that need workers to harvest produce. They hire contractors, like Hernandez, to recruit low wage workers, like Jimenez Luna"
     },
     {
@@ -57,7 +62,8 @@
       "color": "#DC8B6A",
       "opacity": 0.6,
       "type": "farm",
-      "connection": "horizontal-right",
+      "isFarm": true,
+      "isOffset": true,
       "tooltip": "Turek Farms in Kings Ferry, NY is SM Jones partner. Jimenez Luna fled Hernandez' crew from here."
     },
     {
@@ -68,7 +74,8 @@
       "color": "#DC8B6A",
       "opacity": 0.6,
       "type": "farm",
-      "connection": "horizontal-right"
+      "isFarm": true,
+      "isOffset": true
     },
     {
       "name": "Farm One",
@@ -78,7 +85,8 @@
       "color": "#DC8B6A",
       "opacity": 0.6,
       "type": "farm",
-      "connection": "horizontal-left"
+      "isFarm": true,
+      "isOffset": true
     },
     {
       "name": "YCO",
@@ -88,39 +96,43 @@
       "color": "#44ABDF",
       "opacity": 1,
       "type": "yco",
-      "connection": "horizontal-left",
+      "isFarm": false,
+      "isOffset": true,
       "tooltip": "Your Corporate Office Labor Corp, owned by Rusty Reaves, handled payroll and administrative tasks for Sunrise Labor"
     },
     {
       "name": "Contractor One",
-      "displayName": "Anonymous contractor",
+      "displayName": "FLC",
       "parent": "Sunrise Labor",
       "group": "Farm labor contractors",
       "color": "#FCC10F",
       "opacity": 0.2,
       "type": "flcs",
-      "connection": "vertical"
+      "isFarm": false,
+      "isOffset": false
     },
     {
       "name": "Salvador Hernandez",
-      "displayName": "Salvador hernandez",
+      "displayName": "Salvador Hernandez",
       "parent": "Sunrise Labor",
       "group": "Farm labor contractors",
       "color": "#FCC10F",
       "opacity": 1,
       "type": "flcs",
-      "connection": "vertical",
+      "isFarm": false,
+      "isOffset": false,
       "tooltip": "This is Salvador Hernadez, one of several contractors working for Sunrise Labor"
     },
     {
       "name": "Contractor Three",
-      "displayName": "Anonymous contractor",
+      "displayName": "FLC",
       "parent": "Sunrise Labor",
       "group": "Farm labor contractors",
       "color": "#FCC10F",
       "opacity": 0.2,
       "type": "flcs",
-      "connection": "vertical"
+      "isFarm": false,
+      "isOffset": false
     },
     {
       "name": "Workers One",
@@ -130,7 +142,8 @@
       "color": "#379D92",
       "opacity": 0.2,
       "type": "farmworkers",
-      "connection": "vertical"
+      "isFarm": false,
+      "isOffset": false
     },
     {
       "name": "Workers Two",
@@ -140,7 +153,8 @@
       "color": "#379D92",
       "opacity": 1,
       "type": "farmworkers",
-      "connection": "vertical",
+      "isFarm": false,
+      "isOffset": false,
       "tooltip": "This is Salvador Hernandez' crew of indebted workers. Including Juan Jimenez Luna"
     },
     {
@@ -151,7 +165,8 @@
       "color": "#379D92",
       "opacity": 0.2,
       "type": "farmworkers",
-      "connection": "vertical"
+      "isFarm": false,
+      "isOffset": false
     }
   ]
 }

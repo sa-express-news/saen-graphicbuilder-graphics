@@ -1,5 +1,5 @@
 <template>
-    <g>
+    <g transform="translate(25,25)">
         <path
             v-for="(node, idx) in nodes.descendants().slice(1)"
             :key="`link-${idx}`"
@@ -12,35 +12,55 @@
             class="node"
             :class="getPositionClass(node)"
             :transform="getNodeTransform(node)"
-        ></g>
+        >
+            <circle r="10" />
+            <text
+                dy=".35em"
+                :y="alignText(node)"
+                class="name"
+            >{{ getText(node) }}</text>
+        </g>
+        <farms 
+            v-for="(farm, idx) in farms"
+            :key="`farm-${idx}`"
+            :smJones="smJonesPosition"
+            :farm="farm"
+        />
     </g>
 </template>
 
 <script>
-import * as d3 from 'd3';
+import { tree } from 'd3';
 
-import buildTree from './buildTree';
+// components
+import Farmworkers  from '../Farmworkers/Farmworkers.vue';
+import Farms        from '../Farms/Farms.vue';
+import YCO          from '../YCO/YCO.vue';
 
 export default {
     name: 'chart',
     props: {
         width: Number,
         height: Number,
-        flatTree: Array,
-    },
-    data() {
-        return {
-            verticalLink: d3.linkVertical().x(d => d.x).y(d => d.y),
-        };
+        tree: Object,
+        farms: Array,
+        yco: Object,
     },
     computed: {
         treemap() {
-            return d3.tree().size([this.width, this.height])
+            return tree().size([this.width - 50, this.height - 100])
         },
         nodes() {
-            const tree = d3.hierarchy(buildTree(this.flatTree));
-            return this.treemap(tree);
+            return this.treemap(this.tree);
         },
+        smJonesPosition() {
+            const { x, y } = this.nodes.descendants().find(node => node.data.name === 'SM Jones')
+            return { x, y };
+        },
+        sunrisePosition() {
+            const { x, y } = this.nodes.descendants().find(node => node.data.name === 'Sunrise Labor')
+            return { x, y };
+        }
     },
     methods: {
         getNodeTransform(d) {
@@ -52,6 +72,17 @@ export default {
         drawLink(d) {
             return `M${d.x},${d.y}C${d.x},${(d.y + d.parent.y) / 2} ${d.parent.x},${(d.y + d.parent.y) / 2} ${d.parent.x},${d.parent.y}`;
         },
+        getText(d) {
+            return d.data.displayName;
+        },
+        alignText(d) {
+            return d.children ? -20 : 20;
+        },
+    },
+    components: {
+        Farmworkers,
+        Farms,
+        YCO,
     },
 }
 </script>
@@ -75,5 +106,9 @@ export default {
         fill: none;
         stroke: #ccc;
         stroke-width: 2px;
+    }
+
+    .name {
+        text-anchor: middle;
     }
 </style>

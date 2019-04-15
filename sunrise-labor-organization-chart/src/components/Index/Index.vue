@@ -5,11 +5,13 @@
             <p class="subtext">{{ META.prose }}</p>
 
             <div id="graphic-container">
-                <svg :width="width" :height="height">
+                <svg :viewBox="viewBoxString">
                     <chart
                         :width="width"
                         :height="height"
-                        :flatTree="TREE"
+                        :tree="tree"
+                        :farms="farms"
+                        :yco="yco"
                     />
                 </svg>
             </div>

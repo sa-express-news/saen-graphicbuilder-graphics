@@ -2,40 +2,66 @@
     <g>
         <path
             class="link"
-            :d="drawLink(offset, smJones)"
+            :d="link"
         />
         <g 
             class="node node--leaf"
-            :transform="getNodeTransform(offset, smJones)"
+            :transform="transform"
         >
-            <circle r="10" />
+            <text
+                class="tractor"
+                dy="10"
+                dx="-10"
+            >&#xf722;</text>
             <text
                 dy=".35em"
                 :y="20"
                 class="name"
-            >{{ getText(offset) }}</text>
+            >{{ farm.displayName }}</text>
         </g>
     </g>
 </template>
 
 <script>
-import farmPositions from './farmPositions';
-
 export default {
-    name: 'offset-nodes',
+    name: 'farm',
     props: {
-        smJones: Object,
-        offset: Object,
+        parentPos: Object,
+        farm: Object,
     },
-    methods: {
-        getNodeTransform(d, parent) {
-            return farmPositions[d.name].nodeTransform(parent);
+    computed: {
+        farmPos() {
+            switch (this.farm.name) {
+                case 'Twin H Farms':
+                    return {
+                        x: this.parentPos.x * 0.6, 
+                        y: this.parentPos.y + (this.parentPos.y * 0.2),
+                    };
+                case 'Farm One':
+                    return {
+                        x: this.parentPos.x * 0.2,
+                        y: this.parentPos.y + (this.parentPos.y * 0.2),
+                    };
+                case 'Turek Farms':
+                    return {
+                        x: this.parentPos.x + (this.parentPos.x - (this.parentPos.x * 0.6)),
+                        y: this.parentPos.y + (this.parentPos.y * 0.2),
+                    };
+                case 'Farm Four':
+                    return {
+                        x: this.parentPos.x + (this.parentPos.x - (this.parentPos.x * 0.2)),
+                        y: this.parentPos.y + (this.parentPos.y * 0.2),
+                    };
+            }
         },
-        drawLink(d, parent) {
-            return farmPositions[d.name].linkPath(parent);
+        transform() {
+            return `translate(${this.farmPos.x},${this.farmPos.y})`;
         },
-        getText(d) {
-            return d.displayName;
+        link() {
+            return `M${this.parentPos.x},${this.parentPos.y}
+                C${this.parentPos.x},${(this.farmPos.y + this.parentPos.y) / 2} 
+                ${this.farmPos.x},${(this.farmPos.y + this.parentPos.y) / 2} 
+                ${this.farmPos.x},${this.farmPos.y}`;
         },
     },
 }
@@ -49,7 +75,16 @@ export default {
             stroke-width: 3px;
         }
 
-        text { font: 12px sans-serif; }
+        text { 
+            font: 12px sans-serif;
+            
+            &.tractor {
+                font-family: 'Font Awesome\ 5 Free';
+                font-weight: 900;
+                font-size: 22px;
+                fill: steelblue;
+            }
+        }
     }
 
     .link {

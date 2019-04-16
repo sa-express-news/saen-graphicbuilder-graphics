@@ -1,5 +1,15 @@
 <template>
     <g transform="translate(25,25)">
+        <farms 
+            v-for="(farm, idx) in farms"
+            :key="`farm-${idx}`"
+            :parentPos="smJonesPosition"
+            :farm="farm"
+        />
+        <y-c-o 
+            :parentPos="sunrisePosition"
+            :yco="yco"
+        />
         <path
             v-for="(node, idx) in nodes.descendants().slice(1)"
             :key="`link-${idx}`"
@@ -20,12 +30,6 @@
                 class="name"
             >{{ getText(node) }}</text>
         </g>
-        <farms 
-            v-for="(farm, idx) in farms"
-            :key="`farm-${idx}`"
-            :smJones="smJonesPosition"
-            :farm="farm"
-        />
     </g>
 </template>
 

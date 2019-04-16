@@ -6,10 +6,6 @@
             :parentPos="smJonesPosition"
             :farm="farm"
         />
-        <y-c-o 
-            :parentPos="sunrisePosition"
-            :yco="yco"
-        />
         <path
             v-for="(node, idx) in nodes.descendants().slice(1)"
             :key="`link-${idx}`"
@@ -23,13 +19,34 @@
             :class="getPositionClass(node)"
             :transform="getNodeTransform(node)"
         >
-            <circle r="10" />
-            <text
-                dy=".35em"
-                :y="alignText(node)"
-                class="name"
-            >{{ getText(node) }}</text>
+            <f-l-c 
+                v-if="node.data.type === 'flcs'"
+                :flc="node.data"
+            />
+            <farmworkers 
+                v-else-if="node.data.type === 'farmworkers'"
+                :workers="node.data"
+            />
+            <g v-else>
+                <text
+                    class="icon"
+                    :fill="node.data.color"
+                    :fill-opacity="node.data.opacity"
+                    dy="10"
+                    dx="-14"
+                    v-html="node.data.html"
+                />
+                <text
+                    dy=".35em"
+                    :y="alignText(node)"
+                    class="name"
+                >{{ getText(node) }}</text>
+            </g>
         </g>
+        <y-c-o 
+            :parentPos="sunrisePosition"
+            :yco="yco"
+        />
     </g>
 </template>
 
@@ -38,6 +55,7 @@ import { tree } from 'd3';
 
 // components
 import Farmworkers  from '../Farmworkers/Farmworkers.vue';
+import FLC          from '../FLC/FLC.vue';
 import Farms        from '../Farms/Farms.vue';
 import YCO          from '../YCO/YCO.vue';
 
@@ -87,19 +105,22 @@ export default {
         Farmworkers,
         Farms,
         YCO,
+        FLC,
     },
 }
 </script>
 
 <style lang="scss">
     .node {
-        circle {
-            fill: #fff;
-            stroke: steelblue;
-            stroke-width: 3px;
-        }
+        text { 
+            font: 12px sans-serif; 
 
-        text { font: 12px sans-serif; }
+            &.icon {
+                font-family: 'Font Awesome\ 5 Free';
+                font-weight: 900;
+                font-size: 22px;
+            }
+        }
     }
 
     .node--internal text {

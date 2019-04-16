@@ -8,10 +8,18 @@
             class="node node--leaf"
             :transform="transform"
         >
-            <circle r="10" />
+            <text
+                class="tractor"
+                :fill="yco.color"
+                :fill-opacity="yco.opacity"
+                dy="10"
+                dx="-14"
+                v-html="yco.html"
+            />
             <text
                 dy=".35em"
                 :y="20"
+                
                 class="name"
             >{{ yco.displayName }}</text>
         </g>
@@ -28,7 +36,7 @@ export default {
     computed: {
         pos() {
             return {
-                x: this.parentPos.x * 0.6,
+                x: this.parentPos.x * 0.4,
                 y: this.parentPos.y + (this.parentPos.y * 0.1),
             }
         },

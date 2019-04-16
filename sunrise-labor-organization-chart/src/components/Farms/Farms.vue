@@ -10,9 +10,12 @@
         >
             <text
                 class="tractor"
+                :fill="farm.color"
+                :fill-opacity="farm.opacity"
                 dy="10"
-                dx="-10"
-            >&#xf722;</text>
+                dx="-14"
+                v-html="farm.html"
+            />
             <text
                 dy=".35em"
                 :y="20"
@@ -69,12 +72,6 @@ export default {
 
 <style lang="scss">
     .node {
-        circle {
-            fill: #fff;
-            stroke: steelblue;
-            stroke-width: 3px;
-        }
-
         text { 
             font: 12px sans-serif;
             
@@ -82,7 +79,6 @@ export default {
                 font-family: 'Font Awesome\ 5 Free';
                 font-weight: 900;
                 font-size: 22px;
-                fill: steelblue;
             }
         }
     }

@@ -35,6 +35,8 @@
                     dy="10"
                     dx="-16"
                     v-html="node.data.html"
+                    v-tooltip="{ content: node.data.tooltip, class: node.data.tooltip ? 'active' : 'disabled' }"
+                    :class="{ 'has-tooltip': node.data.tooltip }"
                 />
                 <text
                     dy=".35em"
@@ -101,9 +103,6 @@ export default {
             return d.children ? -20 : 20;
         },
     },
-    mounted() {
-
-    },
     components: {
         Farmworkers,
         Farms,
@@ -122,6 +121,10 @@ export default {
                 font-family: 'Font Awesome\ 5 Free';
                 font-weight: 900;
                 font-size: 26px;
+
+                &.has-tooltip {
+                    cursor: pointer;
+                }
             }
         }
     }

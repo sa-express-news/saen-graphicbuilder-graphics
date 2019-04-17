@@ -1,5 +1,8 @@
 <template>
-    <g>
+    <g
+        v-tooltip="{ content: workers.tooltip, class: workers.tooltip ? 'active' : 'disabled' }"
+        :class="{ 'has-tooltip': workers.tooltip }"
+    >
         <text 
             v-for="(person, idx) in people"
             :key="person.x + idx"
@@ -21,7 +24,7 @@
 </template>
 
 <script>
-import { range, shuffle, forceSimulation, forceCollide, forceX, forceY } from 'd3';
+import { range, shuffle } from 'd3';
 
 const alphabet = 'abcdefghijklmnopqrsuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 
@@ -42,13 +45,6 @@ export default {
                 fill: this.workers.color,
             };
         },
-        simulation() {
-            return forceSimulation()
-                .force('x', forceX().x(this.moveX.bind(this)).strength(0.005))
-                .force('y', forceY().y(this.moveY.bind(this)).strength(0.005))
-                .alphaDecay(0.005)
-                .nodes(this.people).restart();
-        },
     },
     methods: {
         setPeoplePositions(idx){
@@ -63,45 +59,16 @@ export default {
         pluckPerson() {
             return shuffle(alphabet)[0];
         },
-        plusOrMinus() {
-            return Math.random() < 0.5 ? -1 : 1;
-        },
-        moveX(d) {
-            const distance = (Math.random() * 3.2) + 1;
-            return d.x + (distance * this.plusOrMinus());
-        },
-        moveY(d) {
-            const distance = (Math.random() * 3.2) + 1;
-            return d.y + (distance * this.plusOrMinus());
-        },
-        runSimulation() {
-            this.simulation.tick();
-            if (this.simulation.alpha() > 0.001) {
-                requestAnimationFrame(this.runSimulation);
-            }
-        },
-        startSimulation() {
-            document.removeEventListener('mouseenter', this.startSimulation);
-            document.removeEventListener('touchstart', this.startSimulation);
-            requestAnimationFrame(this.runSimulation);
-        },
-        prepSimulation() {
-            document.addEventListener('mouseenter', this.startSimulation);
-            document.addEventListener('touchstart', this.startSimulation);
-        },
-    },
-    mounted() {
-        this.prepSimulation();
-    },
-    destroyed() {
-        document.removeEventListener('mouseenter', this.startSimulation);
-        document.removeEventListener('touchstart', this.startSimulation);
     },
 }
 
 </script>
 
 <style lang="scss">
+    .has-tooltip {
+        cursor: pointer;
+    }
+
     text.weepeople.worker {
         font-family: WeePeople;
         font-size: 20px;

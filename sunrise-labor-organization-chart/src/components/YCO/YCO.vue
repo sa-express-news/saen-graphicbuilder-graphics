@@ -15,6 +15,8 @@
                 dy="10"
                 dx="-16"
                 v-html="yco.html"
+                v-tooltip="{ content: yco.tooltip, class: yco.tooltip ? 'active' : 'disabled' }"
+                :class="{ 'has-tooltip': yco.tooltip }"
             />
             <text
                 dy=".35em"

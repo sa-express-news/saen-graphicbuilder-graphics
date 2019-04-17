@@ -14,8 +14,9 @@
                 :fill-opacity="farm.opacity"
                 dy="10"
                 dx="-16"
-                :data-desc="farm.tooltip ? farm.tooltip : false"
                 v-html="farm.html"
+                v-tooltip="{ content: farm.tooltip, class: farm.tooltip ? 'active' : 'disabled' }"
+                :class="{ 'has-tooltip': farm.tooltip }"
             />
             <text
                 dy=".35em"

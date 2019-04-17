@@ -1,9 +1,12 @@
 import Vue from 'vue'
+import Tooltip from 'vue-directive-tooltip';
 import pym from 'pym.js'
 
 import titleMixin from './mixins/titleMixin'
 
 import Index from './components/Index/Index.vue'
+
+Vue.use(Tooltip);
 
 Vue.mixin(titleMixin)
 

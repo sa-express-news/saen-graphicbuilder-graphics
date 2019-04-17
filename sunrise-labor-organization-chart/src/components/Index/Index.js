@@ -37,7 +37,7 @@ export default {
             return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         },
         setWidth() {
-            this.width = window.innerWidth > 960 ? 960 : window.innerWidth;
+            this.width = window.innerWidth > 760 ? 760 : window.innerWidth;
         },
     },
     mounted() {

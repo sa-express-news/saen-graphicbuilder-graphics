@@ -5,6 +5,8 @@
             :style="peopleStyles"
             dy="10"
             dx="-14"
+            v-tooltip="{ content: flc.tooltip, class: flc.tooltip ? 'active' : 'disabled' }"
+            :class="{ 'has-tooltip': flc.tooltip }"
         >{{ this.pluckPerson() }}</text>
         <text
             dy="1.35em"
@@ -45,6 +47,10 @@ export default {
 </script>
 
 <style lang="scss">
+    .has-tooltip {
+        cursor: pointer;
+    }
+
     text.weepeople.flc {
         font-family: WeePeople;
         font-size: 48px;

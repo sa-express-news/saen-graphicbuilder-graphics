@@ -1,9 +1,23 @@
 @import '~express-news-styleguide/init-base';
 @import '~express-news-styleguide/theme/graphic';
+@import "~vue-directive-tooltip/src/css/index.scss";
 
 @import 'base';
 @import 'weepeople';
 
 div.graphic {
-    max-width: 960px;
+    max-width: 760px;
+}
+
+.vue-tooltip {
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 0.8;
+    font-size: 0.8em;
+
+    &.disabled { display: none; }
+}
+
+.vue-tooltip .tooltip-arrow {
+    display: none;
 }

@@ -2,6 +2,8 @@
 @import '~express-news-styleguide/theme/graphic';
 
 @import 'base';
-@import 'weepeople'
+@import 'weepeople';
 
-// Enter your css here!
+div.graphic {
+    max-width: 960px;
+}

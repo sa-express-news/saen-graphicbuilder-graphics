@@ -33,7 +33,7 @@
                     :fill="node.data.color"
                     :fill-opacity="node.data.opacity"
                     dy="10"
-                    dx="-14"
+                    dx="-16"
                     v-html="node.data.html"
                 />
                 <text
@@ -51,7 +51,7 @@
 </template>
 
 <script>
-import { tree } from 'd3';
+import * as d3 from 'd3';
 
 // components
 import Farmworkers  from '../Farmworkers/Farmworkers.vue';
@@ -70,7 +70,7 @@ export default {
     },
     computed: {
         treemap() {
-            return tree().size([this.width - 50, this.height - 100])
+            return d3.tree().size([this.width - 50, this.height - 100])
         },
         nodes() {
             return this.treemap(this.tree);
@@ -101,6 +101,9 @@ export default {
             return d.children ? -20 : 20;
         },
     },
+    mounted() {
+
+    },
     components: {
         Farmworkers,
         Farms,
@@ -118,7 +121,7 @@ export default {
             &.icon {
                 font-family: 'Font Awesome\ 5 Free';
                 font-weight: 900;
-                font-size: 22px;
+                font-size: 26px;
             }
         }
     }

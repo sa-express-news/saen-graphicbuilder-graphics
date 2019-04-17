@@ -47,6 +47,6 @@ export default {
 <style lang="scss">
     text.weepeople.flc {
         font-family: WeePeople;
-        font-size: 42px;
+        font-size: 48px;
     }
 </style>

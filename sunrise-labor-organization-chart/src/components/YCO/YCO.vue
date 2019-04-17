@@ -9,17 +9,16 @@
             :transform="transform"
         >
             <text
-                class="tractor"
+                class="icon"
                 :fill="yco.color"
                 :fill-opacity="yco.opacity"
                 dy="10"
-                dx="-14"
+                dx="-16"
                 v-html="yco.html"
             />
             <text
                 dy=".35em"
                 :y="20"
-                
                 class="name"
             >{{ yco.displayName }}</text>
         </g>
@@ -52,25 +51,3 @@ export default {
     },
 }
 </script>
-
-<style lang="scss">
-    .node {
-        circle {
-            fill: #fff;
-            stroke: steelblue;
-            stroke-width: 3px;
-        }
-
-        text { font: 12px sans-serif; }
-    }
-
-    .link {
-        fill: none;
-        stroke: #ccc;
-        stroke-width: 2px;
-    }
-
-    .name {
-        text-anchor: middle;
-    }
-</style>

@@ -9,11 +9,12 @@
             :transform="transform"
         >
             <text
-                class="tractor"
+                class="icon"
                 :fill="farm.color"
                 :fill-opacity="farm.opacity"
                 dy="10"
-                dx="-14"
+                dx="-16"
+                :data-desc="farm.tooltip ? farm.tooltip : false"
                 v-html="farm.html"
             />
             <text
@@ -69,27 +70,3 @@ export default {
     },
 }
 </script>
-
-<style lang="scss">
-    .node {
-        text { 
-            font: 12px sans-serif;
-            
-            &.tractor {
-                font-family: 'Font Awesome\ 5 Free';
-                font-weight: 900;
-                font-size: 22px;
-            }
-        }
-    }
-
-    .link {
-        fill: none;
-        stroke: #ccc;
-        stroke-width: 2px;
-    }
-
-    .name {
-        text-anchor: middle;
-    }
-</style>

@@ -25,8 +25,8 @@ export default {
     computed: {
         height() {
             if (this.width > 600) return this.width * 0.8;
-            else if (this.width > 400) return this.width * 1.2;
-            else return this.width * 1.4;
+            else if (this.width > 400) return this.width * 1.3;
+            else return this.width * 1.6;
         },
         viewBoxString () {
             return `0 0 ${this.width} ${this.height}`

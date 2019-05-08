@@ -1,7 +1,7 @@
 {
   "META": {
     "graphic_title": "Department of Labor agricultural industry investigations by county, 2008-2018 ",
-    "prose": "This map shows the number of investigations, grouped by county, conducted by the Wage and Hour Division of the U.S. Department of Labor into the practices of companies or contractors in the agricultural industry from 2008-2018. Hidalgo County, TX leads the country. Hover over any bubble for county details.",
+    "prose": "This map shows the number of investigations, grouped by county, conducted by the Wage and Hour Division of the U.S. Department of Labor into the practices of companies or contractors in the agricultural industry from 2008 to 2018. Hidalgo County leads the country. Hover over any bubble for county details.",
     "source": "U.S. Department of Labor",
     "source_url": "https://data.world/expressnews/texas-wage-theft/workspace/query?queryid=23194e9b-9cca-4080-9d32-d1b9a12f307b",
     "credit": "Luke Whyte | San Antonio Express-News"

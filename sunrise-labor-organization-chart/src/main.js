@@ -17,9 +17,11 @@ let pymChild;
 const renderVue = () => new Vue({
   render: h => h(Index),
   mounted: () => {
-    if (pymChild) {
+    window.setTimeout(() => {
+      if (pymChild) {
         pymChild.sendHeight();
-    }
+      }
+    },0);
   },
 }).$mount('#app');
 

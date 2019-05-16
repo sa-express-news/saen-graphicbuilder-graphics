@@ -1,8 +1,0 @@
-{
-  "META": {
-    "graphic_title": "Mayoral race results by precinct",
-    "prose": "This map shows which mayoral candidate won each voting precinct. The darker the color, the larger the victory. Click on a precinct for more information. Only the top 3 candidates in each precinct are shown, so percentages might not add to 100. In precincts where candidate vote totals are very close, percentages might round to equal amounts.",
-    "source": "Bexar County Elections Department",
-    "credit": "Luke Whyte"
-  }
-}

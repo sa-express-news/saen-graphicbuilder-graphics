@@ -1,0 +1,8 @@
+{
+  "META": {
+    "graphic_title": "Mayoral race results by council district",
+    "prose": "This map shows which mayoral candidate won each voting district. The darker the color, the larger the victory. Click on a district for more information. Only the top 2 candidates in each district are shown, so percentages might not add to 100. In districts where candidate vote totals are very close, percentages might round to equal amounts.",
+    "source": "Bexar County Elections Department",
+    "credit": "Luke Whyte"
+  }
+}

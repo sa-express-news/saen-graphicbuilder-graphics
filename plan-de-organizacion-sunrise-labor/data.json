@@ -1,0 +1,174 @@
+{
+  "META": {
+    "graphic_title": "Sunrise Labor Corp.'s supply and labor chains",
+    "prose": "Sunrise Labor, the Florida company that hired Salvador Hernandez to provide farmworkers to harvest crops, is closely connected to farms, packing sheds and other companies that get vegetables to store shelves. Rollover the labeled icons for more information.",
+    "source": "Florida state records and San Antonio Express-News research",
+    "source_url": "",
+    "credit": "Luke Whyte | San Antonio Express-News"
+  },
+  "TREE": [
+    {
+      "name": "Supermarkets",
+      "displayName": "Supermercados",
+      "group": "Buyers",
+      "color": "#742E66",
+      "opacity": 1,
+      "type": "supermarket",
+      "html": "&#xf07a;",
+      "isFarm": false,
+      "isOffset": false,
+      "tooltip": "SM Jones vende verduras a mayoristas y supermercados."
+    },
+    {
+      "name": "SM Jones",
+      "displayName": "SM Jones",
+      "parent": "Supermarkets",
+      "group": "Farms",
+      "color": "#B12125",
+      "opacity": 1,
+      "type": "packing",
+      "html": "&#xf494;",
+      "isFarm": false,
+      "isOffset": false,
+      "tooltip": "SM Jones es una empresa de transporte y empacadora de verduras. Es propiedad de cuatro granjas asociadas para las cuales prepara y envía productos a supermercados y mayoristas."
+    },
+    {
+      "name": "Sunrise Labor",
+      "displayName": "Sunrise Labor Corp",
+      "parent": "SM Jones",
+      "group": "Contractor corporation",
+      "color": "#3E67B0",
+      "opacity": 1,
+      "type": "sunrise",
+      "html": "&#xf54f;",
+      "isFarm": false,
+      "isOffset": false,
+      "tooltip": "Tommy Holt Jr. dirige Sunrise Labor. Realiza contratos con granjas para proveer trabajadores para la cosecha y, a su vez, emplea a contratistas de mano de obra, incluido Hernández, para reclutar trabajadores con salarios bajos."
+    },
+    {
+      "name": "Farm Four",
+      "parent": "Turek Farms",
+      "group": "Farms",
+      "color": "#ED8257",
+      "opacity": 0.4,
+      "type": "farm",
+      "html": "&#xf722;",
+      "isFarm": true,
+      "isOffset": true
+    },
+    {
+      "name": "Farm One",
+      "parent": "Twin H Farms",
+      "group": "Farms",
+      "color": "#ED8257",
+      "opacity": 0.4,
+      "type": "farm",
+      "html": "&#xf722;",
+      "isFarm": true,
+      "isOffset": true
+    },
+    {
+      "name": "Twin H Farms",
+      "displayName": "Twin H Farms",
+      "parent": "SM Jones",
+      "group": "Farms",
+      "color": "#ED8257",
+      "opacity": 1,
+      "type": "farm",
+      "html": "&#xf722;",
+      "isFarm": true,
+      "isOffset": true,
+      "tooltip": "Twin H Farms es propiedad de Tommy Holt Sr. y es administrada por su hijo, Tommy Holt Jr., en Belle Glade, Florida."
+    },
+    {
+      "name": "Turek Farms",
+      "displayName": "Turek Farms",
+      "parent": "SM Jones",
+      "group": "Farms",
+      "color": "#ED8257",
+      "opacity": 1,
+      "type": "farm",
+      "html": "&#xf722;",
+      "isFarm": true,
+      "isOffset": true,
+      "tooltip": "Turek Farms en Kings Ferry, Nueva York es socia de SM Jones. Jiménez Luna huyó del grupo de Hernández desde aquí."
+    },
+    {
+      "name": "YCO",
+      "displayName": "Your Corporate Office",
+      "parent": "Sunrise Labor",
+      "group": "Contractor corporation",
+      "color": "#44ABDF",
+      "opacity": 1,
+      "type": "yco",
+      "html": "&#xf54e;",
+      "isFarm": false,
+      "isOffset": true,
+      "tooltip": "Your Corporate Office Labor Corp, propiedad de Rusty Reaves, se encargó de la nómina y las tareas administrativas de Sunrise Labor."
+    },
+    {
+      "name": "Contractor One",
+      "parent": "Sunrise Labor",
+      "group": "Farm labor contractors",
+      "color": "#FFBF00",
+      "opacity": 0.4,
+      "type": "flcs",
+      "isFarm": false,
+      "isOffset": false
+    },
+    {
+      "name": "Salvador Hernandez",
+      "displayName": "Salvador Hernandez",
+      "parent": "Sunrise Labor",
+      "group": "Farm labor contractors",
+      "color": "#FFBF00",
+      "opacity": 1,
+      "type": "flcs",
+      "isFarm": false,
+      "isOffset": false,
+      "tooltip": "El contratista de mano de obra agrícola Salvador Hernández reclutó y administró grupos de trabajadores endeudados. Juan Jiménez Luna estaba en uno de estos grupos. Hernández es uno de los varios contratistas que trabajan para Sunrise Labor."
+    },
+    {
+      "name": "Contractor Three",
+      "parent": "Sunrise Labor",
+      "group": "Farm labor contractors",
+      "color": "#FFBF00",
+      "opacity": 0.4,
+      "type": "flcs",
+      "isFarm": false,
+      "isOffset": false
+    },
+    {
+      "name": "Workers One",
+      "parent": "Contractor One",
+      "group": "Farm workers",
+      "color": "#1ABFAE",
+      "opacity": 0.4,
+      "type": "farmworkers",
+      "isFarm": false,
+      "isOffset": false
+    },
+    {
+      "name": "Workers Two",
+      "displayName": "Jimenez Luna y otro jornaleros agrícolas migrantes",
+      "parent": "Salvador Hernandez",
+      "group": "Farm workers",
+      "color": "#1ABFAE",
+      "opacity": 1,
+      "type": "farmworkers",
+      "isFarm": false,
+      "isOffset": false,
+      "tooltip": "Este es el equipo de trabajadores endeudados de Salvador Hernández. Entre ellos Juan Jiménez Luna."
+    },
+    {
+      "name": "Workers Three",
+      "parent": "Contractor Three",
+      "group": "Farm workers",
+      "color": "#1ABFAE",
+      "opacity": 0.4,
+      "type": "farmworkers",
+      "isFarm": false,
+      "isOffset": false
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 <template>
     <div>
         <div class="graphic">
+            <hr class="border-top" />
             <h1>{{ META.graphic_title }}</h1>
             <p class="subtext">{{ META.prose }}</p>
 
@@ -17,6 +18,7 @@
                     </li>
                     <li v-if="META.credit">Credit: {{ META.credit }}</li>
                 </ul>
+                <hr class="border-bottom" />
             </div>
         </div>
     </div>

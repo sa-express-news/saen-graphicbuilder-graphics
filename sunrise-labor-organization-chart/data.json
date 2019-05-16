@@ -1,7 +1,7 @@
 {
   "META": {
-    "graphic_title": "Understanding how Sunrise Labor Corp's supply and labor chains are organized",
-    "prose": "This chart shows the relationships between Sunrise Labor, farm labor contractors like Salvador Hernandez, farms, packing sheds, payroll management and migrant farm workers like Juan Jimenez Luna. Important entities are labeled. Rollover any labeled icon for more information.",
+    "graphic_title": "Sunrise Labor Corp.'s supply and labor chains",
+    "prose": "Sunrise Labor, the Florida company that hired Salvador Hernandez to provide farmworkers to harvest crops, is closely connected to farms, packing sheds and other companies that get vegetables to store shelves. Rollover the labeled icons for more information.",
     "source": "Florida state records and San Antonio Express-News research",
     "source_url": "",
     "credit": "Luke Whyte | San Antonio Express-News"
@@ -17,7 +17,7 @@
       "html": "&#xf07a;",
       "isFarm": false,
       "isOffset": false,
-      "tooltip": "SM Jones sells produce to wholesalers and supermarkets that sell it to consumers."
+      "tooltip": "SM Jones sells produce to wholesalers and supermarkets."
     },
     {
       "name": "SM Jones",
@@ -30,7 +30,7 @@
       "html": "&#xf494;",
       "isFarm": false,
       "isOffset": false,
-      "tooltip": "SM Jones is a produce packing and transport company, they work with four partner farms to prepare and ship produce to supermarkets and wholesalers."
+      "tooltip": "SM Jones is a produce packing and transport company. It is owned by four partner farms for whom it prepares and ships produce to supermarkets and wholesalers."
     },
     {
       "name": "Sunrise Labor",
@@ -43,7 +43,7 @@
       "html": "&#xf54f;",
       "isFarm": false,
       "isOffset": false,
-      "tooltip": "Sunrise Labor Corp is a farm labor contractor corporation. Their clients are farms that need workers to harvest produce. They hire contractors, like Hernandez, to recruit low wage workers, like Jimenez Luna"
+      "tooltip": "Sunrise Labor is run by Tommy Holt Jr. It contracts with farms to provide workers for the harvest, and in turn hires labor contractors, including Hernandez, to recruit low-wage workers."
     },
     {
       "name": "Farm Four",
@@ -78,7 +78,7 @@
       "html": "&#xf722;",
       "isFarm": true,
       "isOffset": true,
-      "tooltip": "The Holt family farm"
+      "tooltip": "Twin H Farms is owned by Tommy Holt Sr. and managed by his son, Tommy Holt Jr., in Belle Glade, Fla."
     },
     {
       "name": "Turek Farms",
@@ -91,7 +91,7 @@
       "html": "&#xf722;",
       "isFarm": true,
       "isOffset": true,
-      "tooltip": "Turek Farms in Kings Ferry, NY is SM Jones partner. Jimenez Luna fled Hernandez' crew from here."
+      "tooltip": "Turek Farms in Kings Ferry, N.Y. is a partner of SM Jones. Jimenez Luna fled Hernandez' crew from here."
     },
     {
       "name": "YCO",
@@ -104,7 +104,7 @@
       "html": "&#xf54e;",
       "isFarm": false,
       "isOffset": true,
-      "tooltip": "Your Corporate Office Labor Corp, owned by Rusty Reaves, handled payroll and administrative tasks for Sunrise Labor"
+      "tooltip": "Your Corporate Office Labor Corp, owned by Rusty Reaves, handled payroll and administrative tasks for Sunrise Labor."
     },
     {
       "name": "Contractor One",
@@ -126,7 +126,7 @@
       "type": "flcs",
       "isFarm": false,
       "isOffset": false,
-      "tooltip": "This is Salvador Hernadez, one of several contractors working for Sunrise Labor"
+      "tooltip": "Farm labor contractor Salvador Hernandez recruited and managed crews of indebted workers. Juan Jimenez Luna was on one crew. Hernandez is one of several contractors working for Sunrise Labor."
     },
     {
       "name": "Contractor Three",
@@ -158,7 +158,7 @@
       "type": "farmworkers",
       "isFarm": false,
       "isOffset": false,
-      "tooltip": "This is Salvador Hernandez' crew of indebted workers. Including Juan Jimenez Luna"
+      "tooltip": "This is Salvador Hernandez' crew of indebted workers. Including Juan Jimenez Luna."
     },
     {
       "name": "Workers Three",

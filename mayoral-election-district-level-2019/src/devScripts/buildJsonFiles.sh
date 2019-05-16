@@ -1,0 +1,2 @@
+python buildGeoJson.py ../devAssets/results.csv ../devAssets/bexar-voter-district-2018.geojson ../assets/district-results.geojson
+geo2topo -o ../assets/district-results-topo.json ../assets/district-results.geojson

@@ -1,14 +1,14 @@
 {
   "META": {
-    "graphic_title": "Farmworker families living in poverty",
-    "prose": "Migrants, both legal and undocumented, have the highest rate of poverty among all farmworkers.",
+    "graphic_title": "Familias campesinas viviendo en la pobreza",
+    "prose": "Los migrantes, tanto legales como indocumentados, tienen la tasa más alta de pobreza entre todos los trabajadores agrícolas.",
     "source": "National Agricultural Workers Survey, 2016",
     "source_url": "https://www.doleta.gov/naws/pages/research/docs/NAWS_Research_Report_13.pdf",
     "credit": "Luke Whyte | San Antonio Express-News"
   },
   "POVERTY": [
     {
-      "group": "Todos los jornaleros",
+      "group": "Total de campesinos",
       "percent": 33
     },
     {
@@ -16,7 +16,7 @@
       "percent": 52
     },
     {
-      "group": "Instalado",
+      "group": "Asentados",
       "percent": 28
     },
     {

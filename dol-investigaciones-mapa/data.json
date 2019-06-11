@@ -1,7 +1,7 @@
 {
   "META": {
-    "graphic_title": "Agricultural investigations across the country",
-    "prose": "The Department of Labor conducted thousands of investigations of the agricultural industry between 2008 and 2018, with the highest number of them in Hidalgo County. Hover over the circles for county details.",
+    "graphic_title": "Investigaciones agrícolas en todo el país",
+    "prose": "El Departamento de Trabajo realizó miles de investigaciones en la industria agrícola entre 2008 y 2018, con el mayor número de ellas en el Condado de Hidalgo. Coloca el cursor sobre los círculos para ver los detalles del condado.",
     "source": "U.S. Department of Labor",
     "source_url": "https://data.world/expressnews/texas-wage-theft/workspace/query?queryid=23194e9b-9cca-4080-9d32-d1b9a12f307b",
     "credit": "Luke Whyte | San Antonio Express-News"

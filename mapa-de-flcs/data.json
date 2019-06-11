@@ -1,7 +1,7 @@
 {
   "META": {
-    "graphic_title": "Number of farm labor contractors per county",
-    "prose": "Farm labor contractors operate all around the country, with the highest concentrations in Texas, California and Florida. Hidalgo County, the agribusiness center of the Rio Grande Valley, has the most in the state. Hover over any bubble for county details.",
+    "graphic_title": "Número de contratistas de mano de obra agrícola por condado",
+    "prose": "Los contratistas de mano de obra agrícola operan en todo el país, con las concentraciones más altas en Texas, California y Florida. El condado de Hidalgo, el centro de agro-negocios del Valle del Río Grande, tiene el número más alto en el estado. Coloca el cursor sobre cualquier burbuja para obtener detalles del condado.",
     "source": "U.S. Department of Labor",
     "source_url": "https://www.dol.gov/whd/regs/statutes/FLCList.htm",
     "credit": "Luke Whyte | San Antonio Express-News"

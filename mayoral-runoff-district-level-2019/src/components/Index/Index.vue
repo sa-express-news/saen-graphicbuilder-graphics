@@ -5,7 +5,16 @@
             <p class="subtext">{{ META.prose }}</p>
 
             <div id="graphic-container">
-                <!-- Enter your code here! -->
+                <div class="legend">
+                    <div class="legend-title">District winners are color-coded as follows:</div>
+                    <div class="legend-scale">
+                        <ul class="legend-labels">
+                            <li><span class="nirenberg"></span>Nirenberg</li>
+                            <li><span class="brockhouse"></span>Brockhouse</li>
+                        </ul>
+                    </div>
+                </div>
+                <DistrictMap />
             </div>
 
             <div class="footer">

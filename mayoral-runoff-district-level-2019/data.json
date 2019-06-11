@@ -1,6 +1,8 @@
 {
   "META": {
-    "graphic_title": "Fill this out in google sheet",
-    "prose": "Fill this out in google sheet"
+    "graphic_title": "Mayoral runoff results by council district",
+    "prose": "This map shows which mayoral candidate won each voting district. The darker the color, the larger the victory. Click on a district for more information. In districts where candidate vote totals are very close, percentages might round to equal amounts.",
+    "source": "Bexar County Elections Department",
+    "credit": "Luke Whyte"
   }
 }

@@ -16,7 +16,7 @@ class SchoolMap {
         this.height     = this.getHeight();
         this.map        = this.generateMapInstance(id);
         this.stylelayer = this.getStyleLayer();
-        // this.dataLayer  = this.setDataLayer(data);
+        this.dataLayer  = this.setDataLayer(data);
         // this.handleEvents();
     }
 
@@ -74,53 +74,34 @@ class SchoolMap {
 
     getStyleLayer() {
         const accessToken = 'pk.eyJ1Ijoic2Flbi1lZGl0b3JzIiwiYSI6ImNpeXVreTZ6YjAwenYycW15d3hoNmp1aTEifQ.OjH869qC5JzcGVVy-rg4JQ';
-        const url = `https://api.mapbox.com/styles/v1/saen-editors/cj8lz9cbp6d0i2ro29ef2422q/tiles/256/{z}/{x}/{y}@2x?access_token=${accessToken}`
+        const url = `https://api.mapbox.com/styles/v1/saen-editors/ck0l8j31e322t1co0884pu2yf/tiles/256/{z}/{x}/{y}@2x?access_token=${accessToken}`
         return L.tileLayer(url, { accessToken }).addTo(this.map);
     }
 
     setDataLayer(data) {
-        return L.geoJSON(data, {
-            style: feature => {
-                return {
-                    color: '#000000',
-                    weight: 1,
-                    opacity: 0.65,
-                    fillColor: feature.properties.Color,
-                    fillOpacity: this.setFillOpacity(feature.properties),
-                };
-            }
-        }).bindPopup(L.popup({
-            offset: L.point(0, -25),
-        }).setContent(this.setPopup.bind(this))).addTo(this.map);
+        return L.featureGroup(data.filter(
+            school => school.isDualLanguage === 'True'
+        ).map(school => L.circle([school.latitude, school.longitude], {
+            color: '#FF2E2E',
+            weight: 1,
+            opacity: 0.8,
+            radius: 400,
+            fillOpacity: 0.4,
+            popup: this.writePopup(school),
+        }))).bindPopup(
+            L.popup({ offset: L.point(0, -4) }).setContent(this.setPopup)
+        ).addTo(this.map);
     }
 
-    setFillOpacity(props) {
-        const share = (Math.round(props[props.Winner] / props['Total votes'] * 100) / 100) + 0.08;
-        if (share < 0.16) {
-            return 0.1;
-        } else if (share === 1) {
-            return 0.9;
-        } else {
-            return share;
-        }
+    writePopup(school) {
+        let result = '';
+        result += `Campus: ${school.campus} <br />`;
+        result += `District: ${school.district}`;
+        return result;
     }
 
     setPopup(layer) {
-        const props         = layer.feature.properties;
-        const candidates    = this.sortCandidates(props);
-        let result          = '';
-
-        candidates.forEach((candidate, index) => {
-            if (index === 0) {
-                result += this.writeWinner(candidate, props);
-            } else {
-                result += this.writeLine(candidate, props);
-            }
-        }, this);
-
-        result += 'Total # of votes: ' + props['Total votes'] + '<br />';
-        result += 'District #: ' + props.district;
-        return result;
+        return layer.options.popup;
     }
 
     sortCandidates(props) {

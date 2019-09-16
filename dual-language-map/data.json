@@ -1,6 +1,8 @@
 {
   "META": {
-    "graphic_title": "Fill this out in google sheet",
-    "prose": "Fill this out in google sheet"
+    "graphic_title": "Bexar County schools with dual language programs",
+    "prose": "Each circle represents a Bexar County school with a one-way or two-way dual language program. Click on any school for more information, including student STAAR performance averages.",
+    "source": "Texas Education Agency",
+    "credit": "Luke Whyte"
   }
 }

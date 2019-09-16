@@ -2,7 +2,7 @@
   "name": "graphicBuilder",
   "config": {
     "s3_bucket": "graphics.expressnews.com",
-    "slug": ""
+    "slug": "dual-language-school-map"
   },
   "version": "0.2.0",
   "private": true,

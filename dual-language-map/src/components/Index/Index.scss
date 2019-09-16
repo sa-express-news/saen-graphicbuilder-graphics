@@ -7,6 +7,22 @@
     max-width: 760px;
 }
 
+span.is-dual-language {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 75%;
+
+    input {
+        margin-right: 7px;
+    }
+}
+
+hr.spacer {
+    border: 0;
+    border-bottom: 1px dashed rgba(255, 255, 255, 1);
+    background: rgba(153, 153, 153, 0.5);
+    margin: 15px 0
+}
+
 .legend {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1em;
@@ -35,26 +51,27 @@
 
             li {
                 display: block;
-                float: left;
-                width: 70px;
                 margin-bottom: 6px;
-                text-align: center;
+                text-align: left;
                 font-size: 75%;
                 list-style: none;
 
                 span {
                     display: block;
                     float: left;
-                    height: 15px;
-                    width: 70px;
-                    margin: 0 0 3px 0;
+                    height: 12px;
+                    width: 12px;
+                    border-radius: 50%;
+                    margin: 0 5px 3px 0;
 
-                    &.velasquez { background: #d7191c; }
-                    &.nirenberg { background: #2b83ba; }
-                    &.idrogo { background: #fdc086; }
-                    &.brockhouse { background: #7fc97f; }
-                    &.diaz { background: #beaed4; }
-                    &.tie { background: #ffff99; }
+                    &.dual-language {
+                        background: rgba(255, 46, 46, 0.4);
+                        border: 1px solid rgba(255, 46, 46, 0.8);
+                    }
+                    &.ell {
+                        background: rgba(51, 124, 160, 0.4);
+                        border: 1px solid rgba(51, 124, 160, 0.8);
+                    }
                 }
             }
         }

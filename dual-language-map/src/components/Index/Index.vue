@@ -5,7 +5,20 @@
             <p class="subtext">{{ META.prose }}</p>
 
             <div id="graphic-container">
-                <SchoolMap />
+                <span class="is-dual-language">
+                    <input type="checkbox" id="is-dual-language" v-model="onlyDualLanguage">
+                    <label for="is-dual-language">See only Dual Language Schools</label>
+                </span>
+                <hr class="spacer" />
+                <div class="legend">
+                    <div class="legend-scale">
+                        <ul class="legend-labels">
+                            <li><span class="dual-language"></span>Dual Language Schools</li>
+                            <li><span class="ell"></span>All schools with ELL programs</li>
+                        </ul>
+                    </div>
+                </div>
+                <SchoolMap :schools="schools" />
             </div>
 
             <div class="footer">

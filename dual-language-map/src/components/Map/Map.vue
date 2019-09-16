@@ -1,64 +1,65 @@
 <template>
-    <div id="school-map"></div>
+    <div>
+        <div id="school-map"></div>
+    </div>
 </template>
 
 <script>
 import * as d3  from 'd3';
 import * as L from 'leaflet';
 
-import schools from '../../assets/bexar-schools.csv';
-
 class SchoolMap {
-    constructor(id, data) {
+    constructor(id, dataLayer) {
         this.container  = d3.select(`#${id}`);
-        this.bbox       = this.getBBox();
-        this.width      = this.getContainerWidth();
-        this.height     = this.getHeight();
-        this.map        = this.generateMapInstance(id);
-        this.stylelayer = this.getStyleLayer();
-        this.dataLayer  = this.setDataLayer(data);
-        // this.handleEvents();
+        this.bbox       = this._getBBox();
+        this.width      = this._getContainerWidth();
+        this.height     = this._getHeight();
+        this.map        = this._generateMapInstance(id);
+        this.stylelayer = this._getStyleLayer();
+        
+        this._setDataLayer(dataLayer);
+        this._handleEvents();
     }
 
-    isMobile() {
+    _isMobile() {
         return window.innerWidth < 500;
     }
 
-    getBBox() {
+    _getBBox() {
         return [-97.98706054687501, 29.744109309616512, -98.85583007812501, 29.090976994322702];
     }
 
-    getWindowWidth() {
+    _getWindowWidth() {
         return window.innerWidth > 760 ? 760 : window.innerWidth;
     }
 
-    getContainerWidth() {
+    _getContainerWidth() {
         const paddingLeft  = parseFloat(this.container.style('padding-left'));
         const paddingRight = parseFloat(this.container.style('padding-right'));
 
-        return Math.round(this.getWindowWidth() - paddingLeft - paddingRight);
+        return Math.round(this._getWindowWidth() - paddingLeft - paddingRight);
     }
 
-    getHeight() {
-        return Math.round(this.width * this.getRatio());
+    _getHeight() {
+        return Math.round(this.width * this._getRatio());
     }
 
-    getRatio() {
-        return this.getBoxHeight() / this.getBoxWidth();
+    _getRatio() {
+        return this._getBoxHeight() / this._getBoxWidth();
     }
 
-    getBoxWidth() {
+    _getBoxWidth() {
         return this.bbox[2] - this.bbox[0];
     }
 
-    getBoxHeight() {
+    _getBoxHeight() {
         return this.bbox[3] - this.bbox[1];
     }
 
-    getSettings() {
+    _getSettings() {
         return {
             center: [29.463114116064064, -98.50320556640626],
-            zoom: this.isMobile() ? 9 : 10,
+            zoom: this._isMobile() ? 9 : 10,
             minZoom: 9,
             maxZoom: 17,
             scrollWheelZoom: false,
@@ -66,99 +67,121 @@ class SchoolMap {
         };
     }
 
-    generateMapInstance(id) {
-        const settings = this.getSettings();
+    _generateMapInstance(id) {
+        const settings = this._getSettings();
         this.container.style('width', this.width + 'px').style('height', this.height + 'px');
         return L.map(id, settings);
     }
 
-    getStyleLayer() {
+    _getStyleLayer() {
         const accessToken = 'pk.eyJ1Ijoic2Flbi1lZGl0b3JzIiwiYSI6ImNpeXVreTZ6YjAwenYycW15d3hoNmp1aTEifQ.OjH869qC5JzcGVVy-rg4JQ';
         const url = `https://api.mapbox.com/styles/v1/saen-editors/ck0l8j31e322t1co0884pu2yf/tiles/256/{z}/{x}/{y}@2x?access_token=${accessToken}`
         return L.tileLayer(url, { accessToken }).addTo(this.map);
     }
 
-    setDataLayer(data) {
-        return L.featureGroup(data.filter(
-            school => school.isDualLanguage === 'True'
-        ).map(school => L.circle([school.latitude, school.longitude], {
-            color: '#FF2E2E',
-            weight: 1,
-            opacity: 0.8,
-            radius: 400,
-            fillOpacity: 0.4,
-            popup: this.writePopup(school),
-        }))).bindPopup(
-            L.popup({ offset: L.point(0, -4) }).setContent(this.setPopup)
-        ).addTo(this.map);
+    _setDataLayer(dataLayer) {
+        this.dataLayer = dataLayer;
+        this.dataLayer.addTo(this.map);
     }
 
-    writePopup(school) {
-        let result = '';
-        result += `Campus: ${school.campus} <br />`;
-        result += `District: ${school.district}`;
-        return result;
-    }
-
-    setPopup(layer) {
-        return layer.options.popup;
-    }
-
-    sortCandidates(props) {
-        const candidates = this.getCandidates();
-        candidates.sort((a, b) => {
-            return parseFloat(props[b]) - parseFloat(props[a]) ;
-        });
-
-        return candidates.map(name => {
-            return {
-                name,
-                votes: props[name],
-            };
-        });
-    }
-
-    getCandidates() {
-        return ['Nirenberg','Brockhouse'];
-    }
-
-    writeWinner(candidate, props) {
-        return `<span>${candidate.name}: ${this.getPercent(candidate.votes, props['Total votes'])}%</span><br />`;
-    }
-
-    writeLine(candidate, props) {
-        const percent = this.getPercent(candidate.votes, props['Total votes']);
-        return percent ? `${candidate.name}: ${percent}%<br />` : '';
-    }
-
-    getPercent(votes, total) {
-      return Math.round((votes / total) * 100);
-    }
-
-    toggleScrollWheelZoom() {
+    _toggleScrollWheelZoom() {
         if (!this.map.scrollWheelZoom.enabled()) {
             this.map.scrollWheelZoom.enable();
         }
     }
 
-    handleEvents() {
-        this.map.on('mousedown', this.toggleScrollWheelZoom, this);
+    _handleEvents() {
+        this.map.on('mousedown', this._toggleScrollWheelZoom, this);
+    }
+
+    refreshDataLayer(dataLayer) {
+        if (this.dataLayer) {
+            this.dataLayer.remove();
+        }
+        this._setDataLayer(dataLayer);
     }
 }
 
+const setColor = school => school.isDualLanguage === 'True' ? '#FF2E2E' : '#337CA0';
+
+const writePopup = school => {
+    let result = '';
+    result += `Campus: ${school.campus} <br />`;
+    result += `District: ${school.district} <hr />`;
+    result += 'STAAR score avg per program: <ul>';
+    result += ` <li>Two-Way Dual Language: ${school.twoWay}</li>`;
+    result += ` <li>One-Way Dual Language: ${school.oneWay}</li>`;
+    result += ` <li>All ELL student avg: ${school.ell}</li>`;
+    result += ` <li>All student avg: ${school.all}</li></ul>`;
+    return result;
+};
+
+const getCircle = school => L.circle([school.latitude, school.longitude], {
+    color: setColor(school),
+    weight: 1,
+    opacity: 0.8,
+    radius: 400,
+    fillOpacity: 0.4,
+    popup: writePopup(school),
+});
+
 export default {
-    name: 'district-map',
+    name: 'school-map',
+    props: {
+        schools: Array,
+    },
+    data() {
+        return { map: null };
+    },
+    computed: {
+        dataLayer() {
+            return L.featureGroup(this.schools.map(getCircle)).bindPopup(
+                L.popup({ offset: L.point(0, 0) }).setContent(layer => layer.options.popup)
+            );
+        }
+    },
+    watch: {
+        dataLayer() {
+            this.map.refreshDataLayer(this.dataLayer);
+        },
+    },
+    methods: {
+        setColor(school) {
+            return school.isDualLanguage === 'True' ? '#FF2E2E' : '#337CA0';
+        },
+        setPopup(school) {
+            let result = '';
+            result += `Campus: ${school.campus} <br />`;
+            result += `District: ${school.district} <hr />`;
+            result += 'STAAR score avg per program: <br />';
+            result += ` - Two-Way Dual Language: ${school.twoWay} <br />`
+            result += ` - One-Way Dual Language: ${school.oneWay} <br />`
+            result += ` - All ELL student avg: ${school.ell} <br />`
+            result += ` - All student avg: ${school.all} <br />`
+            return result;
+        },
+        setCircle(school) {
+            return L.circle([school.latitude, school.longitude], {
+                color: this.setColor(school),
+                weight: 1,
+                opacity: 0.8,
+                radius: 400,
+                fillOpacity: 0.4,
+                popup: this.setPopup(school),
+            });
+        }, 
+    },
     mounted() {
-        new SchoolMap('school-map', schools);
+        this.map = new SchoolMap('school-map', this.dataLayer);
     },
 }
 
 </script>
 
 <style lang="scss">
-    #district-map {
-        .leaflet-popup-content span {
-            font-weight: bold;
+    #school-map {
+        .leaflet-popup-content ul {
+            padding-left: 20px;
         }
     }
 </style>

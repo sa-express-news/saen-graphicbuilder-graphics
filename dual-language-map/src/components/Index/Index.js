@@ -1,4 +1,5 @@
 import data from '../../../data.json';
+import schools from '../../assets/bexar-schools.csv';
 
 import SchoolMap from '../Map/Map.vue';
 
@@ -8,7 +9,14 @@ const getTitle = () => data && data.META
 export default {
     name: 'graphic',
     title: getTitle,
-    data() { return data },
+    data() { return Object.assign({}, data, {
+        onlyDualLanguage: window.innerWidth < 500,
+    }) },
+    computed: {
+        schools() {
+            return schools.filter(school => !this.onlyDualLanguage || school.isDualLanguage === 'True');
+        }
+    },
     methods: {
         commaSeparate(num) {
             return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");

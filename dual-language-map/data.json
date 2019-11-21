@@ -1,8 +1,9 @@
 {
   "META": {
-    "graphic_title": "Bexar County schools with dual language and ELL  programs",
-    "prose": "Each circle represents a Bexar County school with an ELL or dual language program. Click the checkbox to see only Dual Language schools and zoom in and click on any school for school and STAAR performance information.",
+    "graphic_title": "Bexar County schools with dual language and English learner (EL)  programs",
+    "prose": "Each circle represents a Bexar County school with an EL or dual language program. Click the checkbox to see only dual language schools. Zoom in and click on any school in the map for STAAR performance information.",
     "source": "Texas Education Agency",
-    "credit": "Luke Whyte"
+    "credit": "Luke Whyte",
+    "note": "In compliance with the Family Educational Rights and Privacy Act, a STAAR score of -1 is recorded when a program contains fewer than five test-takers."
   }
 }

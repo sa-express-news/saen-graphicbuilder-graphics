@@ -129,12 +129,12 @@ export default {
         setPopup(school) {
             let result = '';
             result += `Campus: ${school.campus} <br />`;
-            result += `District: ${school.district} <hr />`;
-            result += 'STAAR score avg per program: <ul>';
-            result += ` <li>Two-Way Dual Language: ${school.twoWay}</li>`;
-            result += ` <li>One-Way Dual Language: ${school.oneWay}</li>`;
-            result += ` <li>Avg of all EL students: ${school.ell}</li>`;
-            result += ` <li>All student avg: ${school.all}</li></ul>`;
+            result += `Distrito: ${school.district} <hr />`;
+            result += 'Puntuación media de STAAR por programa: <ul>';
+            result += ` <li>Lenguaje dual bidireccional: ${school.twoWay}</li>`;
+            result += ` <li>Lenguaje dual unidireccional: ${school.oneWay}</li>`;
+            result += ` <li>Todos los estudiantes de inglés: ${school.ell}</li>`;
+            result += ` <li>Todos los estudiantes: ${school.all}</li></ul>`;
             return result;
         },
         setCircle(school) {

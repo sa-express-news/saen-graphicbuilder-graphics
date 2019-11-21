@@ -1,0 +1,9 @@
+{
+  "META": {
+    "graphic_title": "Escuelas del condado de Bexar con programas de lenguaje dual y estudiantes del idioma inglés (EL)",
+    "prose": "Cada círculo representa una escuela del condado de Bexar con un programa EL o de lenguaje dual. Haga clic en la casilla para ver solo las escuelas de lenguaje dual, amplíe y haga clic en cualquier círculo para ver el nombre de la escuela y la información de rendimiento de STAAR (Las Evaluaciones de Preparación Académica del Estado de Texas, por su definición en español).",
+    "source": "Texas Education Agency",
+    "credit": "Luke Whyte",
+    "note": "En conformidad con la Ley de Derechos Educativos de la Familia y de Privacidad, se registra un puntaje STAAR de -1 cuando menos de 5 estudiantes en el programa tomaron los examenes de STAAR."
+  }
+}

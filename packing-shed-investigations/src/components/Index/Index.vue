@@ -5,11 +5,6 @@
             <p class="subtext">{{ META.prose }}</p>
 
             <div id="graphic-container">
-                <span class="is-dual-language">
-                    <input type="checkbox" id="is-dual-language" v-model="onlyDualLanguage">
-                    <label for="is-dual-language">See only dual language schools</label>
-                </span>
-                <hr class="spacer" />
                 <div class="legend">
                     <div class="legend-scale">
                         <ul class="legend-labels">
@@ -18,7 +13,7 @@
                         </ul>
                     </div>
                 </div>
-                <SchoolMap :schools="schools" />
+                <PackingShedMap :sheds="sheds" />
             </div>
 
             <div class="footer">

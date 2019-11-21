@@ -1,19 +1,19 @@
 <template>
     <div>
-        <div id="school-map"></div>
+        <div id="packing-shed-map"></div>
     </div>
 </template>
 
 <script>
-import * as d3  from 'd3';
+import { select } from 'd3-selection';
 import * as L from 'leaflet';
 
-class SchoolMap {
+class PackingShedMap {
     constructor(id, dataLayer) {
-        this.container  = d3.select(`#${id}`);
-        this.bbox       = this._getBBox();
+        this.container  = select(`#${id}`);
         this.width      = this._getContainerWidth();
         this.height     = this._getHeight();
+        this.zoomLevel  = 'max';
         this.map        = this._generateMapInstance(id);
         this.stylelayer = this._getStyleLayer();
         
@@ -23,10 +23,6 @@ class SchoolMap {
 
     _isMobile() {
         return window.innerWidth < 500;
-    }
-
-    _getBBox() {
-        return [-97.98706054687501, 29.744109309616512, -98.85583007812501, 29.090976994322702];
     }
 
     _getWindowWidth() {
@@ -41,26 +37,14 @@ class SchoolMap {
     }
 
     _getHeight() {
-        return Math.round(this.width * this._getRatio());
-    }
-
-    _getRatio() {
-        return this._getBoxHeight() / this._getBoxWidth();
-    }
-
-    _getBoxWidth() {
-        return this.bbox[2] - this.bbox[0];
-    }
-
-    _getBoxHeight() {
-        return this.bbox[3] - this.bbox[1];
+        return Math.round(this.width * 0.65);
     }
 
     _getSettings() {
         return {
-            center: [29.463114116064064, -98.50320556640626],
-            zoom: this._isMobile() ? 9 : 10,
-            minZoom: 9,
+            center: this._isMobile() ? [32.119, -105.448] : [32.472, -107.138],
+            zoom: 5,
+            minZoom: 3,
             maxZoom: 17,
             scrollWheelZoom: false,
             attributionControl: false,
@@ -92,6 +76,13 @@ class SchoolMap {
 
     _handleEvents() {
         this.map.on('mousedown', this._toggleScrollWheelZoom, this);
+        this.map.on('zoomend', () => {
+            let zoom = this.map.getZoom();
+            if (zoom < 6 && this.zoom >=6) {
+                this.adjustRadius(zoom);
+            } else if (zoom > )
+            // this.dataLayer
+        })
     }
 
     refreshDataLayer(dataLayer) {
@@ -103,60 +94,60 @@ class SchoolMap {
 }
 
 export default {
-    name: 'school-map',
+    name: 'packing-shed-map',
     props: {
-        schools: Array,
+        sheds: Object,
     },
     data() {
-        return { map: null };
+        return { 
+            map: null,
+
+        };
     },
     computed: {
         dataLayer() {
-            return L.featureGroup(this.schools.map(this.setCircle)).bindPopup(
-                L.popup({ offset: L.point(0, 0) }).setContent(layer => layer.options.popup)
+            return L.geoJSON(this.sheds, {
+                pointToLayer: this.setCircle,
+            }).bindPopup(
+                L.popup({ offset: L.point(0, -25) }).setContent(layer => layer.options.popup)
             );
         }
     },
-    watch: {
-        dataLayer() {
-            this.map.refreshDataLayer(this.dataLayer);
-        },
-    },
     methods: {
-        setColor(school) {
-            return school.isDualLanguage === 'True' ? '#FF2E2E' : '#337CA0';
+        setPopup({ properties }) {
+            return 'Whoop';
+            // let result = '';
+            // result += `Campus: ${properties.campus} <br />`;
+            // result += `District: ${properties.district} <hr />`;
+            // result += 'STAAR score avg per program: <ul>';
+            // result += ` <li>Two-Way Dual Language: ${properties.twoWay}</li>`;
+            // result += ` <li>One-Way Dual Language: ${properties.oneWay}</li>`;
+            // result += ` <li>Avg of all EL students: ${properties.ell}</li>`;
+            // result += ` <li>All student avg: ${properties.all}</li></ul>`;
+            // return result;
         },
-        setPopup(school) {
-            let result = '';
-            result += `Campus: ${school.campus} <br />`;
-            result += `District: ${school.district} <hr />`;
-            result += 'STAAR score avg per program: <ul>';
-            result += ` <li>Two-Way Dual Language: ${school.twoWay}</li>`;
-            result += ` <li>One-Way Dual Language: ${school.oneWay}</li>`;
-            result += ` <li>Avg of all EL students: ${school.ell}</li>`;
-            result += ` <li>All student avg: ${school.all}</li></ul>`;
-            return result;
-        },
-        setCircle(school) {
-            return L.circle([school.latitude, school.longitude], {
-                color: this.setColor(school),
+        setCircle(feature, latlng) {
+            const { radius } = feature.properties;
+            return L.circle(latlng, {
+                color: '#FF2E2E',
+                fillColor: '#FF2E2E',
                 weight: 1,
-                opacity: 0.8,
-                radius: 400,
-                fillOpacity: 0.4,
-                popup: this.setPopup(school),
+                opacity: 0.5,
+                radius: 10000 * radius,
+                fillOpacity: 0.1,
+                popup: this.setPopup(feature),
             });
         }, 
     },
     mounted() {
-        this.map = new SchoolMap('school-map', this.dataLayer);
+        this.map = new PackingShedMap('packing-shed-map', this.dataLayer);
     },
 }
 
 </script>
 
 <style lang="scss">
-    #school-map {
+    #packing-shed-map {
         .leaflet-popup-content ul {
             padding-left: 20px;
         }

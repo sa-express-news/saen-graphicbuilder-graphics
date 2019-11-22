@@ -8,12 +8,49 @@
 import { select } from 'd3-selection';
 import * as L from 'leaflet';
 
+const getRadiusMap = () => {
+    let i = 3, radiusMap = {};
+    for (i; i < 18; i++) {
+        if (i < 6) {
+            radiusMap[i] = 10000;
+        } else {
+            switch(i) {
+                case 6:
+                    radiusMap[i] = 6000;
+                    break;
+                case 7:
+                    radiusMap[i] = 4000;
+                    break;
+                case 8:
+                    radiusMap[i] = 1000;
+                    break;
+                case 9:
+                    radiusMap[i] = 400;
+                    break;
+                case 10:
+                    radiusMap[i] = 300;
+                    break;
+                case 11:
+                    radiusMap[i] = 200;
+                    break;
+                case 12:
+                    radiusMap[i] = 100;
+                    break;
+                default:
+                    radiusMap[i] = 50;
+            }
+        }
+    }
+    return radiusMap;
+};
+
 class PackingShedMap {
-    constructor(id, dataLayer) {
+    constructor(id, dataLayer, radiusMap) {
         this.container  = select(`#${id}`);
         this.width      = this._getContainerWidth();
         this.height     = this._getHeight();
-        this.zoomLevel  = 'max';
+        this.radiusMap  = radiusMap;
+        this.radius     = this.radiusMap[5]
         this.map        = this._generateMapInstance(id);
         this.stylelayer = this._getStyleLayer();
         
@@ -74,15 +111,22 @@ class PackingShedMap {
         }
     }
 
+    _adjustRadius(zoom) {
+        this.dataLayer.eachLayer(layer => {
+            const { radius } = layer.feature.properties;
+            layer.setRadius(this.radiusMap[zoom] * radius);
+        });
+        this.radius = this.radiusMap[zoom];
+    }
+
     _handleEvents() {
         this.map.on('mousedown', this._toggleScrollWheelZoom, this);
         this.map.on('zoomend', () => {
             let zoom = this.map.getZoom();
-            if (zoom < 6 && this.zoom >=6) {
-                this.adjustRadius(zoom);
-            } else if (zoom > )
-            // this.dataLayer
-        })
+            if (this.radiusMap[zoom] != this.radius) {
+                this._adjustRadius(zoom);
+            }
+        });
     }
 
     refreshDataLayer(dataLayer) {
@@ -115,32 +159,29 @@ export default {
     },
     methods: {
         setPopup({ properties }) {
-            return 'Whoop';
-            // let result = '';
-            // result += `Campus: ${properties.campus} <br />`;
-            // result += `District: ${properties.district} <hr />`;
-            // result += 'STAAR score avg per program: <ul>';
-            // result += ` <li>Two-Way Dual Language: ${properties.twoWay}</li>`;
-            // result += ` <li>One-Way Dual Language: ${properties.oneWay}</li>`;
-            // result += ` <li>Avg of all EL students: ${properties.ell}</li>`;
-            // result += ` <li>All student avg: ${properties.all}</li></ul>`;
-            // return result;
+            let result = '';
+            result += `Investigation of ${properties.title} <hr />`;
+            result += `${properties.violations} violations were found<br />`;
+            result += `and $${properties.bwatp} in back wages were paid<br />`;
+            result += `to ${properties.eeatp} employees.`;
+            return result;
         },
         setCircle(feature, latlng) {
             const { radius } = feature.properties;
             return L.circle(latlng, {
                 color: '#FF2E2E',
                 fillColor: '#FF2E2E',
-                weight: 1,
+                weight: 1.5,
                 opacity: 0.5,
                 radius: 10000 * radius,
                 fillOpacity: 0.1,
+                className: 'shed',
                 popup: this.setPopup(feature),
             });
         }, 
     },
     mounted() {
-        this.map = new PackingShedMap('packing-shed-map', this.dataLayer);
+        this.map = new PackingShedMap('packing-shed-map', this.dataLayer, getRadiusMap());
     },
 }
 
@@ -150,6 +191,9 @@ export default {
     #packing-shed-map {
         .leaflet-popup-content ul {
             padding-left: 20px;
+        }
+        .leaflet-overlay-pane path.shed:hover {
+            stroke-width: 3;
         }
     }
 </style>

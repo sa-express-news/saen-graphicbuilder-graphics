@@ -1,6 +1,9 @@
 {
   "META": {
-    "graphic_title": "Fill this out in google sheet",
-    "prose": "Fill this out in google sheet"
+    "graphic_title": "Labor Department investigations of produce importers and distributors",
+    "prose": "Each circle represents an investigation by the Department of Labor between 2009 and 2018 filed under the NAICS code for 'Post Harvest Crop Activities'. If investigations happened at the same address, new circles wrap existing ones like tree rings. Thus locations with more investigations have larger outer circles. The McAllen Produce Terminal Market has the most in the nation. Zoom in and out to explore the map and click on any investigation for more information.",
+    "source": "U.S. Department of Labor, Wage & Hour Division",
+    "credit": "Luke Whyte",
+    "note": "Note that this map is not a comprehensive listing of all Labor Department investigations into produce importers and distributors, just those filed under the NAICS code 115114, 'Post Harvest Crop Activities', which is the code most commonly used in packing shed investigations."
   }
 }

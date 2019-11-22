@@ -5,14 +5,6 @@
             <p class="subtext">{{ META.prose }}</p>
 
             <div id="graphic-container">
-                <div class="legend">
-                    <div class="legend-scale">
-                        <ul class="legend-labels">
-                            <li><span class="dual-language"></span>Dual language schools</li>
-                            <li><span class="ell"></span>All schools with EL programs</li>
-                        </ul>
-                    </div>
-                </div>
                 <PackingShedMap :sheds="sheds" />
             </div>
 

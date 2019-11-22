@@ -2,7 +2,7 @@
   "name": "graphicbuilder",
   "config": {
     "s3_bucket": "graphics.expressnews.com",
-    "slug": ""
+    "slug": "packing-shed-investigations-map"
   },
   "version": "0.2.0",
   "private": true,

@@ -79,7 +79,7 @@ class PackingShedMap {
 
     _getSettings() {
         return {
-            center: this._isMobile() ? [32.119, -105.448] : [32.472, -107.138],
+            center: this._isMobile() ? [28.558, -102.637] : [32.472, -107.138],
             zoom: 5,
             minZoom: 3,
             maxZoom: 17,
@@ -153,17 +153,22 @@ export default {
             return L.geoJSON(this.sheds, {
                 pointToLayer: this.setCircle,
             }).bindPopup(
-                L.popup({ offset: L.point(0, -25) }).setContent(layer => layer.options.popup)
+                L.popup({
+                    offset: L.point(0, -25),
+                    maxWidth: 250,
+                }).setContent(layer => layer.options.popup)
             );
         }
     },
     methods: {
         setPopup({ properties }) {
-            let result = '';
-            result += `Investigation of ${properties.title} <hr />`;
-            result += `${properties.violations} violations were found<br />`;
-            result += `and $${properties.bwatp} in back wages were paid<br />`;
-            result += `to ${properties.eeatp} employees.`;
+            const { title, violations, cmps, bwatp, eeatp, start, end, address } = properties;
+            let result = `<strong>${title}: ${start} - ${end}</strong><hr />`;
+            result += `The Labor Dept found <strong>${violations}</strong> violation${violations > 1 ? 's' : ''} `;
+            result += `and the company agreed to pay <strong>$${bwatp}</strong> `;
+            result += `in back wages to <strong>${eeatp}</strong> employees. `
+            result += cmps > 0 ? `<strong>$${cmps}</strong> in penalties were issued.` : '';
+            result += `<hr />Address: ${address}`
             return result;
         },
         setCircle(feature, latlng) {

@@ -7,15 +7,6 @@
     max-width: 760px;
 }
 
-span.is-dual-language {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 75%;
-
-    input {
-        margin-right: 7px;
-    }
-}
-
 hr.spacer {
     border: 0;
     border-bottom: 1px dashed rgba(255, 255, 255, 1);
@@ -25,59 +16,4 @@ hr.spacer {
 
 div.footer li.note {
     padding-bottom: 4px;
-}
-
-.legend {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 1em;
-    margin: 5px 0;
-    display: block;
-
-    .legend-title {
-        text-align: left;
-        margin-bottom: 8px;
-        font-weight: bold;
-        font-size: 90%;
-
-        span {
-            font-weight: 300;
-        }
-    }
-
-    .legend-scale {
-        @include clearfix;
-
-        ul.legend-labels {
-            margin: 0;
-            padding: 0;
-            float: left;
-            list-style: none;
-
-            li {
-                display: block;
-                margin-bottom: 6px;
-                text-align: left;
-                font-size: 75%;
-                list-style: none;
-
-                span {
-                    display: block;
-                    float: left;
-                    height: 12px;
-                    width: 12px;
-                    border-radius: 50%;
-                    margin: 0 5px 3px 0;
-
-                    &.dual-language {
-                        background: rgba(255, 46, 46, 0.4);
-                        border: 1px solid rgba(255, 46, 46, 0.8);
-                    }
-                    &.ell {
-                        background: rgba(51, 124, 160, 0.4);
-                        border: 1px solid rgba(51, 124, 160, 0.8);
-                    }
-                }
-            }
-        }
-    }
 }

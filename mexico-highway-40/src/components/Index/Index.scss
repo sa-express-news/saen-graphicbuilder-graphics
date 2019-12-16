@@ -1,0 +1,19 @@
+@import '~express-news-styleguide/init-base';
+@import '~express-news-styleguide/theme/graphic';
+
+@import 'base';
+
+.graphic {
+    max-width: 760px;
+}
+
+hr.spacer {
+    border: 0;
+    border-bottom: 1px dashed rgba(255, 255, 255, 1);
+    background: rgba(153, 153, 153, 0.5);
+    margin: 15px 0
+}
+
+div.footer li.note {
+    padding-bottom: 4px;
+}

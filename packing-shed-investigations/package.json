@@ -34,7 +34,7 @@
     "eslint": "^6.6.0",
     "eslint-plugin-only-warn": "^1.0.1",
     "eslint-plugin-vue": "^6.0.1",
-    "googleapis": "^16.1.0",
+    "googleapis": "^39.1.0",
     "inquirer": "^6.1.0",
     "marked": "^0.7.0",
     "nconf": "^0.10.0",

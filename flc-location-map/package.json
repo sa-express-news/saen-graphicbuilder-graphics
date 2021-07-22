@@ -41,7 +41,7 @@
     "untildify": "^3.0.3",
     "vue-svg-loader": "^0.11.0",
     "vue-template-compiler": "^2.5.17",
-    "xlsx": "^0.13.4"
+    "xlsx": "^0.17.0"
   },
   "eslintConfig": {
     "root": true,

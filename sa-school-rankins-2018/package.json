@@ -35,7 +35,7 @@
     "run-sequence": "^1.2.2",
     "untildify": "^3.0.2",
     "vinyl-map": "^1.0.2",
-    "xlsx": "^0.8.1"
+    "xlsx": "^0.17.0"
   },
   "dependencies": {
     "jquery": "^3.1.1",

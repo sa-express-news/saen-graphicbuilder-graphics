@@ -860,6 +860,10 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
+d3-format@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/d3-format/-/d3-format-0.2.3.tgz#f4f4abf0d28cda03e3790cb98babaf61c925dc7b"
+
 dashdash@^1.12.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/dashdash/-/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
@@ -3478,6 +3482,12 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
+nunjucks-comma-filter@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/nunjucks-comma-filter/-/nunjucks-comma-filter-1.0.0.tgz#84acb842cd4afc590fb2f59d532bf916b0b440c5"
+  dependencies:
+    d3-format "^0.2.3"
+
 nunjucks@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/nunjucks/-/nunjucks-3.0.0.tgz#0a2a8fd2942a3ba04f5ba6684e4f7f7ceaca8305"
@@ -3708,8 +3718,8 @@ path-key@^2.0.0:
   resolved "https://registry.yarnpkg.com/path-key/-/path-key-2.0.1.tgz#411cadb574c5a140d3a4b1910d40d80cc9f40b40"
 
 path-parse@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.5.tgz#3c1adf871ea9cd6c9431b6ea2bd74a0ff055c4c1"
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
 
 path-root-regex@^0.1.0:
   version "0.1.2"

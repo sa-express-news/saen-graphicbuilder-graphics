@@ -860,6 +860,10 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
+d3-format@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/d3-format/-/d3-format-0.2.3.tgz#f4f4abf0d28cda03e3790cb98babaf61c925dc7b"
+
 dashdash@^1.12.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/dashdash/-/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
@@ -3143,9 +3147,9 @@ map-stream@~0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/map-stream/-/map-stream-0.1.0.tgz#e56aa94c4c8055a16404a0674b78f215f7c8e194"
 
-marked@^0.3.6:
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.6.tgz#b2c6c618fccece4ef86c4fc6cb8a7cbf5aeda8d7"
+marked@^4.0.10:
+  version "4.0.10"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-4.0.10.tgz#423e295385cc0c3a70fa495e0df68b007b879423"
 
 meow@^3.1.0, meow@^3.3.0, meow@^3.5.0, meow@^3.7.0:
   version "3.7.0"
@@ -3477,6 +3481,12 @@ num2fraction@^1.2.2:
 number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
+
+nunjucks-comma-filter@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/nunjucks-comma-filter/-/nunjucks-comma-filter-1.0.0.tgz#84acb842cd4afc590fb2f59d532bf916b0b440c5"
+  dependencies:
+    d3-format "^0.2.3"
 
 nunjucks@^3.0.0:
   version "3.0.0"

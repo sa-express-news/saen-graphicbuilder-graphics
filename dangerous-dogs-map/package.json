@@ -30,7 +30,7 @@
     "jshint": "^2.9.4",
     "jshint-stylish": "^2.2.1",
     "mapbox-geocoding": "git+https://github.com/lukewhyte/mapbox-geocoding.git",
-    "marked": "^0.3.6",
+    "marked": "^4.0.10",
     "nconf": "^0.8.4",
     "nunjucks": "^3.0.0",
     "open": "0.0.5",

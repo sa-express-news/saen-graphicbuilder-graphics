@@ -29,7 +29,7 @@
     "jshint": "^2.9.4",
     "jshint-stylish": "^2.2.1",
     "marked": "^0.3.6",
-    "nconf": "^0.8.4",
+    "nconf": "^0.11.4",
     "nunjucks": "^3.0.0",
     "nunjucks-comma-filter": "^1.0.0",
     "open": "0.0.5",

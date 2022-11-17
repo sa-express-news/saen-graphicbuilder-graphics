@@ -27,7 +27,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",
     "@vue/cli-plugin-eslint": "^3.4.0",
-    "@vue/cli-service": "^3.5.3",
+    "@vue/cli-service": "^5.0.8",
     "chalk": "^2.4.1",
     "compression-webpack-plugin": "^2.0.0",
     "csv-loader": "^3.0.2",
